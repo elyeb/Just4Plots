@@ -10,7 +10,8 @@ from tqdm import tqdm
 
 # Load pre-scraped PT Leader data
 folder_path = "/Users/elyebliss/Documents/Just4Plots/data"
-raw = pickle.load(open(os.path.join(folder_path, "pt_articles.pkl"), "rb"))
+raw = pickle.load(open(os.path.join(folder_path, "pt_opinions.pkl"), "rb"))
+
 
 
 # Define keyword list
@@ -26,6 +27,15 @@ all_url_types = [url.split("/")[3] for url in all_urls]
 all_dates = [article["date"] for article in raw]
 all_years = [re.findall(r"(?<=\s)\d{4}(?=\s)", date)[0] for date in all_dates]
 
+# deduplicate using titles
+all_titles = set([article["title"] for article in raw]) #378
+raw_unique  = []
+title_added = set()
+for article in raw:
+    if article["title"] not in title_added:
+        raw_unique.append(article)
+        title_added.add(article["title"])
+
 # Number of articles by year is very imbalanced. I might need to rescrape some years
 
 # Draft graphic will need to focus on % of total articles by year
@@ -33,8 +43,25 @@ all_years = [re.findall(r"(?<=\s)\d{4}(?=\s)", date)[0] for date in all_dates]
 # Make dictionary sorting articles into contains/not-contains
 keyword_dict = {}
 
-for article in tqdm(raw):
-    text = article["title"] + "\n" + "".join(article["body"])
+def flatten_list(nested_list):
+    """
+    Flatten a nested list if it's nested, otherwise return it as-is.
+    """
+    if any(isinstance(i, list) for i in nested_list):
+        flat_list = []
+        for item in nested_list:
+            if isinstance(item, list):
+                flat_list.extend(flatten_list(item))
+            else:
+                flat_list.append(item)
+        return flat_list
+    else:
+        return nested_list
+
+
+
+for article in tqdm(raw_unique):
+    text = article["title"] + "\n" + "".join(flatten_list(article["body"]))
     year = int(re.findall(r"(?<=\s)\d{4}(?=\s)", article["date"])[0])
     if year not in keyword_dict:
         keyword_dict[year] = {"contains": [], "not_contains": []}
@@ -58,7 +85,7 @@ keyword_percent = {}
 for year in keyword_counts:
     total = keyword_counts[year]["contains"] + keyword_counts[year]["not_contains"]
     keyword_percent[year] = {
-        "housing_related": round(100 * keyword_counts[year]["contains"] / total, 1)
+        "housing_related": round(100 * keyword_counts[year]["contains"] / total, 2)
     }
 
 keyword_df = pd.DataFrame(keyword_percent)
