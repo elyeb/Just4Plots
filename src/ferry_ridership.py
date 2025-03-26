@@ -10,6 +10,9 @@ from matplotlib.ticker import MultipleLocator
 # Load the data
 edmonds_kingston = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/edmonds_kingston_west_2024.xlsx')
 kingston_edmonds = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/kingston_edmonds_east_2024.xlsx')
+seattle_bainbridge = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/seattle_bainbridge_west.xlsx')
+bainbridge_seattle = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/seattle_bainbridge_east.xlsx')
+
 OUTPUT_ROOT = "/Users/elyebliss/Documents/Just4Plots/outputs/plots/"
 # Reformat
 
@@ -122,11 +125,26 @@ def plot_hist_by_day(ferry, dep, dest):
 
 edmonds_kingston_long = reformat_data(edmonds_kingston)
 kingston_edmonds_long = reformat_data(kingston_edmonds)
+seattle_bainbridge_long = reformat_data(seattle_bainbridge)
+bainbridge_seattle_long = reformat_data(bainbridge_seattle)
+
 
 # Only keep non-empty ferries
-df_plt_e_k = make_plot_df(edmonds_kingston_long, 'Edmonds', 'Kingston')
-df_plt_k_e = make_plot_df(kingston_edmonds_long, 'Kingston', 'Edmonds')
+df_plt_e_k = make_plot_df(edmonds_kingston_long)
+df_plt_k_e = make_plot_df(kingston_edmonds_long)
+df_plt_s_b = make_plot_df(seattle_bainbridge_long)
+df_plt_b_s = make_plot_df(bainbridge_seattle_long)
 
 # plot and save
 plot_hist_by_day(df_plt_e_k, 'Edmonds', 'Kingston')
 plot_hist_by_day(df_plt_k_e, 'Kingston', 'Edmonds')
+plot_hist_by_day(df_plt_s_b, 'Seattle', 'Bainbridge')
+plot_hist_by_day(df_plt_b_s, 'Bainbridge', 'Seattle')
+
+
+
+# Load the data
+edmonds_kingston = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/edmonds_kingston_west_2024.xlsx')
+kingston_edmonds = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/kingston_edmonds_east_2024.xlsx')
+seattle_bainbridge = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/seattle_bainbridge_west.xlsx')
+bainbridge_seattle = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/bainbridge_seattle_east.xlsx')
