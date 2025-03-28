@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import re
 from matplotlib.ticker import FuncFormatter
 from matplotlib.ticker import MultipleLocator
+import streamlit as st
 # Load the data
 edmonds_kingston = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/edmonds_kingston_west_2024.xlsx')
 kingston_edmonds = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/kingston_edmonds_east_2024.xlsx')
@@ -79,7 +80,9 @@ def plot_hist_by_day(ferry, dep, dest):
     dep = 'Edmonds'
     dest = 'Kingston'
     """
-    OUTFILE = f'{dep.replace(" ","_").lower()}_{dest.replace(" ","_").lower()}_vehicles_by_day.pdf'
+    OUTFILE_PDF = f'{dep.replace(" ","_").lower()}_{dest.replace(" ","_").lower()}_vehicles_by_day.pdf'
+    OUTFILE_PNG = f'{dep.replace(" ","_").lower()}_{dest.replace(" ","_").lower()}_vehicles_by_day.png'
+
 
     # Formatter function to convert numeric sailing_time back to time format
     def time_formatter(x, pos):
@@ -122,7 +125,9 @@ def plot_hist_by_day(ferry, dep, dest):
     plt.tight_layout()
     plt.subplots_adjust(top=0.95, bottom=0.05, left=0.05, right=0.95, hspace=0.4, wspace=0.4)
     plt.show()
-    fig.savefig(OUTPUT_ROOT + OUTFILE, bbox_inches="tight", dpi=300)
+    fig.savefig(OUTPUT_ROOT + OUTFILE_PDF, bbox_inches="tight", dpi=300)
+    fig.savefig(OUTPUT_ROOT + OUTFILE_PNG, bbox_inches="tight", dpi=300)
+
     plt.show()
 
 
