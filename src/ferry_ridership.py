@@ -10,15 +10,15 @@ from matplotlib.ticker import MultipleLocator
 # Load the data
 edmonds_kingston = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/edmonds_kingston_west_2024.xlsx')
 kingston_edmonds = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/kingston_edmonds_east_2024.xlsx')
-seattle_bainbridge = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/seattle_bainbridge_west.xlsx')
-bainbridge_seattle = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/seattle_bainbridge_east.xlsx')
+seattle_bainbridge = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/seattle_bainbridge_west_2024.xlsx')
+bainbridge_seattle = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/seattle_bainbridge_east_2024.xlsx')
 
 OUTPUT_ROOT = "/Users/elyebliss/Documents/Just4Plots/outputs/plots/"
 # Reformat
 
 def reformat_data(df):
     """
-    df = edmonds_kingston.copy()
+    df = seattle_bainbridge.copy()
     """
 
     df.rename(columns={'Unnamed: 0': 'sailing','Unnamed: 1':'Actual Vessel Name'}, inplace=True)
@@ -53,9 +53,12 @@ def reformat_data(df):
 
 
 def make_plot_df(df):
+    """
+    df = seattle_bainbridge_long.copy()
+    """
 
     df = df[~df['Ridership'].isna()]
-    df["Actual Vessel Name"].value_counts()
+    df["vessel_name"].value_counts()
 
     # agg to avg number of vehicles by sailing time
     df_plt = df[df['ridership_type'] == 'Vehicles']
@@ -141,10 +144,3 @@ plot_hist_by_day(df_plt_k_e, 'Kingston', 'Edmonds')
 plot_hist_by_day(df_plt_s_b, 'Seattle', 'Bainbridge')
 plot_hist_by_day(df_plt_b_s, 'Bainbridge', 'Seattle')
 
-
-
-# Load the data
-edmonds_kingston = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/edmonds_kingston_west_2024.xlsx')
-kingston_edmonds = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/kingston_edmonds_east_2024.xlsx')
-seattle_bainbridge = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/seattle_bainbridge_west.xlsx')
-bainbridge_seattle = pd.read_excel('/Users/elyebliss/Documents/Just4Plots/data/bainbridge_seattle_east.xlsx')
