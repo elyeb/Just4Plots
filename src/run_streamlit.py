@@ -6,7 +6,7 @@ import os
 st.title("2024 Average Ferry Ridership by Day Visualization")
 
 # Display the saved graphs
-OUTPUT_ROOT = "/Users/elyebliss/Documents/Just4Plots/outputs/plots/"
+OUTPUT_ROOT = os.path.join(os.path.dirname(__file__), "../outputs/plots/")
 graph_files = [
     "seattle_bainbridge_vehicles_by_day.png",
     "bainbridge_seattle_vehicles_by_day.png",
