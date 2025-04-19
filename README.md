@@ -1,4 +1,10 @@
 # Layman's Research Projects
+![strikes_oecd.png](outputs/plots/dui_2024.png)  
+- Reddit post [here](https://www.reddit.com/r/dataisbeautiful/comments/1k2jv9r/number_of_strikes_and_lockouts_in_oecd_countries/)
+- Code [here](src/strikes.py)
+
+### **Date added** April 18, 2025 <br>
+**Number of Strikes and Lockouts in OECD Countries**  
 
 ### **Date added** April 15, 2025 <br>
 **Washington State Map of DUI Filings by county and city.**
