@@ -3,7 +3,7 @@
 ### **Date added** April 19, 2025 <br>
 **Average Gas vs Crude Oil Prices**  
 ![strikes_oecd.png](outputs/plots/oil_gas_scatter.png)  
-- Reddit post [here]()
+- Reddit post [here](https://www.reddit.com/r/EconomyCharts/comments/1k35qp0/average_gas_vs_crude_oil_prices_oc/)
 - Code [here](src/oil_v_gas.py)
 
 ### **Date added** April 18, 2025 <br>
