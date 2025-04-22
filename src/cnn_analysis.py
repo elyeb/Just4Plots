@@ -1,142 +1,133 @@
 """
+Visualize competing coverage of tariffs and signalgate on CNN by tracking 
+occurrences of search terms over time. 
 
 data source: https://transcripts.cnn.com/date/2025-04-12
+
+Author: Elye Bliss
+Date: April 2025
 """
 
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-from collections import Counter
+import os
 import re
+from collections import Counter
+from datetime import datetime, timedelta
 import requests
 from bs4 import BeautifulSoup
-import nltk
-# nltk.download('stopwords')
-from nltk.corpus import stopwords
+import pandas as pd
+import matplotlib.pyplot as plt
 from nltk.util import ngrams
+from tqdm import tqdm
+import matplotlib as mpl
 
-# Function to generate n-grams
+# Set global font to Arial for a clean look
+mpl.rcParams['font.family'] = 'Arial'
+
+# Constants
+OUTPUT_FOLDER = os.path.join(os.path.dirname(__file__), "../outputs/plots/")
+STOP_WORDS = set()  # Define stop words if needed
+
+# Utility Functions
 def generate_ngrams(words, n):
+    """Generate n-grams from a list of words."""
     return [' '.join(gram) for gram in ngrams(words, n)]
 
+def get_date_range(start_date, end_date):
+    """Generate a list of dates between start_date and end_date (inclusive)."""
+    start = datetime.strptime(start_date, "%Y-%m-%d")
+    end = datetime.strptime(end_date, "%Y-%m-%d")
+    delta = timedelta(days=1)
 
-url = "https://transcripts.cnn.com/date/2025-03-25"
+    return [(start + delta * i).strftime("%Y-%m-%d") for i in range((end - start).days + 1)]
 
-# Define stop words
-stop_words = set(stopwords.words('english'))
+def process_text(text):
+    """Clean and tokenize text, removing stop words and generating n-grams."""
+    raw_line = text.strip().lower()
+    raw_line = re.sub(r'aired.*et', '', raw_line)
+    words = re.findall(r'\b[\w.]+\b', raw_line)
+    words = [word for word in words if word not in STOP_WORDS]
+    bigrams = generate_ngrams(words, 2)
+    trigrams = generate_ngrams(words, 3)
+    return words, bigrams, trigrams
 
+def fetch_and_process_data(date):
+    """Fetch and process data for a specific date."""
+    url = f"https://transcripts.cnn.com/date/{date}"
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
 
-response = requests.get(url)
+    # Extract text from links
+    link_texts = [link.text for link in soup.find_all('a', href=True)]
+    all_words, all_bigrams, all_trigrams = [], [], []
 
-soup = BeautifulSoup(response.content, 'html.parser')
-    
-text = soup.get_text(separator=' ', strip=True)
-
-# get show names
-# Extract all <a> tags
-links = soup.find_all('a', href=True)
-
-# Get the text content of each <a> tag
-link_texts = [link.text for link in links]
-
-headlines = []
-all_words = []
-all_bigrams = []
-all_trigrams = []
-documents = []
-sentences = []
-for text in link_texts:
-    text_split = text.split(";")
-    if isinstance(text_split,list):
-    # if len(text_split) > 1:
-        for line in text_split:
-            raw_line = line.strip().lower()
-            raw_line = re.sub(r'aired.*et', '', raw_line)
-            headlines.append(raw_line)
-            words = re.findall(r'\b[\w.]+\b', raw_line)
-            words = [word for word in words if word not in stop_words]
-            all_words.extend(words)
-            bigrams = generate_ngrams(words, 2)  # Generate bigrams
-            all_bigrams.extend(bigrams)
-            trigrams = generate_ngrams(words, 3)  # Generate trigrams
-            all_trigrams.extend(trigrams)
-            documents.append(words)
-            sentences.append(" ".join(words))
-
-    elif isinstance(text_split,str):
-        raw_line = text_split.strip().lower()
-        raw_line = re.sub(r'aired.*et', '', raw_line)
-        headlines.append(raw_line)
-        words = re.findall(r'\b[\w.]+\b', raw_line)
-        words = [word.strip() for word in words if word not in stop_words]
+    for text in link_texts:
+        words, bigrams, trigrams = process_text(text)
         all_words.extend(words)
-        bigrams = generate_ngrams(words, 2)  # Generate bigrams
         all_bigrams.extend(bigrams)
-        trigrams = generate_ngrams(words, 3)  # Generate trigrams
         all_trigrams.extend(trigrams)
-        documents.append(words)
-        sentences.append(" ".join(words))
+
+    single_doc = " ".join(all_words)
+    return single_doc, all_words, all_bigrams, all_trigrams
+
+def count_search_terms(single_doc, search_terms):
+    """Count occurrences of search terms in the document."""
+    return {term: len(re.findall(term, single_doc)) for term in search_terms}
+
+def plot_results(df):
+    """Plot the results and save the figure."""
+    # Format the 'date' column for plotting
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%m-%d')
+
+    # Create the plot
+    fig, ax = plt.subplots(figsize=(10, 8))
+    ax.plot(df['date'], df['tariff'], alpha=1, label='Search terms: "tariff"', color='blue')
+    ax.plot(df['date'], df['group chat|signal|signalgate'], alpha=1, label='Search terms: "group chat"|"signal"|"signalgate"', color='red')
+
+    # Add labels, legend, and title
+    ax.set_xlabel('Date', fontsize=12, fontweight="bold")
+    ax.set_ylabel('No. of Occurrences', fontsize=12, fontweight="bold")
+    ax.set_title('CNN Coverage: Tariffs vs Signalgate', fontsize=18, fontweight="bold")
+    ax.legend()
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+
+    # Add text below the plot for data source
+    fig.text(0.07, -0.04, "Data from https://transcripts.cnn.com", ha="left", fontsize=12, color="black")
+
+    # Save the plot
+    fig.savefig(f"{OUTPUT_FOLDER}cnn_tariffs_signal.png", bbox_inches="tight", facecolor="white", dpi=300)
+
+    # Show the plot
+    plt.show()
 
 
+# Driver code
+# Define date range and search terms
+start_date = "2025-03-22"
+end_date = "2025-04-22"
+dates = get_date_range(start_date, end_date)
+search_terms = ["tariff", "group chat|signal|signalgate"]
 
+# Initialize data structures
+search_results = {term: {} for term in search_terms}
+top_ngrams = {}
 
-# Combine all n-grams into a single list
-# all_ngrams = all_words + all_bigrams + all_trigrams
-# all_ngrams = all_bigrams 
-all_ngrams =  all_bigrams + all_trigrams
+# Process data for each date
+for date in tqdm(dates):
+    single_doc, all_words, all_bigrams, all_trigrams = fetch_and_process_data(date)
+    term_counts = count_search_terms(single_doc, search_terms)
 
-# Count n-gram frequencies
-ngram_counts = Counter(all_ngrams)
+    # Store results
+    for term, count in term_counts.items():
+        search_results[term][date] = count
 
-# Generate the word cloud from n-gram frequencies
-wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(ngram_counts)
+    # Count n-grams
+    all_ngrams = all_words + all_bigrams + all_trigrams
+    ngram_counts = Counter(all_ngrams)
+    top_ngrams[date] = ngram_counts.most_common(10)
 
-# Display the word cloud
-plt.figure(figsize=(10, 5))
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis('off')
-plt.title("Word Cloud with N-grams", fontsize=16)
-plt.show()
+# Convert results to DataFrame
+df = pd.DataFrame(search_results).reset_index().rename(columns={"index": "date"})
 
-# Print the top 10 n-grams
-print("Top 10 N-grams:")
-for rank, (ngram, count) in enumerate(ngram_counts.most_common(10), start=1):
-    print(f"{rank}. {ngram} ({count} occurrences)")
-
-
-
-import networkx as nx
-
-# Example n-grams and their counts
-ngrams = [
-    ("trump", 40),
-    ("chat", 36),
-    ("war", 31),
-    ("u.s", 27),
-    ("officials", 24),
-    ("group", 21),
-    ("group chat", 21),
-    ("plans", 17),
-    ("intel", 16),
-    ("war plans", 16),
-]
-
-# Create a graph
-G = nx.Graph()
-
-# Add nodes (n-grams)
-for ngram, count in ngrams:
-    G.add_node(ngram, weight=count)
-
-# Add edges if n-grams share overlapping words
-for i, (ngram1, _) in enumerate(ngrams):
-    for j, (ngram2, _) in enumerate(ngrams):
-        if i < j and set(ngram1.split()).intersection(set(ngram2.split())):
-            G.add_edge(ngram1, ngram2)
-
-# Find connected components (clusters)
-clusters = list(nx.connected_components(G))
-
-# Print clusters
-print("Clusters:")
-for cluster in clusters:
-    print(cluster)
+# Plot the results
+plot_results(df)

@@ -1,5 +1,13 @@
 # Layman's Research Projects
 
+### **Date added** April 22, 2025 <br>
+**CNN Coverage: Tariffs vs Signalgate**  
+![cnn_tariffs_signal.png](outputs/plots/cnn_tariffs_signal.png)  
+I'm interested in easy ways to track how long a news cycle lasts, and whether one competes with another. Google Trends for news will show a similar pattern, but I understand that's just for user searches rather than news coverage. Here, the counts for each topic are just based on the headline summaries for CNN transcipt data, rather than the full transcripts. Would love to learn about similar sites for other news orgs. 
+- Reddit post [here](https://www.reddit.com/r/visualization/comments/1k5leys/trying_to_visualize_the_news_cycle_oc/)
+- Code [here](src/cnn_analysis.py)
+
+
 ### **Date added** April 19, 2025 <br>
 **Average Gas vs Crude Oil Prices**  
 ![strikes_oecd.png](outputs/plots/oil_gas_scatter.png)  
