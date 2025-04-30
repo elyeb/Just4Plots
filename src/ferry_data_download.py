@@ -40,7 +40,7 @@ ferries = [
     "Yakima",
 ]
 
-START_DATE = "01/01/2025"
+START_DATE = "04/25/2025"
 END_DATE = datetime.datetime.now().strftime("%m/%d/%Y")
 # left off 03/21/2025
 
@@ -50,7 +50,7 @@ folder_path = os.path.join(os.getcwd(), "data")
 
 # Firefox options
 options = Options()
-# options.add_argument('--headless')  # Run Firefox in headless mode
+options.add_argument('--headless')  # Run Firefox in headless mode
 
 # GeckoDriver service
 service = Service(executable_path)
@@ -90,7 +90,7 @@ for ferry in tqdm(ferries):
 
     # select csv
     ID_OF_CSV = "RightContentPlaceHolder_radCsv"
-    csv_button = wait.until(
+    csv_button = WebDriverWait(driver, 20).until(
         EC.element_to_be_clickable((By.ID, ID_OF_CSV))
     )
     csv_button.click()
