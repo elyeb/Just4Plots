@@ -1,5 +1,14 @@
 # Layman's Research Projects
 
+### **Date added** April 30, 2025 <br>
+**Seattle to Bainbridge Ferry, April 26**  
+![seattle_ferry_saturday.png](outputs/plots/seattle_ferry_saturday.png)  
+I'm trying to plot the data from Washington State Ferries' sites and avoid weekend rush hours. 
+- Reddit post [here](https://www.reddit.com/r/dataisbeautiful/comments/1kbw13d/seattle_to_bainbridge_ferry_april_26_oc/)
+- Scraping code for sellout times: [here](src/ferry_scrape.py)
+- Download code for departure times data frames: [here](src/ferry_data_download.py)
+- Plotting code: [here](src/ferry_plot.py)
+
 ### **Date added** April 22, 2025 <br>
 **CNN Coverage: Tariffs vs Signalgate**  
 ![cnn_tariffs_signal.png](outputs/plots/cnn_tariffs_signal.png)  

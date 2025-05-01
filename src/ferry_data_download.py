@@ -1,5 +1,5 @@
 """
-Download all ferry real-time map history
+Download all ferry real-time map history from https://wsdot.com/ferries/vesselwatch/
 """
 
 from selenium import webdriver
@@ -145,8 +145,8 @@ driver.quit()
 
 # Concat results of downloads
 import pandas as pd
-DOWNLOAD_FOLDER = "/Users/elyebliss/Downloads/"
-OUTPUT_FOLDER = "/Users/elyebliss/Documents/Just4Plots/data/"
+DOWNLOAD_FOLDER = "~/Downloads/"
+OUTPUT_FOLDER = "../data/"
 START_DATE_MODIFIED = START_DATE.replace("/","")
 END_DATE_MODIFIED = END_DATE.replace("/","")
 OUTFILE = f"ferry_data_combined_{START_DATE_MODIFIED}_thru_{END_DATE_MODIFIED}.csv"
@@ -154,6 +154,7 @@ OUTFILE = f"ferry_data_combined_{START_DATE_MODIFIED}_thru_{END_DATE_MODIFIED}.c
 df_list = []
 for f in os.listdir(DOWNLOAD_FOLDER):
     if f.endswith("csv"):
+        print(f)
         df_list.append(pd.read_csv(DOWNLOAD_FOLDER+f,index_col=False)) 
 df = pd.concat(df_list,ignore_index=True)
 

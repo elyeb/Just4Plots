@@ -1,5 +1,6 @@
 """
-Collect data from ferry sites.
+Collect data on ferry sellout times from: 
+https://wsdot.com/ferries/vesselwatch/TerminalDetail.aspx?terminalid=7
 
 
 """
