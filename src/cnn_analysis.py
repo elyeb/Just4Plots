@@ -17,6 +17,10 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import matplotlib.pyplot as plt
 from nltk.util import ngrams
+from nltk.corpus import stopwords
+from nltk import pos_tag, word_tokenize
+from nltk.tokenize import sent_tokenize
+
 from tqdm import tqdm
 import matplotlib as mpl
 
@@ -25,7 +29,7 @@ mpl.rcParams['font.family'] = 'Arial'
 
 # Constants
 OUTPUT_FOLDER = os.path.join(os.path.dirname(__file__), "../outputs/plots/")
-STOP_WORDS = set()  # Define stop words if needed
+STOP_WORDS = set(stopwords.words('english'))
 
 # Utility Functions
 def generate_ngrams(words, n):
@@ -49,6 +53,63 @@ def process_text(text):
     bigrams = generate_ngrams(words, 2)
     trigrams = generate_ngrams(words, 3)
     return words, bigrams, trigrams
+
+def fetch_sentences(date):
+    url = f"https://transcripts.cnn.com/date/{date}"
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    link_texts = [link.text for link in soup.find_all('a', href=True)]
+    hyperlinks = [link.get('href') for link in soup.find_all('a', href=True)]
+    hyperlinks = ["https://transcripts.cnn.com/"+link for link in hyperlinks if "/date/" in link]
+
+    sents = []    
+    for link in hyperlinks:
+
+        response = requests.get(link)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        body_paragraphs = soup.find_all('p', class_='cnnBodyText')
+        body_paragraphs = [b for b in body_paragraphs if "Aired" not in str(b)]
+        body_paragraphs = [b for b in body_paragraphs if "RUSH TRANSCRIPT" not in str(b)]
+
+        body_texts = [paragraph.get_text(strip=True) for paragraph in body_paragraphs]
+        full_body_text = " ".join(body_texts)
+        sentences = sent_tokenize(full_body_text)
+        # remove throwaway sentences:
+        sentences = [s for s in sentences if "COMMERCIAL BREAK" not in s]
+        sentences = [re.sub("VIDEO CLIP","",s) for s in sentences ]
+        sentences = [re.sub("\[[0-9]{2}:[0-9]{2}:[0-9]{2}\]","",s) for s in sentences ]
+        sentences = [re.sub("CNN ANCHOR","",s) for s in sentences ]
+        sentences = [re.sub(r"cnn", "", s, flags=re.IGNORECASE) for s in sentences]
+        sentences = [re.sub(r'aired.*et', '', s, flags=re.IGNORECASE) for s in sentences]
+
+        for text in sentences:
+            raw_line = text.strip().lower()
+            
+            words = re.findall(r'\b[\w]+\b', raw_line)
+            words = [word for word in words if word not in STOP_WORDS]
+        sents.append(words)
+    return sents
+
+def fetch_headlines(date):
+    url = f"https://transcripts.cnn.com/date/{date}"
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Extract text from links
+    link_texts = [link.text for link in soup.find_all('a', href=True)]
+
+    all_words = []
+    for text in link_texts:
+        sentences = sent_tokenize(text)
+        for sent in sentences:
+            words = word_tokenize(sent)
+            words = [word.lower() for word in words if ((word not in STOP_WORDS) and (bool(re.findall('[a-z]',word))))]
+            if len(words)>1:
+                if ("transcript" not in words) and \
+                ("transcripts" not in words) and \
+                ("aired" not in words):
+                    all_words.append(words)
+    return all_words
 
 def fetch_and_process_data(date):
     """Fetch and process data for a specific date."""
@@ -103,9 +164,10 @@ def plot_results(df):
 
 # Driver code
 # Define date range and search terms
-start_date = "2025-03-22"
-end_date = "2025-04-22"
+start_date = "2015-05-01"
+end_date = "2025-05-01"
 dates = get_date_range(start_date, end_date)
+
 search_terms = ["tariff", "group chat|signal|signalgate"]
 
 # Initialize data structures
@@ -131,3 +193,148 @@ df = pd.DataFrame(search_results).reset_index().rename(columns={"index": "date"}
 
 # Plot the results
 plot_results(df)
+
+
+# get 2nd most common word in sentences that contain trump
+texts_by_date = {}
+for date in tqdm(dates):
+    sentences = fetch_sentences(date)
+    texts_by_date[date] = sentences
+keyword = "trump"
+texts_with_keyword = {}
+for date in texts_by_date:
+    sents_combined = []
+    for sent in texts_by_date[date]:
+        if keyword in sent:
+            sents_combined += sent
+    texts_with_keyword[date] = sents_combined
+
+
+most_common_by_day = {}
+for date in texts_with_keyword:
+    remove_keyword = [w for w in texts_with_keyword[date] if w!=keyword]
+    remove_keyword = [w for w in remove_keyword if w!="president"]
+    print(Counter(remove_keyword).most_common())
+    # remove verbs
+    # pos_tags = pos_tag(remove_keyword)
+    # remove_verbs = [word for word, tag in pos_tags if not tag.startswith('VB')]
+    most_common_by_day[date] = Counter(remove_keyword).most_common(1)[0][0]
+
+# Initialize a Counter to track co-occurring words
+co_occurrence_counter = Counter()
+
+keyword = "musk"
+# Iterate through sentences by date
+for date in texts_by_date:
+    for sent in texts_by_date[date]:
+        if keyword in sent:  # Check if the keyword is in the sentence
+            co_occurrence_counter.update([word for word in sent if word != keyword])
+
+# Get the most common co-occurring words
+most_common_associations = co_occurrence_counter.most_common(10)
+print("Most common words associated with the keyword:", most_common_associations)
+
+
+new_words_by_day = {}
+cumulative_words = set()
+
+for date in dates:
+    # Combine all sentences for the current date into a single list of words
+    words_today = set(word for sent in texts_by_date[date] for word in sent)
+    
+    # Find new words that are not in the cumulative set
+    new_words = words_today - cumulative_words
+    
+    # Store the new words for the current date
+    new_words_by_day[date] = new_words
+    
+    # Update the cumulative set with words from today
+    cumulative_words.update(words_today)
+
+# Print or process the new words by day
+for date, new_words in new_words_by_day.items():
+    print(f"Date: {date}, New Words: {new_words}")
+
+
+# find percent of all headlines that contain trump by day
+texts_by_date = {}
+for date in tqdm(dates):
+    sentences = fetch_headlines(date)
+    texts_by_date[date] = sentences
+keyword = "trump"
+# percent_keyword_by_date = {}
+# for date in texts_by_date:
+#     total = 0
+#     keyword_total = 0
+#     for sent in texts_by_date[date]:
+#         if keyword in sent:
+#             keyword_total +=1
+#         total += 1
+#     if total >0:
+#         percent_keyword_by_date[date] = keyword_total/total
+#     else:
+#         percent_keyword_by_date[date] = 0
+
+# get months only:
+months_by_date = set([date[0:7] for date in dates if date[0:7]!= '2025-05'])
+
+percent_keyword_by_month = {}
+for month in months_by_date:
+    percent_keyword_by_month[month]= {}
+    percent_keyword_by_month[month]["total"] = 0
+    percent_keyword_by_month[month]["keyword"] = 0
+
+for date in texts_by_date:
+    month = date[0:7]
+    if month != '2025-05':
+        for sent in texts_by_date[date]:
+            if keyword in sent:
+                percent_keyword_by_month[month]["keyword"] += 1
+            percent_keyword_by_month[month]["total"] +=1
+    
+
+
+
+# plot results:
+df = pd.DataFrame.from_dict(percent_keyword_by_month, orient='index').reset_index()
+
+df = df.rename(columns={'index': 'Date', 'total': 'Total', 'keyword': 'Keyword'})
+df["Keyword_percent"] = 100*df["Keyword"]/df["Total"]
+
+df['Date'] = pd.to_datetime(df['Date'])
+
+df = df.sort_values('Date')
+df['Date'] = df['Date'].dt.strftime('%y-%m')
+
+# Find the maximum value and its corresponding date
+max_value = df["Keyword_percent"].max()
+max_date = df[df["Keyword_percent"] == max_value]["Date"].iloc[0]
+
+# Create the plot
+fig, ax = plt.subplots(figsize=(10, 8))
+ax.plot(df['Date'], df['Keyword_percent'], alpha=1, label='Headline contains "Trump"', color='blue')
+
+# Add a label for the maximum value
+ax.annotate(f'All-time high of {max_value:.1f}% in Jan 2017', xy=(max_date, max_value), xytext=(max_date, max_value + 5),
+            arrowprops=dict(facecolor='black', arrowstyle='->'), fontsize=10, color='black')
+
+# Add labels, legend, and title
+ax.set_title('CNN Coverage: Percent of Headlines that contain "Trump"', fontsize=18, fontweight="bold")
+
+# Set y-axis limits
+ax.set_ylim(0, 100)
+
+# Format x-axis ticks to show every 6 months
+ax.set_xticks(df['Date'][::6])  # Select every 6th date
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+
+# Add text below the plot for data source
+fig.text(0.07, -0.04, "Data from https://transcripts.cnn.com", ha="left", fontsize=12, color="black")
+
+# Save the plot
+fig.savefig(f"{OUTPUT_FOLDER}cnn_keyword_search.png", bbox_inches="tight", facecolor="white", dpi=300)
+
+# Show the plot
+plt.show()
