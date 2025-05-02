@@ -195,85 +195,13 @@ df = pd.DataFrame(search_results).reset_index().rename(columns={"index": "date"}
 plot_results(df)
 
 
-# get 2nd most common word in sentences that contain trump
-texts_by_date = {}
-for date in tqdm(dates):
-    sentences = fetch_sentences(date)
-    texts_by_date[date] = sentences
-keyword = "trump"
-texts_with_keyword = {}
-for date in texts_by_date:
-    sents_combined = []
-    for sent in texts_by_date[date]:
-        if keyword in sent:
-            sents_combined += sent
-    texts_with_keyword[date] = sents_combined
-
-
-most_common_by_day = {}
-for date in texts_with_keyword:
-    remove_keyword = [w for w in texts_with_keyword[date] if w!=keyword]
-    remove_keyword = [w for w in remove_keyword if w!="president"]
-    print(Counter(remove_keyword).most_common())
-    # remove verbs
-    # pos_tags = pos_tag(remove_keyword)
-    # remove_verbs = [word for word, tag in pos_tags if not tag.startswith('VB')]
-    most_common_by_day[date] = Counter(remove_keyword).most_common(1)[0][0]
-
-# Initialize a Counter to track co-occurring words
-co_occurrence_counter = Counter()
-
-keyword = "musk"
-# Iterate through sentences by date
-for date in texts_by_date:
-    for sent in texts_by_date[date]:
-        if keyword in sent:  # Check if the keyword is in the sentence
-            co_occurrence_counter.update([word for word in sent if word != keyword])
-
-# Get the most common co-occurring words
-most_common_associations = co_occurrence_counter.most_common(10)
-print("Most common words associated with the keyword:", most_common_associations)
-
-
-new_words_by_day = {}
-cumulative_words = set()
-
-for date in dates:
-    # Combine all sentences for the current date into a single list of words
-    words_today = set(word for sent in texts_by_date[date] for word in sent)
-    
-    # Find new words that are not in the cumulative set
-    new_words = words_today - cumulative_words
-    
-    # Store the new words for the current date
-    new_words_by_day[date] = new_words
-    
-    # Update the cumulative set with words from today
-    cumulative_words.update(words_today)
-
-# Print or process the new words by day
-for date, new_words in new_words_by_day.items():
-    print(f"Date: {date}, New Words: {new_words}")
-
-
+## Second analysis:
 # find percent of all headlines that contain trump by day
 texts_by_date = {}
 for date in tqdm(dates):
     sentences = fetch_headlines(date)
     texts_by_date[date] = sentences
 keyword = "trump"
-# percent_keyword_by_date = {}
-# for date in texts_by_date:
-#     total = 0
-#     keyword_total = 0
-#     for sent in texts_by_date[date]:
-#         if keyword in sent:
-#             keyword_total +=1
-#         total += 1
-#     if total >0:
-#         percent_keyword_by_date[date] = keyword_total/total
-#     else:
-#         percent_keyword_by_date[date] = 0
 
 # get months only:
 months_by_date = set([date[0:7] for date in dates if date[0:7]!= '2025-05'])
@@ -294,7 +222,6 @@ for date in texts_by_date:
     
 
 
-
 # plot results:
 df = pd.DataFrame.from_dict(percent_keyword_by_month, orient='index').reset_index()
 
@@ -302,21 +229,33 @@ df = df.rename(columns={'index': 'Date', 'total': 'Total', 'keyword': 'Keyword'}
 df["Keyword_percent"] = 100*df["Keyword"]/df["Total"]
 
 df['Date'] = pd.to_datetime(df['Date'])
-
-df = df.sort_values('Date')
-df['Date'] = df['Date'].dt.strftime('%y-%m')
+df = df.sort_values("Date")
+df['Date'] = df['Date'].dt.strftime('%Y-%b')
 
 # Find the maximum value and its corresponding date
 max_value = df["Keyword_percent"].max()
 max_date = df[df["Keyword_percent"] == max_value]["Date"].iloc[0]
+recent_value = df["Keyword_percent"].iloc[len(df)-1]
+recent_date = df["Date"].iloc[len(df)-1]
 
 # Create the plot
 fig, ax = plt.subplots(figsize=(10, 8))
 ax.plot(df['Date'], df['Keyword_percent'], alpha=1, label='Headline contains "Trump"', color='blue')
 
 # Add a label for the maximum value
-ax.annotate(f'All-time high of {max_value:.1f}% in Jan 2017', xy=(max_date, max_value), xytext=(max_date, max_value + 5),
+ax.annotate(f'All-time high of {max_value:.1f}% in {max_date}', xy=(max_date, max_value), xytext=(max_date, max_value + 5),
             arrowprops=dict(facecolor='black', arrowstyle='->'), fontsize=10, color='black')
+
+# Add a label for the recent value
+ax.annotate(
+    f'{recent_value:.1f}% in {recent_date}', 
+    xy=(recent_date, recent_value), 
+    xytext=(recent_date, recent_value +5),  # Position the label to the left
+    arrowprops=dict(facecolor='black', arrowstyle='->'), 
+    fontsize=10, 
+    color='black',
+    ha='right'  # Align the text to the right
+)
 
 # Add labels, legend, and title
 ax.set_title('CNN Coverage: Percent of Headlines that contain "Trump"', fontsize=18, fontweight="bold")
@@ -326,6 +265,8 @@ ax.set_ylim(0, 100)
 
 # Format x-axis ticks to show every 6 months
 ax.set_xticks(df['Date'][::6])  # Select every 6th date
+ax.set_xlabel("Year-Month", fontsize=12, fontweight="bold") 
+ax.set_ylabel("Percent (based on monthly totals)", fontsize=12, fontweight="bold") 
 plt.xticks(rotation=45)
 
 plt.tight_layout()

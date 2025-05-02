@@ -1,5 +1,12 @@
 # Layman's Research Projects
 
+### **Date added** May 2, 2025 <br>
+**CNN Coverage: Percent of Headlines that contain "Trump"**  
+![cnn_keyword_search.png](outputs/plots/cnn_keyword_search.png)  
+Another news trend, this time longer-term out of curiousity. 
+- Reddit post [here](https://www.reddit.com/r/dataisbeautiful/comments/1kcu3kn/cnn_coverage_percent_of_headlines_that_contain/)
+- Scraping and plotting code: [here](src/cnn_analysis.py)
+
 ### **Date added** April 30, 2025 <br>
 **Seattle to Bainbridge Ferry, April 26**  
 ![seattle_ferry_saturday.png](outputs/plots/seattle_ferry_saturday.png)  
