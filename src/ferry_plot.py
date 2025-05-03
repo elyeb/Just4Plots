@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import re
 from datetime import datetime, timedelta
 
-SPACE_FOLDER = ".../data/ferry_spaces/"
+SPACE_FOLDER = "../data/ferry_spaces/"
 DEP_TIME_FOLDER = "../data/"
 OUTPUT_ROOT = "../outputs/plots/"
 outfile_week = f"{OUTPUT_ROOT}ferry_04252025_thru_04302025.png"
@@ -91,7 +91,7 @@ def calculate_depart_dif(row):
     scheduled_depart = "00:55"
     """
 
-    soldout_time = row["soldout_time"]
+    actual_depart = row["actual_depart"]
     scheduled_depart = row["scheduled_depart"]
 
     actual_minutes = int(actual_depart.split(":")[0]) * 60 + int(
@@ -253,6 +253,7 @@ def plot_day(data, dock, dest, outfile_day, day_of_week, custom_title):
     dock = "Colman"
     dest = "Bainbridge"
     day_of_week = "Saturday"
+    custom_title = day_title
     """
     df = data[data["Destination"] == dest]
     df = create_plot_df(df, dock)
@@ -282,6 +283,24 @@ def plot_day(data, dock, dest, outfile_day, day_of_week, custom_title):
         color="red",
         alpha=0.3,
     )
+    # Annotate negative soldout_dif values
+    for i, row in day_data.iterrows():
+        if row["soldout_dif"] < 0:
+            if row["soldout_dif"] > -25:
+                offset_below_val = -25
+            else:
+                offset_below_val = -10
+            ax.annotate(
+                f'{row["soldout_time"]}', 
+                xy=(row["scheduled_depart"].strftime("%H:%M"), row["soldout_dif"]), 
+                xytext=(0, offset_below_val),  # Offset annotation below the bar
+                textcoords="offset points",
+                ha='center', 
+                va='top', 
+                fontsize=8, 
+                color='red'
+            )
+
     # Customize each subplot
     ax.set_title(day_of_week, fontsize=12)
     ax.axhline(
@@ -298,7 +317,7 @@ def plot_day(data, dock, dest, outfile_day, day_of_week, custom_title):
     ax.legend(loc="lower right", fontsize=10)
     # Adjust layout
     fig.suptitle(custom_title)
-    fig.text(0.5, 0.02, "Scheduled Departure Time", ha="center", fontsize=12)
+    fig.text(0.5, -0.05, "Scheduled Departure Time", ha="center", fontsize=12)
     plt.tight_layout()
     # plt.legend(['depar#t_dif', 'soldout_dif'], loc='upper left', fontsize=8, bbox_to_anchor=(1.05, 1))
     fig.savefig(outfile_day, bbox_inches="tight", dpi=300, facecolor="white")
@@ -322,29 +341,50 @@ colman_df = pd.concat(colman_space, ignore_index=True)
 # format the dataframes
 depart_data = format_depart(depart_data)
 
-# Plot Seattle to Bainbridge
+# Plot Seattle to Bainbridge Saturdays
 space_df = format_space(colman_df, "Colman")
-
-
 # merge on Depart, Destination, Vessel, and Date (from timestamp)
 merged = depart_data.merge(
     space_df, how="left", on=["scheduled_depart", "Departing", "Destination", "Date"]
 )
-outfile_day = f"{OUTPUT_ROOT}ferry_saturday.png"
+outfile_day = f"{OUTPUT_ROOT}colman_ferry_saturday.png"
 day_title = f"Seattle to Bainbridge Ferry, April 26"
-plot_week(merged, "Colman", "Bainbridge", outfile_week)
+# plot_week(merged, "Colman", "Bainbridge", outfile_week)
 plot_day(merged, "Colman", "Bainbridge", outfile_day, "Saturday", day_title)
 
 
-# Plot Edmonds to Kingston
-space_df = format_space(colman_df, "Edmonds")
-
-
+# Plot Edmonds to Kingston Saturdays
+space_df = format_space(edmonds_df, "Edmonds")
 # merge on Depart, Destination, Vessel, and Date (from timestamp)
 merged = depart_data.merge(
     space_df, how="left", on=["scheduled_depart", "Departing", "Destination", "Date"]
 )
 outfile_day = f"{OUTPUT_ROOT}edmonds_ferry_saturday.png"
 day_title = f"Edmonds to Kingston Ferry, April 26"
-plot_week(merged, "Edmonds", "Kingston", outfile_week)
+# plot_week(merged, "Edmonds", "Kingston", outfile_week)
 plot_day(merged, "Edmonds", "Kingston", outfile_day, "Saturday", day_title)
+
+
+
+# Plot Bainbridge to Seattle Sundays
+space_df = format_space(bainbridge_df, "Bainbridge")
+# merge on Depart, Destination, Vessel, and Date (from timestamp)
+merged = depart_data.merge(
+    space_df, how="left", on=["scheduled_depart", "Departing", "Destination", "Date"]
+)
+outfile_day = f"{OUTPUT_ROOT}bainbridge_ferry_sunday.png"
+day_title = f"Bainbridge to Seattle Ferry, April 27"
+# plot_week(merged, "Colman", "Bainbridge", outfile_week)
+plot_day(merged,"Bainbridge",  "Colman", outfile_day, "Sunday", day_title)
+
+
+# Plot Kingston to Edmonds Sundays
+space_df = format_space(kingston_df, "Kingston")
+# merge on Depart, Destination, Vessel, and Date (from timestamp)
+merged = depart_data.merge(
+    space_df, how="left", on=["scheduled_depart", "Departing", "Destination", "Date"]
+)
+outfile_day = f"{OUTPUT_ROOT}kingston_ferry_sunday.png"
+day_title = f"Kingston to Edmonds Ferry, April 27"
+# plot_week(merged, "Edmonds", "Kingston", outfile_week)
+plot_day(merged,  "Kingston","Edmonds", outfile_day, "Sunday", day_title)
