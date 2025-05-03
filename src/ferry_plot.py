@@ -300,7 +300,19 @@ def plot_day(data, dock, dest, outfile_day, day_of_week, custom_title):
                 fontsize=8, 
                 color='red'
             )
-
+    # annotate departure time if more than 15 delayed
+    for i, row in day_data.iterrows():
+        if row["depart_dif"] >= 15:
+            ax.annotate(
+                f'{row["actual_depart"]}', 
+                xy=(row["scheduled_depart"].strftime("%H:%M"), row["depart_dif"]), 
+                xytext=(0, 10),  # Offset annotation below the bar
+                textcoords="offset points",
+                ha='center', 
+                va='top', 
+                fontsize=8, 
+                color='blue'
+            )
     # Customize each subplot
     ax.set_title(day_of_week, fontsize=12)
     ax.axhline(
