@@ -1,5 +1,16 @@
 # Layman's Research Projects
 
+
+### **Date added** May 16, 2025 <br>
+**Main ferry plots for the weekend**  
+Collecting more data. Not yet enough that box-and-whiskers are useful, but enough to get a sense of the overall pattern.  
+![colman_ferry_fridays.png](outputs/plots/colman_ferry_fridays.png)
+![colman_ferry_sundays.png](outputs/plots/colman_ferry_sundays.png)
+![bainbridge_ferry_sundays.png](outputs/plots/bainbridge_ferry_sundays.png) 
+- Scraping code for sellout times: [here](src/ferry_scrape.py)
+- Download code for departure times data frames: [here](src/ferry_data_download.py)
+- Plotting code: [here](src/ferry_plot.py)
+
 ### **Date added** May 2, 2025 <br>
 **Main ferry plots for the weekend**  
 ![colman_ferry_saturday.png](outputs/plots/colman_ferry_saturday.png)  

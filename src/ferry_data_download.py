@@ -145,8 +145,8 @@ driver.quit()
 
 # Concat results of downloads
 import pandas as pd
-DOWNLOAD_FOLDER = "~/Downloads/"
-OUTPUT_FOLDER = "../data/"
+DOWNLOAD_FOLDER = "/Users/elyebliss/Downloads/"
+OUTPUT_FOLDER = "/Users/elyebliss/Documents/Just4Plots/data/"
 START_DATE_MODIFIED = START_DATE.replace("/","")
 END_DATE_MODIFIED = END_DATE.replace("/","")
 OUTFILE = f"ferry_data_combined_{START_DATE_MODIFIED}_thru_{END_DATE_MODIFIED}.csv"

@@ -14,7 +14,7 @@ OUTPUT_ROOT = "../outputs/plots/"
 outfile_week = f"{OUTPUT_ROOT}ferry_04252025_thru_04302025.png"
 
 depart_data = pd.read_csv(
-    DEP_TIME_FOLDER + "ferry_data_combined_04252025_thru_04302025.csv"
+    DEP_TIME_FOLDER + "ferry_data_combined_04252025_thru_05162025.csv"
 )
 
 sub_strings = {
@@ -335,6 +335,71 @@ def plot_day(data, dock, dest, outfile_day, day_of_week, custom_title):
     fig.savefig(outfile_day, bbox_inches="tight", dpi=300, facecolor="white")
     plt.show()
 
+def plot_scatter_day(data, dock, dest, outfile_day, day_of_week, custom_title):
+    """
+    data = merged.copy()
+    dock = "Colman"
+    dest = "Bainbridge"
+    day_of_week = "Friday"
+    custom_title = day_title
+    """
+    df = data[data["Destination"] == dest]
+    df = create_plot_df(df, dock)
+
+    df = df[df["day_of_week"] == day_of_week]
+
+    df["scheduled_depart"] = pd.to_datetime(df["scheduled_depart"], format="%H:%M")
+
+
+    day_data = df.sort_values(by="scheduled_depart")
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    # Plot depart_dif above the x-axis
+
+    box_data = day_data[["scheduled_depart","depart_dif"]]
+    box_data["scheduled_depart"] = box_data["scheduled_depart"].dt.strftime("%H:%M")
+
+   
+    dots_1 = plt.plot(
+        day_data["scheduled_depart"].dt.strftime("%H:%M"),
+        day_data["depart_dif"], 
+        'o',
+        label="Dif btw scheduled & actual departure",
+        color="blue",
+        alpha=0.3,
+             ) 
+
+    dots_2 = plt.plot(
+        day_data["scheduled_depart"].dt.strftime("%H:%M"),
+        day_data["soldout_dif"],
+         'o',
+        label="Dif btw scheduled departure & sellout time",
+        color="red",
+        alpha=0.3,
+             )  
+
+
+    # Customize each subplot
+    ax.set_title(day_of_week, fontsize=12)
+    ax.axhline(
+        0, color="black", linewidth=0.8, linestyle="--"
+    )  # Add a horizontal line at y=0
+
+    ax.tick_params(axis="x", rotation=45, labelsize=8)
+
+    # Keep x-ticks on the y=0 line
+    ax.spines["bottom"].set_position(("data", 0))
+
+    ax.set_ylabel("Difference (Minutes)", fontsize=10)
+
+    ax.legend(loc="upper left", fontsize=10)
+    # Adjust layout
+    fig.suptitle(custom_title)
+    fig.text(0.5, -0.05, "Scheduled Departure Time", ha="center", fontsize=12)
+    plt.tight_layout()
+    fig.savefig(outfile_day, bbox_inches="tight", dpi=300, facecolor="white")
+    plt.show()
+
 
 ## DRIVER CODE
 # merge ferry space data with ferry departure data
@@ -353,16 +418,20 @@ colman_df = pd.concat(colman_space, ignore_index=True)
 # format the dataframes
 depart_data = format_depart(depart_data)
 
-# Plot Seattle to Bainbridge Saturdays
+# Plot Seattle to Bainbridge 
 space_df = format_space(colman_df, "Colman")
 # merge on Depart, Destination, Vessel, and Date (from timestamp)
 merged = depart_data.merge(
     space_df, how="left", on=["scheduled_depart", "Departing", "Destination", "Date"]
 )
-outfile_day = f"{OUTPUT_ROOT}colman_ferry_saturday.png"
-day_title = f"Seattle to Bainbridge Ferry, April 26"
+outfile_day = f"{OUTPUT_ROOT}colman_ferry_fridays.png"
+day_title = f"Seattle to Bainbridge Ferry over time, Fridays"
 # plot_week(merged, "Colman", "Bainbridge", outfile_week)
-plot_day(merged, "Colman", "Bainbridge", outfile_day, "Saturday", day_title)
+plot_day(merged, "Colman", "Bainbridge", outfile_day, "Friday", day_title)
+plot_scatter_day(merged, "Colman", "Bainbridge", outfile_day, "Friday", day_title)
+outfile_day = f"{OUTPUT_ROOT}colman_ferry_sundays.png"
+day_title = f"Seattle to Bainbridge Ferry over time, Sundays"
+plot_scatter_day(merged, "Colman", "Bainbridge", outfile_day, "Sunday", day_title)
 
 
 # Plot Edmonds to Kingston Saturdays
@@ -384,10 +453,11 @@ space_df = format_space(bainbridge_df, "Bainbridge")
 merged = depart_data.merge(
     space_df, how="left", on=["scheduled_depart", "Departing", "Destination", "Date"]
 )
-outfile_day = f"{OUTPUT_ROOT}bainbridge_ferry_sunday.png"
-day_title = f"Bainbridge to Seattle Ferry, April 27"
+outfile_day = f"{OUTPUT_ROOT}bainbridge_ferry_sundays.png"
+day_title = f"Bainbridge to Seattle Ferry, Sundays"
 # plot_week(merged, "Colman", "Bainbridge", outfile_week)
 plot_day(merged,"Bainbridge",  "Colman", outfile_day, "Sunday", day_title)
+plot_scatter_day(merged, "Bainbridge", "Colman", outfile_day, "Sunday", day_title)
 
 
 # Plot Kingston to Edmonds Sundays
