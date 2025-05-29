@@ -20,8 +20,10 @@ gdf_points = gpd.GeoDataFrame(
 
 # Download or load a shapefile for France or Alsace region
 # For demonstration, let's use the Natural Earth countries dataset
-world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
-france = world[world.name == "France"]
+world_shape_file = "/Users/elyebliss/Documents/Just4Plots/data/shape_files/ne_110m_admin_1_states_provinces/ne_110m_admin_1_states_provinces.shp"
+world = gpd.read_file(world_shape_file)
+
+Alsace = world[world.name == "Alsace"]
 
 # Crop to a bounding box around Mulhouse
 bbox = (7.1, 47.65, 7.5, 48.05)  # (minx, miny, maxx, maxy)
