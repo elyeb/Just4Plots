@@ -9,12 +9,12 @@ import re
 from datetime import datetime, timedelta
 
 SPACE_FOLDER = "../data/ferry_spaces/"
-DEP_TIME_FOLDER = "../data/"
+DEP_TIME_FOLDER = "../data/ferry_delays/"
 OUTPUT_ROOT = "../outputs/plots/"
 outfile_week = f"{OUTPUT_ROOT}ferry_04252025_thru_04302025.png"
 
 depart_data = pd.read_csv(
-    DEP_TIME_FOLDER + "ferry_data_combined_04252025_thru_05162025.csv"
+    DEP_TIME_FOLDER + "ferry_depart_times.csv"
 )
 
 sub_strings = {
@@ -410,6 +410,7 @@ bainbridge_space = [
 ]
 kingston_space = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "kingston" in f]
 colman_space = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "colman" in f]
+
 edmonds_df = pd.concat(edmonds_space, ignore_index=True)
 bainbridge_df = pd.concat(bainbridge_space, ignore_index=True)
 kingston_df = pd.concat(kingston_space, ignore_index=True)
