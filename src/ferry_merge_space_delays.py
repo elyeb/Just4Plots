@@ -9,7 +9,7 @@ import re
 from datetime import datetime
 
 SPACE_FOLDER = "/Users/elyebliss/Documents/Just4Plots/data/ferry_spaces/"
-DEP_TIME_FOLDER = "./Users/elyebliss/Documents/Just4Plots/data/ferry_delays/"
+DEP_TIME_FOLDER = "/Users/elyebliss/Documents/Just4Plots/data/ferry_delays/"
 OUTPUT_ROOT = "/Users/elyebliss/Documents/Just4Plots/data/ferry_merged_space_delays/"
 
 
