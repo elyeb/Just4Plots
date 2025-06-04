@@ -1,6 +1,6 @@
-/data/
-data
-data/
+/data/past
+data/past
+data/past
 config
 run_ferry_scrape.sh
 README_with_links.md

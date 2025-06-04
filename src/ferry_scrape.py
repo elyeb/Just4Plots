@@ -32,7 +32,7 @@ import sys
 URL_ROOT = "https://wsdot.com/ferries/vesselwatch/TerminalDetail.aspx?terminalid="
 
 DATA_FOLDER = os.path.join(
-    os.path.dirname(__file__), "../data/ferry_spaces/"
+    os.path.dirname(__file__), "../data/ferry/ferry_spaces/"
 )
 
 dock_dict = {

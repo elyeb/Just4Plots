@@ -9,13 +9,13 @@ import re
 from datetime import datetime
 
 SPACE_FOLDER = os.path.join(
-    os.path.dirname(__file__), "../data/ferry_spaces/"
+    os.path.dirname(__file__), "../data/ferry/ferry_spaces/"
 )
 DEP_TIME_FOLDER = os.path.join(
-    os.path.dirname(__file__), "../data/ferry_delays/"
+    os.path.dirname(__file__), "../data/ferry/ferry_delays/"
 )
 OUTPUT_ROOT = os.path.join(
-    os.path.dirname(__file__), "../data/ferry_merged_space_delays/"
+    os.path.dirname(__file__), "../data/ferry/ferry_merged_space_delays/"
 )
 
 

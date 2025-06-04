@@ -15,7 +15,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 import math
 
 DATA_FOLDER = os.path.join(
-    os.path.dirname(__file__), "../data/ferry_merged_space_delays/"
+    os.path.dirname(__file__), "../data/ferry/ferry_merged_space_delays/"
 )
 PLOT_FOLDER = os.path.join(os.path.dirname(__file__), "../docs/")
 

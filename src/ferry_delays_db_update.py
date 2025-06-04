@@ -149,7 +149,7 @@ driver.quit()
 DOWNLOAD_FOLDER = "/Users/elyebliss/Downloads/"
 
 OUTPUT_FOLDER = os.path.join(
-    os.path.dirname(__file__), "../data/ferry_delays/"
+    os.path.dirname(__file__), "../data/ferry/ferry_delays/"
 )
 
 START_DATE_MODIFIED = START_DATE.replace("/","")

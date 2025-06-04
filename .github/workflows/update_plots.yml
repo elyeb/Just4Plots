@@ -29,7 +29,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    
+    - name: Create download directory
+      run: |
+        mkdir -p /github/workspace/data/downloads
+        chmod 777 /github/workspace/data/downloads
     - name: Run ferry scripts
       run: |
         python src/ferry_scrape.py
