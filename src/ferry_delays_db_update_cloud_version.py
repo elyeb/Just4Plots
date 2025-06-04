@@ -53,11 +53,23 @@ folder_path = os.path.join(os.getcwd(), "data")
 options = Options()
 options.add_argument('--headless')  # Run Firefox in headless mode
 
+# Create Firefox profile for downloading
+firefox_profile = webdriver.FirefoxProfile()
+firefox_profile.set_preference("browser.download.folderList", 2)
+firefox_profile.set_preference("browser.download.manager.showWhenStarting", False)
+firefox_profile.set_preference("browser.download.dir", "/github/workspace/data/downloads")
+firefox_profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv")
+
+
 # GeckoDriver service
 service = Service(executable_path)
 
 # Initialize WebDriver
-driver = webdriver.Firefox(service=service, options=options)
+driver = webdriver.Firefox(
+    service=service, 
+    options=options,
+    firefox_profile=firefox_profile
+)
 
 URL = "https://wsdot.com/ferries/vesselwatch/VesselWatchHis.aspx"
 # Open the website
@@ -146,7 +158,7 @@ driver.quit()
 
 # Concat results of downloads
 
-DOWNLOAD_FOLDER = "/Users/elyebliss/Downloads/"
+DOWNLOAD_FOLDER = "/github/workspace/data/downloads/"
 
 OUTPUT_FOLDER = os.path.join(
     os.path.dirname(__file__), "../data/ferry_delays/"
