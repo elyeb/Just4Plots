@@ -8,9 +8,15 @@ import os
 import re
 from datetime import datetime
 
-SPACE_FOLDER = "/Users/elyebliss/Documents/Just4Plots/data/ferry_spaces/"
-DEP_TIME_FOLDER = "/Users/elyebliss/Documents/Just4Plots/data/ferry_delays/"
-OUTPUT_ROOT = "/Users/elyebliss/Documents/Just4Plots/data/ferry_merged_space_delays/"
+SPACE_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../data/ferry_spaces/"
+)
+DEP_TIME_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../data/ferry_delays/"
+)
+OUTPUT_ROOT = os.path.join(
+    os.path.dirname(__file__), "../data/ferry_merged_space_delays/"
+)
 
 
 depart_data = pd.read_csv(

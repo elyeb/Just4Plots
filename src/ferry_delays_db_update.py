@@ -147,7 +147,11 @@ driver.quit()
 # Concat results of downloads
 
 DOWNLOAD_FOLDER = "/Users/elyebliss/Downloads/"
-OUTPUT_FOLDER = "/Users/elyebliss/Documents/Just4Plots/data/ferry_delays/"
+
+OUTPUT_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../data/ferry_delays/"
+)
+
 START_DATE_MODIFIED = START_DATE.replace("/","")
 END_DATE_MODIFIED = END_DATE.replace("/","")
 OUTFILE = f"ferry_depart_times.csv"

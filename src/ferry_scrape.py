@@ -30,9 +30,11 @@ import sys
 
 # try:
 URL_ROOT = "https://wsdot.com/ferries/vesselwatch/TerminalDetail.aspx?terminalid="
-# DATA_FOLDER = "../data/ferry_spaces/"
-DATA_FOLDER = "/Users/elyebliss/Documents/Just4Plots/data/ferry_spaces/"
-# os.makedirs(DATA_FOLDER, exist_ok=True)
+
+DATA_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../data/ferry_spaces/"
+)
+
 dock_dict = {
     "colman": 7,
     "bainbridge": 3,
@@ -113,6 +115,3 @@ for dock, terminal_id in dock_dict.items():
             continue
 
 driver.quit()
-
-# finally:
-#     os.remove(lock_file)

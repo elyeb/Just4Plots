@@ -433,7 +433,7 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     fig.text(0.5, -0.05, "Scheduled Departure Time", ha="center", fontsize=12)
     plt.tight_layout()
     fig.savefig(PLOT_FOLDER + filename, bbox_inches="tight", dpi=300, facecolor="white")
-    plt.show()
+    # plt.show()
 
     return fig
 
