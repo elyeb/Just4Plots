@@ -8276,3 +8276,107 @@ json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
 receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:202:30
 
   0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:20<05:50, 20.63s/it] 11%|█         | 2/18 [00:38<05:07, 19.24s/it] 17%|█▋        | 3/18 [00:57<04:41, 18.79s/it] 22%|██▏       | 4/18 [01:15<04:19, 18.55s/it] 28%|██▊       | 5/18 [01:34<04:06, 18.93s/it] 33%|███▎      | 6/18 [01:53<03:44, 18.73s/it] 39%|███▉      | 7/18 [02:12<03:26, 18.75s/it] 44%|████▍     | 8/18 [02:31<03:08, 18.90s/it] 50%|█████     | 9/18 [02:49<02:49, 18.82s/it] 56%|█████▌    | 10/18 [03:07<02:28, 18.59s/it] 61%|██████    | 11/18 [03:26<02:09, 18.46s/it] 67%|██████▋   | 12/18 [03:44<01:50, 18.40s/it] 72%|███████▏  | 13/18 [04:02<01:31, 18.30s/it] 78%|███████▊  | 14/18 [04:20<01:12, 18.22s/it] 83%|████████▎ | 15/18 [04:39<00:55, 18.45s/it] 89%|████████▉ | 16/18 [04:57<00:36, 18.45s/it] 94%|█████████▍| 17/18 [05:16<00:18, 18.35s/it]100%|██████████| 18/18 [05:34<00:00, 18.44s/it]100%|██████████| 18/18 [05:34<00:00, 18.60s/it]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Gathering data for Issaquah, ferry 2 out of fleet of 18
+Gathering data for Kaleetan, ferry 3 out of fleet of 18
+Gathering data for Kennewick, ferry 4 out of fleet of 18
+Gathering data for Kitsap, ferry 5 out of fleet of 18
+Gathering data for Kittitas, ferry 6 out of fleet of 18
+Gathering data for Puyallup, ferry 7 out of fleet of 18
+Gathering data for Salish, ferry 8 out of fleet of 18
+Gathering data for Samish, ferry 9 out of fleet of 18
+Gathering data for Sealth, ferry 10 out of fleet of 18
+Gathering data for Spokane, ferry 11 out of fleet of 18
+Gathering data for Suquamish, ferry 12 out of fleet of 18
+Gathering data for Tacoma, ferry 13 out of fleet of 18
+Gathering data for Tillikum, ferry 14 out of fleet of 18
+Gathering data for Tokitae, ferry 15 out of fleet of 18
+Gathering data for WallaWalla, ferry 16 out of fleet of 18
+Gathering data for Wenatchee, ferry 17 out of fleet of 18
+Gathering data for Yakima, ferry 18 out of fleet of 18
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:21<06:12, 21.89s/it] 11%|█         | 2/18 [00:40<05:20, 20.06s/it] 17%|█▋        | 3/18 [00:59<04:53, 19.57s/it] 22%|██▏       | 4/18 [01:19<04:36, 19.79s/it] 28%|██▊       | 5/18 [01:38<04:12, 19.45s/it] 33%|███▎      | 6/18 [01:57<03:52, 19.37s/it] 39%|███▉      | 7/18 [02:17<03:32, 19.32s/it] 44%|████▍     | 8/18 [02:36<03:14, 19.49s/it] 50%|█████     | 9/18 [02:55<02:53, 19.32s/it] 56%|█████▌    | 10/18 [03:14<02:33, 19.16s/it] 61%|██████    | 11/18 [03:34<02:14, 19.25s/it] 67%|██████▋   | 12/18 [03:52<01:54, 19.11s/it] 67%|██████▋   | 12/18 [04:06<02:03, 20.50s/it]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Gathering data for Issaquah, ferry 2 out of fleet of 18
+Gathering data for Kaleetan, ferry 3 out of fleet of 18
+Gathering data for Kennewick, ferry 4 out of fleet of 18
+Gathering data for Kitsap, ferry 5 out of fleet of 18
+Gathering data for Kittitas, ferry 6 out of fleet of 18
+Gathering data for Puyallup, ferry 7 out of fleet of 18
+Gathering data for Salish, ferry 8 out of fleet of 18
+Gathering data for Samish, ferry 9 out of fleet of 18
+Gathering data for Sealth, ferry 10 out of fleet of 18
+Gathering data for Spokane, ferry 11 out of fleet of 18
+Gathering data for Suquamish, ferry 12 out of fleet of 18
+Gathering data for Tacoma, ferry 13 out of fleet of 18
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_delays_db_update.py", line 132, in <module>
+    popup_complete_button = wait.until(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/wait.py", line 96, in until
+    value = method(self._driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 364, in _predicate
+    element = visibility_of(target)(driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 173, in _predicate
+    return _element_if_visible(element)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 179, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 252, in is_displayed
+    return self.parent.execute_script(f"/* isDisplayed */return ({isDisplayed_js}).apply(null, arguments);", self)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 414, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element with the reference a04a9b15-4e3b-4ef8-bc28-3d0d606d513a is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:796:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:202:30
+
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:22<06:17, 22.20s/it] 11%|█         | 2/18 [00:41<05:31, 20.71s/it] 17%|█▋        | 3/18 [01:01<05:03, 20.20s/it] 22%|██▏       | 4/18 [01:21<04:43, 20.22s/it] 28%|██▊       | 5/18 [01:41<04:20, 20.03s/it] 33%|███▎      | 6/18 [02:01<04:01, 20.12s/it] 39%|███▉      | 7/18 [02:21<03:38, 19.88s/it] 44%|████▍     | 8/18 [02:40<03:18, 19.85s/it] 50%|█████     | 9/18 [02:59<02:55, 19.49s/it] 56%|█████▌    | 10/18 [03:18<02:34, 19.29s/it] 61%|██████    | 11/18 [03:37<02:15, 19.37s/it] 67%|██████▋   | 12/18 [03:57<01:56, 19.47s/it] 72%|███████▏  | 13/18 [04:18<01:39, 19.92s/it] 78%|███████▊  | 14/18 [04:38<01:20, 20.05s/it] 83%|████████▎ | 15/18 [04:58<00:59, 19.77s/it] 89%|████████▉ | 16/18 [05:17<00:39, 19.69s/it] 94%|█████████▍| 17/18 [05:36<00:19, 19.39s/it]100%|██████████| 18/18 [05:54<00:00, 19.17s/it]100%|██████████| 18/18 [05:54<00:00, 19.72s/it]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Gathering data for Issaquah, ferry 2 out of fleet of 18
+Gathering data for Kaleetan, ferry 3 out of fleet of 18
+Gathering data for Kennewick, ferry 4 out of fleet of 18
+Gathering data for Kitsap, ferry 5 out of fleet of 18
+Gathering data for Kittitas, ferry 6 out of fleet of 18
+Gathering data for Puyallup, ferry 7 out of fleet of 18
+Gathering data for Salish, ferry 8 out of fleet of 18
+Gathering data for Samish, ferry 9 out of fleet of 18
+Gathering data for Sealth, ferry 10 out of fleet of 18
+Gathering data for Spokane, ferry 11 out of fleet of 18
+Gathering data for Suquamish, ferry 12 out of fleet of 18
+Gathering data for Tacoma, ferry 13 out of fleet of 18
+Gathering data for Tillikum, ferry 14 out of fleet of 18
+Gathering data for Tokitae, ferry 15 out of fleet of 18
+Gathering data for WallaWalla, ferry 16 out of fleet of 18
+Gathering data for Wenatchee, ferry 17 out of fleet of 18
+Gathering data for Yakima, ferry 18 out of fleet of 18
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:25<07:16, 25.65s/it] 11%|█         | 2/18 [00:45<05:58, 22.38s/it] 17%|█▋        | 3/18 [01:04<05:12, 20.84s/it] 22%|██▏       | 4/18 [01:25<04:51, 20.79s/it] 28%|██▊       | 5/18 [01:44<04:21, 20.09s/it] 33%|███▎      | 6/18 [02:03<03:56, 19.70s/it] 39%|███▉      | 7/18 [02:22<03:33, 19.44s/it] 44%|████▍     | 8/18 [02:41<03:12, 19.28s/it] 50%|█████     | 9/18 [03:00<02:54, 19.37s/it] 56%|█████▌    | 10/18 [03:21<02:37, 19.68s/it] 61%|██████    | 11/18 [03:39<02:16, 19.44s/it] 67%|██████▋   | 12/18 [03:58<01:55, 19.25s/it] 72%|███████▏  | 13/18 [04:17<01:35, 19.17s/it] 78%|███████▊  | 14/18 [04:39<01:19, 19.85s/it] 83%|████████▎ | 15/18 [04:59<01:00, 20.04s/it] 89%|████████▉ | 16/18 [05:20<00:40, 20.33s/it] 94%|█████████▍| 17/18 [05:39<00:19, 19.79s/it]100%|██████████| 18/18 [05:58<00:00, 19.66s/it]100%|██████████| 18/18 [05:58<00:00, 19.92s/it]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Gathering data for Issaquah, ferry 2 out of fleet of 18
+Gathering data for Kaleetan, ferry 3 out of fleet of 18
+Gathering data for Kennewick, ferry 4 out of fleet of 18
+Gathering data for Kitsap, ferry 5 out of fleet of 18
+Gathering data for Kittitas, ferry 6 out of fleet of 18
+Gathering data for Puyallup, ferry 7 out of fleet of 18
+Gathering data for Salish, ferry 8 out of fleet of 18
+Gathering data for Samish, ferry 9 out of fleet of 18
+Gathering data for Sealth, ferry 10 out of fleet of 18
+Gathering data for Spokane, ferry 11 out of fleet of 18
+Gathering data for Suquamish, ferry 12 out of fleet of 18
+Gathering data for Tacoma, ferry 13 out of fleet of 18
+Gathering data for Tillikum, ferry 14 out of fleet of 18
+Gathering data for Tokitae, ferry 15 out of fleet of 18
+Gathering data for WallaWalla, ferry 16 out of fleet of 18
+Gathering data for Wenatchee, ferry 17 out of fleet of 18
+Gathering data for Yakima, ferry 18 out of fleet of 18

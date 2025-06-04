@@ -11,6 +11,8 @@ import os
 import re
 import requests
 from bs4 import BeautifulSoup
+from matplotlib.backends.backend_pdf import PdfPages
+import math
 
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../data/ferry_merged_space_delays/"
@@ -24,6 +26,13 @@ today = datetime.date.today().strftime("%m/%d/%Y")
 
 day_of_week = datetime.date.today().strftime("%A")
 
+# get y-lims for day of week
+y_lims = df_full[df_full["Departing"].isin(["Colman", "Bainbridge", "Edmonds", "Kingston"])]
+y_lims = y_lims[y_lims["day_of_week"] == day_of_week]
+y_upper = math.ceil(y_lims["depart_dif"].max() / 5) * 5 + 5
+y_lower = math.floor(y_lims["soldout_dif"].min()/5)*5 - 5
+
+
 
 ## Constants
 dock_dict_names = {
@@ -33,6 +42,26 @@ dock_dict_names = {
     "Edmonds": "Edmonds",
 }
 
+def combine_pngs_2x2(png_files, output_path):
+    """Combine 4 PNG files into a 2x2 grid PDF."""
+
+    title = f"{day_of_week}, {today}"
+    fig, axs = plt.subplots(2, 2, figsize=(16, 12))
+    axs = axs.flatten()
+    
+    for ax, png_file in zip(axs, png_files):
+        # Read and display the image
+        img = plt.imread(png_file)
+        ax.imshow(img)
+        ax.axis('off')  # Hide axes
+    
+    fig.suptitle(title, fontsize=16, fontweight='bold', y=0.95)
+    plt.tight_layout()
+    
+    # Save as PDF and PNG
+    fig.savefig(output_path, bbox_inches='tight', dpi=300, facecolor='white')
+    fig.savefig(output_path.replace('.pdf', '.png'), bbox_inches='tight', dpi=300, facecolor='white')
+    plt.close(fig)
 
 def get_ferry_schedule(dock, dest, day_of_week):
     """
@@ -327,7 +356,7 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
 
     """
     graph_title = (
-        f"{dock_dict_names[dock]} to {dock_dict_names[dest]}, {day_of_week} {date}"
+        f"{dock_dict_names[dock]} to {dock_dict_names[dest]}"
     )
     filename_date = date.replace("/", "-")
     filename = f"{dock_dict_names[dock]}_to_{dock_dict_names[dest]}_{day_of_week}_{filename_date}.png"
@@ -391,13 +420,13 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     ax.set_xticklabels(depart_times.strftime("%H:%M"), rotation=45, fontsize=8)
 
     # Customize each subplot
-    ax.set_title(day_of_week, fontsize=12)
+    # ax.set_title(day_of_week, fontsize=12)
     ax.axhline(
         0, color="black", linewidth=0.8, linestyle="--"
     )  # Add a horizontal line at y=0
 
     ax.set_ylabel("Difference (Minutes)", fontsize=10)
-
+    ax.set_ylim(ymin=y_lower, ymax=y_upper)
     ax.legend(loc="upper left", fontsize=10)
     # # Adjust layout
     fig.suptitle(graph_title)
@@ -406,8 +435,21 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     fig.savefig(PLOT_FOLDER + filename, bbox_inches="tight", dpi=300, facecolor="white")
     plt.show()
 
+    return fig
 
-plot_scatter_day(df_full, "Colman", "Bainbridge", day_of_week, today)
-plot_scatter_day(df_full, "Bainbridge", "Colman", day_of_week, today)
-plot_scatter_day(df_full, "Edmonds", "Kingston", day_of_week, today)
-plot_scatter_day(df_full, "Kingston", "Edmonds", day_of_week, today)
+
+fig_1 = plot_scatter_day(df_full, "Colman", "Bainbridge", day_of_week, today)
+fig_2 = plot_scatter_day(df_full, "Bainbridge", "Colman", day_of_week, today)
+fig_3 = plot_scatter_day(df_full, "Edmonds", "Kingston", day_of_week, today)
+fig_4 = plot_scatter_day(df_full, "Kingston", "Edmonds", day_of_week, today)
+
+
+png_files = [
+    os.path.join(PLOT_FOLDER, f"Seattle_to_Bainbridge_{day_of_week}_{today.replace('/', '-')}.png"),
+    os.path.join(PLOT_FOLDER, f"Bainbridge_to_Seattle_{day_of_week}_{today.replace('/', '-')}.png"),
+    os.path.join(PLOT_FOLDER, f"Edmonds_to_Kingston_{day_of_week}_{today.replace('/', '-')}.png"),
+    os.path.join(PLOT_FOLDER, f"Kingston_to_Edmonds_{day_of_week}_{today.replace('/', '-')}.png")
+]
+
+output_path = os.path.join(PLOT_FOLDER, f"all_routes_{today.replace('/', '-')}.pdf")
+combine_pngs_2x2(png_files, output_path)
