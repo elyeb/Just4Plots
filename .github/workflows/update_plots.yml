@@ -2,7 +2,7 @@ name: Update Ferry Plots
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
