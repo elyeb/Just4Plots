@@ -17,8 +17,7 @@ import math
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../data/ferry_merged_space_delays/"
 )
-PLOT_FOLDER = os.path.join(os.path.dirname(__file__), "../outputs/plots/ferries/")
-
+PLOT_FOLDER = os.path.join(os.path.dirname(__file__), "../docs/")
 
 df_full = pd.read_parquet(DATA_FOLDER + "ferry_merged_space_delays.parquet")
 
