@@ -1,11 +1,14 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Fauntleroy,Vashon,17:15,16:49,17:06,06/04/2025,Wednesday,,-26,
 Kittitas,Fauntleroy,Vashon,17:15,17:16,17:29,06/04/2025,Wednesday,,1,
+Kennewick,Port Townsend,Keystone,17:15,17:15,17:42,06/04/2025,Wednesday,,0,
 Kitsap,Mukilteo,Clinton,17:10,17:13,17:26,06/04/2025,Wednesday,,3,
+Yakima,Lopez,Friday Harbor,17:10,17:10,17:48,06/04/2025,Wednesday,,0,
 Tokitae,Clinton,Mukilteo,17:05,17:16,17:29,06/04/2025,Wednesday,,11,
 Salish,Vashon,Fauntleroy,16:45,16:21,16:41,06/04/2025,Wednesday,,-24,
 Kittitas,Vashon,Fauntleroy,16:45,16:47,16:59,06/04/2025,Wednesday,,2,
 Spokane,Edmonds,Kingston,16:45,16:50,17:12,06/04/2025,Wednesday,16:46:01,5,1.0
+Tacoma,Colman,Bainbridge,16:45,17:06,17:39,06/04/2025,Wednesday,16:25:10,21,-20.0
 Tokitae,Mukilteo,Clinton,16:40,16:45,16:59,06/04/2025,Wednesday,,5,
 Suquamish,Kingston,Edmonds,16:40,16:43,17:06,06/04/2025,Wednesday,16:40:43,3,0.0
 Kitsap,Clinton,Mukilteo,16:35,16:45,16:58,06/04/2025,Wednesday,,10,

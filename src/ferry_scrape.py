@@ -49,6 +49,8 @@ options = Options()
 options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
+options.add_argument('--width=1920')
+options.add_argument('--height=1080')
 options.set_preference("network.http.connection-timeout", 300)  # 5 minutes
 
 # GeckoDriver service
