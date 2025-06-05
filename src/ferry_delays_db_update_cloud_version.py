@@ -54,12 +54,14 @@ options = Options()
 options.add_argument('--headless')  # Run Firefox in headless mode
 
 # Create Firefox profile for downloading
-DATA_FOLDER = os.path.join(os.path.dirname(__file__), "../data/ferry/downloads/")
+DATA_FOLDER = os.getenv('DATA_DIR', os.path.join(os.path.dirname(__file__), "../data/ferry/downloads/"))
 os.makedirs(DATA_FOLDER, exist_ok=True)
+
 firefox_profile = webdriver.FirefoxProfile()
 firefox_profile.set_preference("browser.download.folderList", 2)
 firefox_profile.set_preference("browser.download.manager.showWhenStarting", False)
 firefox_profile.set_preference("browser.download.dir", os.path.abspath(DATA_FOLDER))
+
 
 # GeckoDriver service
 service = Service(executable_path)

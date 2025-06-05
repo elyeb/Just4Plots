@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.9'
-        
+
     - name: Install Firefox and GeckoDriver
       run: |
         sudo apt-get update
@@ -32,9 +32,11 @@ jobs:
         pip install -r requirements.txt
     - name: Create download directory
       run: |
-        mkdir -p /github/workspace/data/downloads
-        chmod 777 /github/workspace/data/downloads
+        mkdir -p ${{ github.workspace }}/data/downloads
+        chmod 777 ${{ github.workspace }}/data/downloads
     - name: Run ferry scripts
+      env:
+        DATA_DIR: ${{ github.workspace }}/data/downloads
       run: |
         python src/ferry_scrape.py
         python src/ferry_delays_db_update_cloud_version.py

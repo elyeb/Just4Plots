@@ -1,13 +1,19 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Vashon,Fauntleroy,16:45,16:21,16:41,06/04/2025,Wednesday,,-24,
+Kittitas,Vashon,Fauntleroy,16:45,16:47,16:59,06/04/2025,Wednesday,,2,
+Tokitae,Mukilteo,Clinton,16:40,16:45,16:59,06/04/2025,Wednesday,,5,
+Kitsap,Clinton,Mukilteo,16:35,16:45,16:58,06/04/2025,Wednesday,,10,
 Kittitas,Southworth,Vashon,16:25,16:25,16:36,06/04/2025,Wednesday,,0,
 Kennewick,Keystone,Port Townsend,16:15,16:16,16:46,06/04/2025,Wednesday,,1,
+Yakima,Anacortes,Lopez,16:15,16:16,17:00,06/04/2025,Wednesday,,1,
+Issaquah,Orcas,Friday Harbor,16:10,16:10,16:49,06/04/2025,Wednesday,,0,
 Kitsap,Mukilteo,Clinton,16:05,16:16,16:29,06/04/2025,Wednesday,,11,
 Tokitae,Clinton,Mukilteo,16:05,16:16,16:29,06/04/2025,Wednesday,,11,
 Spokane,Kingston,Edmonds,16:00,16:02,16:23,06/04/2025,Wednesday,15:55:30,2,-5.0
 Suquamish,Edmonds,Kingston,15:55,15:59,16:21,06/04/2025,Wednesday,15:35:46,4,-20.0
 Kittitas,Fauntleroy,Southworth,15:50,15:55,16:15,06/04/2025,Wednesday,,5,
 Tacoma,Bainbridge,Colman,15:50,16:10,16:41,06/04/2025,Wednesday,,20,
+Kaleetan,Colman,Bainbridge,15:50,16:22,16:55,06/04/2025,Wednesday,15:30:05,32,-20.0
 Issaquah,Shaw,Orcas,15:45,15:49,15:56,06/04/2025,Wednesday,,4,
 Kitsap,Clinton,Mukilteo,15:35,15:45,15:59,06/04/2025,Wednesday,,10,
 Tokitae,Mukilteo,Clinton,15:35,15:46,15:59,06/04/2025,Wednesday,,11,
