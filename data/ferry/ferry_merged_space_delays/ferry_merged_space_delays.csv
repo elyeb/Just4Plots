@@ -1,11 +1,19 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Fauntleroy,Vashon,17:15,16:49,17:06,06/04/2025,Wednesday,,-26,
+Kittitas,Fauntleroy,Vashon,17:15,17:16,17:29,06/04/2025,Wednesday,,1,
+Kitsap,Mukilteo,Clinton,17:10,17:13,17:26,06/04/2025,Wednesday,,3,
+Tokitae,Clinton,Mukilteo,17:05,17:16,17:29,06/04/2025,Wednesday,,11,
 Salish,Vashon,Fauntleroy,16:45,16:21,16:41,06/04/2025,Wednesday,,-24,
 Kittitas,Vashon,Fauntleroy,16:45,16:47,16:59,06/04/2025,Wednesday,,2,
+Spokane,Edmonds,Kingston,16:45,16:50,17:12,06/04/2025,Wednesday,16:46:01,5,1.0
 Tokitae,Mukilteo,Clinton,16:40,16:45,16:59,06/04/2025,Wednesday,,5,
+Suquamish,Kingston,Edmonds,16:40,16:43,17:06,06/04/2025,Wednesday,16:40:43,3,0.0
 Kitsap,Clinton,Mukilteo,16:35,16:45,16:58,06/04/2025,Wednesday,,10,
 Kittitas,Southworth,Vashon,16:25,16:25,16:36,06/04/2025,Wednesday,,0,
 Kennewick,Keystone,Port Townsend,16:15,16:16,16:46,06/04/2025,Wednesday,,1,
 Yakima,Anacortes,Lopez,16:15,16:16,17:00,06/04/2025,Wednesday,,1,
+Walla Walla,Bremerton,,16:15,16:16,00:00,06/04/2025,Wednesday,,1,
+Samish,Lopez,Anacortes,16:15,16:45,17:31,06/04/2025,Wednesday,,30,
 Issaquah,Orcas,Friday Harbor,16:10,16:10,16:49,06/04/2025,Wednesday,,0,
 Kitsap,Mukilteo,Clinton,16:05,16:16,16:29,06/04/2025,Wednesday,,11,
 Tokitae,Clinton,Mukilteo,16:05,16:16,16:29,06/04/2025,Wednesday,,11,
