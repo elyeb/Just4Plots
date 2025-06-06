@@ -1,11 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kennewick,Keystone,Port Townsend,14:45,14:45,15:11,06/06/2025
 Kitsap,Clinton,Mukilteo,14:35,14:37,14:52,06/06/2025
 Tokitae,Mukilteo,Clinton,14:35,14:42,14:55,06/06/2025
 Spokane,Kingston,Edmonds,14:30,14:32,14:53,06/06/2025
+Issaquah,Friday Harbor,Lopez,14:30,14:40,15:12,06/06/2025
 Suquamish,Edmonds,Kingston,14:25,14:25,14:47,06/06/2025
 Kittitas,Fauntleroy,Vashon,14:10,14:42,14:55,06/06/2025
 Kitsap,Mukilteo,Clinton,14:05,14:06,14:21,06/06/2025
 Tacoma,Bainbridge,Colman,14:05,14:20,14:52,06/06/2025
+Kaleetan,Colman,Bainbridge,14:05,14:32,15:04,06/06/2025
 Tokitae,Clinton,Mukilteo,14:00,14:10,14:23,06/06/2025
 Kennewick,Port Townsend,Keystone,14:00,14:01,14:27,06/06/2025
 Kittitas,Vashon,Fauntleroy,13:40,14:13,14:26,06/06/2025

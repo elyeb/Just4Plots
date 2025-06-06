@@ -68,45 +68,65 @@ driver.set_page_load_timeout(300)  # 5 minutes
 driver.implicitly_wait(30)  # 30 seconds wait for elements
 
 for dock, terminal_id in dock_dict.items():
-    max_retries = 3
-    retry_count = 0
-    
-    while retry_count < max_retries:
-        try:
-            url = f"{URL_ROOT}{terminal_id}"
-            print(f"Attempting {dock} dock (try {retry_count + 1}/{max_retries})")
-            
-            driver.get(url)
-            # Use explicit wait instead of sleep
-            wait = WebDriverWait(driver, 30)
-            wait.until(EC.presence_of_element_located((By.ID, "realtimecontent")))
-            
-            html = driver.page_source
-            # ...rest of your scraping code...
-            
-            break  # Success, exit retry loop
-            
-        except Exception as e:
-            retry_count += 1
-            print(f"Error on try {retry_count}: {str(e)}")
-            
-            if retry_count >= max_retries:
-                print(f"Failed to scrape {dock} after {max_retries} attempts")
-                continue
-                
-            print(f"Waiting 30 seconds before retry...")
-            time.sleep(30)
-            
-            # Restart the driver
-            try:
-                driver.quit()
-            except:
-                pass
-            driver = webdriver.Firefox(service=service, options=options)
-            driver.set_page_load_timeout(300)
-            driver.implicitly_wait(30)
+    # Construct the URL for the specific terminal
+    url = f"{URL_ROOT}{terminal_id}"
+    print(f"{dock} dock")
+    print(f"Scraping {url}...")
 
-try:
-    driver.quit()
-except:
-    pass
+    # Navigate to the URL
+    keep_trying = True
+    while keep_trying:
+
+        try:
+            driver.get(url)
+            time.sleep(10)
+            # WebDriverWait(driver, 20).until(
+            #     EC.presence_of_element_located((By.ID, "realtimecontent"))
+            # )
+            html = driver.page_source
+            # Parse the HTML with BeautifulSoup
+            soup = BeautifulSoup(html, "html.parser")
+
+            # Find the table
+            table = soup.find("div", {"id": "realtimecontent"}).find("table")
+
+            # Extract table data into a DataFrame
+            rows = []
+            for row in table.find_all("tr"):
+                cells = row.find_all(["td", "th"])
+                rows.append([cell.get_text(strip=True) for cell in cells])
+
+            # Convert to a DataFrame
+            df = pd.DataFrame(
+                rows[1:], columns=rows[0]
+            )  # Use the first row as headers
+
+            # Convert the soup object to text
+            page_text = soup.get_text()
+
+            # Use a regular expression to find the timestamp after "Last Refresh: "
+            match = re.search(r"Last Refresh:\s*(.*)", page_text)
+            timestamp = match.group(1).strip()
+            # Close the Selenium WebDriver
+            df["timestamp"] = timestamp
+
+            timestamp = (
+                timestamp.replace("/", "-").replace(" ", "_").replace(":", "_")
+            )
+
+            file_name = f"{dock}_ferry_spaces_{timestamp}.csv"
+            # Save the DataFrame to a CSV file
+            csv_file_path = os.path.join(DATA_FOLDER, file_name)
+            df.to_csv(csv_file_path, index=False)
+            keep_trying = False
+        except Exception as e:
+            print(f"Error occurred: {e}")
+            print("Retrying...")
+            time.sleep(5)
+            driver.quit()
+            service = Service(executable_path)
+            driver = webdriver.Firefox(service=service, options=options)
+            keep_trying = True
+            continue
+
+driver.quit()
