@@ -19,8 +19,16 @@ jobs:
     
     - name: Install Firefox and GeckoDriver
       run: |
-        # Download and install Firefox directly from Mozilla
-        wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US"
+        # Download and install Firefox
+        FIREFOX_VERSION="115.0"
+        wget -O firefox.tar.bz2 "https://ftp.mozilla.org/pub/firefox/releases/${FIREFOX_VERSION}/linux-x86_64/en-US/firefox-${FIREFOX_VERSION}.tar.bz2"
+        
+        # Verify download
+        echo "Verifying Firefox download..."
+        file firefox.tar.bz2
+        
+        # Extract Firefox
+        sudo mkdir -p /opt/firefox
         sudo tar xjf firefox.tar.bz2 -C /opt/
         sudo ln -sf /opt/firefox/firefox /usr/bin/firefox
         
