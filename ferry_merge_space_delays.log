@@ -836,3 +836,1223 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
     raise ValueError("No objects to concatenate")
 ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 178, in <module>
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
