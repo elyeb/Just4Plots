@@ -2,7 +2,7 @@ name: Update Ferry Plots
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Runs every 10 minutes
+    - cron: '* * * * */10'  # Runs every 10 minutes
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -19,13 +19,18 @@ jobs:
     
     - name: Install Firefox and GeckoDriver
       run: |
+        # Install required dependencies
+        sudo apt-get update
+        sudo apt-get install -y \
+          libdbus-glib-1-2 \
+          libgtk-3-0 \
+          libx11-xcb1 \
+          libxt6 \
+          xvfb
+        
         # Download and install Firefox
         FIREFOX_VERSION="115.0"
         wget -O firefox.tar.bz2 "https://ftp.mozilla.org/pub/firefox/releases/${FIREFOX_VERSION}/linux-x86_64/en-US/firefox-${FIREFOX_VERSION}.tar.bz2"
-        
-        # Verify download
-        echo "Verifying Firefox download..."
-        file firefox.tar.bz2
         
         # Extract Firefox
         sudo mkdir -p /opt/firefox
@@ -40,11 +45,7 @@ jobs:
         sudo chown root:root /usr/local/bin/geckodriver
         sudo chmod 755 /usr/local/bin/geckodriver
         
-        # Install Xvfb
-        sudo apt-get update
-        sudo apt-get install -y xvfb
-        
-        # Debug info
+        # Verify installations
         echo "Firefox version:"
         firefox --version
         echo "GeckoDriver version:"
