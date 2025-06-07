@@ -1,7 +1,13 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Fauntleroy,,22:35,22:38,00:00,06/06/2025
+Kitsap,Clinton,Mukilteo,22:30,22:31,22:44,06/06/2025
+Suquamish,Kingston,Edmonds,22:30,22:32,22:54,06/06/2025
+Spokane,Edmonds,Kingston,22:25,22:25,22:46,06/06/2025
 Kittitas,Vashon,Fauntleroy,22:05,22:09,22:23,06/06/2025
+Kittitas,Vashon,,22:05,22:09,00:00,06/06/2025
 Kitsap,Mukilteo,Clinton,22:00,22:00,22:13,06/06/2025
 Kennewick,Port Townsend,Keystone,22:00,22:00,22:27,06/06/2025
+Kaleetan,Bainbridge,Colman,22:00,22:13,22:46,06/06/2025
 Suquamish,Edmonds,Kingston,21:50,21:58,22:20,06/06/2025
 Spokane,Kingston,Edmonds,21:40,21:40,22:07,06/06/2025
 Kitsap,Clinton,Mukilteo,21:30,21:31,21:45,06/06/2025
@@ -10,6 +16,7 @@ Kittitas,Fauntleroy,,21:15,21:26,00:00,06/06/2025
 Suquamish,Kingston,Edmonds,21:10,21:19,21:42,06/06/2025
 Kennewick,Keystone,Port Townsend,21:10,21:17,21:44,06/06/2025
 Spokane,Edmonds,Kingston,21:05,21:06,21:30,06/06/2025
+Yakima,Lopez,Friday Harbor,21:05,22:11,22:43,06/06/2025
 Kitsap,Mukilteo,Clinton,21:00,21:01,21:14,06/06/2025
 WallaWalla,Bremerton,,21:00,21:06,00:00,06/06/2025
 Tacoma,Bainbridge,Colman,21:00,21:35,22:06,06/06/2025
