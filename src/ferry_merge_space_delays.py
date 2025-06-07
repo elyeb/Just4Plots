@@ -175,28 +175,34 @@ bainbridge_space_files = [
 kingston_space_files = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "kingston" in f]
 colman_space_files = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "colman" in f]
 
+concat_list = []
 if len(edmonds_space_files) > 0:
     edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
     edmonds_df["Departing"] = "Edmonds"
+    concat_list.append(edmonds_df)
 if len(bainbridge_space_files) > 0:
     bainbridge_df = pd.concat(bainbridge_space_files, ignore_index=True)
     bainbridge_df["Departing"] = "Bainbridge"
+    concat_list.append(bainbridge_df)
 if len(kingston_space_files) > 0:
     kingston_df = pd.concat(kingston_space_files, ignore_index=True)
     kingston_df["Departing"] = "Kingston"
+    concat_list.append(kingston_df)
 if len(colman_space_files) > 0:
     colman_df = pd.concat(colman_space_files, ignore_index=True)
     colman_df["Departing"] = "Colman"
+    concat_list.append(colman_df)
 
-new_space_db = pd.concat(
-    [edmonds_df, bainbridge_df, kingston_df, colman_df], ignore_index=True
-)
+if len(concat_list) >0:
+    new_space_db = pd.concat(
+        concat_list, ignore_index=True
+    )
 
-db = pd.concat([prev_space_db, new_space_db], ignore_index=True)
-# remove duplicates
-db = db.drop_duplicates()
+    db = pd.concat([prev_space_db, new_space_db], ignore_index=True)
+    # remove duplicates
+    db = db.drop_duplicates()
 
-db.to_parquet(OUTPUT_ROOT + "ferry_space_db.parquet", index=False)
+    db.to_parquet(OUTPUT_ROOT + "ferry_space_db.parquet", index=False)
 
 # remove individual space files
 for f in space_files:
