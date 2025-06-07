@@ -47,16 +47,10 @@ executable_path = "/usr/local/bin/geckodriver"
 # Firefox options
 options = Options()
 options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
-options.add_argument('--width=1920')
-options.add_argument('--height=1080')
-options.set_preference("network.http.connection-timeout", 300)  # 5 minutes
 
 # GeckoDriver service
 service = Service(
     executable_path=executable_path,
-    service_args=['--connect-timeout', '300']  # 5 minutes
 )
 
 # Update the WebDriver initialization with explicit timeouts
@@ -64,8 +58,6 @@ driver = webdriver.Firefox(
     service=service, 
     options=options
 )
-driver.set_page_load_timeout(300)  # 5 minutes
-driver.implicitly_wait(30)  # 30 seconds wait for elements
 
 for dock, terminal_id in dock_dict.items():
     # Construct the URL for the specific terminal
@@ -76,7 +68,7 @@ for dock, terminal_id in dock_dict.items():
     # Navigate to the URL
     keep_trying = True
     while keep_trying:
-
+        error_count = 0
         try:
             driver.get(url)
             time.sleep(10)
@@ -120,6 +112,7 @@ for dock, terminal_id in dock_dict.items():
             df.to_csv(csv_file_path, index=False)
             keep_trying = False
         except Exception as e:
+            error_count += 1
             print(f"Error occurred: {e}")
             print("Retrying...")
             time.sleep(5)
@@ -127,6 +120,10 @@ for dock, terminal_id in dock_dict.items():
             service = Service(executable_path)
             driver = webdriver.Firefox(service=service, options=options)
             keep_trying = True
+            if error_count >5:
+                print("Too many errors, exiting.")
+                keep_trying = False
+
             continue
 
 driver.quit()

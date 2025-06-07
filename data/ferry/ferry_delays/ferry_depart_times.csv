@@ -1,11 +1,48 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Clinton,Mukilteo,20:00,20:04,20:18,06/06/2025
+Suquamish,Kingston,Edmonds,19:45,19:52,20:15,06/06/2025
+Spokane,Edmonds,Kingston,19:40,19:54,20:15,06/06/2025
+Kittitas,Fauntleroy,Vashon,19:35,19:30,19:43,06/06/2025
+Tokitae,Mukilteo,Clinton,19:35,19:38,19:53,06/06/2025
+Kittitas,Fauntleroy,,19:35,19:30,00:00,06/06/2025
+Kitsap,Clinton,Mukilteo,19:35,19:39,19:54,06/06/2025
+Samish,Friday Harbor,Lopez,19:35,19:36,20:06,06/06/2025
+Kennewick,Keystone,Port Townsend,19:30,19:34,20:01,06/06/2025
+Issaquah,Orcas,Shaw,19:15,19:15,19:21,06/06/2025
+Issaquah,Shaw,Lopez,19:10,19:24,19:43,06/06/2025
+Tokitae,Clinton,Mukilteo,19:05,19:15,19:28,06/06/2025
+Kitsap,Mukilteo,Clinton,19:05,19:12,19:27,06/06/2025
+Suquamish,Edmonds,Kingston,19:00,19:09,19:31,06/06/2025
+Kittitas,Southworth,,19:00,19:02,00:00,06/06/2025
+Spokane,Kingston,Edmonds,19:00,19:11,19:35,06/06/2025
+Kennewick,Port Townsend,Keystone,18:45,18:48,19:15,06/06/2025
+Tokitae,Mukilteo,Clinton,18:40,18:48,19:02,06/06/2025
+Kaleetan,Bainbridge,Colman,18:40,18:55,19:27,06/06/2025
+WallaWalla,Bremerton,,18:40,18:47,00:00,06/06/2025
+Kitsap,Clinton,Mukilteo,18:35,18:47,19:01,06/06/2025
+Samish,Lopez,Friday Harbor,18:30,18:45,19:18,06/06/2025
+Tacoma,Colman,Bainbridge,18:30,19:08,19:41,06/06/2025
+Spokane,Edmonds,Kingston,18:15,18:33,18:54,06/06/2025
+Yakima,Friday Harbor,Lopez,18:15,18:55,19:29,06/06/2025
+Suquamish,Kingston,Edmonds,18:10,18:22,18:45,06/06/2025
+Kitsap,Mukilteo,Clinton,18:10,18:18,18:33,06/06/2025
+Tokitae,Clinton,Mukilteo,18:05,18:20,18:32,06/06/2025
+Kennewick,Keystone,Port Townsend,18:00,18:04,18:30,06/06/2025
+Kaleetan,Colman,Bainbridge,17:45,18:05,18:38,06/06/2025
 Tokitae,Mukilteo,Clinton,17:40,17:49,18:04,06/06/2025
+Kittitas,Vashon,Southworth,17:40,18:27,18:49,06/06/2025
+Issaquah,Friday Harbor,Orcas,17:40,18:37,19:08,06/06/2025
 Kitsap,Clinton,Mukilteo,17:35,17:47,18:01,06/06/2025
+Tacoma,Bainbridge,Colman,17:35,18:01,18:33,06/06/2025
+Samish,Anacortes,Lopez,17:35,17:55,18:36,06/06/2025
 Spokane,Kingston,Edmonds,17:30,17:45,18:07,06/06/2025
+WallaWalla,Colman,Bremerton,17:30,17:35,18:31,06/06/2025
+WallaWalla,Colman,,17:30,17:35,00:00,06/06/2025
 Suquamish,Edmonds,Kingston,17:25,17:36,17:58,06/06/2025
 Salish,Fauntleroy,Vashon,17:15,17:18,17:35,06/06/2025
 Kennewick,Port Townsend,Keystone,17:15,17:16,17:44,06/06/2025
 Kitsap,Mukilteo,Clinton,17:10,17:17,17:33,06/06/2025
+Yakima,Lopez,Friday Harbor,17:10,17:55,18:30,06/06/2025
 Tokitae,Clinton,Mukilteo,17:05,17:21,17:33,06/06/2025
 Salish,Vashon,Fauntleroy,16:45,16:49,17:06,06/06/2025
 Spokane,Edmonds,Kingston,16:45,17:00,17:21,06/06/2025
