@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementClickInterceptedException, TimeoutException
 import os
 import datetime
-from tqdm import tqdm
+# from tqdm import tqdm
 import time
 import pandas as pd
 
@@ -77,7 +77,7 @@ URL = "https://wsdot.com/ferries/vesselwatch/VesselWatchHis.aspx"
 # Open the website
 driver.get(URL)
 
-for ferry in tqdm(ferries):
+for ferry in ferries: #tqdm(ferries):
 
     ferry_place = ferries.index(ferry)+1
     print(f"Gathering data for {ferry}, ferry {ferry_place} out of fleet of {len(ferries)}")
