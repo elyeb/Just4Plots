@@ -51,6 +51,22 @@ options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
+try:
+    # Connect to Selenium standalone service
+    selenium_host = os.getenv('SELENIUM_HOST', 'localhost')
+    selenium_url = f'http://{selenium_host}:4444/wd/hub'
+    print(f"Connecting to Selenium at: {selenium_url}")
+    
+    driver = webdriver.Remote(
+        command_executor=selenium_url,
+        options=options
+    )
+    print("Successfully connected to Selenium")
+
+except Exception as e:
+    print(f"Failed to connect to Selenium: {e}")
+    raise
+
 # GeckoDriver service
 service = Service(
     executable_path=executable_path,

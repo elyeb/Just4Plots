@@ -8,12 +8,15 @@ on:
 jobs:
   update-plots:
     runs-on: ubuntu-latest
-    container:
-      image: selenium/standalone-firefox:latest
-      options: >-
-        --shm-size=2g
-        --user=root
-        -p 4444:4444
+
+    services:
+      selenium:
+        image: selenium/standalone-firefox:latest
+        options: >-
+          --shm-size=2g
+        ports:
+          - 4444:4444
+          - 7900:7900
 
     steps:
     - name: Fix permissions
