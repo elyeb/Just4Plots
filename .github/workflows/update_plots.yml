@@ -10,11 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: selenium/standalone-firefox:latest
-      options: --shm-size="2g"
-    
+      options: |
+        --shm-size="2g"
+        --user root
+    steps:
+    - name: Fix permissions
+      run: |
+        mkdir -p /__w/_temp/_runner_file_commands
+        chmod -R 777 /__w/_temp/_runner_file_commands
     steps:
     - uses: actions/checkout@v2
-    
+      with:
+        persist-credentials: false
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
