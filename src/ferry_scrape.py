@@ -77,10 +77,33 @@ service = Service(
 #     service=service, 
 #     options=options
 # )
-driver = webdriver.Remote(
-    command_executor='http://localhost:4444/wd/hub',
-    options=options
-)
+def create_webdriver(max_retries=3, retry_interval=5):
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    
+    for attempt in range(max_retries):
+        try:
+            print(f"Attempt {attempt + 1} to connect to Selenium...")
+            selenium_host = os.getenv('SELENIUM_HOST', 'localhost')
+            selenium_url = f'http://{selenium_host}:4444/wd/hub'
+            
+            driver = webdriver.Remote(
+                command_executor=selenium_url,
+                options=options
+            )
+            print("Successfully connected to Selenium")
+            return driver
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {str(e)}")
+            if attempt < max_retries - 1:
+                print(f"Waiting {retry_interval} seconds before retry...")
+                time.sleep(retry_interval)
+            else:
+                print("Max retries reached. Failed to connect to Selenium.")
+                raise
+
 
 for dock, terminal_id in dock_dict.items():
     # Construct the URL for the specific terminal
