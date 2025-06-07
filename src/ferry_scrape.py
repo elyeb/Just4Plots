@@ -47,6 +47,9 @@ executable_path = "/usr/local/bin/geckodriver"
 # Firefox options
 options = Options()
 options.add_argument("--headless")
+# fix jun 6
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
 
 # GeckoDriver service
 service = Service(
@@ -54,8 +57,12 @@ service = Service(
 )
 
 # Update the WebDriver initialization with explicit timeouts
-driver = webdriver.Firefox(
-    service=service, 
+# driver = webdriver.Firefox(
+#     service=service, 
+#     options=options
+# )
+driver = webdriver.Remote(
+    command_executor='http://localhost:4444/wd/hub',
     options=options
 )
 

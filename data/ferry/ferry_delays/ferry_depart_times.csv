@@ -1,6 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kitsap,Clinton,Mukilteo,21:30,21:31,21:45,06/06/2025
+Kittitas,Fauntleroy,,21:15,21:26,00:00,06/06/2025
+Suquamish,Kingston,Edmonds,21:10,21:19,21:42,06/06/2025
+Kennewick,Keystone,Port Townsend,21:10,21:17,21:44,06/06/2025
 Spokane,Edmonds,Kingston,21:05,21:06,21:30,06/06/2025
 Kitsap,Mukilteo,Clinton,21:00,21:01,21:14,06/06/2025
+WallaWalla,Bremerton,,21:00,21:06,00:00,06/06/2025
 Tokitae,Mukilteo,Clinton,20:35,20:38,20:54,06/06/2025
 Kittitas,Southworth,,20:35,20:56,00:00,06/06/2025
 Suquamish,Edmonds,Kingston,20:30,20:35,20:57,06/06/2025
@@ -9,8 +14,10 @@ Kitsap,Clinton,Mukilteo,20:30,20:33,20:47,06/06/2025
 Spokane,Kingston,Edmonds,20:20,20:29,20:51,06/06/2025
 Issaquah,Lopez,Anacortes,20:20,19:47,20:34,06/06/2025
 Kaleetan,Bainbridge,Colman,20:20,20:35,21:06,06/06/2025
+Samish,Lopez,Anacortes,20:20,20:20,21:35,06/06/2025
 Tacoma,Colman,Bainbridge,20:15,20:49,21:22,06/06/2025
 Kittitas,Vashon,,20:15,20:36,00:00,06/06/2025
+Yakima,Anacortes,Lopez,20:10,20:59,22:00,06/06/2025
 Kitsap,Mukilteo,Clinton,20:05,20:06,20:21,06/06/2025
 Tokitae,Clinton,Mukilteo,20:00,20:04,20:18,06/06/2025
 Kittitas,Fauntleroy,,19:55,20:14,00:00,06/06/2025

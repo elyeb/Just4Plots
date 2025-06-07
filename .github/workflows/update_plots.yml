@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: selenium/standalone-firefox:latest
-      options: --shm-size=2g --user=root
+      options: >-
+        --shm-size=2g
+        --user=root
+        -p 4444:4444
 
     steps:
     - name: Fix permissions
