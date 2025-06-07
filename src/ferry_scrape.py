@@ -123,37 +123,46 @@ for dock, terminal_id in dock_dict.items():
             soup = BeautifulSoup(html, "html.parser")
 
             # Find the table
-            table = soup.find("div", {"id": "realtimecontent"}).find("table")
+            if soup.find("div", {"id": "realtimecontent"}) is not None:
+                if soup.find("div", {"id": "realtimecontent"}).find("table") is not None:
 
-            # Extract table data into a DataFrame
-            rows = []
-            for row in table.find_all("tr"):
-                cells = row.find_all(["td", "th"])
-                rows.append([cell.get_text(strip=True) for cell in cells])
+                    table = soup.find("div", {"id": "realtimecontent"}).find("table")
 
-            # Convert to a DataFrame
-            df = pd.DataFrame(
-                rows[1:], columns=rows[0]
-            )  # Use the first row as headers
+                    # Extract table data into a DataFrame
+                    rows = []
+                    for row in table.find_all("tr"):
+                        cells = row.find_all(["td", "th"])
+                        rows.append([cell.get_text(strip=True) for cell in cells])
 
-            # Convert the soup object to text
-            page_text = soup.get_text()
+                    # Convert to a DataFrame
+                    df = pd.DataFrame(
+                        rows[1:], columns=rows[0]
+                    )  # Use the first row as headers
 
-            # Use a regular expression to find the timestamp after "Last Refresh: "
-            match = re.search(r"Last Refresh:\s*(.*)", page_text)
-            timestamp = match.group(1).strip()
-            # Close the Selenium WebDriver
-            df["timestamp"] = timestamp
+                    # Convert the soup object to text
+                    page_text = soup.get_text()
 
-            timestamp = (
-                timestamp.replace("/", "-").replace(" ", "_").replace(":", "_")
-            )
+                    # Use a regular expression to find the timestamp after "Last Refresh: "
+                    match = re.search(r"Last Refresh:\s*(.*)", page_text)
+                    timestamp = match.group(1).strip()
+                    # Close the Selenium WebDriver
+                    df["timestamp"] = timestamp
 
-            file_name = f"{dock}_ferry_spaces_{timestamp}.csv"
-            # Save the DataFrame to a CSV file
-            csv_file_path = os.path.join(DATA_FOLDER, file_name)
-            df.to_csv(csv_file_path, index=False)
-            keep_trying = False
+                    timestamp = (
+                        timestamp.replace("/", "-").replace(" ", "_").replace(":", "_")
+                    )
+
+                    file_name = f"{dock}_ferry_spaces_{timestamp}.csv"
+                    # Save the DataFrame to a CSV file
+                    csv_file_path = os.path.join(DATA_FOLDER, file_name)
+                    df.to_csv(csv_file_path, index=False)
+                    keep_trying = False
+                else:
+                    print("No table found in the page content.")
+                    keep_trying = False
+            else:
+                print("No 'realtimecontent' div found in the page content.")
+                keep_trying = False
         except Exception as e:
             error_count += 1
             print(f"Error occurred: {e}")

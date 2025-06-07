@@ -15289,3 +15289,45 @@ Gathering data for Tokitae, ferry 15 out of fleet of 18
 Gathering data for WallaWalla, ferry 16 out of fleet of 18
 Gathering data for Wenatchee, ferry 17 out of fleet of 18
 Gathering data for Yakima, ferry 18 out of fleet of 18
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:21<06:06, 21.53s/it] 11%|█         | 2/18 [00:40<05:18, 19.89s/it] 17%|█▋        | 3/18 [00:58<04:48, 19.23s/it] 22%|██▏       | 4/18 [01:18<04:33, 19.52s/it] 28%|██▊       | 5/18 [01:37<04:12, 19.39s/it] 33%|███▎      | 6/18 [01:57<03:52, 19.36s/it] 33%|███▎      | 6/18 [02:10<04:20, 21.74s/it]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Gathering data for Issaquah, ferry 2 out of fleet of 18
+Gathering data for Kaleetan, ferry 3 out of fleet of 18
+Gathering data for Kennewick, ferry 4 out of fleet of 18
+Gathering data for Kitsap, ferry 5 out of fleet of 18
+Gathering data for Kittitas, ferry 6 out of fleet of 18
+Gathering data for Puyallup, ferry 7 out of fleet of 18
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_delays_db_update.py", line 132, in <module>
+    popup_complete_button = wait.until(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/wait.py", line 96, in until
+    value = method(self._driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 364, in _predicate
+    element = visibility_of(target)(driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 173, in _predicate
+    return _element_if_visible(element)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 179, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 252, in is_displayed
+    return self.parent.execute_script(f"/* isDisplayed */return ({isDisplayed_js}).apply(null, arguments);", self)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 414, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element with the reference dd658660-cf23-4fa5-8d70-1f83013fc427 is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:796:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:202:30
+
