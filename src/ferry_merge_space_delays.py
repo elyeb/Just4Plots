@@ -175,14 +175,18 @@ bainbridge_space_files = [
 kingston_space_files = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "kingston" in f]
 colman_space_files = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "colman" in f]
 
-edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
-edmonds_df["Departing"] = "Edmonds"
-bainbridge_df = pd.concat(bainbridge_space_files, ignore_index=True)
-bainbridge_df["Departing"] = "Bainbridge"
-kingston_df = pd.concat(kingston_space_files, ignore_index=True)
-kingston_df["Departing"] = "Kingston"
-colman_df = pd.concat(colman_space_files, ignore_index=True)
-colman_df["Departing"] = "Colman"
+if len(edmonds_space_files) > 0:
+    edmonds_df = pd.concat(edmonds_space_files, ignore_index=True)
+    edmonds_df["Departing"] = "Edmonds"
+if len(bainbridge_space_files) > 0:
+    bainbridge_df = pd.concat(bainbridge_space_files, ignore_index=True)
+    bainbridge_df["Departing"] = "Bainbridge"
+if len(kingston_space_files) > 0:
+    kingston_df = pd.concat(kingston_space_files, ignore_index=True)
+    kingston_df["Departing"] = "Kingston"
+if len(colman_space_files) > 0:
+    colman_df = pd.concat(colman_space_files, ignore_index=True)
+    colman_df["Departing"] = "Colman"
 
 new_space_db = pd.concat(
     [edmonds_df, bainbridge_df, kingston_df, colman_df], ignore_index=True

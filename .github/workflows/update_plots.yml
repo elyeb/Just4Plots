@@ -22,16 +22,16 @@ jobs:
       with:
         persist-credentials: false
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'
-    
+    - name: Install Python and pip
+      run: |
+        apt-get update
+        apt-get install -y python3 python3-pip
+
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install --no-cache-dir -r requirements.txt
-        pip list  # Debug: show installed packages
+        python3 -m pip install --upgrade pip
+        python3 -m pip install --no-cache-dir selenium beautifulsoup4 pandas matplotlib requests
+        python3 -m pip list  # Debug: show installed packages
     
     - name: Create directories
       run: |
