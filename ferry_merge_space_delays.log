@@ -2230,3 +2230,7 @@ Traceback (most recent call last):
   File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 192, in <module>
     [edmonds_df, bainbridge_df, kingston_df, colman_df], ignore_index=True
 NameError: name 'edmonds_df' is not defined
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 215, in <module>
+    space_df = format_space(db)
+NameError: name 'db' is not defined

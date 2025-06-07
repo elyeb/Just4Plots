@@ -52,6 +52,7 @@ jobs:
       run: |
         mkdir -p ${{ github.workspace }}/data/downloads
         mkdir -p ${{ github.workspace }}/data/ferry/downloads
+        mkdir -p ${{ github.workspace }}/data/ferry/ferry_spaces
         chmod -R 777 ${{ github.workspace }}/data
     
     - name: Run ferry scripts
