@@ -2,7 +2,7 @@ name: Update Ferry Plots
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '* */10 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,8 +21,8 @@ jobs:
     steps:
     - name: Fix permissions
       run: |
-        mkdir -p /__w/_temp/_runner_file_commands
-        chmod -R 777 /__w/_temp/_runner_file_commands
+        mkdir -p ${{ github.workspace }}/_temp/_runner_file_commands
+        chmod -R 777 ${{ github.workspace }}/_temp
 
     - uses: actions/checkout@v2
       with:
