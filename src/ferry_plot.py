@@ -367,6 +367,7 @@ def plot_scatter_day(data, dock, dest, outfile_day, day_of_week, custom_title):
         label="Dif btw scheduled & actual departure",
         color="blue",
         alpha=0.3,
+        markersize=14
              ) 
 
     dots_2 = plt.plot(
@@ -376,6 +377,7 @@ def plot_scatter_day(data, dock, dest, outfile_day, day_of_week, custom_title):
         label="Dif btw scheduled departure & sellout time",
         color="red",
         alpha=0.3,
+        markersize=14
              )  
 
 
@@ -385,16 +387,16 @@ def plot_scatter_day(data, dock, dest, outfile_day, day_of_week, custom_title):
         0, color="black", linewidth=0.8, linestyle="--"
     )  # Add a horizontal line at y=0
 
-    ax.tick_params(axis="x", rotation=45, labelsize=8)
+    ax.tick_params(axis="x", rotation=45, labelsize=14)
 
     # Keep x-ticks on the y=0 line
     ax.spines["bottom"].set_position(("data", 0))
 
-    ax.set_ylabel("Difference (Minutes)", fontsize=10)
+    ax.set_ylabel("Difference (Minutes)", fontsize=16)
 
-    ax.legend(loc="upper left", fontsize=10)
+    ax.legend(loc="upper left", fontsize=14)
     # Adjust layout
-    fig.suptitle(custom_title)
+    fig.suptitle(custom_title,fontsize=22)
     fig.text(0.5, -0.05, "Scheduled Departure Time", ha="center", fontsize=12)
     plt.tight_layout()
     fig.savefig(outfile_day, bbox_inches="tight", dpi=300, facecolor="white")
