@@ -26295,3 +26295,18 @@ deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
 json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
 receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:202:30
 
+  0%|          | 0/18 [00:00<?, ?it/s]  0%|          | 0/18 [00:03<?, ?it/s]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_delays_db_update.py", line 94, in <module>
+    csv_button = WebDriverWait(driver, 20).until(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/wait.py", line 96, in until
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 364, in _predicate
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 173, in _predicate
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 179, in _element_if_visible
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 251, in is_displayed
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 48, in _load_js
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/pkgutil.py", line 638, in get_data
+    return loader.get_data(resource_name)
+  File "<frozen importlib._bootstrap_external>", line 979, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/getAttribute.js'

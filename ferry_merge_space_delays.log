@@ -3759,3 +3759,7 @@ Traceback (most recent call last):
   File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 215, in <module>
     space_df = format_space(db)
 NameError: name 'db' is not defined
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_merge_space_delays.py", line 215, in <module>
+    space_df = format_space(db)
+NameError: name 'db' is not defined

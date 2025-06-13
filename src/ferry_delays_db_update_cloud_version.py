@@ -160,7 +160,6 @@ driver.quit()
 
 # Concat results of downloads
 
-DOWNLOAD_FOLDER = "/github/workspace/data/downloads/"
 
 OUTPUT_FOLDER = os.path.join(
     os.path.dirname(__file__), "../data/ferry/ferry_delays/"
@@ -172,13 +171,13 @@ OUTFILE = f"ferry_depart_times.csv"
 
 df_current = pd.read_csv(OUTPUT_FOLDER+OUTFILE,index_col=False)
 
-downloads_csvs = os.listdir(DOWNLOAD_FOLDER)
+downloads_csvs = os.listdir(DATA_FOLDER)
 downloads_csvs = [f for f in downloads_csvs if f.endswith("csv")]
 downloads_csvs = [f for f in downloads_csvs if f.split(".")[0] in ferries]
 df_list = []
 for f in downloads_csvs:
-    df_list.append(pd.read_csv(DOWNLOAD_FOLDER+f,index_col=False)) 
-    os.remove(DOWNLOAD_FOLDER+f)
+    df_list.append(pd.read_csv(DATA_FOLDER+f,index_col=False)) 
+    os.remove(DATA_FOLDER+f)
 df_updates = pd.concat(df_list,ignore_index=True)
 columns = [c.strip() for c in df_updates.columns]
 df_updates.columns = columns
