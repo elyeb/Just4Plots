@@ -20,13 +20,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import sys
 
-# lock_file = "/tmp/ferry_scrape.lock"
 
-# if os.path.exists(lock_file):
-#     print("Script is already running. Exiting.")
-#     sys.exit()
-
-# open(lock_file, "w").close()
 
 # try:
 URL_ROOT = "https://wsdot.com/ferries/vesselwatch/TerminalDetail.aspx?terminalid="
@@ -50,6 +44,45 @@ options.add_argument("--headless")
 service = Service(executable_path)
 driver = webdriver.Firefox(service=service, options=options)
 
+# dock = 'colman'
+# terminal_id = 7
+# url = f"{URL_ROOT}{terminal_id}"
+
+# driver.get(url)
+# time.sleep(10)
+# html = driver.page_source
+# # Parse the HTML with BeautifulSoup
+# soup = BeautifulSoup(html, "html.parser")
+# print(soup)
+# # Find the table
+# table = soup.find("div", {"id": "realtimecontent"}).find("table")
+
+# # Extract table data into a DataFrame
+# rows = []
+# for row in table.find_all("tr"):
+#     cells = row.find_all(["td", "th"])
+#     rows.append([cell.get_text(strip=True) for cell in cells])
+
+# # Convert to a DataFrame
+# df = pd.DataFrame(
+#     rows[1:], columns=rows[0]
+# )  # Use the first row as headers
+
+# # Convert the soup object to text
+# page_text = soup.get_text()
+
+# # Use a regular expression to find the timestamp after "Last Refresh: "
+# match = re.search(r"Last Refresh:\s*(.*)", page_text)
+# timestamp = match.group(1).strip()
+# # Close the Selenium WebDriver
+# df["timestamp"] = timestamp
+
+# timestamp = (
+#     timestamp.replace("/", "-").replace(" ", "_").replace(":", "_")
+# )
+# print(df)
+
+
 for dock, terminal_id in dock_dict.items():
     # Construct the URL for the specific terminal
     url = f"{URL_ROOT}{terminal_id}"
@@ -62,10 +95,8 @@ for dock, terminal_id in dock_dict.items():
 
         try:
             driver.get(url)
-            time.sleep(10)
-            # WebDriverWait(driver, 20).until(
-            #     EC.presence_of_element_located((By.ID, "realtimecontent"))
-            # )
+            time.sleep(20)
+
             html = driver.page_source
             # Parse the HTML with BeautifulSoup
             soup = BeautifulSoup(html, "html.parser")
@@ -113,6 +144,3 @@ for dock, terminal_id in dock_dict.items():
             continue
 
 driver.quit()
-
-# finally:
-#     os.remove(lock_file)
