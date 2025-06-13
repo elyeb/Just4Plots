@@ -1,7 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Tokitae,Mukilteo,Clinton,14:35,14:41,14:55,06/13/2025,Friday,,6,
+Kitsap,Clinton,Mukilteo,14:35,14:45,14:59,06/13/2025,Friday,,10,
+Suquamish,Edmonds,Kingston,14:25,14:33,15:01,06/13/2025,Friday,,8,
 Kittitas,Fauntleroy,Vashon,14:10,14:32,14:46,06/13/2025,Friday,,22,
 Kitsap,Mukilteo,Clinton,14:05,14:10,14:24,06/13/2025,Friday,,5,
+Tacoma,Colman,Bainbridge,14:05,14:27,14:59,06/13/2025,Friday,13:52:10,22,-13.0
 Salish,Vashon,Southworth,14:00,13:20,13:34,06/13/2025,Friday,,-40,
 Salish,Vashon,,14:00,13:20,00:00,06/13/2025,Friday,,-40,
 Tokitae,Clinton,Mukilteo,14:00,14:10,14:24,06/13/2025,Friday,,10,
