@@ -176,8 +176,8 @@ downloads_csvs = [f for f in downloads_csvs if f.endswith("csv")]
 downloads_csvs = [f for f in downloads_csvs if f.split(".")[0] in ferries]
 df_list = []
 for f in downloads_csvs:
-    df_list.append(pd.read_csv(DATA_FOLDER+f,index_col=False)) 
-    os.remove(DATA_FOLDER+f)
+    df_list.append(pd.read_csv(DATA_FOLDER+"/"+f,index_col=False)) 
+    os.remove(DATA_FOLDER+"/"+f)
 df_updates = pd.concat(df_list,ignore_index=True)
 columns = [c.strip() for c in df_updates.columns]
 df_updates.columns = columns
