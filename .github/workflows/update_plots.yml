@@ -45,8 +45,8 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
-        python3 -m pip install --no-cache-dir selenium beautifulsoup4 pandas matplotlib requests
-        python3 -m pip list  # Debug: show installed packages
+        python3 -m pip install --no-cache-dir selenium==4.9.0 beautifulsoup4 pandas matplotlib requests tqdm
+        python3 -m pip list
     
     - name: Create directories
       run: |
