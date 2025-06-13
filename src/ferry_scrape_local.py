@@ -44,11 +44,11 @@ options.add_argument("--headless")
 service = Service(executable_path)
 driver = webdriver.Firefox(service=service, options=options)
 
-# dock = 'colman'
-# terminal_id = 7
-# url = f"{URL_ROOT}{terminal_id}"
+dock = 'colman'
+terminal_id = 7
+url = f"{URL_ROOT}{terminal_id}"
 
-# driver.get(url)
+driver.get(url)
 # time.sleep(10)
 # html = driver.page_source
 # # Parse the HTML with BeautifulSoup
@@ -142,5 +142,4 @@ for dock, terminal_id in dock_dict.items():
             driver = webdriver.Firefox(service=service, options=options)
             keep_trying = True
             continue
-
 driver.quit()

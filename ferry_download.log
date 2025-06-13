@@ -26423,4 +26423,72 @@ deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
 json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
 receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:202:30
 
-  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:21<05:59, 21.16s/it] 11%|█         | 2/18 [00:39<05:12, 19.56s/it] 17%|█▋        | 3/18 [00:58<04:52, 19.47s/it] 22%|██▏       | 4/18 [01:17<04:27, 19.12s/it] 28%|██▊       | 5/18 [01:36<04:07, 19.06s/it] 33%|███▎      | 6/18 [01:55<03:46, 18.89s/it] 39%|███▉      | 7/18 [02:13<03:27, 18.83s/it] 44%|████▍     | 8/18 [02:33<03:11, 19.15s/it] 50%|█████     | 9/18 [02:53<02:53, 19.24s/it] 56%|█████▌    | 10/18 [03:11<02:31, 18.88s/it]
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:21<05:59, 21.16s/it] 11%|█         | 2/18 [00:39<05:12, 19.56s/it] 17%|█▋        | 3/18 [00:58<04:52, 19.47s/it] 22%|██▏       | 4/18 [01:17<04:27, 19.12s/it] 28%|██▊       | 5/18 [01:36<04:07, 19.06s/it] 33%|███▎      | 6/18 [01:55<03:46, 18.89s/it] 39%|███▉      | 7/18 [02:13<03:27, 18.83s/it] 44%|████▍     | 8/18 [02:33<03:11, 19.15s/it] 50%|█████     | 9/18 [02:53<02:53, 19.24s/it] 56%|█████▌    | 10/18 [03:11<02:31, 18.88s/it] 61%|██████    | 11/18 [03:30<02:12, 18.88s/it] 67%|██████▋   | 12/18 [03:48<01:52, 18.78s/it] 72%|███████▏  | 13/18 [04:07<01:34, 18.94s/it] 78%|███████▊  | 14/18 [04:26<01:14, 18.75s/it] 78%|███████▊  | 14/18 [04:40<01:20, 20.04s/it]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Gathering data for Issaquah, ferry 2 out of fleet of 18
+Gathering data for Kaleetan, ferry 3 out of fleet of 18
+Gathering data for Kennewick, ferry 4 out of fleet of 18
+Gathering data for Kitsap, ferry 5 out of fleet of 18
+Gathering data for Kittitas, ferry 6 out of fleet of 18
+Gathering data for Puyallup, ferry 7 out of fleet of 18
+Gathering data for Salish, ferry 8 out of fleet of 18
+Gathering data for Samish, ferry 9 out of fleet of 18
+Gathering data for Sealth, ferry 10 out of fleet of 18
+Gathering data for Spokane, ferry 11 out of fleet of 18
+Gathering data for Suquamish, ferry 12 out of fleet of 18
+Gathering data for Tacoma, ferry 13 out of fleet of 18
+Gathering data for Tillikum, ferry 14 out of fleet of 18
+Gathering data for Tokitae, ferry 15 out of fleet of 18
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_delays_db_update.py", line 132, in <module>
+    popup_complete_button = wait.until(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/wait.py", line 86, in until
+    value = method(self._driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 335, in _predicate
+    target = visibility_of(target)(driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 156, in _predicate
+    return _element_if_visible(element)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 162, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 260, in is_displayed
+    return self.parent.execute_script(f"/* isDisplayed */return ({isDisplayed_js}).apply(null, arguments);", self)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 500, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element with the reference 73a4aaba-a61b-4264-bc12-45e9b1b500d4 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:796:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:202:30
+
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:20<05:55, 20.91s/it] 11%|█         | 2/18 [00:40<05:19, 19.95s/it] 17%|█▋        | 3/18 [00:59<04:57, 19.86s/it] 22%|██▏       | 4/18 [01:18<04:31, 19.42s/it] 28%|██▊       | 5/18 [01:38<04:14, 19.61s/it] 33%|███▎      | 6/18 [01:59<03:58, 19.90s/it] 39%|███▉      | 7/18 [02:17<03:34, 19.47s/it] 44%|████▍     | 8/18 [02:36<03:12, 19.26s/it] 50%|█████     | 9/18 [02:54<02:50, 18.97s/it] 56%|█████▌    | 10/18 [03:13<02:31, 18.98s/it] 61%|██████    | 11/18 [03:32<02:12, 18.99s/it] 67%|██████▋   | 12/18 [03:51<01:52, 18.78s/it] 72%|███████▏  | 13/18 [04:09<01:33, 18.63s/it] 78%|███████▊  | 14/18 [04:28<01:14, 18.68s/it] 83%|████████▎ | 15/18 [04:47<00:56, 18.93s/it] 89%|████████▉ | 16/18 [05:06<00:37, 18.99s/it] 94%|█████████▍| 17/18 [05:25<00:18, 18.91s/it]100%|██████████| 18/18 [05:44<00:00, 18.89s/it]100%|██████████| 18/18 [05:44<00:00, 19.14s/it]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Gathering data for Issaquah, ferry 2 out of fleet of 18
+Gathering data for Kaleetan, ferry 3 out of fleet of 18
+Gathering data for Kennewick, ferry 4 out of fleet of 18
+Gathering data for Kitsap, ferry 5 out of fleet of 18
+Gathering data for Kittitas, ferry 6 out of fleet of 18
+Gathering data for Puyallup, ferry 7 out of fleet of 18
+Gathering data for Salish, ferry 8 out of fleet of 18
+Gathering data for Samish, ferry 9 out of fleet of 18
+Gathering data for Sealth, ferry 10 out of fleet of 18
+Gathering data for Spokane, ferry 11 out of fleet of 18
+Gathering data for Suquamish, ferry 12 out of fleet of 18
+Gathering data for Tacoma, ferry 13 out of fleet of 18
+Gathering data for Tillikum, ferry 14 out of fleet of 18
+Gathering data for Tokitae, ferry 15 out of fleet of 18
+Gathering data for WallaWalla, ferry 16 out of fleet of 18
+Gathering data for Wenatchee, ferry 17 out of fleet of 18
+Gathering data for Yakima, ferry 18 out of fleet of 18
