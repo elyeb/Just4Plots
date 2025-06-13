@@ -385,6 +385,7 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
         color="blue",
         markeredgecolor="none",
         alpha=0.2,
+        markersize=14
     )
     dots_1_today = plt.plot(
         today_df["scheduled_depart"].dt.strftime("%H:%M"),
@@ -393,6 +394,7 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
         label="Actual departure (today)",
         color="black",
         alpha=1,
+        markersize=14
     )
 
     dots_2_historic = plt.plot(
@@ -403,6 +405,7 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
         color="red",
         markeredgecolor="none",
         alpha=0.2,
+        markersize=14
     )
 
     dots_2_today = plt.plot(
@@ -412,11 +415,12 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
         label="Sellout time (today)",
         color="black",
         alpha=1,
+        markersize=14
     )
 
     ax.spines["bottom"].set_position(("data", 0))
     ax.set_xticks(depart_times.strftime("%H:%M"))
-    ax.set_xticklabels(depart_times.strftime("%H:%M"), rotation=45, fontsize=8)
+    ax.set_xticklabels(depart_times.strftime("%H:%M"), rotation=45, fontsize=12)
 
     # Customize each subplot
     # ax.set_title(day_of_week, fontsize=12)
@@ -424,12 +428,12 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
         0, color="black", linewidth=0.8, linestyle="--"
     )  # Add a horizontal line at y=0
 
-    ax.set_ylabel("Difference (Minutes)", fontsize=10)
+    ax.set_ylabel("Difference (Minutes)", fontsize=12)
     ax.set_ylim(ymin=y_lower, ymax=y_upper)
-    ax.legend(loc="upper left", fontsize=10)
+    ax.legend(loc="upper left", fontsize=12)
     # # Adjust layout
     fig.suptitle(graph_title)
-    fig.text(0.5, -0.05, "Scheduled Departure Time", ha="center", fontsize=12)
+    fig.text(0.5, -0.05, "Scheduled Departure Time", ha="center", fontsize=14)
     plt.tight_layout()
     fig.savefig(PLOT_FOLDER + filename, bbox_inches="tight", dpi=300, facecolor="white")
     # plt.show()

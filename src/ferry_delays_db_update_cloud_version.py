@@ -178,6 +178,10 @@ df_list = []
 for f in downloads_csvs:
     df_list.append(pd.read_csv(DATA_FOLDER+"/"+f,index_col=False)) 
     os.remove(DATA_FOLDER+"/"+f)
+# keep some files. They might not get merged right away with the database. 
+if len(df_list) > 200:
+    for f in downloads_csvs:
+        os.remove(DATA_FOLDER+"/"+f)
 df_updates = pd.concat(df_list,ignore_index=True)
 columns = [c.strip() for c in df_updates.columns]
 df_updates.columns = columns
