@@ -26423,3 +26423,4 @@ deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
 json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
 receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:202:30
 
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:21<05:59, 21.16s/it] 11%|█         | 2/18 [00:39<05:12, 19.56s/it] 17%|█▋        | 3/18 [00:58<04:52, 19.47s/it] 22%|██▏       | 4/18 [01:17<04:27, 19.12s/it] 28%|██▊       | 5/18 [01:36<04:07, 19.06s/it] 33%|███▎      | 6/18 [01:55<03:46, 18.89s/it] 39%|███▉      | 7/18 [02:13<03:27, 18.83s/it] 44%|████▍     | 8/18 [02:33<03:11, 19.15s/it] 50%|█████     | 9/18 [02:53<02:53, 19.24s/it] 56%|█████▌    | 10/18 [03:11<02:31, 18.88s/it]

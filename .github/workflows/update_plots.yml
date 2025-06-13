@@ -70,4 +70,4 @@ jobs:
         git config --global user.email "github-actions@github.com"
         git add data/ docs/
         git commit -m "Update data and plots" || echo "No changes"
-        git push
+        git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
