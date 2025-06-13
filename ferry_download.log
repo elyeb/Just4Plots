@@ -26655,4 +26655,49 @@ Traceback (most recent call last):
     self._reader = parsers.TextReader(src, **kwds)
   File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
 pandas.errors.EmptyDataError: No columns to parse from file
-  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:26<07:29, 26.46s/it] 11%|█         | 2/18 [00:46<06:00, 22.50s/it]
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:26<07:29, 26.46s/it] 11%|█         | 2/18 [00:46<06:00, 22.50s/it] 17%|█▋        | 3/18 [01:06<05:21, 21.41s/it] 22%|██▏       | 4/18 [01:26<04:53, 20.93s/it] 28%|██▊       | 5/18 [01:44<04:19, 19.99s/it] 33%|███▎      | 6/18 [02:03<03:53, 19.44s/it] 39%|███▉      | 7/18 [02:21<03:30, 19.17s/it] 44%|████▍     | 8/18 [02:41<03:12, 19.26s/it] 50%|█████     | 9/18 [03:00<02:52, 19.20s/it] 56%|█████▌    | 10/18 [03:19<02:33, 19.24s/it] 56%|█████▌    | 10/18 [03:32<02:50, 21.30s/it]
+Gathering data for Chimacum, ferry 1 out of fleet of 18
+Gathering data for Issaquah, ferry 2 out of fleet of 18
+Gathering data for Kaleetan, ferry 3 out of fleet of 18
+Gathering data for Kennewick, ferry 4 out of fleet of 18
+Gathering data for Kitsap, ferry 5 out of fleet of 18
+Gathering data for Kittitas, ferry 6 out of fleet of 18
+Gathering data for Puyallup, ferry 7 out of fleet of 18
+Gathering data for Salish, ferry 8 out of fleet of 18
+Gathering data for Samish, ferry 9 out of fleet of 18
+Gathering data for Sealth, ferry 10 out of fleet of 18
+Gathering data for Spokane, ferry 11 out of fleet of 18
+Traceback (most recent call last):
+  File "/Users/elyebliss/Documents/Just4Plots/src/ferry_delays_db_update.py", line 132, in <module>
+    popup_complete_button = wait.until(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/wait.py", line 86, in until
+    value = method(self._driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 335, in _predicate
+    target = visibility_of(target)(driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 156, in _predicate
+    return _element_if_visible(element)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py", line 162, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 260, in is_displayed
+    return self.parent.execute_script(f"/* isDisplayed */return ({isDisplayed_js}).apply(null, arguments);", self)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 500, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element with the reference ec678a68-ac04-4334-ab5e-6efc260dfab5 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:796:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject/result<@chrome://remote/content/marionette/json.sys.mjs:53:52
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:53:25
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:202:30
+
