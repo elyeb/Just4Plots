@@ -66,8 +66,8 @@ jobs:
     
     - name: Commit data changes
       run: |
-        git config --global user.name github-actions
-        git config --global user.email github-actions@github.com
+        git config --global elyeb github-actions
+        git config --global elyebliss@gmail.com github-actions@github.com
         git add data/
         git add docs/
         git commit -m "Update data and plots" || echo "No changes"
