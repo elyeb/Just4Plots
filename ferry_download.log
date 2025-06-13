@@ -26655,3 +26655,4 @@ Traceback (most recent call last):
     self._reader = parsers.TextReader(src, **kwds)
   File "parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
 pandas.errors.EmptyDataError: No columns to parse from file
+  0%|          | 0/18 [00:00<?, ?it/s]  6%|▌         | 1/18 [00:26<07:29, 26.46s/it] 11%|█         | 2/18 [00:46<06:00, 22.50s/it]
