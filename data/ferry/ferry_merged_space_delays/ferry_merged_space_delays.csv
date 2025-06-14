@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kitsap,Mukilteo,Clinton,06:00,05:04,05:17,06/14/2025,Saturday,,-56,
+Kitsap,Mukilteo,Clinton,06:00,06:00,06:14,06/14/2025,Saturday,,0,
+Kittitas,Southworth,Vashon,05:55,05:55,06:07,06/14/2025,Saturday,,0,
+Yakima,Friday Harbor,Lopez,05:40,05:40,06:15,06/14/2025,Saturday,,0,
 Kittitas,Vashon,Southworth,05:35,05:35,05:46,06/14/2025,Saturday,,0,
 Spokane,Edmonds,Kingston,05:35,05:37,05:59,06/14/2025,Saturday,,2,
 Kittitas,Vashon,,05:35,05:35,00:00,06/14/2025,Saturday,,0,
