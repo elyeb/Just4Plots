@@ -1,9 +1,16 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Vashon,Southworth,16:05,15:16,15:29,06/14/2025,Saturday,,-49,
+Sealth,Lopez,Shaw,15:20,15:29,15:45,06/14/2025,Saturday,,9,
 Salish,Fauntleroy,Vashon,15:15,14:46,15:05,06/14/2025,Saturday,,-29,
+Spokane,Edmonds,Kingston,15:15,15:20,15:41,06/14/2025,Saturday,,5,
+Kittitas,Fauntleroy,Vashon,15:15,15:16,15:30,06/14/2025,Saturday,,1,
 Kittitas,Vashon,Fauntleroy,15:10,14:48,15:03,06/14/2025,Saturday,,-22,
+Suquamish,Kingston,Edmonds,15:10,15:15,15:38,06/14/2025,Saturday,,5,
 Tokitae,Clinton,Mukilteo,15:05,15:12,15:27,06/14/2025,Saturday,,7,
 Kitsap,Mukilteo,Clinton,15:05,15:10,15:24,06/14/2025,Saturday,,5,
+Tacoma,Colman,Bainbridge,15:05,15:08,15:41,06/14/2025,Saturday,14:25:50,3,-40.0
+Kaleetan,Bainbridge,Colman,15:00,15:01,15:32,06/14/2025,Saturday,,1,
+Walla Walla,Colman,Bremerton,14:50,14:52,15:48,06/14/2025,Saturday,,2,
 Salish,Vashon,,14:45,14:11,00:00,06/14/2025,Saturday,,-34,
 Kennewick,Keystone,Port Townsend,14:45,14:46,15:13,06/14/2025,Saturday,,1,
 Tokitae,Mukilteo,Clinton,14:35,14:40,14:54,06/14/2025,Saturday,,5,
