@@ -1,5 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Salish,Vashon,,12:40,12:17,00:00,06/14/2025
 Salish,Southworth,,12:20,11:46,00:00,06/14/2025
+Kittitas,Southworth,Vashon,12:20,12:34,12:43,06/14/2025
 Salish,Vashon,,12:00,11:18,00:00,06/14/2025
 Tokitae,Clinton,Mukilteo,12:00,12:04,12:20,06/14/2025
 Kitsap,Mukilteo,Clinton,12:00,12:05,12:18,06/14/2025
@@ -12,6 +14,7 @@ Tacoma,Bainbridge,Colman,11:35,11:43,12:16,06/14/2025
 Kittitas,Fauntleroy,,11:35,11:50,00:00,06/14/2025
 Tokitae,Mukilteo,Clinton,11:30,11:36,11:50,06/14/2025
 Kitsap,Clinton,Mukilteo,11:30,11:34,11:49,06/14/2025
+Kaleetan,Colman,Bainbridge,11:25,11:58,12:33,06/14/2025
 Samish,Shaw,Orcas,11:20,11:35,11:44,06/14/2025
 Salish,Fauntleroy,Vashon,11:15,10:49,11:08,06/14/2025
 WallaWalla,Bremerton,,11:10,11:17,00:00,06/14/2025
