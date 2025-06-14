@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Clinton,Mukilteo,06:30,06:31,06:46,06/14/2025,Saturday,,1,
+Spokane,Kingston,Edmonds,06:25,06:27,06:49,06/14/2025,Saturday,,2,
 Kittitas,Vashon,Fauntleroy,06:15,06:15,06:29,06/14/2025,Saturday,,0,
+Kaleetan,Colman,Bainbridge,06:10,06:13,06:45,06/14/2025,Saturday,,3,
 Sealth,Friday Harbor,Lopez,06:05,06:06,06:40,06/14/2025,Saturday,,1,
 Kitsap,Mukilteo,Clinton,06:00,05:04,05:17,06/14/2025,Saturday,,-56,
 Kitsap,Mukilteo,Clinton,06:00,06:00,06:14,06/14/2025,Saturday,,0,
