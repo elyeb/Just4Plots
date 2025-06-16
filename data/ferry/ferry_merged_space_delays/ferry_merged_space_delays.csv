@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Fauntleroy,Vashon,16:35,15:35,15:52,06/16/2025,Monday,,-60,
 Sealth,Shaw,Lopez,15:30,15:30,15:45,06/16/2025,Monday,,0,
+Kennewick,Port Townsend,Keystone,15:30,15:32,15:59,06/16/2025,Monday,,2,
 Salish,Vashon,Fauntleroy,15:20,15:07,15:23,06/16/2025,Monday,,-13,
 Kittitas,Vashon,Fauntleroy,15:20,15:25,15:41,06/16/2025,Monday,,5,
 Sealth,Orcas,Shaw,15:15,15:15,15:22,06/16/2025,Monday,,0,
@@ -10,6 +12,7 @@ Kitsap,Mukilteo,Clinton,15:05,15:16,15:30,06/16/2025,Monday,,11,
 Tokitae,Clinton,Mukilteo,15:05,15:20,15:32,06/16/2025,Monday,,15,
 Kittitas,Southworth,Vashon,15:00,15:02,15:12,06/16/2025,Monday,,2,
 Kaleetan,Colman,Bainbridge,15:00,15:02,15:34,06/16/2025,Monday,14:51:52,2,-9.0
+Issaquah,Bremerton,Colman,15:00,15:01,15:55,06/16/2025,Monday,,1,
 Tacoma,Bainbridge,Colman,14:55,15:06,15:38,06/16/2025,Monday,,11,
 Walla Walla,Colman,Bremerton,14:50,14:51,15:48,06/16/2025,Monday,,1,
 Kennewick,Keystone,Port Townsend,14:45,14:48,15:14,06/16/2025,Monday,,3,
