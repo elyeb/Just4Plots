@@ -1,6 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Fauntleroy,Vashon,16:35,15:35,15:52,06/16/2025,Monday,,-60,
 Sealth,Lopez,Shaw,16:00,16:00,16:17,06/16/2025,Monday,,0,
+Spokane,Kingston,Edmonds,16:00,16:04,16:24,06/16/2025,Monday,,4,
+Suquamish,Edmonds,Kingston,15:55,16:04,16:26,06/16/2025,Monday,,9,
+Kittitas,Fauntleroy,Southworth,15:50,15:59,16:18,06/16/2025,Monday,,9,
+Kaleetan,Bainbridge,Colman,15:50,15:54,16:27,06/16/2025,Monday,,4,
 Kitsap,Clinton,Mukilteo,15:35,15:52,16:04,06/16/2025,Monday,,17,
 Tokitae,Mukilteo,Clinton,15:35,15:50,16:06,06/16/2025,Monday,,15,
 Sealth,Shaw,Lopez,15:30,15:30,15:45,06/16/2025,Monday,,0,
