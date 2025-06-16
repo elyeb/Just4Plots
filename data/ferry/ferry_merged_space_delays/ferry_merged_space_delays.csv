@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Fauntleroy,Vashon,16:35,15:35,15:52,06/16/2025,Monday,,-60,
+Sealth,Lopez,Shaw,16:00,16:00,16:17,06/16/2025,Monday,,0,
+Kitsap,Clinton,Mukilteo,15:35,15:52,16:04,06/16/2025,Monday,,17,
+Tokitae,Mukilteo,Clinton,15:35,15:50,16:06,06/16/2025,Monday,,15,
 Sealth,Shaw,Lopez,15:30,15:30,15:45,06/16/2025,Monday,,0,
 Kennewick,Port Townsend,Keystone,15:30,15:32,15:59,06/16/2025,Monday,,2,
 Salish,Vashon,Fauntleroy,15:20,15:07,15:23,06/16/2025,Monday,,-13,
