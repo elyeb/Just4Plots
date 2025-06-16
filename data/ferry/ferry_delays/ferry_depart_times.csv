@@ -1,5 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Salish,Fauntleroy,Vashon,13:15,12:47,13:04,06/16/2025
+Kittitas,Fauntleroy,Vashon,13:15,13:16,13:27,06/16/2025
+Kitsap,Mukilteo,Clinton,13:00,13:06,13:20,06/16/2025
+Tokitae,Clinton,Mukilteo,13:00,13:08,13:22,06/16/2025
 Spokane,Kingston,Edmonds,12:45,12:47,13:08,06/16/2025
 Salish,Vashon,Fauntleroy,12:40,12:17,12:34,06/16/2025
 Kittitas,Vashon,Fauntleroy,12:40,12:42,12:54,06/16/2025
