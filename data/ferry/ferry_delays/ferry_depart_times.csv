@@ -1,4 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tacoma,Colman,Bainbridge,01:35,01:55,02:27,06/17/2025
+Tokitae,Mukilteo,Clinton,01:05,01:06,01:20,06/17/2025
+Tacoma,Bainbridge,Colman,00:55,01:16,01:48,06/17/2025
+WallaWalla,Colman,Bremerton,00:50,00:51,01:47,06/17/2025
+Tokitae,Clinton,Mukilteo,00:35,00:35,00:48,06/17/2025
+Tacoma,Colman,Bainbridge,00:15,00:37,01:10,06/17/2025
+Tokitae,Mukilteo,Clinton,00:05,00:06,00:19,06/17/2025
 Salish,Vashon,Fauntleroy,16:45,16:27,16:47,06/16/2025
 Salish,Fauntleroy,Vashon,16:35,15:35,15:52,06/16/2025
 Sealth,Shaw,Orcas,16:25,16:25,16:31,06/16/2025
