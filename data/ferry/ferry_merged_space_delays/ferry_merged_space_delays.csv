@@ -1,5 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kitsap,Mukilteo,Clinton,10:00,10:03,10:16,06/17/2025,Tuesday,,3,
+Tokitae,Clinton,Mukilteo,10:00,10:06,10:21,06/17/2025,Tuesday,,6,
 Sealth,Shaw,Orcas,09:50,09:57,10:04,06/17/2025,Tuesday,,7,
 Tacoma,Bainbridge,Colman,09:40,09:41,10:15,06/17/2025,Tuesday,,1,
 Spokane,Kingston,Edmonds,09:35,09:37,09:57,06/17/2025,Tuesday,,2,
