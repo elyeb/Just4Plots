@@ -1,8 +1,13 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Mukilteo,Clinton,05:35,05:35,05:49,06/18/2025
+Spokane,Kingston,Edmonds,05:30,05:31,05:53,06/18/2025
+Kitsap,Clinton,Mukilteo,05:30,05:30,05:43,06/18/2025
+Kittitas,Vashon,Southworth,05:25,05:37,05:47,06/18/2025
 Kitsap,Mukilteo,Clinton,05:05,04:15,04:28,06/18/2025
 Kitsap,Mukilteo,Clinton,05:05,05:05,05:16,06/18/2025
 Tokitae,Clinton,Mukilteo,05:05,05:06,05:26,06/18/2025
 Kittitas,Fauntleroy,Vashon,05:05,05:05,05:30,06/18/2025
+Issaquah,Bremerton,Colman,04:50,04:53,05:50,06/18/2025
 WallaWalla,Kingston,Edmonds,04:45,04:47,05:09,06/18/2025
 Kaleetan,Bainbridge,Colman,04:45,04:55,05:29,06/18/2025
 Kitsap,Clinton,Mukilteo,04:40,03:54,04:13,06/18/2025
