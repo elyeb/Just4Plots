@@ -1,11 +1,13 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Walla Walla,Edmonds,Kingston,16:45,16:04,16:11,06/19/2025,Thursday,,-41,
+Tacoma,Colman,Bainbridge,16:45,16:10,16:25,06/19/2025,Thursday,16:15:35,-35,-30.0
 Salish,Fauntleroy,Vashon,16:35,15:39,15:39,06/19/2025,Thursday,,-56,
 Sealth,Shaw,Orcas,16:25,15:30,15:30,06/19/2025,Thursday,,-55,
 Kennewick,Keystone,Port Townsend,16:15,16:08,16:11,06/19/2025,Thursday,,-7,
 Tokitae,Clinton,Mukilteo,16:05,16:11,16:14,06/19/2025,Thursday,,6,
 Kitsap,Mukilteo,Clinton,16:05,16:07,16:14,06/19/2025,Thursday,,2,
 Spokane,Kingston,Edmonds,16:00,16:03,16:11,06/19/2025,Thursday,,3,
+Sealth,Lopez,Shaw,16:00,16:16,16:19,06/19/2025,Thursday,,16,
 Spokane,Edmonds,Kingston,15:55,16:05,16:05,06/19/2025,Thursday,,10,
 Kaleetan,Colman,Bainbridge,15:50,15:45,16:10,06/19/2025,Thursday,15:15:27,-5,-35.0
 Tokitae,Clinton,Mukilteo,15:35,15:44,15:51,06/19/2025,Thursday,,9,
@@ -20,6 +22,7 @@ Salish,Fauntleroy,Vashon,15:05,14:44,15:00,06/19/2025,Thursday,,-21,
 Tokitae,Mukilteo,Clinton,15:05,15:17,15:26,06/19/2025,Thursday,,12,
 Kittitas,Southworth,Vashon,15:00,15:20,15:23,06/19/2025,Thursday,,20,
 Issaquah,Bremerton,Colman,15:00,15:23,15:58,06/19/2025,Thursday,,23,
+Suquamish,Colman,Bremerton,14:50,16:04,16:26,06/19/2025,Thursday,,74,
 Kennewick,Keystone,Port Townsend,14:45,14:54,15:20,06/19/2025,Thursday,,9,
 Yakima,Lopez,Anacortes,14:40,14:53,15:40,06/19/2025,Thursday,,13,
 Tokitae,Clinton,Mukilteo,14:35,14:37,14:49,06/19/2025,Thursday,,2,
