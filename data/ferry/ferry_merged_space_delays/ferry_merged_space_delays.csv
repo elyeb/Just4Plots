@@ -1,8 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Fauntleroy,Vashon,16:35,15:39,15:39,06/19/2025,Thursday,,-56,
 Sealth,Shaw,Orcas,16:25,15:30,15:30,06/19/2025,Thursday,,-55,
 Kittitas,Vashon,Southworth,15:30,15:28,15:31,06/19/2025,Thursday,,-2,
 Salish,Vashon,Fauntleroy,15:20,15:31,15:34,06/19/2025,Thursday,,11,
 Sealth,Orcas,Shaw,15:15,15:15,15:22,06/19/2025,Thursday,,0,
+Spokane,Kingston,Edmonds,15:10,15:45,15:45,06/19/2025,Thursday,,35,
 Salish,Fauntleroy,Vashon,15:05,14:44,15:00,06/19/2025,Thursday,,-21,
 Tokitae,Mukilteo,Clinton,15:05,15:17,15:26,06/19/2025,Thursday,,12,
 Kittitas,Southworth,Vashon,15:00,15:20,15:23,06/19/2025,Thursday,,20,
