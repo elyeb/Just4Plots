@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Vashon,Fauntleroy,12:40,12:17,12:33,06/20/2025,Friday,,-23,
+Kitsap,Clinton,Mukilteo,12:30,12:34,12:48,06/20/2025,Friday,,4,
+Tokitae,Mukilteo,Clinton,12:30,12:38,12:52,06/20/2025,Friday,,8,
+Samish,Orcas,Shaw,12:20,12:38,12:48,06/20/2025,Friday,,18,
 Salish,Southworth,Vashon,12:15,11:52,12:07,06/20/2025,Friday,,-23,
 Kittitas,Southworth,Vashon,12:15,12:21,12:34,06/20/2025,Friday,,6,
 Sealth,Shaw,Orcas,12:15,12:29,12:45,06/20/2025,Friday,,14,
