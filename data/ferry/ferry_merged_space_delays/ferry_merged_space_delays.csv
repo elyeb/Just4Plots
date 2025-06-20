@@ -1,5 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Fauntleroy,Vashon,16:35,15:36,15:53,06/20/2025,Friday,,-59,
+Kitsap,Clinton,Mukilteo,15:35,15:47,16:03,06/20/2025,Friday,,12,
+Tokitae,Mukilteo,Clinton,15:35,15:54,16:08,06/20/2025,Friday,,19,
+Kennewick,Port Townsend,Keystone,15:30,15:40,16:05,06/20/2025,Friday,,10,
+Sealth,Shaw,Lopez,15:30,15:38,15:55,06/20/2025,Friday,,8,
 Salish,Vashon,Fauntleroy,15:20,15:10,15:26,06/20/2025,Friday,,-10,
 Sealth,Orcas,Shaw,15:15,15:25,15:34,06/20/2025,Friday,,10,
 Walla Walla,Edmonds,Kingston,15:15,15:20,15:42,06/20/2025,Friday,15:01:46,5,-14.0
@@ -9,7 +13,9 @@ Kitsap,Mukilteo,Clinton,15:05,15:12,15:30,06/20/2025,Friday,,7,
 Tokitae,Clinton,Mukilteo,15:05,15:22,15:35,06/20/2025,Friday,,17,
 Kittitas,Southworth,Vashon,15:00,15:08,15:19,06/20/2025,Friday,,8,
 Tacoma,Colman,Bainbridge,15:00,15:15,15:47,06/20/2025,Friday,14:43:03,15,-17.0
+Issaquah,Bremerton,Colman,15:00,15:03,15:56,06/20/2025,Friday,,3,
 Kaleetan,Bainbridge,Colman,14:55,15:08,15:40,06/20/2025,Friday,,13,
+Suquamish,Colman,Bremerton,14:50,15:12,16:14,06/20/2025,Friday,,22,
 Kennewick,Keystone,Port Townsend,14:45,14:45,15:11,06/20/2025,Friday,,0,
 Yakima,Lopez,Anacortes,14:40,14:56,15:41,06/20/2025,Friday,,16,
 Kitsap,Clinton,Mukilteo,14:35,14:43,14:57,06/20/2025,Friday,,8,
