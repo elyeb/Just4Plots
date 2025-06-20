@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Vashon,Fauntleroy,15:20,15:10,15:26,06/20/2025,Friday,,-10,
 Salish,Fauntleroy,Vashon,15:05,14:33,14:51,06/20/2025,Friday,,-32,
+Kittitas,Southworth,Vashon,15:00,15:08,15:19,06/20/2025,Friday,,8,
 Kennewick,Keystone,Port Townsend,14:45,14:45,15:11,06/20/2025,Friday,,0,
 Kitsap,Clinton,Mukilteo,14:35,14:43,14:57,06/20/2025,Friday,,8,
 Kittitas,Vashon,Southworth,14:35,14:45,14:56,06/20/2025,Friday,,10,
