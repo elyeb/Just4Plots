@@ -1,4 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kaleetan,Colman,Bainbridge,01:35,01:45,02:17,06/20/2025,Friday,,10,
+Tokitae,Mukilteo,Clinton,01:05,01:05,01:19,06/20/2025,Friday,,0,
+Kaleetan,Bainbridge,Colman,00:55,01:05,01:37,06/20/2025,Friday,,10,
+Suquamish,Colman,Bremerton,00:50,01:23,02:23,06/20/2025,Friday,,33,
+Tokitae,Clinton,Mukilteo,00:35,00:35,00:49,06/20/2025,Friday,,0,
+Kaleetan,Colman,Bainbridge,00:15,00:24,00:56,06/20/2025,Friday,,9,
+Tokitae,Mukilteo,Clinton,00:05,00:06,00:20,06/20/2025,Friday,,1,
+Suquamish,Bremerton,Colman,23:40,00:13,01:13,06/19/2025,Thursday,,33,
 Walla Walla,Edmonds,Kingston,16:45,16:04,16:11,06/19/2025,Thursday,,-41,
 Tacoma,Colman,Bainbridge,16:45,16:10,16:25,06/19/2025,Thursday,16:15:35,-35,-30.0
 Spokane,Edmonds,Kingston,16:45,16:23,16:36,06/19/2025,Thursday,,-22,
