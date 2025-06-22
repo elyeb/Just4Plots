@@ -1,6 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Fauntleroy,Vashon,15:15,14:48,15:07,06/22/2025,Sunday,,-27,
 Salish,Southworth,Vashon,14:50,13:52,14:06,06/22/2025,Sunday,,-58,
 Salish,Vashon,Fauntleroy,14:45,14:20,14:39,06/22/2025,Sunday,,-25,
+Kittitas,Vashon,Fauntleroy,14:45,14:58,15:12,06/22/2025,Sunday,,13,
 Kitsap,Clinton,Mukilteo,14:35,14:44,14:59,06/22/2025,Sunday,,9,
 Tokitae,Mukilteo,Clinton,14:35,14:51,15:04,06/22/2025,Sunday,,16,
 Salish,Vashon,Southworth,14:30,13:30,13:42,06/22/2025,Sunday,,-60,
