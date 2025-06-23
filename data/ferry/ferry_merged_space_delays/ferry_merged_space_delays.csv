@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Lopez,Shaw,16:00,16:00,16:16,06/23/2025,Monday,,0,
+Walla Walla,Kingston,Edmonds,16:00,16:05,16:28,06/23/2025,Monday,,5,
+Kittitas,Fauntleroy,Southworth,15:50,15:59,16:17,06/23/2025,Monday,,9,
 Kitsap,Clinton,Mukilteo,15:35,15:45,15:58,06/23/2025,Monday,,10,
 Tokitae,Mukilteo,Clinton,15:35,15:49,16:02,06/23/2025,Monday,,14,
 Sealth,Shaw,Lopez,15:30,15:36,15:51,06/23/2025,Monday,,6,
@@ -14,6 +16,7 @@ Kitsap,Mukilteo,Clinton,15:05,15:15,15:28,06/23/2025,Monday,,10,
 Tokitae,Clinton,Mukilteo,15:05,15:19,15:32,06/23/2025,Monday,,14,
 Kittitas,Southworth,Vashon,15:00,15:01,15:11,06/23/2025,Monday,,1,
 Issaquah,Bremerton,Colman,15:00,15:01,15:57,06/23/2025,Monday,,1,
+Tacoma,Colman,Bainbridge,15:00,15:41,16:18,06/23/2025,Monday,,41,
 Suquamish,Colman,Bremerton,14:50,15:03,16:01,06/23/2025,Monday,14:51:53,13,1.0
 Kennewick,Keystone,Port Townsend,14:45,14:51,15:18,06/23/2025,Monday,,6,
 Yakima,Lopez,Anacortes,14:40,15:11,15:56,06/23/2025,Monday,,31,
