@@ -1,10 +1,13 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Tokitae,Mukilteo,Clinton,11:30,11:31,11:46,06/23/2025,Monday,,1,
+Kitsap,Clinton,Mukilteo,11:30,11:33,11:46,06/23/2025,Monday,,3,
+Kittitas,Fauntleroy,Vashon,11:30,11:41,11:54,06/23/2025,Monday,,11,
 Walla Walla,Kingston,Edmonds,11:05,11:06,11:29,06/23/2025,Monday,,1,
 Spokane,Edmonds,Kingston,11:05,11:08,11:29,06/23/2025,Monday,,3,
 Kitsap,Mukilteo,Clinton,11:00,11:02,11:15,06/23/2025,Monday,,2,
 Tokitae,Clinton,Mukilteo,11:00,11:04,11:17,06/23/2025,Monday,,4,
 Kennewick,Port Townsend,Keystone,11:00,11:03,11:32,06/23/2025,Monday,,3,
+Yakima,Lopez,Anacortes,10:45,11:08,11:53,06/23/2025,Monday,,23,
 Kaleetan,Colman,Bainbridge,10:40,10:52,11:28,06/23/2025,Monday,10:36:48,12,-4.0
 Kitsap,Clinton,Mukilteo,10:30,10:32,10:46,06/23/2025,Monday,,2,
 Tokitae,Mukilteo,Clinton,10:30,10:33,10:47,06/23/2025,Monday,,3,
