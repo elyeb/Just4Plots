@@ -2,8 +2,11 @@ actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,D
 Tokitae,Mukilteo,Clinton,16:05,16:10,16:18,06/24/2025,Tuesday,,5,
 Sealth,Lopez,Shaw,16:00,16:09,16:15,06/24/2025,Tuesday,,9,
 Tacoma,Colman,Bainbridge,15:50,15:51,16:10,06/24/2025,Tuesday,15:45:27,1,-5.0
+Kittitas,Fauntleroy,Southworth,15:50,16:10,16:19,06/24/2025,Tuesday,,20,
+Kaleetan,Bainbridge,Colman,15:50,15:52,16:17,06/24/2025,Tuesday,,2,
 Tokitae,Clinton,Mukilteo,15:35,15:31,15:43,06/24/2025,Tuesday,,-4,
 Sealth,Shaw,Lopez,15:30,15:30,15:47,06/24/2025,Tuesday,,0,
+Kennewick,Port Townsend,Keystone,15:30,15:56,16:16,06/24/2025,Tuesday,,26,
 Salish,Vashon,Fauntleroy,15:20,15:03,15:23,06/24/2025,Tuesday,,-17,
 Kittitas,Vashon,Fauntleroy,15:20,15:28,15:40,06/24/2025,Tuesday,,8,
 Sealth,Orcas,Shaw,15:15,15:23,15:23,06/24/2025,Tuesday,,8,
