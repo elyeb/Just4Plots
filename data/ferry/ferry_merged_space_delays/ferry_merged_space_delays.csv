@@ -1,6 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Fauntleroy,Vashon,13:15,12:50,13:07,06/25/2025,Wednesday,,-25,
 Kittitas,Fauntleroy,Vashon,13:15,13:16,13:28,06/25/2025,Wednesday,,1,
+Sealth,Lopez,Friday Harbor,13:05,13:17,13:49,06/25/2025,Wednesday,,12,
 Tokitae,Clinton,Mukilteo,13:00,13:23,13:37,06/25/2025,Wednesday,,23,
 Kitsap,Mukilteo,Clinton,13:00,13:13,13:31,06/25/2025,Wednesday,,13,
 Walla Walla,Kingston,Edmonds,12:45,12:47,13:09,06/25/2025,Wednesday,,2,
