@@ -1,5 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Salish,Vashon,Fauntleroy,12:40,12:20,12:37,06/25/2025
+Kittitas,Vashon,Fauntleroy,12:40,12:46,12:59,06/25/2025
+Sealth,Orcas,Lopez,12:35,12:47,13:04,06/25/2025
+Tokitae,Mukilteo,Clinton,12:30,12:47,13:02,06/25/2025
+Kitsap,Clinton,Mukilteo,12:30,12:40,12:56,06/25/2025
 Samish,Orcas,Shaw,12:20,12:27,12:37,06/25/2025
 Sealth,Shaw,Orcas,12:15,12:23,12:32,06/25/2025
 Kittitas,Southworth,Vashon,12:15,12:17,12:30,06/25/2025
