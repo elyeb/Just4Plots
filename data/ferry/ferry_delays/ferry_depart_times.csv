@@ -1,8 +1,19 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Salish,Vashon,Southworth,06:15,05:35,06:02,06/25/2025
+Kittitas,Southworth,Vashon,05:50,05:52,06:04,06/25/2025
+Tokitae,Mukilteo,Clinton,05:35,05:36,05:52,06/25/2025
+Samish,Friday Harbor,Lopez,05:35,05:35,06:08,06/25/2025
+WallaWalla,Edmonds,Kingston,05:35,05:36,05:58,06/25/2025
+Tacoma,Colman,Bainbridge,05:30,05:32,06:04,06/25/2025
+Spokane,Kingston,Edmonds,05:30,05:30,05:53,06/25/2025
+Kitsap,Clinton,Mukilteo,05:30,05:34,05:46,06/25/2025
+Kittitas,Vashon,Southworth,05:25,05:26,05:39,06/25/2025
+Kaleetan,Bainbridge,Colman,05:20,05:22,05:53,06/25/2025
 Kitsap,Mukilteo,Clinton,05:05,04:09,04:22,06/25/2025
 Tokitae,Clinton,Mukilteo,05:05,05:07,05:28,06/25/2025
 Kittitas,Fauntleroy,Vashon,05:05,05:05,05:21,06/25/2025
 Kitsap,Mukilteo,Clinton,05:05,05:06,05:18,06/25/2025
+Issaquah,Bremerton,Colman,04:50,04:52,05:49,06/25/2025
 Tacoma,Bainbridge,Colman,04:45,04:46,05:18,06/25/2025
 WallaWalla,Kingston,Edmonds,04:45,04:46,05:09,06/25/2025
 Kitsap,Clinton,Mukilteo,04:40,04:41,04:53,06/25/2025
