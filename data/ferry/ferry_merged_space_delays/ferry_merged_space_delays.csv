@@ -1,6 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Vashon,Fauntleroy,15:20,15:06,15:22,06/25/2025,Wednesday,,-14,
 Sealth,Orcas,Shaw,15:15,15:16,15:24,06/25/2025,Wednesday,,1,
+Walla Walla,Edmonds,Kingston,15:15,15:18,15:39,06/25/2025,Wednesday,,3,
+Spokane,Kingston,Edmonds,15:10,15:13,15:36,06/25/2025,Wednesday,,3,
 Salish,Fauntleroy,Vashon,15:05,14:41,14:57,06/25/2025,Wednesday,,-24,
 Kitsap,Clinton,Mukilteo,15:05,15:00,15:15,06/25/2025,Wednesday,,-5,
 Tokitae,Mukilteo,Clinton,15:05,15:04,15:20,06/25/2025,Wednesday,,-1,
