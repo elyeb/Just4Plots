@@ -1,5 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Sealth,Shaw,Lopez,15:30,15:30,15:47,06/25/2025
 Salish,Vashon,Fauntleroy,15:20,15:06,15:22,06/25/2025
+Kittitas,Vashon,Fauntleroy,15:20,15:27,15:39,06/25/2025
 Sealth,Orcas,Shaw,15:15,15:16,15:24,06/25/2025
 WallaWalla,Edmonds,Kingston,15:15,15:18,15:39,06/25/2025
 Spokane,Kingston,Edmonds,15:10,15:13,15:36,06/25/2025
@@ -7,6 +9,7 @@ Salish,Fauntleroy,Vashon,15:05,14:41,14:57,06/25/2025
 Kitsap,Clinton,Mukilteo,15:05,15:00,15:15,06/25/2025
 Tokitae,Mukilteo,Clinton,15:05,15:04,15:20,06/25/2025
 Kittitas,Southworth,Vashon,15:00,15:00,15:12,06/25/2025
+Tacoma,Bainbridge,Colman,14:55,15:14,15:44,06/25/2025
 Kennewick,Keystone,Port Townsend,14:45,14:59,15:25,06/25/2025
 Yakima,Lopez,Anacortes,14:40,14:43,15:31,06/25/2025
 Kittitas,Vashon,Southworth,14:35,14:39,14:48,06/25/2025
