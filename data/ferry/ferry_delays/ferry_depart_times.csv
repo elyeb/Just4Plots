@@ -1,7 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kitsap,Clinton,Mukilteo,11:30,11:36,11:50,06/26/2025
 Tokitae,Mukilteo,Clinton,11:30,11:37,11:52,06/26/2025
+Kittitas,Fauntleroy,Vashon,11:30,11:46,11:58,06/26/2025
 Wenatchee,Colman,Bainbridge,11:25,11:15,11:48,06/26/2025
+Sealth,Friday Harbor,Shaw,11:20,11:21,11:59,06/26/2025
 WallaWalla,Kingston,Edmonds,11:05,11:10,11:33,06/26/2025
 Spokane,Edmonds,Kingston,11:05,11:08,11:30,06/26/2025
 Kennewick,Port Townsend,Keystone,11:00,11:00,11:26,06/26/2025
