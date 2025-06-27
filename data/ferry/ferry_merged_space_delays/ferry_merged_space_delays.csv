@@ -1,9 +1,16 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Vashon,Fauntleroy,16:45,16:27,16:45,06/27/2025,Friday,,-18,
 Salish,Fauntleroy,Vashon,16:35,15:42,15:59,06/27/2025,Friday,,-53,
+Tokitae,Clinton,Mukilteo,16:35,16:38,16:52,06/27/2025,Friday,,3,
+Kittitas,Southworth,Vashon,16:25,16:36,16:49,06/27/2025,Friday,,11,
+Kennewick,Keystone,Port Townsend,16:15,16:26,16:52,06/27/2025,Friday,,11,
 Tokitae,Mukilteo,Clinton,16:05,16:05,16:20,06/27/2025,Friday,,0,
 Walla Walla,Kingston,Edmonds,16:00,16:04,16:28,06/27/2025,Friday,,4,
+Sealth,Lopez,Shaw,16:00,16:31,16:47,06/27/2025,Friday,,31,
 Spokane,Edmonds,Kingston,15:55,16:11,16:34,06/27/2025,Friday,,16,
 Kittitas,Fauntleroy,Southworth,15:50,16:07,16:24,06/27/2025,Friday,,17,
+Tacoma,Colman,Bainbridge,15:50,16:15,16:48,06/27/2025,Friday,15:17:14,25,-33.0
+Samish,Friday Harbor,Lopez,15:50,16:07,16:43,06/27/2025,Friday,,17,
 Tokitae,Clinton,Mukilteo,15:35,15:34,15:48,06/27/2025,Friday,,-1,
 Kennewick,Port Townsend,Keystone,15:30,15:41,16:08,06/27/2025,Friday,,11,
 Sealth,Shaw,Lopez,15:30,16:01,16:19,06/27/2025,Friday,,31,
