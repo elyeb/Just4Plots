@@ -1,4 +1,17 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kaleetan,Colman,Bainbridge,02:10,02:33,03:05,06/29/2025
+Kittitas,Vashon,Southworth,01:30,01:34,01:46,06/29/2025
+Kaleetan,Bainbridge,Colman,01:25,01:50,02:22,06/29/2025
+Kitsap,Mukilteo,Clinton,01:05,01:05,01:19,06/29/2025
+Kittitas,Fauntleroy,Vashon,01:05,01:15,01:29,06/29/2025
+Suquamish,Colman,Bremerton,00:50,01:15,02:15,06/29/2025
+Kaleetan,Colman,Bainbridge,00:45,01:10,01:43,06/29/2025
+Kitsap,Clinton,Mukilteo,00:35,00:36,00:49,06/29/2025
+Kittitas,Southworth,Fauntleroy,00:35,00:40,00:57,06/29/2025
+Kittitas,Vashon,Southworth,00:15,00:20,00:33,06/29/2025
+Kitsap,Mukilteo,Clinton,00:05,00:06,00:20,06/29/2025
+Kaleetan,Bainbridge,Colman,00:00,00:24,00:56,06/29/2025
+Suquamish,Bremerton,Colman,23:40,00:07,01:03,06/28/2025
 Salish,Vashon,Fauntleroy,16:50,16:06,16:31,06/28/2025
 Salish,Southworth,Vashon,16:30,15:37,15:53,06/28/2025
 Sealth,Shaw,Orcas,16:25,16:25,16:31,06/28/2025
