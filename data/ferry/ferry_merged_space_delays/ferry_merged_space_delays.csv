@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Southworth,Vashon,04:20,04:20,04:33,06/29/2025,Sunday,,0,
 Kaleetan,Colman,Bainbridge,02:10,02:33,03:05,06/29/2025,Sunday,,23,
 Kittitas,Vashon,Southworth,01:30,01:34,01:46,06/29/2025,Sunday,,4,
 Kaleetan,Bainbridge,Colman,01:25,01:50,02:22,06/29/2025,Sunday,,25,
