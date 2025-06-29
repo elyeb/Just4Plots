@@ -1,5 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Orcas,Lopez,12:35,12:40,12:58,06/29/2025,Sunday,,5,
+Kitsap,Clinton,Mukilteo,12:30,12:40,12:54,06/29/2025,Sunday,,10,
+Tokitae,Mukilteo,Clinton,12:30,12:43,12:58,06/29/2025,Sunday,,13,
 Samish,Orcas,Shaw,12:20,12:24,12:33,06/29/2025,Sunday,,4,
+Kaleetan,Bainbridge,Colman,12:20,12:29,13:03,06/29/2025,Sunday,,9,
+Kittitas,Southworth,Vashon,12:20,12:45,12:56,06/29/2025,Sunday,,25,
 Sealth,Shaw,Orcas,12:15,12:19,12:29,06/29/2025,Sunday,,4,
 Kitsap,Mukilteo,Clinton,12:00,12:07,12:21,06/29/2025,Sunday,,7,
 Tokitae,Clinton,Mukilteo,12:00,12:12,12:26,06/29/2025,Sunday,,12,
