@@ -1,7 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Fauntleroy,Vashon,11:35,11:52,12:05,06/29/2025
+Tacoma,Bainbridge,Colman,11:35,11:39,12:09,06/29/2025
 Kitsap,Clinton,Mukilteo,11:30,11:38,11:50,06/29/2025
 Tokitae,Mukilteo,Clinton,11:30,11:38,11:54,06/29/2025
+Kaleetan,Colman,Bainbridge,11:25,11:32,12:04,06/29/2025
 Sealth,Friday Harbor,Shaw,11:20,11:20,11:58,06/29/2025
+Issaquah,Colman,Bremerton,11:10,11:13,12:07,06/29/2025
 Kittitas,Vashon,Fauntleroy,11:05,11:17,11:30,06/29/2025
 WallaWalla,Kingston,Edmonds,11:05,11:15,11:39,06/29/2025
 Spokane,Edmonds,Kingston,11:05,11:10,11:34,06/29/2025
