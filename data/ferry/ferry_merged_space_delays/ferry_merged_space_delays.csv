@@ -1,5 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Vashon,Southworth,14:30,14:26,14:37,06/29/2025,Sunday,,-4,
+Kitsap,Mukilteo,Clinton,14:05,14:14,14:32,06/29/2025,Sunday,,9,
 Salish,Fauntleroy,Vashon,14:00,14:00,14:16,06/29/2025,Sunday,,0,
+Tokitae,Clinton,Mukilteo,14:00,14:21,14:35,06/29/2025,Sunday,,21,
+Kennewick,Port Townsend,Keystone,14:00,14:14,14:40,06/29/2025,Sunday,,14,
 Yakima,Friday Harbor,Lopez,13:55,13:54,14:30,06/29/2025,Sunday,,-1,
 Walla Walla,Edmonds,Kingston,13:35,13:49,14:11,06/29/2025,Sunday,,14,
 Salish,Vashon,Fauntleroy,13:30,13:22,13:46,06/29/2025,Sunday,,-8,
