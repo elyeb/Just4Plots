@@ -1,5 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Issaquah,Fauntleroy,Vashon,14:45,14:48,15:01,06/30/2025
+Kittitas,Southworth,Fauntleroy,14:45,14:56,15:17,06/30/2025
+Kitsap,Clinton,Mukilteo,14:35,14:52,15:07,06/30/2025
+Tokitae,Mukilteo,Clinton,14:35,14:54,15:09,06/30/2025
+WallaWalla,Kingston,Edmonds,14:30,14:49,15:11,06/30/2025
 Spokane,Edmonds,Kingston,14:25,14:28,14:58,06/30/2025
 Issaquah,Vashon,Fauntleroy,14:15,14:22,14:36,06/30/2025
 Sealth,Friday Harbor,Orcas,14:15,14:22,14:57,06/30/2025
