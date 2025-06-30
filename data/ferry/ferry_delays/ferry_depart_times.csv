@@ -1,4 +1,16 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Puyallup,Colman,Bainbridge,02:10,02:16,02:48,06/30/2025
+Kittitas,Vashon,Southworth,01:30,01:31,01:42,06/30/2025
+Puyallup,Bainbridge,Colman,01:25,01:37,02:08,06/30/2025
+Kittitas,Fauntleroy,Vashon,01:05,01:11,01:25,06/30/2025
+Kitsap,Mukilteo,Clinton,01:05,01:05,01:19,06/30/2025
+Suquamish,Colman,Bremerton,00:50,01:05,02:07,06/30/2025
+Puyallup,Colman,Bainbridge,00:45,00:57,01:29,06/30/2025
+Kittitas,Southworth,Fauntleroy,00:35,00:36,00:52,06/30/2025
+Kitsap,Clinton,Mukilteo,00:35,00:36,00:50,06/30/2025
+Kittitas,Vashon,Southworth,00:15,00:15,00:26,06/30/2025
+Kitsap,Mukilteo,Clinton,00:05,00:08,00:22,06/30/2025
+Puyallup,Bainbridge,Colman,00:00,00:16,00:47,06/30/2025
 Salish,Vashon,Fauntleroy,16:50,16:06,16:31,06/29/2025
 Tokitae,Clinton,Mukilteo,16:35,16:36,16:48,06/29/2025
 Salish,Southworth,Vashon,16:30,15:48,15:58,06/29/2025
