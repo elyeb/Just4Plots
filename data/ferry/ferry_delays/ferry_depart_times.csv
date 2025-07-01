@@ -1,10 +1,19 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Issaquah,Vashon,Southworth,10:35,10:36,10:45,07/01/2025
+Tokitae,Mukilteo,Clinton,10:30,10:38,10:54,07/01/2025
+Kitsap,Clinton,Mukilteo,10:30,10:34,10:48,07/01/2025
+WallaWalla,Edmonds,Kingston,10:20,10:30,10:52,07/01/2025
+Spokane,Kingston,Edmonds,10:20,10:25,10:49,07/01/2025
 Kittitas,Vashon,Fauntleroy,10:15,10:17,10:30,07/01/2025
+Kennewick,Keystone,Port Townsend,10:15,10:17,10:45,07/01/2025
+Sealth,Orcas,Friday Harbor,10:15,10:15,10:50,07/01/2025
 Issaquah,Fauntleroy,Vashon,10:10,10:12,10:25,07/01/2025
 Tokitae,Clinton,Mukilteo,10:00,10:04,10:18,07/01/2025
 Kitsap,Mukilteo,Clinton,10:00,10:03,10:16,07/01/2025
 Sealth,Shaw,Orcas,09:50,09:50,09:57,07/01/2025
 Kittitas,Fauntleroy,Vashon,09:50,09:51,10:05,07/01/2025
+Kaleetan,Bremerton,Colman,09:50,09:52,10:54,07/01/2025
+Samish,Lopez,Anacortes,09:45,09:54,10:42,07/01/2025
 Issaquah,Vashon,Fauntleroy,09:40,09:41,09:56,07/01/2025
 Tacoma,Bainbridge,Colman,09:40,09:42,10:16,07/01/2025
 Puyallup,Colman,Bainbridge,09:35,09:37,10:11,07/01/2025
