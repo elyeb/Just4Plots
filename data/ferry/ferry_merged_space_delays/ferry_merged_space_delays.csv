@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Fauntleroy,Vashon,10:10,10:12,10:25,07/01/2025,Tuesday,,2,
 Tokitae,Clinton,Mukilteo,10:00,10:04,10:18,07/01/2025,Tuesday,,4,
 Kitsap,Mukilteo,Clinton,10:00,10:03,10:16,07/01/2025,Tuesday,,3,
 Sealth,Shaw,Orcas,09:50,09:50,09:57,07/01/2025,Tuesday,,0,
