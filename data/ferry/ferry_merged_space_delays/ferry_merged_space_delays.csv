@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Mukilteo,Clinton,15:05,15:01,15:15,07/02/2025,Wednesday,,-4,
+Kitsap,Clinton,Mukilteo,15:05,15:00,15:13,07/02/2025,Wednesday,,-5,
 Issaquah,Fauntleroy,Vashon,14:45,14:47,15:01,07/02/2025,Wednesday,,2,
 Tokitae,Clinton,Mukilteo,14:35,14:30,14:43,07/02/2025,Wednesday,,-5,
 Walla Walla,Kingston,Edmonds,14:30,14:30,14:50,07/02/2025,Wednesday,,0,
