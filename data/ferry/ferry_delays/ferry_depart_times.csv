@@ -1,4 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Mukilteo,Clinton,12:30,12:32,12:45,07/03/2025
+Issaquah,Vashon,Fauntleroy,12:20,12:23,12:37,07/03/2025
+Samish,Orcas,Shaw,12:20,12:25,12:35,07/03/2025
+Kittitas,Southworth,Vashon,12:15,12:27,12:38,07/03/2025
+Sealth,Shaw,Orcas,12:15,12:21,12:29,07/03/2025
 Tokitae,Clinton,Mukilteo,12:00,12:03,12:16,07/03/2025
 Kitsap,Mukilteo,Clinton,12:00,12:02,12:17,07/03/2025
 Kittitas,Vashon,Southworth,11:55,11:59,12:10,07/03/2025
