@@ -1,6 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Spokane,Edmonds,Kingston,06:15,06:16,06:38,07/03/2025
+Issaquah,Fauntleroy,Vashon,06:10,06:11,06:26,07/03/2025
+Kittitas,Vashon,Fauntleroy,06:10,06:11,06:25,07/03/2025
 Tokitae,Clinton,Mukilteo,06:00,06:01,06:15,07/03/2025
 Kitsap,Mukilteo,Clinton,06:00,06:00,06:14,07/03/2025
+Sealth,Friday Harbor,Lopez,05:55,06:01,06:35,07/03/2025
 Kittitas,Southworth,Vashon,05:50,05:52,06:02,07/03/2025
 Issaquah,Vashon,Fauntleroy,05:40,05:41,05:57,07/03/2025
 Tokitae,Mukilteo,Clinton,05:35,05:35,05:49,07/03/2025
