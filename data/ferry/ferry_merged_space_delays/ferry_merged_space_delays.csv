@@ -1,6 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,12:40,12:48,13:01,07/03/2025,Thursday,,8,
+Spokane,Edmonds,Kingston,12:40,12:42,13:03,07/03/2025,Thursday,12:42:24,2,2.0
+Sealth,Orcas,Lopez,12:35,12:41,12:58,07/03/2025,Thursday,,6,
 Tokitae,Mukilteo,Clinton,12:30,12:32,12:45,07/03/2025,Thursday,,2,
 Kitsap,Clinton,Mukilteo,12:30,12:32,12:46,07/03/2025,Thursday,,2,
+Puyallup,Colman,Bainbridge,12:25,12:30,13:03,07/03/2025,Thursday,12:14:57,5,-11.0
 Issaquah,Vashon,Fauntleroy,12:20,12:23,12:37,07/03/2025,Thursday,,3,
 Samish,Orcas,Shaw,12:20,12:25,12:35,07/03/2025,Thursday,,5,
 Kittitas,Southworth,Vashon,12:15,12:27,12:38,07/03/2025,Thursday,,12,
