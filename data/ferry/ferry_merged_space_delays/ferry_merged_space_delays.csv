@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Spokane,Kingston,Edmonds,08:40,08:42,09:03,07/04/2025,Friday,,2,
 Kitsap,Clinton,Mukilteo,08:30,08:30,08:44,07/04/2025,Friday,,0,
 Tokitae,Mukilteo,Clinton,08:30,08:30,08:43,07/04/2025,Friday,,0,
 Kittitas,Fauntleroy,Vashon,08:20,08:29,08:42,07/04/2025,Friday,,9,
