@@ -1,5 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Puyallup,Colman,Bainbridge,01:35,02:11,02:42,07/04/2025,Friday,,36,
+Tokitae,Mukilteo,Clinton,01:05,01:07,01:21,07/04/2025,Friday,,2,
+Puyallup,Bainbridge,Colman,00:55,01:30,02:02,07/04/2025,Friday,,35,
+Suquamish,Colman,Bremerton,00:50,01:03,02:02,07/04/2025,Friday,,13,
+Tokitae,Clinton,Mukilteo,00:35,00:35,00:49,07/04/2025,Friday,,0,
+Puyallup,Colman,Bainbridge,00:15,00:50,01:21,07/04/2025,Friday,,35,
 Tokitae,Mukilteo,Clinton,00:05,00:09,00:23,07/04/2025,Friday,,4,
+Puyallup,Bainbridge,Colman,23:30,00:05,00:38,07/03/2025,Thursday,,35,
 Kittitas,Southworth,Vashon,16:15,16:19,16:29,07/03/2025,Thursday,,4,
 Kennewick,Keystone,Port Townsend,16:15,16:30,16:51,07/03/2025,Thursday,,15,
 Issaquah,Fauntleroy,Southworth,16:10,16:18,16:35,07/03/2025,Thursday,,8,
