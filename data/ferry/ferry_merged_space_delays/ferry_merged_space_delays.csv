@@ -1,4 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Shaw,Orcas,16:25,16:25,16:32,07/04/2025,Friday,,0,
+Kennewick,Keystone,Port Townsend,16:15,16:16,16:42,07/04/2025,Friday,,1,
+Salish,Port Townsend,Keystone,16:15,16:17,16:45,07/04/2025,Friday,,2,
 Tokitae,Clinton,Mukilteo,16:05,16:06,16:18,07/04/2025,Friday,,1,
 Kitsap,Mukilteo,Clinton,16:05,16:06,16:20,07/04/2025,Friday,,1,
 Kittitas,Fauntleroy,Vashon,16:05,16:07,16:21,07/04/2025,Friday,,2,
