@@ -1,8 +1,13 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Orcas,Shaw,15:15,15:15,15:23,07/04/2025,Friday,,0,
+Walla Walla,Edmonds,Kingston,15:15,15:16,15:38,07/04/2025,Friday,,1,
+Kittitas,Southworth,Vashon,15:15,15:16,15:30,07/04/2025,Friday,,1,
+Spokane,Kingston,Edmonds,15:10,15:11,15:32,07/04/2025,Friday,,1,
 Tokitae,Clinton,Mukilteo,15:05,15:07,15:19,07/04/2025,Friday,,2,
 Kitsap,Mukilteo,Clinton,15:05,15:05,15:20,07/04/2025,Friday,,0,
+Puyallup,Colman,Bainbridge,15:05,15:07,15:39,07/04/2025,Friday,,2,
 Issaquah,Vashon,Fauntleroy,15:00,15:01,15:15,07/04/2025,Friday,,1,
+Tacoma,Bainbridge,Colman,15:00,15:04,15:35,07/04/2025,Friday,,4,
 Kittitas,Vashon,Southworth,14:55,14:55,15:06,07/04/2025,Friday,,0,
 Kennewick,Keystone,Port Townsend,14:45,14:46,15:12,07/04/2025,Friday,,1,
 Salish,Port Townsend,Keystone,14:45,14:46,15:13,07/04/2025,Friday,,1,
