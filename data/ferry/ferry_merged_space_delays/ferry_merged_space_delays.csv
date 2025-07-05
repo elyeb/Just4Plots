@@ -1,4 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Mukilteo,Clinton,06:30,06:30,06:46,07/05/2025,Saturday,,0,
+Kitsap,Clinton,Mukilteo,06:30,06:31,06:45,07/05/2025,Saturday,,1,
+Walla Walla,Kingston,Edmonds,06:25,06:26,06:47,07/05/2025,Saturday,,1,
+Kittitas,Vashon,Fauntleroy,06:20,06:21,06:35,07/05/2025,Saturday,,1,
+Tacoma,Colman,Bainbridge,06:10,06:12,06:45,07/05/2025,Saturday,,2,
 Kitsap,Mukilteo,Clinton,06:00,05:07,05:22,07/05/2025,Saturday,,-53,
 Tokitae,Clinton,Mukilteo,06:00,06:03,06:20,07/05/2025,Saturday,,3,
 Kitsap,Mukilteo,Clinton,06:00,06:01,06:17,07/05/2025,Saturday,,1,
