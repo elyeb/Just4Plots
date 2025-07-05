@@ -1,5 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Sealth,Lopez,Shaw,16:00,16:02,16:17,07/05/2025
+WallaWalla,Kingston,Edmonds,16:00,16:08,16:30,07/05/2025
+Kittitas,Fauntleroy,Vashon,16:00,16:14,16:27,07/05/2025
+Spokane,Edmonds,Kingston,15:55,16:03,16:24,07/05/2025
+Puyallup,Bainbridge,Colman,15:55,15:55,16:26,07/05/2025
+Issaquah,Vashon,Fauntleroy,15:50,15:58,16:19,07/05/2025
 Tokitae,Mukilteo,Clinton,15:35,15:52,16:05,07/05/2025
 Kitsap,Clinton,Mukilteo,15:35,15:52,16:07,07/05/2025
 Sealth,Shaw,Lopez,15:30,15:30,15:46,07/05/2025

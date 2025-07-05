@@ -1,5 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Lopez,Shaw,16:00,16:02,16:17,07/05/2025,Saturday,,2,
+Walla Walla,Kingston,Edmonds,16:00,16:08,16:30,07/05/2025,Saturday,,8,
+Kittitas,Fauntleroy,Vashon,16:00,16:14,16:27,07/05/2025,Saturday,,14,
+Spokane,Edmonds,Kingston,15:55,16:03,16:24,07/05/2025,Saturday,,8,
+Puyallup,Bainbridge,Colman,15:55,15:55,16:26,07/05/2025,Saturday,,0,
+Issaquah,Vashon,Fauntleroy,15:50,15:58,16:19,07/05/2025,Saturday,,8,
 Tokitae,Mukilteo,Clinton,15:35,15:52,16:05,07/05/2025,Saturday,,17,
 Kitsap,Clinton,Mukilteo,15:35,15:52,16:07,07/05/2025,Saturday,,17,
 Sealth,Shaw,Lopez,15:30,15:30,15:46,07/05/2025,Saturday,,0,
