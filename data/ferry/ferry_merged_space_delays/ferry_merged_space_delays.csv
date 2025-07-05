@@ -1,4 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Clinton,Mukilteo,08:00,08:01,08:17,07/05/2025,Saturday,,1,
+Kitsap,Mukilteo,Clinton,08:00,08:00,08:14,07/05/2025,Saturday,,0,
+Walla Walla,Kingston,Edmonds,07:55,07:56,08:17,07/05/2025,Saturday,,1,
+Spokane,Edmonds,Kingston,07:55,07:56,08:17,07/05/2025,Saturday,,1,
+Kittitas,Southworth,Vashon,07:35,07:54,08:08,07/05/2025,Saturday,,19,
 Tokitae,Mukilteo,Clinton,07:30,07:30,07:46,07/05/2025,Saturday,,0,
 Kitsap,Clinton,Mukilteo,07:30,07:30,07:46,07/05/2025,Saturday,,0,
 Kennewick,Keystone,Port Townsend,07:15,07:16,07:43,07/05/2025,Saturday,,1,
