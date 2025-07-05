@@ -1,11 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Tokitae,Clinton,Mukilteo,10:00,10:05,10:18,07/05/2025
+Kitsap,Mukilteo,Clinton,10:00,10:03,10:17,07/05/2025
 Sealth,Shaw,Orcas,09:50,09:50,09:57,07/05/2025
 Issaquah,Fauntleroy,Southworth,09:45,09:56,10:13,07/05/2025
+Puyallup,Bainbridge,Colman,09:45,09:49,10:24,07/05/2025
 WallaWalla,Kingston,Edmonds,09:35,09:37,09:58,07/05/2025
 Spokane,Edmonds,Kingston,09:35,09:38,09:59,07/05/2025
 Tacoma,Colman,Bainbridge,09:35,09:44,10:17,07/05/2025
 Kittitas,Vashon,Fauntleroy,09:35,09:58,10:11,07/05/2025
+Yakima,Anacortes,Lopez,09:35,09:41,10:23,07/05/2025
 Tokitae,Mukilteo,Clinton,09:30,09:33,09:47,07/05/2025
 Kitsap,Clinton,Mukilteo,09:30,09:32,09:47,07/05/2025
 Kennewick,Port Townsend,Keystone,09:30,09:30,09:56,07/05/2025
