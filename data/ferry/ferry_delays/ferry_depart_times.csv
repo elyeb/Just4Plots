@@ -1,5 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kitsap,Mukilteo,Clinton,06:00,05:05,05:18,07/06/2025
+Kitsap,Clinton,Mukilteo,05:30,04:49,05:01,07/06/2025
+Kittitas,Vashon,Fauntleroy,04:40,04:41,04:54,07/06/2025
 Kittitas,Southworth,Vashon,04:20,04:20,04:32,07/06/2025
+Samish,Anacortes,Friday Harbor,04:00,04:00,05:07,07/06/2025
 Tacoma,Colman,Bainbridge,02:10,02:19,02:50,07/06/2025
 Kittitas,Vashon,Southworth,01:30,01:35,01:46,07/06/2025
 Tacoma,Bainbridge,Colman,01:25,01:37,02:09,07/06/2025
