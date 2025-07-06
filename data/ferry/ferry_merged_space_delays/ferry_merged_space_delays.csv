@@ -1,10 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Southworth,16:25,16:36,16:45,07/06/2025,Sunday,,11,
 Kittitas,Fauntleroy,Vashon,16:20,16:17,16:30,07/06/2025,Sunday,,-3,
 Issaquah,Vashon,Fauntleroy,16:10,16:13,16:27,07/06/2025,Sunday,,3,
 Kitsap,Mukilteo,Clinton,16:05,16:10,16:25,07/06/2025,Sunday,,5,
 Tokitae,Clinton,Mukilteo,16:05,16:13,16:25,07/06/2025,Sunday,,8,
 Walla Walla,Kingston,Edmonds,16:00,16:06,16:28,07/06/2025,Sunday,,6,
 Spokane,Edmonds,Kingston,15:55,15:57,16:26,07/06/2025,Sunday,,2,
+Tacoma,Bainbridge,Colman,15:55,16:10,16:41,07/06/2025,Sunday,,15,
 Kittitas,Vashon,Fauntleroy,15:50,15:51,16:04,07/06/2025,Sunday,,1,
 Kitsap,Clinton,Mukilteo,15:35,15:41,15:57,07/06/2025,Sunday,,6,
 Tokitae,Mukilteo,Clinton,15:35,15:42,15:56,07/06/2025,Sunday,,7,
