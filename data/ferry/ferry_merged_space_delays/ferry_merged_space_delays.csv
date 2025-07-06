@@ -1,6 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Mukilteo,Clinton,16:40,16:40,16:54,07/06/2025,Sunday,,0,
 Kittitas,Vashon,Southworth,16:25,16:36,16:45,07/06/2025,Sunday,,11,
 Kittitas,Fauntleroy,Vashon,16:20,16:17,16:30,07/06/2025,Sunday,,-3,
+Kennewick,Keystone,Port Townsend,16:15,16:21,16:49,07/06/2025,Sunday,,6,
 Issaquah,Vashon,Fauntleroy,16:10,16:13,16:27,07/06/2025,Sunday,,3,
 Kitsap,Mukilteo,Clinton,16:05,16:10,16:25,07/06/2025,Sunday,,5,
 Tokitae,Clinton,Mukilteo,16:05,16:13,16:25,07/06/2025,Sunday,,8,
