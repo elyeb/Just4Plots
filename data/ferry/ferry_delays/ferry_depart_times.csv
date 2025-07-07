@@ -1,6 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Sealth,Shaw,Orcas,16:25,16:29,16:37,07/07/2025
+Kennewick,Keystone,Port Townsend,16:15,16:15,16:44,07/07/2025
+Salish,Port Townsend,Keystone,16:15,16:18,16:44,07/07/2025
 Kitsap,Mukilteo,Clinton,16:05,16:18,16:35,07/07/2025
+Tokitae,Clinton,Mukilteo,16:05,16:28,16:40,07/07/2025
 WallaWalla,Kingston,Edmonds,16:00,16:10,16:31,07/07/2025
 Sealth,Lopez,Shaw,16:00,16:09,16:25,07/07/2025
 Spokane,Edmonds,Kingston,15:55,16:10,16:31,07/07/2025
