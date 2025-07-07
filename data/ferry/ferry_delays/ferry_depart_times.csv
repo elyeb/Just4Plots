@@ -1,4 +1,20 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tacoma,Colman,Bainbridge,02:10,02:12,02:45,07/07/2025
+Kittitas,Vashon,Southworth,01:30,01:34,01:45,07/07/2025
+Tacoma,Bainbridge,Colman,01:25,01:26,01:57,07/07/2025
+Kittitas,Fauntleroy,Vashon,01:05,01:15,01:30,07/07/2025
+Kitsap,Mukilteo,Clinton,01:05,01:05,01:17,07/07/2025
+Suquamish,Colman,Bremerton,00:50,01:28,02:27,07/07/2025
+Tacoma,Colman,Bainbridge,00:45,00:46,01:18,07/07/2025
+Kittitas,Southworth,Fauntleroy,00:35,00:35,00:52,07/07/2025
+Kitsap,Clinton,Mukilteo,00:35,00:35,00:49,07/07/2025
+Kittitas,Vashon,Southworth,00:15,00:15,00:26,07/07/2025
+Kitsap,Mukilteo,Clinton,00:05,00:09,00:21,07/07/2025
+Tacoma,Bainbridge,Colman,00:00,00:01,00:33,07/07/2025
+Suquamish,Bremerton,Colman,23:40,00:18,01:19,07/06/2025
+Yakima,Lopez,Anacortes,23:20,00:51,01:36,07/06/2025
+Yakima,Shaw,Lopez,22:55,00:29,00:44,07/06/2025
+Yakima,Orcas,Shaw,22:45,00:14,00:25,07/06/2025
 Tokitae,Mukilteo,Clinton,16:40,16:40,16:54,07/06/2025
 Kittitas,Vashon,Southworth,16:25,16:36,16:45,07/06/2025
 Kittitas,Fauntleroy,Vashon,16:20,16:17,16:30,07/06/2025
