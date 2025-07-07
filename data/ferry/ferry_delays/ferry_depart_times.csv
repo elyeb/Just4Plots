@@ -1,8 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Issaquah,Vashon,Fauntleroy,12:20,12:21,12:35,07/07/2025
+Kittitas,Southworth,Vashon,12:15,12:20,12:32,07/07/2025
 Tokitae,Clinton,Mukilteo,12:00,12:07,12:20,07/07/2025
 Kitsap,Mukilteo,Clinton,12:00,12:09,12:22,07/07/2025
 Kittitas,Vashon,Southworth,11:55,11:56,12:06,07/07/2025
 Spokane,Kingston,Edmonds,11:55,12:06,12:27,07/07/2025
+WallaWalla,Edmonds,Kingston,11:55,12:11,12:32,07/07/2025
 Issaquah,Fauntleroy,Vashon,11:50,11:51,12:06,07/07/2025
 Kennewick,Keystone,Port Townsend,11:45,11:48,12:17,07/07/2025
 Salish,Port Townsend,Keystone,11:45,11:53,12:20,07/07/2025
