@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Issaquah,Vashon,Fauntleroy,12:20,12:21,12:36,07/08/2025,Tuesday,,1,
+Tacoma,Bainbridge,Colman,12:20,12:22,12:55,07/08/2025,Tuesday,,2,
+Samish,Orcas,Shaw,12:20,12:38,12:50,07/08/2025,Tuesday,,18,
 Kittitas,Southworth,Vashon,12:15,12:21,12:34,07/08/2025,Tuesday,,6,
+Sealth,Shaw,Orcas,12:15,12:44,12:50,07/08/2025,Tuesday,,29,
 Kitsap,Mukilteo,Clinton,12:00,12:14,12:27,07/08/2025,Tuesday,,14,
 Tokitae,Clinton,Mukilteo,12:00,12:13,12:26,07/08/2025,Tuesday,,13,
 Kittitas,Vashon,Southworth,11:55,11:57,12:08,07/08/2025,Tuesday,,2,
