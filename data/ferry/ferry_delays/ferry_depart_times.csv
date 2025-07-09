@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Samish,Orcas,Shaw,12:20,12:31,12:43,07/09/2025
+Sealth,Shaw,Orcas,12:15,12:23,12:38,07/09/2025
+Kittitas,Southworth,Vashon,12:15,12:31,12:42,07/09/2025
 Tokitae,Clinton,Mukilteo,12:00,12:11,12:24,07/09/2025
 Kitsap,Mukilteo,Clinton,12:00,12:13,12:26,07/09/2025
 WallaWalla,Edmonds,Kingston,11:55,11:56,12:16,07/09/2025
