@@ -1,17 +1,23 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Issaquah,Southworth,Vashon,11:00,11:01,11:13,07/10/2025
+Sealth,Friday Harbor,Anacortes,10:55,10:00,11:11,07/10/2025
 Kittitas,Vashon,Fauntleroy,10:40,10:10,10:24,07/10/2025
 Kittitas,Fauntleroy,Vashon,10:40,10:41,10:56,07/10/2025
+Tacoma,Colman,Bainbridge,10:40,10:44,11:16,07/10/2025
 Issaquah,Vashon,Southworth,10:35,10:36,10:47,07/10/2025
 Kitsap,Clinton,Mukilteo,10:30,10:42,10:56,07/10/2025
 Tokitae,Mukilteo,Clinton,10:30,10:38,10:53,07/10/2025
+Puyallup,Bainbridge,Colman,10:25,10:33,11:08,07/10/2025
 Spokane,Kingston,Edmonds,10:20,10:27,10:48,07/10/2025
 WallaWalla,Edmonds,Kingston,10:20,10:27,10:48,07/10/2025
 Kennewick,Keystone,Port Townsend,10:15,10:19,10:48,07/10/2025
 Issaquah,Fauntleroy,Vashon,10:10,10:11,10:25,07/10/2025
 Kitsap,Mukilteo,Clinton,10:00,10:03,10:23,07/10/2025
 Tokitae,Clinton,Mukilteo,10:00,10:08,10:22,07/10/2025
+Suquamish,Colman,Bremerton,10:00,10:03,11:06,07/10/2025
 Kittitas,Fauntleroy,Vashon,09:50,09:51,10:04,07/10/2025
 Kaleetan,Bremerton,Colman,09:50,09:52,10:46,07/10/2025
+Samish,Lopez,Anacortes,09:45,10:22,11:05,07/10/2025
 Issaquah,Vashon,Fauntleroy,09:40,09:42,09:57,07/10/2025
 Tacoma,Bainbridge,Colman,09:40,09:42,10:14,07/10/2025
 WallaWalla,Kingston,Edmonds,09:35,09:38,10:00,07/10/2025
