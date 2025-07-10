@@ -1,4 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tacoma,Colman,Bainbridge,01:35,01:43,02:16,07/10/2025,Thursday,,8,
+Kitsap,Mukilteo,Clinton,01:05,01:05,01:18,07/10/2025,Thursday,,0,
+Tacoma,Bainbridge,Colman,00:55,01:06,01:37,07/10/2025,Thursday,,11,
+Suquamish,Colman,Bremerton,00:50,00:57,01:54,07/10/2025,Thursday,,7,
+Kitsap,Clinton,Mukilteo,00:35,00:35,00:49,07/10/2025,Thursday,,0,
+Tacoma,Colman,Bainbridge,00:15,00:26,00:58,07/10/2025,Thursday,,11,
+Kitsap,Mukilteo,Clinton,00:05,00:05,00:18,07/10/2025,Thursday,,0,
 Kittitas,Vashon,Fauntleroy,17:05,16:41,16:53,07/09/2025,Wednesday,,-24,
 Sealth,Shaw,Orcas,16:25,16:32,16:42,07/09/2025,Wednesday,,7,
 Kittitas,Southworth,Vashon,16:15,16:15,16:25,07/09/2025,Wednesday,,0,
