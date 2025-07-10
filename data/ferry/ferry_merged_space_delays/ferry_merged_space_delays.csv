@@ -1,8 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Shaw,Lopez,15:30,15:30,15:44,07/10/2025,Thursday,,0,
+Issaquah,Vashon,Fauntleroy,15:25,15:26,15:41,07/10/2025,Thursday,,1,
 Sealth,Orcas,,15:15,15:15,00:00,07/10/2025,Thursday,,0,
 Spokane,Kingston,Edmonds,15:10,15:16,15:39,07/10/2025,Thursday,,6,
 Kitsap,Clinton,Mukilteo,15:05,15:09,15:23,07/10/2025,Thursday,,4,
 Tokitae,Mukilteo,Clinton,15:05,15:04,15:19,07/10/2025,Thursday,,-1,
+Puyallup,Colman,Bainbridge,15:00,15:12,15:44,07/10/2025,Thursday,15:01:48,12,1.0
 Tacoma,Bainbridge,Colman,14:55,15:10,15:40,07/10/2025,Thursday,,15,
 Issaquah,Fauntleroy,Vashon,14:45,14:46,15:00,07/10/2025,Thursday,,1,
 Kittitas,Southworth,Fauntleroy,14:45,14:48,15:20,07/10/2025,Thursday,,3,
