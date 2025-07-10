@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,06:10,06:11,06:24,07/10/2025,Thursday,,1,
+Issaquah,Fauntleroy,Vashon,06:10,06:10,06:25,07/10/2025,Thursday,,0,
 Kitsap,Mukilteo,Clinton,06:00,06:01,06:15,07/10/2025,Thursday,,1,
 Tokitae,Clinton,Mukilteo,06:00,06:01,06:15,07/10/2025,Thursday,,1,
 Kittitas,Southworth,Vashon,05:50,05:50,06:01,07/10/2025,Thursday,,0,
