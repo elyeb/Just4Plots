@@ -1,7 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kitsap,Mukilteo,Clinton,06:00,05:04,05:17,07/12/2025,Saturday,,-56,
+Kittitas,Vashon,Southworth,05:35,05:36,05:48,07/12/2025,Saturday,,1,
 Kitsap,Clinton,Mukilteo,05:30,04:48,05:02,07/12/2025,Saturday,,-42,
+Kitsap,Clinton,Mukilteo,05:30,05:30,05:44,07/12/2025,Saturday,,0,
 Kittitas,Fauntleroy,Vashon,05:10,05:11,05:26,07/12/2025,Saturday,,1,
+Kaleetan,Bremerton,Colman,04:50,04:51,05:46,07/12/2025,Saturday,,1,
 Walla Walla,Kingston,Edmonds,04:45,04:46,05:08,07/12/2025,Saturday,,1,
 Kittitas,Vashon,Fauntleroy,04:40,04:41,04:55,07/12/2025,Saturday,,1,
 Kittitas,Southworth,Vashon,04:20,04:20,04:31,07/12/2025,Saturday,,0,
