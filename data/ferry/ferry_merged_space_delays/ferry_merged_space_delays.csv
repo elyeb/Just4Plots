@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Clinton,Mukilteo,05:30,04:49,05:02,07/13/2025,Sunday,,-41,
+Kittitas,Vashon,Fauntleroy,04:40,04:40,04:55,07/13/2025,Sunday,,0,
 Kittitas,Southworth,Vashon,04:20,04:20,04:31,07/13/2025,Sunday,,0,
 Kittitas,Vashon,Southworth,01:30,01:39,01:50,07/13/2025,Sunday,,9,
 Puyallup,Bainbridge,Colman,01:25,01:49,02:22,07/13/2025,Sunday,,24,
