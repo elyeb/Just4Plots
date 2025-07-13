@@ -2,6 +2,7 @@ actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,D
 Kitsap,Mukilteo,Clinton,12:00,12:00,12:15,07/13/2025,Sunday,,0,
 Tokitae,Clinton,Mukilteo,12:00,12:06,12:21,07/13/2025,Sunday,,6,
 Spokane,Kingston,Edmonds,11:55,12:02,12:24,07/13/2025,Sunday,,7,
+Walla Walla,Edmonds,Kingston,11:55,12:10,12:31,07/13/2025,Sunday,,15,
 Kennewick,Keystone,Port Townsend,11:45,11:45,12:13,07/13/2025,Sunday,,0,
 Salish,Port Townsend,Keystone,11:45,11:52,12:19,07/13/2025,Sunday,,7,
 Tacoma,Bainbridge,Colman,11:35,11:42,12:13,07/13/2025,Sunday,,7,
