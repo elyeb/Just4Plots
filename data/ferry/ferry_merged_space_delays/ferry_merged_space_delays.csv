@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Southworth,Vashon,13:10,13:10,13:22,07/13/2025,Sunday,,0,
 Kitsap,Mukilteo,Clinton,13:00,13:01,13:16,07/13/2025,Sunday,,1,
+Tokitae,Clinton,Mukilteo,13:00,13:08,13:24,07/13/2025,Sunday,,8,
 Walla Walla,Kingston,Edmonds,12:45,12:57,13:19,07/13/2025,Sunday,,12,
 Issaquah,Vashon,Fauntleroy,12:40,12:47,13:00,07/13/2025,Sunday,,7,
 Spokane,Edmonds,Kingston,12:40,12:52,13:13,07/13/2025,Sunday,,12,
@@ -11,6 +13,7 @@ Tacoma,Colman,Bainbridge,12:30,12:42,13:14,07/13/2025,Sunday,12:24:37,12,-6.0
 Salish,Keystone,Port Townsend,12:30,12:37,13:06,07/13/2025,Sunday,,7,
 Samish,Orcas,Shaw,12:20,12:43,12:54,07/13/2025,Sunday,,23,
 Puyallup,Bainbridge,Colman,12:20,12:38,13:09,07/13/2025,Sunday,,18,
+Kaleetan,Bremerton,Colman,12:20,12:26,13:21,07/13/2025,Sunday,,6,
 Sealth,Shaw,Orcas,12:15,12:31,12:47,07/13/2025,Sunday,,16,
 Kitsap,Mukilteo,Clinton,12:00,12:00,12:15,07/13/2025,Sunday,,0,
 Tokitae,Clinton,Mukilteo,12:00,12:06,12:21,07/13/2025,Sunday,,6,
