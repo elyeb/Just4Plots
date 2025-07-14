@@ -1,8 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Mukilteo,Clinton,06:30,06:30,06:45,07/14/2025,Monday,,0,
+Spokane,Edmonds,Kingston,06:15,06:17,06:38,07/14/2025,Monday,,2,
 Kittitas,Vashon,Fauntleroy,06:10,06:11,06:23,07/14/2025,Monday,,1,
 Issaquah,Fauntleroy,Vashon,06:10,06:10,06:24,07/14/2025,Monday,,0,
 Tokitae,Clinton,Mukilteo,06:00,06:02,06:16,07/14/2025,Monday,,2,
 Kitsap,Mukilteo,Clinton,06:00,06:00,06:14,07/14/2025,Monday,,0,
+Sealth,Friday Harbor,Lopez,05:55,06:02,06:34,07/14/2025,Monday,,7,
 Kittitas,Southworth,Vashon,05:50,05:51,06:02,07/14/2025,Monday,,1,
 Issaquah,Vashon,Fauntleroy,05:40,05:41,05:57,07/14/2025,Monday,,1,
 Tokitae,Mukilteo,Clinton,05:35,05:36,05:52,07/14/2025,Monday,,1,
