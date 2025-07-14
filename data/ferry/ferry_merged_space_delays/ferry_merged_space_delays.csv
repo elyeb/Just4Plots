@@ -1,7 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Vashon,Fauntleroy,12:20,12:21,12:34,07/14/2025,Monday,,1,
+Kittitas,Southworth,Vashon,12:15,12:18,12:29,07/14/2025,Monday,,3,
 Tokitae,Clinton,Mukilteo,12:00,12:11,12:24,07/14/2025,Monday,,11,
 Kitsap,Mukilteo,Clinton,12:00,12:06,12:23,07/14/2025,Monday,,6,
 Kittitas,Vashon,Southworth,11:55,11:55,12:06,07/14/2025,Monday,,0,
+Spokane,Kingston,Edmonds,11:55,12:14,12:37,07/14/2025,Monday,,19,
 Issaquah,Fauntleroy,Vashon,11:50,11:52,12:06,07/14/2025,Monday,,2,
 Salish,Port Townsend,Keystone,11:45,11:48,12:14,07/14/2025,Monday,,3,
 Kennewick,Keystone,Port Townsend,11:45,11:51,12:19,07/14/2025,Monday,,6,
