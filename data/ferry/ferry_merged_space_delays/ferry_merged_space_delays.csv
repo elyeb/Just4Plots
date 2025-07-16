@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,06:10,06:10,06:24,07/16/2025,Wednesday,,0,
+Tokitae,Mukilteo,Clinton,06:00,06:07,06:21,07/16/2025,Wednesday,,7,
 Kittitas,Southworth,Vashon,05:50,05:51,06:02,07/16/2025,Wednesday,,1,
 Walla Walla,Edmonds,Kingston,05:35,05:35,05:56,07/16/2025,Wednesday,,0,
 Samish,Friday Harbor,Lopez,05:35,05:36,06:09,07/16/2025,Wednesday,,1,
