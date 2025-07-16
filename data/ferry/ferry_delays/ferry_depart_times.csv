@@ -1,4 +1,5 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Vashon,Fauntleroy,07:40,07:45,07:57,07/16/2025
 Issaquah,Vashon,Southworth,07:30,07:34,07:47,07/16/2025
 Kittitas,Southworth,Vashon,07:20,07:23,07:36,07/16/2025
 Salish,Keystone,Port Townsend,07:15,07:18,07:45,07/16/2025
@@ -10,6 +11,7 @@ Tacoma,Bainbridge,Colman,07:05,07:07,07:38,07/16/2025
 Spokane,Kingston,Edmonds,07:00,07:03,07:25,07/16/2025
 Tokitae,Mukilteo,Clinton,07:00,07:11,07:25,07/16/2025
 Yakima,Lopez,Friday Harbor,07:00,07:12,07:44,07/16/2025
+Tokitae,Clinton,Mukilteo,07:00,07:46,07:59,07/16/2025
 Sealth,Lopez,Shaw,06:45,06:48,07:04,07/16/2025
 Kittitas,Fauntleroy,Southworth,06:40,06:46,07:05,07/16/2025
 Issaquah,Vashon,Fauntleroy,06:35,06:36,06:51,07/16/2025
