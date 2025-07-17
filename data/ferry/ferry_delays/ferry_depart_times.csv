@@ -1,4 +1,5 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Issaquah,Southworth,Vashon,09:20,09:20,09:33,07/17/2025
 Kitsap,Mukilteo,Clinton,09:00,09:00,09:15,07/17/2025
 Samish,Orcas,Shaw,09:00,09:00,09:12,07/17/2025
 Tokitae,Clinton,Mukilteo,09:00,09:01,09:20,07/17/2025
@@ -7,12 +8,16 @@ WallaWalla,Edmonds,Kingston,08:50,08:53,09:13,07/17/2025
 Salish,Keystone,Port Townsend,08:45,08:46,09:14,07/17/2025
 Tacoma,Bainbridge,Colman,08:45,08:47,09:17,07/17/2025
 Issaquah,Fauntleroy,Southworth,08:45,08:47,09:08,07/17/2025
+Puyallup,Colman,Bainbridge,08:45,08:48,09:19,07/17/2025
 Spokane,Kingston,Edmonds,08:40,08:43,09:04,07/17/2025
+Sealth,Friday Harbor,Lopez,08:35,08:47,09:23,07/17/2025
+Kaleetan,Colman,Bremerton,08:35,08:37,09:32,07/17/2025
 Kitsap,Clinton,Mukilteo,08:30,08:31,08:44,07/17/2025
 Kittitas,Vashon,Southworth,08:30,08:36,08:46,07/17/2025
 Tokitae,Mukilteo,Clinton,08:30,08:30,08:45,07/17/2025
 Issaquah,Vashon,Fauntleroy,08:15,08:18,08:33,07/17/2025
 Kittitas,Fauntleroy,Vashon,08:05,08:12,08:26,07/17/2025
+Yakima,Friday Harbor,Anacortes,08:05,08:20,09:36,07/17/2025
 Kitsap,Mukilteo,Clinton,08:00,08:00,08:13,07/17/2025
 Tokitae,Clinton,Mukilteo,08:00,08:00,08:15,07/17/2025
 Salish,Port Townsend,Keystone,08:00,08:00,08:28,07/17/2025
