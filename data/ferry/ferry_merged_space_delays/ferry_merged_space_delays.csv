@@ -1,4 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Clinton,Mukilteo,16:05,16:08,16:21,07/17/2025,Thursday,,3,
+Tokitae,Mukilteo,Clinton,16:05,16:13,16:22,07/17/2025,Thursday,,8,
+Sealth,Lopez,Shaw,16:00,16:07,16:21,07/17/2025,Thursday,,7,
+Walla Walla,Kingston,Edmonds,16:00,16:07,16:29,07/17/2025,Thursday,,7,
+Spokane,Edmonds,Kingston,15:55,16:05,16:23,07/17/2025,Thursday,,10,
 Kitsap,Mukilteo,Clinton,15:35,15:34,15:58,07/17/2025,Thursday,,-1,
 Tokitae,Clinton,Mukilteo,15:35,15:52,15:52,07/17/2025,Thursday,,17,
 Salish,Port Townsend,Keystone,15:30,15:51,16:06,07/17/2025,Thursday,,21,
