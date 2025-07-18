@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kitsap,Mukilteo,Clinton,05:05,04:12,04:27,07/18/2025
+Kitsap,Clinton,Mukilteo,04:40,03:55,04:10,07/18/2025
+Kittitas,Southworth,Vashon,04:10,04:10,04:22,07/18/2025
 Puyallup,Colman,Bainbridge,01:35,02:02,02:35,07/18/2025
 Tokitae,Mukilteo,Clinton,01:05,01:06,01:21,07/18/2025
 Puyallup,Bainbridge,Colman,00:55,01:21,01:54,07/18/2025
