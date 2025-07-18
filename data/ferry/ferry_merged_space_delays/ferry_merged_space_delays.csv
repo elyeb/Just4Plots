@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Port Townsend,Keystone,14:00,14:03,14:29,07/18/2025,Friday,,3,
 Kittitas,Vashon,Fauntleroy,13:40,13:47,14:00,07/18/2025,Friday,,7,
 Walla Walla,Edmonds,Kingston,13:35,13:40,14:01,07/18/2025,Friday,,5,
 Spokane,Kingston,Edmonds,13:30,13:37,13:59,07/18/2025,Friday,,7,
