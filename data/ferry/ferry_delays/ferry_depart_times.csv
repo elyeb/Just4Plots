@@ -1,4 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Puyallup,Colman,Bainbridge,01:35,02:02,02:35,07/18/2025
+Tokitae,Mukilteo,Clinton,01:05,01:06,01:21,07/18/2025
+Puyallup,Bainbridge,Colman,00:55,01:21,01:54,07/18/2025
+Suquamish,Colman,Bremerton,00:50,00:52,01:53,07/18/2025
+Tokitae,Clinton,Mukilteo,00:35,00:39,00:53,07/18/2025
+Puyallup,Colman,Bainbridge,00:15,00:44,01:15,07/18/2025
+Tokitae,Mukilteo,Clinton,00:05,00:07,00:21,07/18/2025
 Kitsap,Mukilteo,Clinton,16:40,16:37,16:50,07/17/2025
 Tokitae,Clinton,Mukilteo,16:35,16:42,16:55,07/17/2025
 Sealth,Shaw,Orcas,16:25,16:26,16:33,07/17/2025
