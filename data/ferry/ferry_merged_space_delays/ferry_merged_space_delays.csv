@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Southworth,Vashon,07:35,07:36,07:49,07/19/2025,Saturday,,1,
 Tokitae,Mukilteo,Clinton,07:30,07:32,07:48,07/19/2025,Saturday,,2,
 Kitsap,Clinton,Mukilteo,07:30,07:31,07:44,07/19/2025,Saturday,,1,
 Kittitas,Vashon,Southworth,07:15,07:16,07:27,07/19/2025,Saturday,,1,
