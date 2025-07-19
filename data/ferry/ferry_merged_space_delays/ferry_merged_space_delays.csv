@@ -1,9 +1,14 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Walla Walla,Kingston,Edmonds,12:45,12:45,13:05,07/19/2025,Saturday,,0,
+Salish,Port Townsend,Keystone,12:30,12:33,13:00,07/19/2025,Saturday,,3,
+Kennewick,Keystone,Port Townsend,12:30,12:36,13:03,07/19/2025,Saturday,,6,
+Kitsap,Clinton,Mukilteo,12:30,12:50,13:03,07/19/2025,Saturday,,20,
 Samish,Orcas,Shaw,12:20,12:41,12:51,07/19/2025,Saturday,,21,
 Kittitas,Southworth,Vashon,12:20,12:37,12:49,07/19/2025,Saturday,,17,
 Kittitas,Vashon,Southworth,12:00,12:17,12:28,07/19/2025,Saturday,,17,
 Tokitae,Clinton,Mukilteo,12:00,12:23,12:39,07/19/2025,Saturday,,23,
 Kitsap,Mukilteo,Clinton,12:00,12:13,12:32,07/19/2025,Saturday,,13,
+Sealth,Anacortes,Friday Harbor,12:00,11:53,13:00,07/19/2025,Saturday,,-7,
 Walla Walla,Edmonds,Kingston,11:55,11:57,12:19,07/19/2025,Saturday,11:55:10,2,0.0
 Spokane,Kingston,Edmonds,11:55,12:03,12:24,07/19/2025,Saturday,,8,
 Salish,Keystone,Port Townsend,11:45,11:51,12:18,07/19/2025,Saturday,,6,
