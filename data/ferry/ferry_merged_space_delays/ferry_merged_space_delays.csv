@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Samish,Orcas,Shaw,12:20,12:41,12:51,07/19/2025,Saturday,,21,
+Kittitas,Southworth,Vashon,12:20,12:37,12:49,07/19/2025,Saturday,,17,
 Kittitas,Vashon,Southworth,12:00,12:17,12:28,07/19/2025,Saturday,,17,
 Tokitae,Clinton,Mukilteo,12:00,12:23,12:39,07/19/2025,Saturday,,23,
 Kitsap,Mukilteo,Clinton,12:00,12:13,12:32,07/19/2025,Saturday,,13,
