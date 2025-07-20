@@ -1,9 +1,15 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Fauntleroy,Vashon,16:00,16:04,16:18,07/20/2025
+Issaquah,Vashon,Fauntleroy,15:50,16:04,16:17,07/20/2025
 Tokitae,Mukilteo,Clinton,15:35,15:53,16:06,07/20/2025
+Kitsap,Clinton,Mukilteo,15:35,15:54,16:09,07/20/2025
 Kittitas,Vashon,Fauntleroy,15:30,15:34,15:47,07/20/2025
+Kennewick,Keystone,Port Townsend,15:30,15:43,16:11,07/20/2025
+Salish,Port Townsend,Keystone,15:30,15:42,16:09,07/20/2025
 Issaquah,Fauntleroy,Vashon,15:20,15:33,15:47,07/20/2025
 WallaWalla,Edmonds,Kingston,15:15,15:46,16:06,07/20/2025
 Kittitas,Southworth,Vashon,15:10,15:10,15:23,07/20/2025
+Spokane,Kingston,Edmonds,15:10,15:52,16:13,07/20/2025
 Tokitae,Clinton,Mukilteo,15:05,15:22,15:36,07/20/2025
 Kitsap,Mukilteo,Clinton,15:05,15:20,15:38,07/20/2025
 Tacoma,Colman,Bainbridge,15:05,15:26,15:58,07/20/2025
@@ -17,6 +23,7 @@ Tokitae,Mukilteo,Clinton,14:35,14:48,15:01,07/20/2025
 Kitsap,Clinton,Mukilteo,14:35,14:46,15:02,07/20/2025
 WallaWalla,Kingston,Edmonds,14:30,14:58,15:19,07/20/2025
 Spokane,Edmonds,Kingston,14:25,15:05,15:26,07/20/2025
+Sealth,Friday Harbor,Anacortes,14:20,14:37,16:06,07/20/2025
 Puyallup,Colman,Bainbridge,14:10,14:29,15:01,07/20/2025
 Tacoma,Bainbridge,Colman,14:10,14:29,15:02,07/20/2025
 Kitsap,Mukilteo,Clinton,14:05,14:12,14:25,07/20/2025
@@ -27,6 +34,7 @@ Salish,Port Townsend,Keystone,14:00,14:09,14:35,07/20/2025
 Samish,Anacortes,Friday Harbor,14:00,14:17,15:27,07/20/2025
 Yakima,Friday Harbor,Lopez,13:55,14:08,14:42,07/20/2025
 Kittitas,Fauntleroy,Vashon,13:40,13:47,14:02,07/20/2025
+Kittitas,Fauntleroy,,13:40,13:47,00:00,07/20/2025
 WallaWalla,Edmonds,Kingston,13:35,13:53,14:17,07/20/2025
 Tokitae,Mukilteo,Clinton,13:30,13:42,13:57,07/20/2025
 Kitsap,Clinton,Mukilteo,13:30,13:39,13:55,07/20/2025
@@ -44,6 +52,7 @@ Tokitae,Clinton,Mukilteo,13:00,13:12,13:26,07/20/2025
 Kitsap,Mukilteo,Clinton,13:00,13:07,13:20,07/20/2025
 Issaquah,Fauntleroy,Vashon,12:50,13:02,13:21,07/20/2025
 Issaquah,Vashon,Southworth,12:50,13:33,13:44,07/20/2025
+Issaquah,Vashon,,12:50,13:33,00:00,07/20/2025
 WallaWalla,Kingston,Edmonds,12:45,13:00,13:26,07/20/2025
 Spokane,Edmonds,Kingston,12:40,13:18,13:41,07/20/2025
 Sealth,Orcas,Lopez,12:35,12:57,13:13,07/20/2025
