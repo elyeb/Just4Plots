@@ -1,7 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Tokitae,Clinton,Mukilteo,11:00,11:03,11:17,07/20/2025
 Kitsap,Mukilteo,Clinton,11:00,11:00,11:13,07/20/2025
+Kennewick,Keystone,Port Townsend,11:00,11:07,11:35,07/20/2025
+Salish,Port Townsend,Keystone,11:00,11:10,11:36,07/20/2025
 Kittitas,Southworth,Vashon,10:50,11:01,11:13,07/20/2025
+Yakima,Lopez,Anacortes,10:45,10:53,11:37,07/20/2025
+Puyallup,Colman,Bainbridge,10:40,10:52,11:21,07/20/2025
 Tokitae,Mukilteo,Clinton,10:30,10:31,10:46,07/20/2025
 Kitsap,Clinton,Mukilteo,10:30,10:30,10:44,07/20/2025
 Kittitas,Vashon,Southworth,10:30,10:37,10:47,07/20/2025
