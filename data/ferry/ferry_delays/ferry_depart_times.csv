@@ -1,7 +1,13 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Vashon,Southworth,08:05,08:06,08:17,07/21/2025
+Tokitae,Clinton,Mukilteo,08:00,08:01,08:16,07/21/2025
+Kitsap,Mukilteo,Clinton,08:00,08:00,08:13,07/21/2025
+Spokane,Edmonds,Kingston,07:55,07:57,08:19,07/21/2025
+WallaWalla,Kingston,Edmonds,07:55,07:57,08:19,07/21/2025
 Kittitas,Fauntleroy,Vashon,07:40,07:42,07:56,07/21/2025
 Tokitae,Mukilteo,Clinton,07:30,07:30,07:45,07/21/2025
 Kitsap,Clinton,Mukilteo,07:30,07:31,07:44,07/21/2025
+Tillikum,Orcas,Friday Harbor,07:30,07:32,08:12,07/21/2025
 Kittitas,Vashon,Fauntleroy,07:15,07:16,07:33,07/21/2025
 Salish,Keystone,Port Townsend,07:15,07:16,07:44,07/21/2025
 Tillikum,Shaw,Orcas,07:10,07:13,07:22,07/21/2025
