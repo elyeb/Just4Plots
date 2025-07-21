@@ -2,9 +2,13 @@ Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Samish,Orcas,Shaw,09:00,09:00,09:10,07/21/2025
 Tokitae,Clinton,Mukilteo,09:00,09:02,09:16,07/21/2025
 Kitsap,Mukilteo,Clinton,09:00,09:01,09:15,07/21/2025
+Kittitas,Vashon,,09:00,09:01,00:00,07/21/2025
 WallaWalla,Edmonds,Kingston,08:50,08:58,09:18,07/21/2025
 Salish,Keystone,Port Townsend,08:45,08:46,09:15,07/21/2025
+Puyallup,Colman,Bainbridge,08:45,08:46,09:19,07/21/2025
+Tacoma,Bainbridge,Colman,08:45,08:49,09:24,07/21/2025
 Spokane,Kingston,Edmonds,08:40,08:43,09:06,07/21/2025
+Tillikum,Friday Harbor,Lopez,08:35,08:44,09:22,07/21/2025
 Tokitae,Mukilteo,Clinton,08:30,08:31,08:46,07/21/2025
 Kitsap,Clinton,Mukilteo,08:30,08:32,08:45,07/21/2025
 Kittitas,Southworth,Vashon,08:30,08:32,08:43,07/21/2025
