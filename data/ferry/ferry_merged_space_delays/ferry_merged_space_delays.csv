@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kittitas,Fauntleroy,Vashon,11:30,11:34,11:47,07/22/2025,Tuesday,,4,
+Kitsap,Clinton,Mukilteo,11:30,11:42,11:55,07/22/2025,Tuesday,,12,
+Tokitae,Mukilteo,Clinton,11:30,11:38,11:54,07/22/2025,Tuesday,,8,
 Kittitas,Vashon,Fauntleroy,11:20,11:06,11:23,07/22/2025,Tuesday,,-14,
 Sealth,Vashon,Fauntleroy,11:20,11:21,11:41,07/22/2025,Tuesday,,1,
 Spokane,Edmonds,Kingston,11:05,11:08,11:31,07/22/2025,Tuesday,,3,
