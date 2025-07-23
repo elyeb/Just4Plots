@@ -1,6 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kitsap,Clinton,Mukilteo,09:30,09:31,09:44,07/23/2025
+Tokitae,Mukilteo,Clinton,09:30,09:34,09:50,07/23/2025
+Tillikum,Lopez,Shaw,09:25,09:40,10:01,07/23/2025
 Sealth,Southworth,Vashon,09:20,09:25,09:37,07/23/2025
+Kittitas,Vashon,Fauntleroy,09:15,09:33,09:46,07/23/2025
+Samish,Shaw,Lopez,09:15,09:21,09:48,07/23/2025
 Kitsap,Clinton,Mukilteo,09:00,09:02,09:03,07/23/2025
 Tokitae,Mukilteo,Clinton,09:00,09:01,09:04,07/23/2025
 Samish,Orcas,Shaw,09:00,09:11,09:15,07/23/2025
