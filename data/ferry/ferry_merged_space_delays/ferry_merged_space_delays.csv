@@ -1,8 +1,13 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Clinton,Mukilteo,10:30,10:31,10:45,07/26/2025,Saturday,,1,
+Tokitae,Mukilteo,Clinton,10:30,10:32,10:48,07/26/2025,Saturday,,2,
+Spokane,Kingston,Edmonds,10:20,10:26,10:48,07/26/2025,Saturday,,6,
+Sealth,Southworth,Vashon,10:20,10:29,10:42,07/26/2025,Saturday,,9,
 Kittitas,Fauntleroy,Vashon,10:05,10:18,10:31,07/26/2025,Saturday,,13,
 Kitsap,Mukilteo,Clinton,10:00,10:01,10:14,07/26/2025,Saturday,,1,
 Tokitae,Clinton,Mukilteo,10:00,10:02,10:17,07/26/2025,Saturday,,2,
 Tillikum,Shaw,Orcas,09:50,09:51,10:00,07/26/2025,Saturday,,1,
+Issaquah,Bremerton,Colman,09:50,09:52,10:43,07/26/2025,Saturday,,2,
 Sealth,Fauntleroy,Southworth,09:45,09:47,10:17,07/26/2025,Saturday,,2,
 Samish,Lopez,Anacortes,09:45,09:56,10:39,07/26/2025,Saturday,,11,
 Wenatchee,Bainbridge,Colman,09:45,09:49,10:21,07/26/2025,Saturday,,4,
