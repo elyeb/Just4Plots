@@ -1,6 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kittitas,Vashon,Southworth,07:15,07:15,07:27,07/26/2025,Saturday,,0,
 Tillikum,Shaw,Orcas,07:10,07:10,07:18,07/26/2025,Saturday,,0,
+Walla Walla,Edmonds,Kingston,07:10,07:10,07:34,07/26/2025,Saturday,,0,
+Tacoma,Bainbridge,Colman,07:05,07:05,07:38,07/26/2025,Saturday,,0,
 Kitsap,Mukilteo,Clinton,07:00,07:00,07:14,07/26/2025,Saturday,,0,
 Tokitae,Clinton,Mukilteo,07:00,07:00,07:15,07/26/2025,Saturday,,0,
 Yakima,Lopez,Friday Harbor,07:00,06:59,07:31,07/26/2025,Saturday,,-1,
