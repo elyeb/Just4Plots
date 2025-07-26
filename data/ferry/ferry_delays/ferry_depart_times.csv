@@ -1,6 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Spokane,Kingston,Edmonds,08:40,08:41,09:03,07/26/2025
 Kitsap,Clinton,Mukilteo,08:30,08:30,08:45,07/26/2025
 Tokitae,Mukilteo,Clinton,08:30,08:30,08:46,07/26/2025
+Kittitas,Fauntleroy,Vashon,08:30,08:40,08:54,07/26/2025
 Kitsap,Mukilteo,Clinton,08:00,08:01,08:14,07/26/2025
 Tokitae,Clinton,Mukilteo,08:00,08:01,08:14,07/26/2025
 Kittitas,Vashon,Fauntleroy,07:55,07:56,08:10,07/26/2025
