@@ -1,12 +1,18 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Port Townsend,Keystone,14:00,14:01,14:28,07/27/2025,Sunday,,1,
 Sealth,Vashon,Fauntleroy,13:50,13:50,14:03,07/27/2025,Sunday,,0,
+Kittitas,Fauntleroy,Vashon,13:40,13:51,14:04,07/27/2025,Sunday,,11,
 Walla Walla,Edmonds,Kingston,13:35,13:41,14:03,07/27/2025,Sunday,13:38:24,6,3.0
 Tokitae,Mukilteo,Clinton,13:30,13:49,14:04,07/27/2025,Sunday,,19,
 Kitsap,Clinton,Mukilteo,13:30,13:48,14:01,07/27/2025,Sunday,,18,
+Spokane,Kingston,Edmonds,13:30,13:47,14:10,07/27/2025,Sunday,,17,
+Tacoma,Bainbridge,Colman,13:20,13:45,14:17,07/27/2025,Sunday,,25,
 Sealth,Fauntleroy,Vashon,13:15,13:19,13:33,07/27/2025,Sunday,,4,
 Kittitas,Vashon,Fauntleroy,13:15,13:19,13:32,07/27/2025,Sunday,,4,
 Salish,Keystone,Port Townsend,13:15,13:15,13:45,07/27/2025,Sunday,,0,
 Kennewick,Port Townsend,Keystone,13:15,13:27,13:54,07/27/2025,Sunday,,12,
+Wenatchee,Colman,Bainbridge,13:15,13:43,14:20,07/27/2025,Sunday,12:51:50,28,-24.0
+Tillikum,Lopez,Friday Harbor,13:05,13:21,14:06,07/27/2025,Sunday,,16,
 Tokitae,Clinton,Mukilteo,13:00,13:17,13:32,07/27/2025,Sunday,,17,
 Kitsap,Mukilteo,Clinton,13:00,13:16,13:28,07/27/2025,Sunday,,16,
 Walla Walla,Kingston,Edmonds,12:45,12:48,13:11,07/27/2025,Sunday,,3,
