@@ -1,7 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tacoma,Bainbridge,Colman,11:35,11:43,12:14,07/27/2025,Sunday,,8,
 Tokitae,Mukilteo,Clinton,11:30,11:36,11:50,07/27/2025,Sunday,,6,
 Kitsap,Clinton,Mukilteo,11:30,11:39,11:54,07/27/2025,Sunday,,9,
+Wenatchee,Colman,Bainbridge,11:25,11:40,12:13,07/27/2025,Sunday,,15,
+Tillikum,Friday Harbor,Shaw,11:20,11:21,12:06,07/27/2025,Sunday,,1,
 Kittitas,Vashon,Fauntleroy,11:10,11:29,11:41,07/27/2025,Sunday,,19,
+Kaleetan,Bremerton,Colman,11:10,11:19,12:13,07/27/2025,Sunday,,9,
+Issaquah,Colman,Bremerton,11:10,11:12,12:09,07/27/2025,Sunday,,2,
 Walla Walla,Kingston,Edmonds,11:05,11:12,11:33,07/27/2025,Sunday,,7,
 Spokane,Edmonds,Kingston,11:05,11:14,11:36,07/27/2025,Sunday,,9,
 Tokitae,Clinton,Mukilteo,11:00,11:05,11:19,07/27/2025,Sunday,,5,
