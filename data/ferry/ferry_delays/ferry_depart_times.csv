@@ -1,5 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kitsap,Mukilteo,Clinton,05:05,04:10,04:24,07/28/2025
+Kitsap,Mukilteo,Clinton,05:05,05:06,05:20,07/28/2025
+Kittitas,Fauntleroy,Vashon,05:05,05:06,05:20,07/28/2025
+Tokitae,Clinton,Mukilteo,05:05,05:07,05:26,07/28/2025
 Tacoma,Bainbridge,Colman,04:45,04:46,05:16,07/28/2025
 WallaWalla,Kingston,Edmonds,04:45,04:46,05:07,07/28/2025
 Kitsap,Clinton,Mukilteo,04:40,03:53,04:07,07/28/2025
