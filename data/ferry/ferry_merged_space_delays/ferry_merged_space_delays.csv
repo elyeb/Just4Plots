@@ -1,10 +1,17 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Vashon,Southworth,10:35,10:36,10:48,07/29/2025,Tuesday,,1,
+Tokitae,Mukilteo,Clinton,10:30,10:36,10:53,07/29/2025,Tuesday,,6,
+Kitsap,Clinton,Mukilteo,10:30,10:33,10:49,07/29/2025,Tuesday,,3,
+Spokane,Kingston,Edmonds,10:20,10:27,10:48,07/29/2025,Tuesday,09:29:02,7,-51.0
 Kittitas,Vashon,Fauntleroy,10:15,10:16,10:29,07/29/2025,Tuesday,,1,
+Kennewick,Keystone,Port Townsend,10:15,10:18,10:46,07/29/2025,Tuesday,,3,
 Sealth,Fauntleroy,Vashon,10:10,10:12,10:28,07/29/2025,Tuesday,,2,
 Tokitae,Clinton,Mukilteo,10:00,10:03,10:18,07/29/2025,Tuesday,,3,
 Kitsap,Mukilteo,Clinton,10:00,10:01,10:16,07/29/2025,Tuesday,,1,
 Kittitas,Fauntleroy,Vashon,09:50,09:51,10:05,07/29/2025,Tuesday,,1,
 Tillikum,Shaw,Orcas,09:50,10:17,10:26,07/29/2025,Tuesday,,27,
+Issaquah,Bremerton,Colman,09:50,09:52,10:49,07/29/2025,Tuesday,,2,
+Samish,Lopez,Anacortes,09:45,10:04,10:49,07/29/2025,Tuesday,,19,
 Sealth,Vashon,Fauntleroy,09:40,09:43,09:58,07/29/2025,Tuesday,,3,
 Tacoma,Bainbridge,Colman,09:40,09:41,10:13,07/29/2025,Tuesday,,1,
 Spokane,Edmonds,Kingston,09:35,09:39,10:00,07/29/2025,Tuesday,,4,
