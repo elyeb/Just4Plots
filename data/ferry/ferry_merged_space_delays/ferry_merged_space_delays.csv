@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Mukilteo,Clinton,05:05,04:11,04:25,07/29/2025,Tuesday,,-54,
 Kitsap,Clinton,Mukilteo,04:40,03:54,04:08,07/29/2025,Tuesday,,-46,
+Kittitas,Southworth,Vashon,04:10,04:11,04:22,07/29/2025,Tuesday,,1,
 Tacoma,Colman,Bainbridge,01:35,01:50,02:25,07/29/2025,Tuesday,,15,
 Tokitae,Mukilteo,Clinton,01:05,01:05,01:19,07/29/2025,Tuesday,,0,
 Tacoma,Bainbridge,Colman,00:55,01:14,01:44,07/29/2025,Tuesday,,19,
