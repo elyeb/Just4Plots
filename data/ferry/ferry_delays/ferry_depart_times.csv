@@ -1,4 +1,15 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Mukilteo,Clinton,07:30,07:30,07:45,07/29/2025
+Kittitas,Southworth,Vashon,07:20,07:21,07:33,07/29/2025
+Kennewick,Keystone,Port Townsend,07:15,07:15,07:43,07/29/2025
+Tillikum,Shaw,Orcas,07:10,07:10,07:18,07/29/2025
+WallaWalla,Edmonds,Kingston,07:10,07:12,07:32,07/29/2025
+Wenatchee,Bainbridge,Colman,07:05,07:06,07:39,07/29/2025
+Sealth,Fauntleroy,Vashon,07:05,07:07,07:24,07/29/2025
+Tacoma,Colman,Bainbridge,07:05,07:10,07:43,07/29/2025
+Tokitae,Clinton,Mukilteo,07:00,07:01,07:16,07/29/2025
+Spokane,Kingston,Edmonds,07:00,07:03,07:24,07/29/2025
+Kitsap,Mukilteo,Clinton,07:00,07:01,07:13,07/29/2025
 Tillikum,Lopez,Shaw,06:45,06:46,07:04,07/29/2025
 Kittitas,Fauntleroy,Southworth,06:40,06:41,06:59,07/29/2025
 Sealth,Vashon,Fauntleroy,06:35,06:38,06:53,07/29/2025
@@ -7,11 +18,13 @@ Tokitae,Mukilteo,Clinton,06:30,06:30,06:45,07/29/2025
 Kitsap,Clinton,Mukilteo,06:30,06:31,06:45,07/29/2025
 WallaWalla,Kingston,Edmonds,06:25,06:27,06:47,07/29/2025
 Tacoma,Bainbridge,Colman,06:20,06:24,06:54,07/29/2025
+Kaleetan,Bremerton,Colman,06:20,06:21,07:22,07/29/2025
 Spokane,Edmonds,Kingston,06:15,06:15,06:37,07/29/2025
 Samish,Lopez,Anacortes,06:15,06:23,07:08,07/29/2025
 Kittitas,Vashon,Fauntleroy,06:10,06:11,06:24,07/29/2025
 Sealth,Fauntleroy,Vashon,06:10,06:16,06:31,07/29/2025
 Wenatchee,Colman,Bainbridge,06:10,06:12,06:44,07/29/2025
+Yakima,Anacortes,Lopez,06:10,06:38,07:18,07/29/2025
 Tokitae,Clinton,Mukilteo,06:00,06:03,06:18,07/29/2025
 Kitsap,Mukilteo,Clinton,06:00,06:00,06:13,07/29/2025
 Issaquah,Colman,Bremerton,06:00,06:01,07:04,07/29/2025
