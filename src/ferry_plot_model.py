@@ -18,7 +18,7 @@ DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../data/ferry/ferry_merged_space_delays/"
 )
 PLOT_FOLDER = os.path.join(os.path.dirname(__file__), "../docs/")
-MAIN_FOLDER = os.path.join(os.path.dirname(__file__), "..")
+
 
 df_full = pd.read_parquet(DATA_FOLDER + "ferry_merged_space_delays.parquet")
 
@@ -455,5 +455,5 @@ png_files = [
     os.path.join(PLOT_FOLDER, f"Kingston_to_Edmonds_{day_of_week}_{today.replace('/', '-')}.png")
 ]
 
-output_path = os.path.join(MAIN_FOLDER, f"all_routes_today.pdf")
+output_path = os.path.join(PLOT_FOLDER, f"all_routes_today.pdf")
 combine_pngs_2x2(png_files, output_path)
