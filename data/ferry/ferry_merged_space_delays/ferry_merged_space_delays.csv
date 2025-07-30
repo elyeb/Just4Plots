@@ -1,11 +1,15 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tillikum,Shaw,Orcas,16:25,16:29,16:37,07/30/2025,Wednesday,,4,
 Kittitas,Southworth,Vashon,16:15,16:15,16:26,07/30/2025,Wednesday,,0,
+Sealth,Fauntleroy,Southworth,16:10,16:12,16:36,07/30/2025,Wednesday,,2,
 Tokitae,Mukilteo,Clinton,16:05,16:11,16:25,07/30/2025,Wednesday,,6,
 Kitsap,Clinton,Mukilteo,16:05,16:09,16:22,07/30/2025,Wednesday,,4,
 Tillikum,Lopez,Shaw,16:00,16:05,16:23,07/30/2025,Wednesday,,5,
 Walla Walla,Kingston,Edmonds,16:00,16:05,16:28,07/30/2025,Wednesday,15:55:06,5,-5.0
 Kittitas,Vashon,Southworth,15:55,15:56,16:05,07/30/2025,Wednesday,,1,
 Spokane,Edmonds,Kingston,15:55,16:00,16:26,07/30/2025,Wednesday,,5,
+Wenatchee,Bainbridge,Colman,15:50,16:04,16:35,07/30/2025,Wednesday,,14,
+Tacoma,Colman,Bainbridge,15:50,16:06,16:38,07/30/2025,Wednesday,15:39:09,16,-11.0
 Tokitae,Clinton,Mukilteo,15:35,15:40,15:53,07/30/2025,Wednesday,,5,
 Kitsap,Mukilteo,Clinton,15:35,15:33,15:49,07/30/2025,Wednesday,,-2,
 Kittitas,Fauntleroy,Vashon,15:30,15:30,15:44,07/30/2025,Wednesday,,0,
