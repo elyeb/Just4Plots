@@ -20,7 +20,7 @@ URL_ROOT = "https://wsdot.com/ferries/vesselwatch/TerminalDetail.aspx?terminalid
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../data/ferry/ferry_spaces/"
 )
-
+os.makedirs(DATA_FOLDER, exist_ok=True,mode=0o777)
 dock_dict = {
     "colman": 7,
     "bainbridge": 3,

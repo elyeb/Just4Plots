@@ -11,6 +11,7 @@ from datetime import datetime
 SPACE_FOLDER = os.path.join(
     os.path.dirname(__file__), "../data/ferry/ferry_spaces/"
 )
+os.makedirs(SPACE_FOLDER, exist_ok=True,mode=0o777)  
 DEP_TIME_FOLDER = os.path.join(
     os.path.dirname(__file__), "../data/ferry/ferry_delays/"
 )
@@ -207,6 +208,7 @@ if len(concat_list) >0:
 # remove individual space files
 for f in space_files:
     os.remove(SPACE_FOLDER + f)
+os.makedirs(SPACE_FOLDER, exist_ok=True,mode=0o777)
 
 ## prep for merge
 # format the dataframes
