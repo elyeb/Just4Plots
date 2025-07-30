@@ -1,7 +1,7 @@
 # Layman's Research Projects
 
 ### **Date added** Jul 21, 2025 <br>
-**Main ferry plots for the weekend**  
+**Distribution of contributions to similar candidates**  
 Exploring ways to see differences in campaign contributions by candidates
 for the King County Executive position in 2025. 
 ![donors_hist_Balducci_Zahilay.png](outputs/plots/lobbying/donors_hist_Balducci_Zahilay.png)
