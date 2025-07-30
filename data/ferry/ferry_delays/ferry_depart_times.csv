@@ -1,4 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tacoma,Colman,Bainbridge,01:35,01:35,02:08,07/30/2025
+Tokitae,Mukilteo,Clinton,01:05,01:05,01:18,07/30/2025
+Tacoma,Bainbridge,Colman,00:55,00:55,01:25,07/30/2025
+Kaleetan,Colman,Bremerton,00:50,00:51,01:47,07/30/2025
+Tokitae,Clinton,Mukilteo,00:35,00:38,00:52,07/30/2025
+Tacoma,Colman,Bainbridge,00:15,00:19,00:50,07/30/2025
 Tokitae,Mukilteo,Clinton,00:05,00:06,00:20,07/30/2025
 Spokane,Edmonds,Kingston,16:45,16:46,16:47,07/29/2025
 Kittitas,Southworth,Vashon,16:15,16:15,16:29,07/29/2025
