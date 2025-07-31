@@ -1,7 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Southworth,Vashon,07:55,07:57,08:10,07/31/2025,Thursday,,2,
+Walla Walla,Kingston,Edmonds,07:55,07:57,08:19,07/31/2025,Thursday,,2,
 Kittitas,Vashon,Fauntleroy,07:40,07:41,07:54,07/31/2025,Thursday,,1,
 Tokitae,Mukilteo,Clinton,07:30,07:35,07:49,07/31/2025,Thursday,,5,
 Sealth,Vashon,Southworth,07:30,07:30,07:43,07/31/2025,Thursday,,0,
+Tillikum,Orcas,Friday Harbor,07:30,07:32,08:10,07/31/2025,Thursday,,2,
 Kittitas,Southworth,Vashon,07:20,07:22,07:32,07/31/2025,Thursday,,2,
 Salish,Keystone,Port Townsend,07:15,07:16,07:44,07/31/2025,Thursday,,1,
 Tillikum,Shaw,Orcas,07:10,07:13,07:20,07/31/2025,Thursday,,3,
