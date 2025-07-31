@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Sealth,Southworth,Vashon,09:20,09:22,09:34,07/31/2025
+Samish,Shaw,Lopez,09:15,09:20,09:46,07/31/2025
+Kittitas,Vashon,Fauntleroy,09:15,09:18,09:43,07/31/2025
 Samish,Orcas,Shaw,09:00,09:02,09:14,07/31/2025
 Tokitae,Clinton,Mukilteo,09:00,09:11,09:24,07/31/2025
 Kittitas,Southworth,Vashon,08:55,09:02,09:10,07/31/2025
@@ -7,12 +10,15 @@ Salish,Keystone,Port Townsend,08:45,08:45,09:13,07/31/2025
 Tacoma,Colman,Bainbridge,08:45,08:47,09:19,07/31/2025
 Wenatchee,Bainbridge,Colman,08:45,08:47,09:19,07/31/2025
 Sealth,Fauntleroy,Southworth,08:45,08:46,09:07,07/31/2025
+Kaleetan,Bremerton,Colman,08:45,08:47,09:44,07/31/2025
 Spokane,Kingston,Edmonds,08:40,08:42,09:03,07/31/2025
 Tillikum,Friday Harbor,Lopez,08:35,08:51,09:29,07/31/2025
+Issaquah,Colman,Bremerton,08:35,08:36,09:34,07/31/2025
 Kittitas,Vashon,Southworth,08:30,08:31,08:41,07/31/2025
 Tokitae,Mukilteo,Clinton,08:30,08:39,08:53,07/31/2025
 Sealth,Vashon,Fauntleroy,08:15,08:19,08:34,07/31/2025
 Kittitas,Fauntleroy,Vashon,08:05,08:08,08:21,07/31/2025
+Yakima,Friday Harbor,Anacortes,08:05,08:19,09:35,07/31/2025
 Salish,Port Townsend,Keystone,08:00,08:01,08:28,07/31/2025
 Tokitae,Clinton,Mukilteo,08:00,08:08,08:21,07/31/2025
 Sealth,Southworth,Vashon,07:55,07:57,08:10,07/31/2025
