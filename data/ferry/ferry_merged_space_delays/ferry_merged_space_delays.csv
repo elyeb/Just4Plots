@@ -1,10 +1,17 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tillikum,Orcas,Shaw,15:15,15:31,15:39,07/31/2025,Thursday,,16,
+Spokane,Kingston,Edmonds,15:10,15:18,15:40,07/31/2025,Thursday,,8,
+Kitsap,Clinton,Mukilteo,15:05,15:14,15:29,07/31/2025,Thursday,,9,
+Tokitae,Mukilteo,Clinton,15:05,15:15,15:29,07/31/2025,Thursday,,10,
 Sealth,Fauntleroy,Vashon,14:45,14:46,15:00,07/31/2025,Thursday,,1,
+Salish,Keystone,Port Townsend,14:45,14:46,15:12,07/31/2025,Thursday,,1,
+Kittitas,Southworth,Fauntleroy,14:45,14:46,15:17,07/31/2025,Thursday,,1,
 Tokitae,Clinton,Mukilteo,14:35,14:43,14:57,07/31/2025,Thursday,,8,
 Kitsap,Mukilteo,Clinton,14:35,14:40,14:56,07/31/2025,Thursday,,5,
 Walla Walla,Kingston,Edmonds,14:30,14:33,14:54,07/31/2025,Thursday,,3,
 Spokane,Edmonds,Kingston,14:25,14:33,14:55,07/31/2025,Thursday,14:28:12,8,3.0
 Sealth,Vashon,Fauntleroy,14:15,14:17,14:32,07/31/2025,Thursday,,2,
+Tillikum,Friday Harbor,Orcas,14:15,14:46,15:21,07/31/2025,Thursday,,31,
 Kittitas,Fauntleroy,Southworth,14:10,14:14,14:38,07/31/2025,Thursday,,4,
 Tokitae,Mukilteo,Clinton,14:05,14:07,14:21,07/31/2025,Thursday,,2,
 Wenatchee,Bainbridge,Colman,14:05,14:08,14:39,07/31/2025,Thursday,,3,
