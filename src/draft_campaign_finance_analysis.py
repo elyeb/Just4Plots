@@ -138,15 +138,6 @@ def clean_1(df):
     return df
 
 
-balducci_df = clean_0(balducci)
-zahilay_df = clean_0(zahilay)
-constatine_df = clean_0(constatine)
-
-balducci_df = clean_1(balducci_df)
-zahilay_df = clean_1(zahilay_df)
-constatine_df = clean_1(constatine_df)
-
-
 def get_overlapping_donors(df1, cand_1, df2, cand_2):
     """
     Find overlapping donors between two DataFrames.
@@ -186,6 +177,16 @@ def get_overlapping_donors(df1, cand_1, df2, cand_2):
         by="total_contribution", ascending=False
     )
     return overlapping_donors
+
+
+balducci_df = clean_0(balducci)
+zahilay_df = clean_0(zahilay)
+constatine_df = clean_0(constatine)
+
+balducci_df = clean_1(balducci_df)
+zahilay_df = clean_1(zahilay_df)
+constatine_df = clean_1(constatine_df)
+
 
 
 # Get overlapping donors
