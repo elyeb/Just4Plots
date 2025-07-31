@@ -1,4 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Fauntleroy,Vashon,10:10,10:14,10:29,07/31/2025,Thursday,,4,
+Kitsap,Mukilteo,Clinton,10:00,10:05,10:23,07/31/2025,Thursday,,5,
+Tokitae,Clinton,Mukilteo,10:00,10:13,10:27,07/31/2025,Thursday,,13,
 Tillikum,Shaw,Orcas,09:50,10:04,10:11,07/31/2025,Thursday,,14,
 Kittitas,Fauntleroy,Vashon,09:50,09:56,10:13,07/31/2025,Thursday,,6,
 Tacoma,Bainbridge,Colman,09:40,09:41,10:11,07/31/2025,Thursday,,1,
