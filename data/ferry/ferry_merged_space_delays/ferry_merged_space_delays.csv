@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Clinton,Mukilteo,16:05,16:27,16:40,08/01/2025,Friday,,22,
 Walla Walla,Kingston,Edmonds,16:00,16:07,16:28,08/01/2025,Friday,,7,
+Tillikum,Lopez,Shaw,16:00,16:22,16:39,08/01/2025,Friday,,22,
 Kittitas,Vashon,Southworth,15:55,16:10,16:22,08/01/2025,Friday,,15,
 Spokane,Edmonds,Kingston,15:55,16:03,16:25,08/01/2025,Friday,,8,
 Tokitae,Mukilteo,Clinton,15:35,15:52,16:06,08/01/2025,Friday,,17,
