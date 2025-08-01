@@ -1,5 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,11:20,11:07,11:27,08/01/2025,Friday,,-13,
+Walla Walla,Kingston,Edmonds,11:05,11:08,11:33,08/01/2025,Friday,,3,
+Spokane,Edmonds,Kingston,11:05,11:10,11:32,08/01/2025,Friday,10:39:26,5,-26.0
 Sealth,Southworth,Vashon,11:00,11:01,11:14,08/01/2025,Friday,,1,
+Kennewick,Keystone,Port Townsend,11:00,11:04,11:30,08/01/2025,Friday,,4,
+Salish,Port Townsend,Keystone,11:00,11:04,11:30,08/01/2025,Friday,,4,
 Kittitas,Fauntleroy,Vashon,10:40,10:41,10:55,08/01/2025,Friday,,1,
 Tacoma,Colman,Bainbridge,10:40,10:45,11:17,08/01/2025,Friday,10:39:26,5,-1.0
 Sealth,Vashon,Southworth,10:35,10:36,10:51,08/01/2025,Friday,,1,
