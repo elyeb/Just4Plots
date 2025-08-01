@@ -1,5 +1,28 @@
 # Layman's Research Projects
 
+### **Date added** Jul 31, 2025 <br>
+**More on campaing contriubtions and PAC spending in local races**  
+Making bar charts to distinguish between candidates on the 2025 Seattle ballot (mainly only for candidates having raised over a few thousand dollars). For each race, try to answer: 
+- which PACs are spending money for and against the candidates?
+- who receives most from real estate (from employer/occupation info)?
+- who has most labor contributions?
+- who receives most from amazon?
+![seattle_mayor.pdf](outputs/plots/lobbying/seattle_mayor.pdf)
+![county_executive.pdf](outputs/plots/lobbying/county_executive.pdf)
+![seattle_city_council_position_no_9.pdf](outputs/plots/lobbying/seattle_city_council_position_no_9.pdf)
+![city_attorney.pdf](outputs/plots/lobbying/city_attorney.pdf)
+![seattle_district_2_school_director.pdf](outputs/plots/lobbying/seattle_district_2_school_director.pdf)
+- Plotting code: [here](src/candidate_contributions_bar_charts.R)
+- Data from: https://www.pdc.wa.gov/political-disclosure-reporting-data
+
+### **Date added** July 31, 2025 <br>
+**Ferry plots daily**  
+Pointing to an plot that should update daily via Github Actions
+![all_routes_today.png](docs/all_routes_today.png)
+- Scraping code for sellout times: [here](src/ferry_scrape.py)
+- Download code for departure times data frames: [here](src/ferry_data_download.py)
+- Plotting code: [here](src/ferry_plot.py)
+
 ### **Date added** Jul 21, 2025 <br>
 **Distribution of contributions to similar candidates**  
 Exploring ways to see differences in campaign contributions by candidates
