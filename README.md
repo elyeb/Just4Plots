@@ -7,11 +7,11 @@ Making bar charts to distinguish between candidates on the 2025 Seattle ballot (
 - who receives most from real estate (from employer/occupation info)?
 - who has most labor contributions?
 - who receives most from amazon?
-![seattle_mayor.pdf](outputs/plots/lobbying/seattle_mayor.pdf)
-![county_executive.pdf](outputs/plots/lobbying/county_executive.pdf)
-![seattle_city_council_position_no_9.pdf](outputs/plots/lobbying/seattle_city_council_position_no_9.pdf)
-![city_attorney.pdf](outputs/plots/lobbying/city_attorney.pdf)
-![seattle_district_2_school_director.pdf](outputs/plots/lobbying/seattle_district_2_school_director.pdf)
+![seattle_mayor.png](outputs/plots/lobbying/seattle_mayor.png)
+![county_executive.png](outputs/plots/lobbying/county_executive.png)
+![seattle_city_council_position_no_9.png](outputs/plots/lobbying/seattle_city_council_position_no_9.png)
+![city_attorney.png](outputs/plots/lobbying/city_attorney.png)
+![seattle_district_2_school_director.png](outputs/plots/lobbying/seattle_district_2_school_director.png)
 - Plotting code: [here](src/candidate_contributions_bar_charts.R)
 - Data from: https://www.pdc.wa.gov/political-disclosure-reporting-data
 
