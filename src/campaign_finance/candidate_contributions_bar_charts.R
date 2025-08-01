@@ -11,17 +11,17 @@ library(scales)
 library(stringr)
 library(patchwork)
 
-# donations_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/seattle_mayor/')
+donations_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/seattle_mayor/')
 # donations_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/seattle_council_no_9/')
 # donations_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/county_executive/')
 # donations_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/city_attorney/')
-donations_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/seattle_district_2_school_dir/')
+# donations_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/seattle_district_2_school_dir/')
 
-# race <- "Seattle Mayor"
+race <- "Seattle Mayor"
 # race <- "Seattle City Council Position No. 9"
 # race <- "County Executive"
 # race <- "City Attorney"
-race <- "Seattle District 2 School Director"
+# race <- "Seattle District 2 School Director"
 
 
 election_yr <- 2025
@@ -157,7 +157,7 @@ combined <- pac_plot / re_plot / labor_plot / az_plt +
 print(combined)
 
 # Save as PDF
-ggsave(paste0(output_folder,outfile,".pdf"), combined, width = 8, height = 16)
+# ggsave(paste0(output_folder,outfile,".pdf"), combined, width = 8, height = 16)
 
 # Save as PNG
-# ggsave("combined_plot.png", combined, width = 10, height = 8, dpi = 300)
+ggsave(paste0(output_folder,outfile,".png"), combined, width = 8, height = 16, dpi = 300)
