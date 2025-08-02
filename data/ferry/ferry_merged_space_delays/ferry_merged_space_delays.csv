@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Yakima,Friday Harbor,Lopez,13:55,13:55,14:29,08/02/2025,Saturday,,0,
 Sealth,Vashon,Fauntleroy,13:50,13:52,14:05,08/02/2025,Saturday,,2,
 Kittitas,Fauntleroy,Vashon,13:40,13:39,13:58,08/02/2025,Saturday,,-1,
 Walla Walla,Edmonds,Kingston,13:35,13:37,13:59,08/02/2025,Saturday,13:37:49,2,2.0
@@ -9,6 +10,7 @@ Tacoma,Bainbridge,Colman,13:20,13:41,14:15,08/02/2025,Saturday,,21,
 Sealth,Fauntleroy,Vashon,13:15,13:23,13:38,08/02/2025,Saturday,,8,
 Salish,Keystone,Port Townsend,13:15,13:23,13:50,08/02/2025,Saturday,,8,
 Kennewick,Port Townsend,Keystone,13:15,13:22,13:50,08/02/2025,Saturday,,7,
+Puyallup,Colman,Bainbridge,13:15,13:57,14:28,08/02/2025,Saturday,12:52:02,42,-23.0
 Tillikum,Lopez,Friday Harbor,13:05,13:25,14:10,08/02/2025,Saturday,,20,
 Kitsap,Mukilteo,Clinton,13:00,13:12,13:26,08/02/2025,Saturday,,12,
 Tokitae,Clinton,Mukilteo,13:00,13:13,13:29,08/02/2025,Saturday,,13,
