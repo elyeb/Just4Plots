@@ -1,10 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Fauntleroy,Vashon,15:00,15:02,15:16,08/02/2025
+Sealth,Vashon,Southworth,14:45,14:49,15:05,08/02/2025
 Kitsap,Clinton,Mukilteo,14:35,14:46,15:02,08/02/2025
+Tokitae,Mukilteo,Clinton,14:35,14:53,15:07,08/02/2025
 Kittitas,Vashon,Fauntleroy,14:30,14:29,14:49,08/02/2025
 WallaWalla,Kingston,Edmonds,14:30,14:31,14:53,08/02/2025
 Spokane,Edmonds,Kingston,14:25,14:29,14:52,08/02/2025
 Sealth,Fauntleroy,Vashon,14:20,14:22,14:39,08/02/2025
 Tillikum,Friday Harbor,Orcas,14:15,14:21,15:03,08/02/2025
+Tacoma,Colman,Bainbridge,14:10,14:41,15:17,08/02/2025
 Kitsap,Mukilteo,Clinton,14:05,14:16,14:30,08/02/2025
 Salish,Port Townsend,Keystone,14:00,14:07,14:34,08/02/2025
 Tokitae,Clinton,Mukilteo,14:00,14:19,14:34,08/02/2025
