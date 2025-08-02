@@ -1,7 +1,13 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Vashon,Southworth,12:00,11:55,12:07,08/02/2025,Saturday,,-5,
+Kennewick,Port Townsend,Keystone,11:45,11:45,12:13,08/02/2025,Saturday,,0,
+Kittitas,Fauntleroy,Vashon,11:35,11:52,12:06,08/02/2025,Saturday,,17,
+Tacoma,Bainbridge,Colman,11:35,11:42,12:16,08/02/2025,Saturday,,7,
 Kitsap,Clinton,Mukilteo,11:30,11:40,11:54,08/02/2025,Saturday,,10,
 Tokitae,Mukilteo,Clinton,11:30,11:37,11:51,08/02/2025,Saturday,,7,
+Tillikum,Friday Harbor,Shaw,11:20,11:24,12:14,08/02/2025,Saturday,,4,
 Kittitas,Vashon,Fauntleroy,11:10,11:22,11:37,08/02/2025,Saturday,,12,
+Issaquah,Colman,Bremerton,11:10,11:14,12:09,08/02/2025,Saturday,,4,
 Walla Walla,Kingston,Edmonds,11:05,11:17,11:38,08/02/2025,Saturday,,12,
 Spokane,Edmonds,Kingston,11:05,11:18,11:40,08/02/2025,Saturday,,13,
 Kitsap,Mukilteo,Clinton,11:00,11:06,11:20,08/02/2025,Saturday,,6,
