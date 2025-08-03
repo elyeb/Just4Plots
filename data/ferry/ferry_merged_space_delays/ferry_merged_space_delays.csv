@@ -1,7 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kitsap,Clinton,Mukilteo,12:30,12:33,12:48,08/03/2025,Sunday,,3,
 Tokitae,Mukilteo,Clinton,12:30,12:38,12:52,08/03/2025,Sunday,,8,
+Salish,Port Townsend,Keystone,12:30,12:32,12:58,08/03/2025,Sunday,,2,
 Samish,Orcas,Shaw,12:20,12:38,12:47,08/03/2025,Sunday,,18,
+Kittitas,Southworth,Vashon,12:20,12:45,12:56,08/03/2025,Sunday,,25,
+Puyallup,Bainbridge,Colman,12:20,12:26,12:59,08/03/2025,Sunday,,6,
 Tillikum,Shaw,Orcas,12:15,12:29,12:44,08/03/2025,Sunday,,14,
 Kittitas,Vashon,Southworth,12:00,12:18,12:30,08/03/2025,Sunday,,18,
 Kitsap,Mukilteo,Clinton,12:00,12:03,12:17,08/03/2025,Sunday,,3,
