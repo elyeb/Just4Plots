@@ -1,5 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Vashon,Fauntleroy,16:10,16:15,16:29,08/03/2025
+WallaWalla,Kingston,Edmonds,16:00,16:02,16:25,08/03/2025
+Sealth,Fauntleroy,Vashon,16:00,16:10,16:23,08/03/2025
+Spokane,Edmonds,Kingston,15:55,16:08,16:29,08/03/2025
+Kittitas,Southworth,Vashon,15:50,15:53,16:04,08/03/2025
+Kitsap,Clinton,Mukilteo,15:35,15:48,16:05,08/03/2025
+Tokitae,Mukilteo,Clinton,15:35,15:55,16:08,08/03/2025
 Sealth,Vashon,Fauntleroy,15:30,15:40,15:54,08/03/2025
+Salish,Port Townsend,Keystone,15:30,15:30,15:58,08/03/2025
+Kennewick,Keystone,Port Townsend,15:30,15:46,16:14,08/03/2025
 Kittitas,Vashon,Southworth,15:25,15:28,15:40,08/03/2025
 WallaWalla,Edmonds,Kingston,15:15,15:18,15:40,08/03/2025
 Sealth,Southworth,Vashon,15:10,15:16,15:28,08/03/2025
@@ -8,6 +17,8 @@ Kitsap,Mukilteo,Clinton,15:05,15:11,15:31,08/03/2025
 Tokitae,Clinton,Mukilteo,15:05,15:23,15:36,08/03/2025
 Puyallup,Colman,Bainbridge,15:05,15:18,15:53,08/03/2025
 Kittitas,Fauntleroy,Vashon,15:00,15:04,15:18,08/03/2025
+Issaquah,Bremerton,Colman,15:00,15:01,15:55,08/03/2025
+Wenatchee,Bainbridge,Colman,15:00,15:34,16:04,08/03/2025
 Kaleetan,Colman,Bremerton,14:50,14:51,15:47,08/03/2025
 Sealth,Vashon,Southworth,14:45,14:41,14:53,08/03/2025
 Salish,Keystone,Port Townsend,14:45,14:48,15:14,08/03/2025
@@ -18,6 +29,7 @@ Tokitae,Mukilteo,Clinton,14:35,14:46,15:00,08/03/2025
 WallaWalla,Kingston,Edmonds,14:30,14:31,14:54,08/03/2025
 Spokane,Edmonds,Kingston,14:25,14:30,14:51,08/03/2025
 Sealth,Fauntleroy,Vashon,14:20,14:17,14:31,08/03/2025
+Tillikum,Friday Harbor,Anacortes,14:20,14:41,16:08,08/03/2025
 Puyallup,Bainbridge,Colman,14:10,14:24,14:57,08/03/2025
 Wenatchee,Colman,Bainbridge,14:10,14:37,15:09,08/03/2025
 Kittitas,Vashon,Southworth,14:05,14:13,14:25,08/03/2025
