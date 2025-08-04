@@ -1,5 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tillikum,Shaw,Orcas,16:40,16:40,16:48,08/04/2025
 Kittitas,Southworth,Vashon,16:15,16:19,16:29,08/04/2025
+Salish,Keystone,Port Townsend,16:15,16:16,16:43,08/04/2025
 Sealth,Fauntleroy,Southworth,16:10,16:11,16:37,08/04/2025
 Tokitae,Mukilteo,Clinton,16:05,16:03,16:17,08/04/2025
 Tillikum,Lopez,Shaw,16:00,16:16,16:33,08/04/2025
@@ -8,6 +10,7 @@ Spokane,Edmonds,Kingston,15:55,16:04,16:25,08/04/2025
 Kittitas,Vashon,Southworth,15:55,15:59,16:08,08/04/2025
 Puyallup,Colman,Bainbridge,15:50,15:53,16:25,08/04/2025
 Tacoma,Bainbridge,Colman,15:50,15:59,16:29,08/04/2025
+Samish,Friday Harbor,Lopez,15:50,16:13,16:45,08/04/2025
 Tokitae,Clinton,Mukilteo,15:35,15:31,15:44,08/04/2025
 Kittitas,Fauntleroy,Vashon,15:30,15:31,15:48,08/04/2025
 Tillikum,Shaw,Lopez,15:30,15:44,16:03,08/04/2025
