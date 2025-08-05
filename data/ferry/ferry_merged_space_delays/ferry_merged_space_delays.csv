@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Vashon,Fauntleroy,12:20,12:28,12:42,08/05/2025,Tuesday,,8,
 Tokitae,Clinton,Mukilteo,12:00,12:12,12:26,08/05/2025,Tuesday,,12,
 Kitsap,Mukilteo,Clinton,12:00,12:06,12:19,08/05/2025,Tuesday,,6,
 Spokane,Kingston,Edmonds,11:55,11:57,12:18,08/05/2025,Tuesday,,2,
