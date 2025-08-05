@@ -1,7 +1,18 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Fauntleroy,Vashon,15:30,15:33,15:44,08/05/2025
+Sealth,Vashon,Fauntleroy,15:25,15:27,15:40,08/05/2025
+Tillikum,Orcas,Shaw,15:15,15:35,15:42,08/05/2025
+WallaWalla,Edmonds,Kingston,15:15,15:25,15:40,08/05/2025
+Spokane,Kingston,Edmonds,15:10,15:20,15:34,08/05/2025
+Tokitae,Clinton,Mukilteo,15:05,15:29,15:41,08/05/2025
+Kitsap,Mukilteo,Clinton,15:05,15:27,15:39,08/05/2025
+Tacoma,Colman,Bainbridge,15:00,15:03,15:36,08/05/2025
+Puyallup,Bainbridge,Colman,14:55,15:05,15:37,08/05/2025
+Kaleetan,Colman,Bremerton,14:50,14:51,15:46,08/05/2025
 Sealth,Fauntleroy,Vashon,14:45,14:46,15:00,08/05/2025
 Kittitas,Southworth,Fauntleroy,14:45,14:45,15:14,08/05/2025
 Salish,Keystone,Port Townsend,14:45,14:52,15:19,08/05/2025
+Yakima,Lopez,Anacortes,14:40,14:50,15:37,08/05/2025
 Tokitae,Mukilteo,Clinton,14:35,14:56,15:10,08/05/2025
 Kitsap,Clinton,Mukilteo,14:35,14:52,15:07,08/05/2025
 WallaWalla,Kingston,Edmonds,14:30,14:32,14:52,08/05/2025
@@ -14,6 +25,7 @@ Kitsap,Mukilteo,Clinton,14:05,14:16,14:33,08/05/2025
 Puyallup,Colman,Bainbridge,14:05,14:13,14:44,08/05/2025
 Tokitae,Clinton,Mukilteo,14:00,14:24,14:37,08/05/2025
 Salish,Port Townsend,Keystone,14:00,14:08,14:34,08/05/2025
+Samish,Anacortes,Friday Harbor,14:00,14:44,15:53,08/05/2025
 Yakima,Friday Harbor,Lopez,13:55,14:02,14:37,08/05/2025
 Kittitas,Vashon,Fauntleroy,13:40,13:45,13:58,08/05/2025
 WallaWalla,Edmonds,Kingston,13:35,13:37,13:58,08/05/2025
