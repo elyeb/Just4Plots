@@ -457,3 +457,8 @@ png_files = [
 
 output_path = os.path.join(PLOT_FOLDER, f"all_routes_today.pdf")
 combine_pngs_2x2(png_files, output_path)
+
+# Delete individual PNG files after combining
+for png_file in png_files:
+    if os.path.exists(png_file):
+        os.remove(png_file)

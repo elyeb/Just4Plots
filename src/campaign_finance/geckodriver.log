@@ -1,0 +1,18 @@
+1754416394456	geckodriver	INFO	Listening on 127.0.0.1:64870
+1754416394928	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/w0/802yh79s18j0bn54dk09dm2m0000gn/T/rust_mozprofileTU1DVX"
+1754416500221	geckodriver	INFO	Listening on 127.0.0.1:65353
+1754416500743	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/w0/802yh79s18j0bn54dk09dm2m0000gn/T/rust_mozprofileeDPWPW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1754416502297	Marionette	INFO	Marionette enabled
+1754416502799	Marionette	INFO	Listening on port 65364
+WebDriver BiDi listening on ws://127.0.0.1:65354
+1754416503336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1754418065571	geckodriver	INFO	Listening on 127.0.0.1:55377
+1754418066095	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/w0/802yh79s18j0bn54dk09dm2m0000gn/T/rust_mozprofilebufpf9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1754418067805	Marionette	INFO	Marionette enabled
+1754418068577	Marionette	INFO	Listening on port 55387
+WebDriver BiDi listening on ws://127.0.0.1:55378
+1754418068716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
