@@ -1,7 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Clinton,Mukilteo,16:35,16:33,16:46,08/05/2025
 Kittitas,Southworth,Vashon,16:15,16:15,16:26,08/05/2025
+Sealth,Fauntleroy,Southworth,16:10,16:11,16:36,08/05/2025
 Tokitae,Mukilteo,Clinton,16:05,16:00,16:13,08/05/2025
 WallaWalla,Kingston,Edmonds,16:00,16:02,16:24,08/05/2025
+Tillikum,Lopez,Shaw,16:00,16:19,16:37,08/05/2025
 Kittitas,Vashon,Southworth,15:55,15:56,16:06,08/05/2025
 Spokane,Edmonds,Kingston,15:55,15:58,16:19,08/05/2025
 Tacoma,Bainbridge,Colman,15:50,15:57,16:28,08/05/2025
