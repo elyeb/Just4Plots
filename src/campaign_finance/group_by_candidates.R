@@ -51,6 +51,11 @@ ind_by_pac <- ind_df[,.(sponsor_name,portion_of_amount)]
 ind_by_cand_grouped <- ind_by_cand[,.(total=sum(portion_of_amount)),by=.(candidate_name,for_or_against,candidate_office,candidate_jurisdiction)]
 ind_by_pac <- ind_by_pac[,.(total=sum(portion_of_amount)),by=sponsor_name]
 
+ind_pac_cand <- ind_df[,.(candidate_name,portion_of_amount,for_or_against,candidate_office,candidate_jurisdiction,sponsor_name)]
+ind_pac_cand <- ind_pac_cand[,.(total=sum(portion_of_amount)),by=.(candidate_name,for_or_against,candidate_office,candidate_jurisdiction,sponsor_name)]
+setorderv(ind_pac_cand, cols = c("for_or_against", "total"), order = c(1L,-1L)) # Sorts by Value descending, then ID ascending
+
+
 # Answer: NEW DIRECTION PAC
 
 # out of interest
