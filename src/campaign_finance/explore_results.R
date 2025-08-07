@@ -119,7 +119,7 @@ all_results <- merge(all_results,contr_grouped,by="Candidate",all.x = T)
 all_results <- unique(all_results)
 setorderv(all_results, cols = c("County", "office","position","PercentageOfTotalVotes"), order = c(1L,1L,1L,-1L)) 
 
-king <- all_results[County=="King"]
+
 
 all_results_subset <- all_results[!is.na(total)]
 
@@ -142,3 +142,5 @@ ggplot(all_results_subset,aes(x=percent_raised_race,y=PercentageOfTotalVotes))+
 win_no_money <- all_results_subset[(PercentageOfTotalVotes>50)&(percent_raised_race<10)]
 lose_with_money <- all_results_subset[(PercentageOfTotalVotes<25)&(percent_raised_race>75)]
 
+all_results_subset[,loser_delta := percent_raised_race-PercentageOfTotalVotes]
+king <- all_results_subset[County=="King"]
