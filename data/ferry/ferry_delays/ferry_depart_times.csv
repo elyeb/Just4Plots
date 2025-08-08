@@ -1,16 +1,25 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kittitas,Vashon,Southworth,09:55,09:10,09:15,08/08/2025
+WallaWalla,Edmonds,Kingston,09:35,09:19,09:21,08/08/2025
 Kitsap,Clinton,Mukilteo,09:30,09:10,09:17,08/08/2025
+Tokitae,Clinton,Mukilteo,09:30,09:20,09:27,08/08/2025
+Kittitas,Southworth,Vashon,09:20,09:19,09:23,08/08/2025
 Tokitae,Mukilteo,Clinton,09:00,09:09,09:16,08/08/2025
 Tokitae,Clinton,Mukilteo,09:00,09:00,09:08,08/08/2025
+Samish,Orcas,Shaw,09:00,09:24,09:27,08/08/2025
 Kittitas,Southworth,Vashon,08:55,08:43,08:57,08/08/2025
 WallaWalla,Edmonds,Kingston,08:50,09:19,09:19,08/08/2025
 Sealth,Fauntleroy,Southworth,08:45,08:33,09:09,08/08/2025
+Salish,Keystone,Port Townsend,08:45,09:16,09:24,08/08/2025
+Tacoma,Colman,Bainbridge,08:45,09:18,09:30,08/08/2025
+Puyallup,Bainbridge,Colman,08:45,09:14,09:28,08/08/2025
+Spokane,Kingston,Edmonds,08:40,09:15,09:20,08/08/2025
 Tillikum,Friday Harbor,Lopez,08:35,09:12,09:19,08/08/2025
 Kittitas,Vashon,Southworth,08:30,08:26,08:44,08/08/2025
 Tokitae,Mukilteo,Clinton,08:30,08:40,08:45,08/08/2025
 Sealth,Vashon,Fauntleroy,08:15,08:18,08:34,08/08/2025
 Kittitas,Fauntleroy,Vashon,08:05,08:11,08:24,08/08/2025
+Yakima,Friday Harbor,Anacortes,08:05,08:12,09:22,08/08/2025
 Kitsap,Mukilteo,Clinton,08:00,08:00,08:15,08/08/2025
 Tokitae,Clinton,Mukilteo,08:00,08:01,08:17,08/08/2025
 Salish,Port Townsend,Keystone,08:00,08:00,08:28,08/08/2025
