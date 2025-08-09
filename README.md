@@ -1,5 +1,12 @@
 # Layman's Research Projects
 
+### **Date added** Aug 8, 2025 <br>
+**PAC spending vs net wins**  
+Trying to answer the question: which Independent Expenditure groups came out ahead/behind in the 2025 WA primary election? 
+![2025_primary_pac_win_loss.html](outputs/plots/lobbying/2025_primary_pac_win_loss.html)
+- Plotting code: [here](src/campaign_finance/explore_results.R)
+- Data from: https://results.vote.wa.gov/results/20250805/export.html
+
 ### **Date added** Jul 31, 2025 <br>
 **More on campaing contriubtions and PAC spending in local races**  
 Making bar charts to distinguish between candidates on the 2025 Seattle ballot (mainly only for candidates having raised over a few thousand dollars). For each race, try to answer: 

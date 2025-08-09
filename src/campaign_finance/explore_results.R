@@ -12,6 +12,12 @@ library(dplyr)
 library(plotly)
 options(scipen = 999)
 
+
+## Paths
+data_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/election_results/primary_2025/')
+
+plot_path <- paste0(getwd(),'/Documents/Just4Plots/outputs/plots/lobbying/')
+
 ## Make Name standardization list for candidates and groups
 name_remap <- list("Adonis E. Ducksworth (Adonis Ducksworth)"="Adonis Ducksworth",
                    "Alan Raynier Feliz Rubio (Alan Rubio)"="Alan Rubio",
@@ -61,7 +67,6 @@ extract_clean_name <- function(names) {
 
 
 ## Get election results data
-data_folder <- paste0(getwd(),'/Documents/Just4Plots/data/lobbying/election_results/primary_2025/')
 
 list.files(data_folder)
 
@@ -265,14 +270,39 @@ ggplotly(p1, tooltip = "text")
 # -------------------
 # Scatter Plot 
 # -------------------=
-p2 <- ggplot(plot_df, aes(x = total_spent, y = net_wins, size = total_spent,text = sponsor_name)) +
+p2 <- ggplot(
+  plot_df,
+  aes(
+    x = total_spent,
+    y = net_wins,
+    size = total_spent,
+    text = sponsor_name,
+    color = net_wins > 0
+  )
+) +
   geom_point(alpha = 0.7) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray40") +
+  scale_color_manual(values = c("FALSE" = "gray", "TRUE" = "purple"), guide = FALSE) +
   labs(
     x = "Total Spent",
     y = "Net Races Won",
     title = "Wins minus Losses by Total Spent",
     subtitle = "Point size = Total Spent"
   ) +
-  theme_minimal()
-ggplotly(p2, tooltip = "text")
+  scale_x_continuous(labels = scales::comma) +
+  scale_size(range = c(6, 20)) +  # increase dot size range
+  theme_minimal(base_size = 18) +  # bigger base font size
+  theme(
+    axis.line = element_line(color = "black", size = 1.2),
+    panel.grid = element_blank(),
+    legend.position = "none",
+    axis.title = element_text(size = 20),
+    axis.text = element_text(size = 16),
+    plot.title = element_text(size = 26, face = "bold"),
+    plot.subtitle = element_text(size = 20)
+  )
+
+interactive_plot <- plotly::ggplotly(p2, tooltip = "text")
+interactive_plot
+htmlwidgets::saveWidget(interactive_plot, paste0(plot_path,"2025_primary_pac_win_loss.html"))
 
