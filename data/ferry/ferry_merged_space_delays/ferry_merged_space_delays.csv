@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Mukilteo,Clinton,06:00,05:09,05:22,08/10/2025,Sunday,,-51,
 Kitsap,Clinton,Mukilteo,05:30,04:53,05:06,08/10/2025,Sunday,,-37,
+Kittitas,Fauntleroy,Vashon,05:10,05:10,05:24,08/10/2025,Sunday,,0,
 Kittitas,Vashon,Fauntleroy,04:40,04:40,04:54,08/10/2025,Sunday,,0,
 Kittitas,Southworth,Vashon,04:20,04:21,04:32,08/10/2025,Sunday,,1,
 Samish,Anacortes,Friday Harbor,04:00,04:00,05:08,08/10/2025,Sunday,,0,
