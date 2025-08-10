@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,04:40,04:40,04:54,08/10/2025,Sunday,,0,
 Kittitas,Southworth,Vashon,04:20,04:21,04:32,08/10/2025,Sunday,,1,
 Puyallup,Colman,Bainbridge,02:10,02:14,02:45,08/10/2025,Sunday,,4,
 Kittitas,Vashon,Southworth,01:30,01:38,01:48,08/10/2025,Sunday,,8,
