@@ -1,4 +1,17 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Puyallup,Colman,Bainbridge,02:10,02:11,02:42,08/11/2025
+Kittitas,Vashon,Southworth,01:30,01:37,01:49,08/11/2025
+Puyallup,Bainbridge,Colman,01:25,01:30,02:01,08/11/2025
+Kittitas,Fauntleroy,Vashon,01:05,01:20,01:33,08/11/2025
+Kitsap,Mukilteo,Clinton,01:05,01:05,01:18,08/11/2025
+Kaleetan,Colman,Bremerton,00:50,00:50,01:46,08/11/2025
+Puyallup,Colman,Bainbridge,00:45,00:51,01:22,08/11/2025
+Kittitas,Southworth,Fauntleroy,00:35,00:36,00:54,08/11/2025
+Kitsap,Clinton,Mukilteo,00:35,00:36,00:50,08/11/2025
+Kittitas,Vashon,Southworth,00:15,00:16,00:30,08/11/2025
+Kitsap,Mukilteo,Clinton,00:05,00:09,00:23,08/11/2025
+Puyallup,Bainbridge,Colman,00:00,00:11,00:42,08/11/2025
+Yakima,Lopez,Anacortes,23:20,00:01,00:47,08/10/2025
 Sealth,Fauntleroy,Vashon,16:40,16:36,16:50,08/10/2025
 Suquamish,Mukilteo,Clinton,16:40,16:32,16:46,08/10/2025
 Kitsap,Clinton,Mukilteo,16:35,16:36,16:50,08/10/2025
