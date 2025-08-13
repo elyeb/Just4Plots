@@ -1,5 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kittitas,Southworth,Vashon,16:15,16:19,16:32,08/13/2025,Wednesday,,4,
+Salish,Keystone,Port Townsend,16:15,16:24,16:52,08/13/2025,Wednesday,,9,
 Sealth,Fauntleroy,Southworth,16:10,16:11,16:36,08/13/2025,Wednesday,,1,
 Kitsap,Clinton,Mukilteo,16:05,16:20,16:34,08/13/2025,Wednesday,,15,
 Suquamish,Mukilteo,Clinton,16:05,16:19,16:33,08/13/2025,Wednesday,,14,
