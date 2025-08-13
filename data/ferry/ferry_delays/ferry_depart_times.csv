@@ -1,7 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Suquamish,Mukilteo,Clinton,12:00,11:55,12:10,08/13/2025
 Kittitas,Vashon,Southworth,11:55,12:03,12:13,08/13/2025
+Spokane,Kingston,Edmonds,11:55,12:00,12:23,08/13/2025
 Sealth,Fauntleroy,Vashon,11:50,11:55,12:12,08/13/2025
+Salish,Keystone,Port Townsend,11:45,11:51,12:18,08/13/2025
 Kittitas,Fauntleroy,Vashon,11:30,11:40,11:53,08/13/2025
 Kitsap,Clinton,Mukilteo,11:30,11:54,12:08,08/13/2025
 Puyallup,Bainbridge,Colman,11:30,11:39,12:11,08/13/2025
