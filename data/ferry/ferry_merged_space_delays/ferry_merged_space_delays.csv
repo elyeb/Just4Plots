@@ -1,7 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Clinton,Mukilteo,16:05,16:02,16:15,08/14/2025,Thursday,,-3,
+Kittitas,Vashon,Southworth,15:55,16:00,16:05,08/14/2025,Thursday,,5,
 Suquamish,Clinton,Mukilteo,15:35,15:36,15:48,08/14/2025,Thursday,,1,
 Kittitas,Fauntleroy,Vashon,15:30,15:32,15:45,08/14/2025,Thursday,,2,
 Salish,Port Townsend,Keystone,15:30,15:38,16:03,08/14/2025,Thursday,,8,
+Tillikum,Shaw,Lopez,15:30,15:54,16:11,08/14/2025,Thursday,,24,
 Sealth,Vashon,Fauntleroy,15:25,15:28,15:41,08/14/2025,Thursday,,3,
 Walla Walla,Edmonds,Kingston,15:15,15:16,15:40,08/14/2025,Thursday,,1,
 Tillikum,Orcas,Shaw,15:15,15:40,15:46,08/14/2025,Thursday,,25,
