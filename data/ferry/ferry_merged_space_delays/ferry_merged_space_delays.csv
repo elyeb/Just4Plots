@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Mukilteo,Clinton,13:00,13:09,13:28,08/14/2025,Thursday,,9,
 Sealth,Fauntleroy,Vashon,12:50,12:52,13:09,08/14/2025,Thursday,,2,
 Walla Walla,Kingston,Edmonds,12:45,12:48,13:10,08/14/2025,Thursday,,3,
 Spokane,Edmonds,Kingston,12:40,12:43,13:08,08/14/2025,Thursday,,3,
@@ -12,6 +13,7 @@ Sealth,Vashon,Fauntleroy,12:20,12:22,12:37,08/14/2025,Thursday,,2,
 Samish,Orcas,Shaw,12:20,12:37,12:47,08/14/2025,Thursday,,17,
 Puyallup,Bainbridge,Colman,12:20,12:23,12:59,08/14/2025,Thursday,,3,
 Issaquah,Bremerton,Colman,12:20,12:22,13:15,08/14/2025,Thursday,,2,
+Kaleetan,Colman,Bremerton,12:20,12:25,13:23,08/14/2025,Thursday,,5,
 Tillikum,Shaw,Orcas,12:15,12:20,12:44,08/14/2025,Thursday,,5,
 Kittitas,Southworth,Vashon,12:15,12:27,12:40,08/14/2025,Thursday,,12,
 Suquamish,Clinton,Mukilteo,12:00,12:13,12:27,08/14/2025,Thursday,,13,
