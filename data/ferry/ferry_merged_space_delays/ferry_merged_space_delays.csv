@@ -1,5 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kittitas,Vashon,Fauntleroy,11:20,11:00,11:28,08/14/2025,Thursday,,-20,
+Sealth,Vashon,Fauntleroy,11:20,11:27,11:42,08/14/2025,Thursday,,7,
 Spokane,Edmonds,Kingston,11:05,11:08,11:29,08/14/2025,Thursday,,3,
 Walla Walla,Kingston,Edmonds,11:05,11:10,11:32,08/14/2025,Thursday,,5,
 Sealth,Southworth,Vashon,11:00,11:04,11:15,08/14/2025,Thursday,,4,
