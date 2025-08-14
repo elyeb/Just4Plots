@@ -1,4 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Puyallup,Colman,Bainbridge,01:35,01:36,02:06,08/14/2025,Thursday,,1,
+Kitsap,Mukilteo,Clinton,01:05,01:05,01:18,08/14/2025,Thursday,,0,
+Puyallup,Bainbridge,Colman,00:55,00:56,01:27,08/14/2025,Thursday,,1,
+Kaleetan,Colman,Bremerton,00:50,00:51,01:49,08/14/2025,Thursday,,1,
+Kitsap,Clinton,Mukilteo,00:35,00:36,00:48,08/14/2025,Thursday,,1,
+Puyallup,Colman,Bainbridge,00:15,00:16,00:48,08/14/2025,Thursday,,1,
+Kitsap,Mukilteo,Clinton,00:05,00:06,00:19,08/14/2025,Thursday,,1,
+Samish,Shaw,Orcas,22:45,00:17,00:25,08/13/2025,Wednesday,,92,
 Kittitas,Southworth,Vashon,16:15,16:19,16:32,08/13/2025,Wednesday,,4,
 Salish,Keystone,Port Townsend,16:15,16:24,16:52,08/13/2025,Wednesday,,9,
 Sealth,Fauntleroy,Southworth,16:10,16:11,16:36,08/13/2025,Wednesday,,1,
