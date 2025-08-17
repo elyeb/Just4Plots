@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Port Townsend,Keystone,11:00,11:00,11:27,08/17/2025,Sunday,,0,
+Suquamish,Clinton,Mukilteo,11:00,11:07,11:21,08/17/2025,Sunday,,7,
 Kittitas,Southworth,Vashon,10:50,11:02,11:13,08/17/2025,Sunday,,12,
 Walla Walla,Colman,Bainbridge,10:40,10:46,11:17,08/17/2025,Sunday,10:34:55,6,-6.0
 Kittitas,Vashon,Southworth,10:30,10:36,10:46,08/17/2025,Sunday,,6,
