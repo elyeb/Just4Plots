@@ -1,9 +1,18 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Suquamish,Clinton,Mukilteo,15:35,15:34,15:48,08/20/2025
+Kittitas,Fauntleroy,Vashon,15:30,15:30,15:44,08/20/2025
+Sealth,Vashon,Fauntleroy,15:25,15:26,15:41,08/20/2025
 Tillikum,Orcas,Shaw,15:15,15:25,15:33,08/20/2025
+Puyallup,Edmonds,Kingston,15:15,15:22,15:43,08/20/2025
+Spokane,Kingston,Edmonds,15:10,15:14,15:36,08/20/2025
 Suquamish,Mukilteo,Clinton,15:05,15:00,15:15,08/20/2025
+WallaWalla,Colman,Bainbridge,15:00,15:03,15:35,08/20/2025
+Tacoma,Bainbridge,Colman,14:55,15:07,15:36,08/20/2025
+Kaleetan,Colman,Bremerton,14:50,14:52,15:47,08/20/2025
 Kittitas,Southworth,Fauntleroy,14:45,14:51,15:14,08/20/2025
 Sealth,Fauntleroy,Vashon,14:45,14:45,14:58,08/20/2025
 Salish,Keystone,Port Townsend,14:45,15:01,15:28,08/20/2025
+Yakima,Lopez,Anacortes,14:40,14:51,15:38,08/20/2025
 Kitsap,Clinton,Mukilteo,14:35,14:56,15:09,08/20/2025
 Puyallup,Kingston,Edmonds,14:30,14:31,14:52,08/20/2025
 Spokane,Edmonds,Kingston,14:25,14:29,14:50,08/20/2025
@@ -15,6 +24,7 @@ WallaWalla,Bainbridge,Colman,14:05,14:07,14:39,08/20/2025
 Tacoma,Colman,Bainbridge,14:05,14:17,14:49,08/20/2025
 Salish,Port Townsend,Keystone,14:00,14:15,14:42,08/20/2025
 Suquamish,Clinton,Mukilteo,14:00,14:27,14:42,08/20/2025
+Samish,Anacortes,Friday Harbor,14:00,14:32,15:41,08/20/2025
 Yakima,Friday Harbor,Lopez,13:55,14:02,14:37,08/20/2025
 Kittitas,Vashon,Fauntleroy,13:40,13:41,13:54,08/20/2025
 Puyallup,Edmonds,Kingston,13:35,13:44,14:05,08/20/2025
