@@ -1,11 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Fauntleroy,Vashon,10:40,10:42,10:58,08/22/2025
 Sealth,Vashon,Southworth,10:35,10:36,10:49,08/22/2025
 Spokane,Kingston,Edmonds,10:20,10:22,10:45,08/22/2025
 Puyallup,Edmonds,Kingston,10:20,10:27,10:48,08/22/2025
 Kittitas,Vashon,Fauntleroy,10:15,10:16,10:29,08/22/2025
+Salish,Keystone,Port Townsend,10:15,10:15,10:55,08/22/2025
 Sealth,Fauntleroy,Vashon,10:10,10:12,10:27,08/22/2025
 Suquamish,Clinton,Mukilteo,10:00,10:19,10:34,08/22/2025
 Kitsap,Mukilteo,Clinton,10:00,10:20,10:32,08/22/2025
+Kaleetan,Colman,Bremerton,10:00,10:00,11:00,08/22/2025
 Tillikum,Shaw,Orcas,09:50,09:58,10:07,08/22/2025
 Kittitas,Fauntleroy,Vashon,09:50,09:51,10:04,08/22/2025
 Issaquah,Bremerton,Colman,09:50,09:52,10:44,08/22/2025
