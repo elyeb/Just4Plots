@@ -1,4 +1,6 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kitsap,Clinton,Mukilteo,09:30,09:31,09:46,08/24/2025
+Suquamish,Mukilteo,Clinton,09:30,09:30,09:45,08/24/2025
 Kittitas,Southworth,Vashon,09:15,09:18,09:30,08/24/2025
 Samish,Shaw,Lopez,09:15,09:16,09:36,08/24/2025
 Kitsap,Mukilteo,Clinton,09:00,09:00,09:13,08/24/2025
@@ -9,6 +11,7 @@ Tacoma,Colman,Bainbridge,08:55,09:02,09:35,08/24/2025
 Puyallup,Edmonds,Kingston,08:50,08:51,09:12,08/24/2025
 Salish,Keystone,Port Townsend,08:45,08:46,09:14,08/24/2025
 WallaWalla,Bainbridge,Colman,08:45,08:48,09:21,08/24/2025
+Kaleetan,Bremerton,Colman,08:45,08:45,09:41,08/24/2025
 Spokane,Kingston,Edmonds,08:40,08:43,09:05,08/24/2025
 Tillikum,Friday Harbor,Lopez,08:35,08:40,09:20,08/24/2025
 Issaquah,Colman,Bremerton,08:35,08:37,09:32,08/24/2025
