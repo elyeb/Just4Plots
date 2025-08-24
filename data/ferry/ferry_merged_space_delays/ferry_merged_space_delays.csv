@@ -1,7 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Mukilteo,Clinton,11:00,11:02,11:17,08/24/2025,Sunday,,2,
+Suquamish,Clinton,Mukilteo,11:00,11:03,11:18,08/24/2025,Sunday,,3,
+Kittitas,Southworth,Vashon,10:50,11:02,11:15,08/24/2025,Sunday,,12,
 Suquamish,Mukilteo,Clinton,10:30,10:31,10:45,08/24/2025,Sunday,,1,
 Kitsap,Clinton,Mukilteo,10:30,10:33,10:47,08/24/2025,Sunday,,3,
 Kittitas,Vashon,Southworth,10:30,10:33,10:45,08/24/2025,Sunday,,3,
+Walla Walla,Bainbridge,Colman,10:25,10:36,11:10,08/24/2025,Sunday,,11,
 Puyallup,Edmonds,Kingston,10:20,10:22,10:44,08/24/2025,Sunday,,2,
 Spokane,Kingston,Edmonds,10:20,10:23,10:45,08/24/2025,Sunday,,3,
 Salish,Keystone,Port Townsend,10:15,10:16,10:42,08/24/2025,Sunday,,1,
