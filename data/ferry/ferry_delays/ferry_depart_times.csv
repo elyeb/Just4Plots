@@ -1,6 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kitsap,Mukilteo,Clinton,16:40,16:36,16:50,08/27/2025
+Suquamish,Clinton,Mukilteo,16:35,16:38,16:52,08/27/2025
+Issaquah,Fauntleroy,Vashon,16:35,16:36,16:49,08/27/2025
 Tillikum,Shaw,Orcas,16:25,16:27,16:34,08/27/2025
 Kittitas,Southworth,Vashon,16:15,16:16,16:26,08/27/2025
+Salish,Keystone,Port Townsend,16:15,16:19,16:45,08/27/2025
 Sealth,Fauntleroy,Southworth,16:10,16:11,16:35,08/27/2025
 Suquamish,Mukilteo,Clinton,16:05,16:04,16:18,08/27/2025
 Kitsap,Clinton,Mukilteo,16:05,16:04,16:19,08/27/2025
