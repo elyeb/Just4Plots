@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tillikum,Orcas,Shaw,15:15,15:29,15:36,08/28/2025,Thursday,,14,
+Spokane,Kingston,Edmonds,15:10,15:14,15:35,08/28/2025,Thursday,,4,
 Issaquah,Fauntleroy,Vashon,15:05,15:10,15:25,08/28/2025,Thursday,,5,
 Suquamish,Mukilteo,Clinton,15:05,15:00,15:15,08/28/2025,Thursday,,-5,
+Tacoma,Colman,Bainbridge,15:00,15:03,15:35,08/28/2025,Thursday,15:02:00,3,2.0
 Walla Walla,Bainbridge,Colman,14:55,14:58,15:29,08/28/2025,Thursday,,3,
 Sealth,Fauntleroy,Vashon,14:45,14:45,15:00,08/28/2025,Thursday,,0,
 Salish,Keystone,Port Townsend,14:45,14:51,15:17,08/28/2025,Thursday,,6,
