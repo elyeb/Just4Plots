@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Issaquah,Vashon,Southworth,06:15,06:16,06:26,08/28/2025
+Kittitas,Vashon,Fauntleroy,06:10,06:11,06:25,08/28/2025
+Sealth,Fauntleroy,Vashon,06:10,06:11,06:26,08/28/2025
 Kitsap,Mukilteo,Clinton,06:00,06:00,06:13,08/28/2025
 Suquamish,Clinton,Mukilteo,06:00,06:01,06:15,08/28/2025
 Issaquah,Fauntleroy,Vashon,05:50,05:51,06:04,08/28/2025
