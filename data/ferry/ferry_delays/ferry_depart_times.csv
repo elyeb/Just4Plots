@@ -1,5 +1,12 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Vashon,Fauntleroy,11:20,11:05,11:26,08/29/2025
+Spokane,Edmonds,Kingston,11:05,11:09,11:31,08/29/2025
+Kitsap,Mukilteo,Clinton,11:00,11:08,11:22,08/29/2025
+Sealth,Southworth,Vashon,11:00,11:01,11:12,08/29/2025
+Suquamish,Clinton,Mukilteo,11:00,11:02,11:16,08/29/2025
 Kittitas,Fauntleroy,Vashon,10:40,10:42,10:55,08/29/2025
+Issaquah,Vashon,Fauntleroy,10:40,10:52,11:05,08/29/2025
+WallaWalla,Colman,Bainbridge,10:40,10:42,11:13,08/29/2025
 Sealth,Vashon,Southworth,10:35,10:35,10:49,08/29/2025
 Kitsap,Clinton,Mukilteo,10:30,10:37,10:53,08/29/2025
 Suquamish,Mukilteo,Clinton,10:30,10:30,10:46,08/29/2025
@@ -9,6 +16,8 @@ Spokane,Kingston,Edmonds,10:20,10:22,10:44,08/29/2025
 Puyallup,Edmonds,Kingston,10:20,10:24,10:45,08/29/2025
 Kittitas,Vashon,Fauntleroy,10:15,10:16,10:29,08/29/2025
 Kennewick,Port Townsend,Keystone,10:15,10:21,10:51,08/29/2025
+Tillikum,Orcas,Friday Harbor,10:15,10:45,11:31,08/29/2025
+Salish,Keystone,Port Townsend,10:15,10:37,11:04,08/29/2025
 Sealth,Fauntleroy,Vashon,10:10,10:12,10:27,08/29/2025
 Suquamish,Clinton,Mukilteo,10:00,10:00,10:16,08/29/2025
 Kitsap,Mukilteo,Clinton,10:00,10:08,10:22,08/29/2025
