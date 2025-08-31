@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Suquamish,Clinton,Mukilteo,14:00,13:56,14:10,08/31/2025
+Sealth,Fauntleroy,Vashon,14:00,13:58,14:12,08/31/2025
+Issaquah,Vashon,Fauntleroy,13:50,13:55,14:10,08/31/2025
 Puyallup,Edmonds,Kingston,13:35,13:39,14:00,08/31/2025
 Spokane,Kingston,Edmonds,13:30,13:40,14:02,08/31/2025
 Tokitae,Mukilteo,Clinton,13:30,13:50,14:04,08/31/2025
