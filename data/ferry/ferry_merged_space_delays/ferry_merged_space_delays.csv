@@ -1,5 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Southworth,Vashon,14:35,14:38,14:51,09/01/2025,Monday,,3,
+Tokitae,Mukilteo,Clinton,14:35,14:42,15:03,09/01/2025,Monday,,7,
 Kittitas,Fauntleroy,Vashon,14:30,14:31,14:45,09/01/2025,Monday,,1,
 Issaquah,Vashon,Fauntleroy,14:30,14:34,14:48,09/01/2025,Monday,,4,
 Puyallup,Kingston,Edmonds,14:30,14:32,14:52,09/01/2025,Monday,,2,
