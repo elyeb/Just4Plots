@@ -1,4 +1,16 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kaleetan,Colman,Bainbridge,01:35,01:59,02:31,09/03/2025
+Issaquah,Vashon,Southworth,01:30,01:31,01:41,09/03/2025
+Tokitae,Mukilteo,Clinton,01:05,01:03,01:18,09/03/2025
+Issaquah,Fauntleroy,Vashon,01:05,01:08,01:23,09/03/2025
+Kaleetan,Bainbridge,Colman,00:55,01:19,01:52,09/03/2025
+Chimacum,Colman,Bremerton,00:50,00:51,01:47,09/03/2025
+Tokitae,Clinton,Mukilteo,00:35,00:35,00:48,09/03/2025
+Issaquah,Southworth,Fauntleroy,00:35,00:35,01:00,09/03/2025
+Kaleetan,Colman,Bainbridge,00:15,00:43,01:14,09/03/2025
+Issaquah,Vashon,Southworth,00:15,00:16,00:27,09/03/2025
+Tokitae,Mukilteo,Clinton,00:05,00:05,00:19,09/03/2025
+Kaleetan,Bainbridge,Colman,23:30,00:04,00:37,09/02/2025
 Kittitas,Vashon,Southworth,17:00,16:11,16:14,09/02/2025
 Tokitae,Mukilteo,Clinton,16:40,16:40,16:53,09/02/2025
 Suquamish,Clinton,Mukilteo,16:35,16:35,16:50,09/02/2025
