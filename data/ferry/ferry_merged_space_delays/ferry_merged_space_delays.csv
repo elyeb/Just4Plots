@@ -1,13 +1,18 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Clinton,Mukilteo,15:35,15:48,16:03,09/04/2025,Thursday,,13,
+Suquamish,Mukilteo,Clinton,15:35,15:51,16:01,09/04/2025,Thursday,,16,
 Issaquah,Vashon,Southworth,15:30,15:44,15:52,09/04/2025,Thursday,,14,
 Kittitas,Fauntleroy,Vashon,15:30,15:37,15:48,09/04/2025,Thursday,,7,
+Tillikum,Shaw,Lopez,15:30,15:46,16:01,09/04/2025,Thursday,,16,
 Sealth,Vashon,Fauntleroy,15:25,15:32,15:40,09/04/2025,Thursday,,7,
 Tillikum,Orcas,Shaw,15:15,15:32,15:37,09/04/2025,Thursday,,17,
 Walla Walla,Edmonds,Kingston,15:15,15:38,15:52,09/04/2025,Thursday,,23,
+Puyallup,Kingston,Edmonds,15:10,15:38,15:54,09/04/2025,Thursday,,28,
 Tokitae,Mukilteo,Clinton,15:05,15:14,15:28,09/04/2025,Thursday,,9,
 Suquamish,Clinton,Mukilteo,15:05,15:12,15:28,09/04/2025,Thursday,,7,
 Issaquah,Fauntleroy,Vashon,15:05,15:14,15:27,09/04/2025,Thursday,,9,
 Kaleetan,Colman,Bainbridge,15:00,15:17,15:49,09/04/2025,Thursday,14:51:45,17,-9.0
+Kitsap,Bremerton,Colman,15:00,15:01,15:55,09/04/2025,Thursday,,1,
 Tacoma,Bainbridge,Colman,14:55,15:04,15:37,09/04/2025,Thursday,,9,
 Chimacum,Colman,Bremerton,14:50,14:53,15:48,09/04/2025,Thursday,,3,
 Issaquah,Southworth,Fauntleroy,14:45,14:42,15:00,09/04/2025,Thursday,,-3,
