@@ -1,4 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Issaquah,Vashon,Southworth,12:35,12:41,12:51,09/05/2025
+Suquamish,Clinton,Mukilteo,12:30,12:38,12:53,09/05/2025
+Tokitae,Mukilteo,Clinton,12:30,12:30,12:48,09/05/2025
+Samish,Orcas,Shaw,12:20,12:39,12:51,09/05/2025
+Tillikum,Shaw,Orcas,12:15,12:35,12:44,09/05/2025
+Kittitas,Southworth,Vashon,12:15,12:21,12:34,09/05/2025
 Tokitae,Clinton,Mukilteo,12:00,12:01,12:16,09/05/2025
 Suquamish,Mukilteo,Clinton,12:00,12:06,12:20,09/05/2025
 Kittitas,Vashon,Southworth,11:55,11:58,12:07,09/05/2025
