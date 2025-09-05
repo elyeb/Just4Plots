@@ -1,9 +1,14 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Puyallup,Kingston,Edmonds,12:45,12:51,13:14,09/05/2025,Friday,,6,
 Sealth,Vashon,Fauntleroy,12:40,12:45,13:00,09/05/2025,Friday,,5,
+Walla Walla,Edmonds,Kingston,12:40,12:49,13:10,09/05/2025,Friday,,9,
 Issaquah,Vashon,Southworth,12:35,12:41,12:51,09/05/2025,Friday,,6,
+Tillikum,Orcas,Lopez,12:35,12:55,13:16,09/05/2025,Friday,,20,
 Suquamish,Clinton,Mukilteo,12:30,12:38,12:53,09/05/2025,Friday,,8,
 Tokitae,Mukilteo,Clinton,12:30,12:30,12:48,09/05/2025,Friday,,0,
 Salish,Port Townsend,Keystone,12:30,12:31,12:59,09/05/2025,Friday,,1,
+Kennewick,Keystone,Port Townsend,12:30,12:34,13:04,09/05/2025,Friday,,4,
+Tacoma,Colman,Bainbridge,12:25,12:37,13:09,09/05/2025,Friday,12:15:01,12,-10.0
 Samish,Orcas,Shaw,12:20,12:39,12:51,09/05/2025,Friday,,19,
 Tillikum,Shaw,Orcas,12:15,12:35,12:44,09/05/2025,Friday,,20,
 Kittitas,Southworth,Vashon,12:15,12:21,12:34,09/05/2025,Friday,,6,
