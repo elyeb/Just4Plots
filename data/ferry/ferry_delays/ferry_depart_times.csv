@@ -1,5 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Suquamish,Mukilteo,Clinton,06:00,05:05,05:19,09/06/2025
+Suquamish,Mukilteo,Clinton,06:00,06:02,06:17,09/06/2025
+Kittitas,Southworth,Vashon,06:00,06:00,06:11,09/06/2025
+Tokitae,Clinton,Mukilteo,06:00,06:03,06:22,09/06/2025
 Kittitas,Vashon,Southworth,05:35,05:37,05:48,09/06/2025
 Puyallup,Edmonds,Kingston,05:35,05:36,05:58,09/06/2025
 Issaquah,Vashon,Fauntleroy,05:35,05:36,05:49,09/06/2025
