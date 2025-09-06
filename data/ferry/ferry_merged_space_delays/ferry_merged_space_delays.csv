@@ -1,9 +1,18 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Southworth,Vashon,11:55,11:51,12:02,09/06/2025,Saturday,,-4,
+Kennewick,Port Townsend,Keystone,11:45,11:48,12:14,09/06/2025,Saturday,,3,
+Sealth,Vashon,Southworth,11:35,11:39,11:56,09/06/2025,Saturday,,4,
+Kittitas,Fauntleroy,Vashon,11:35,11:50,12:03,09/06/2025,Saturday,,15,
+Tacoma,Bainbridge,Colman,11:35,11:36,12:10,09/06/2025,Saturday,,1,
 Suquamish,Clinton,Mukilteo,11:30,11:40,11:54,09/06/2025,Saturday,,10,
 Tokitae,Mukilteo,Clinton,11:30,11:35,11:50,09/06/2025,Saturday,,5,
+Kaleetan,Colman,Bainbridge,11:25,11:39,12:12,09/06/2025,Saturday,11:02:07,14,-23.0
+Tillikum,Friday Harbor,Shaw,11:20,11:21,12:05,09/06/2025,Saturday,,1,
 Sealth,Fauntleroy,Vashon,11:10,11:17,11:32,09/06/2025,Saturday,,7,
 Kittitas,Vashon,Fauntleroy,11:10,11:22,11:35,09/06/2025,Saturday,,12,
 Issaquah,Vashon,Southworth,11:10,11:23,11:34,09/06/2025,Saturday,,13,
+Chimacum,Bremerton,Colman,11:10,11:16,12:13,09/06/2025,Saturday,,6,
+Kitsap,Colman,Bremerton,11:10,11:11,12:05,09/06/2025,Saturday,,1,
 Walla Walla,Edmonds,Kingston,11:05,11:10,11:33,09/06/2025,Saturday,,5,
 Puyallup,Kingston,Edmonds,11:05,11:12,11:33,09/06/2025,Saturday,,7,
 Tokitae,Clinton,Mukilteo,11:00,11:04,11:19,09/06/2025,Saturday,,4,
