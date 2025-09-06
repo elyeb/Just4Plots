@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Clinton,Mukilteo,11:30,11:40,11:54,09/06/2025,Saturday,,10,
+Tokitae,Mukilteo,Clinton,11:30,11:35,11:50,09/06/2025,Saturday,,5,
 Sealth,Fauntleroy,Vashon,11:10,11:17,11:32,09/06/2025,Saturday,,7,
 Kittitas,Vashon,Fauntleroy,11:10,11:22,11:35,09/06/2025,Saturday,,12,
 Issaquah,Vashon,Southworth,11:10,11:23,11:34,09/06/2025,Saturday,,13,
@@ -8,8 +10,10 @@ Tokitae,Clinton,Mukilteo,11:00,11:04,11:19,09/06/2025,Saturday,,4,
 Kennewick,Keystone,Port Townsend,11:00,11:01,11:31,09/06/2025,Saturday,,1,
 Suquamish,Mukilteo,Clinton,11:00,11:09,11:23,09/06/2025,Saturday,,9,
 Salish,Port Townsend,Keystone,11:00,11:03,11:29,09/06/2025,Saturday,,3,
+Samish,Anacortes,Orcas,10:55,10:56,11:49,09/06/2025,Saturday,,1,
 Kittitas,Southworth,Vashon,10:50,11:00,11:10,09/06/2025,Saturday,,10,
 Issaquah,Fauntleroy,Vashon,10:45,10:57,11:12,09/06/2025,Saturday,,12,
+Yakima,Lopez,Anacortes,10:45,11:02,11:46,09/06/2025,Saturday,,17,
 Sealth,Vashon,Fauntleroy,10:40,10:45,11:04,09/06/2025,Saturday,,5,
 Tacoma,Colman,Bainbridge,10:40,10:42,11:16,09/06/2025,Saturday,10:31:59,2,-9.0
 Suquamish,Clinton,Mukilteo,10:30,10:39,10:53,09/06/2025,Saturday,,9,
