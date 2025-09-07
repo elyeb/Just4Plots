@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Fauntleroy,Vashon,15:00,15:01,15:15,09/07/2025,Sunday,,1,
 Kittitas,Vashon,Southworth,14:45,14:46,14:57,09/07/2025,Sunday,,1,
 Suquamish,Clinton,Mukilteo,14:35,14:40,14:54,09/07/2025,Sunday,,5,
 Tokitae,Mukilteo,Clinton,14:35,14:35,14:49,09/07/2025,Sunday,,0,
@@ -14,6 +15,7 @@ Sealth,Fauntleroy,Vashon,14:00,13:56,14:10,09/07/2025,Sunday,,-4,
 Tokitae,Clinton,Mukilteo,14:00,14:02,14:18,09/07/2025,Sunday,,2,
 Salish,Port Townsend,Keystone,14:00,14:13,14:40,09/07/2025,Sunday,,13,
 Kennewick,Keystone,Port Townsend,14:00,14:14,14:44,09/07/2025,Sunday,,14,
+Samish,Anacortes,Friday Harbor,14:00,14:00,15:07,09/07/2025,Sunday,,0,
 Yakima,Friday Harbor,Lopez,13:55,13:55,14:31,09/07/2025,Sunday,,0,
 Issaquah,Vashon,Fauntleroy,13:50,14:04,14:27,09/07/2025,Sunday,,14,
 Puyallup,Edmonds,Kingston,13:35,13:36,13:56,09/07/2025,Sunday,,1,
