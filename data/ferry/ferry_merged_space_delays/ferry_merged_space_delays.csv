@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Clinton,Mukilteo,04:40,03:52,04:07,09/11/2025,Thursday,,-48,
 Issaquah,Southworth,Vashon,04:10,03:30,03:40,09/11/2025,Thursday,,-40,
 Kaleetan,Colman,Bainbridge,01:35,02:01,02:34,09/11/2025,Thursday,,26,
 Issaquah,Vashon,Southworth,01:30,01:31,01:43,09/11/2025,Thursday,,1,
