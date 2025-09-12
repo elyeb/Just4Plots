@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Vashon,Southworth,12:35,12:35,12:46,09/12/2025,Friday,,0,
 Tokitae,Mukilteo,Clinton,12:30,12:30,12:46,09/12/2025,Friday,,0,
+Suquamish,Clinton,Mukilteo,12:30,12:38,12:53,09/12/2025,Friday,,8,
 Samish,Orcas,Shaw,12:20,12:34,12:44,09/12/2025,Friday,,14,
+Tacoma,Bainbridge,Colman,12:20,12:22,12:54,09/12/2025,Friday,,2,
 Kittitas,Southworth,Vashon,12:15,12:30,12:43,09/12/2025,Friday,,15,
 Tillikum,Shaw,Orcas,12:15,12:25,12:40,09/12/2025,Friday,,10,
 Tokitae,Clinton,Mukilteo,12:00,12:01,12:15,09/12/2025,Friday,,1,
