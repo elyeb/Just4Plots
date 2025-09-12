@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kittitas,Vashon,Southworth,15:55,16:02,16:14,09/12/2025,Friday,,7,
+Walla Walla,Edmonds,Kingston,15:55,16:01,16:21,09/12/2025,Friday,,6,
+Sealth,Southworth,Fauntleroy,15:55,16:07,16:26,09/12/2025,Friday,,12,
 Tokitae,Mukilteo,Clinton,15:35,15:45,16:00,09/12/2025,Friday,,10,
 Suquamish,Clinton,Mukilteo,15:35,15:51,16:06,09/12/2025,Friday,,16,
 Kittitas,Fauntleroy,Vashon,15:30,15:32,15:53,09/12/2025,Friday,,2,
