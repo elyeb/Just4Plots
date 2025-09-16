@@ -1,4 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Clinton,Mukilteo,15:35,15:37,15:52,09/16/2025,Tuesday,,2,
+Tokitae,Mukilteo,Clinton,15:35,15:41,15:56,09/16/2025,Tuesday,,6,
+Issaquah,Vashon,Southworth,15:30,15:37,15:47,09/16/2025,Tuesday,,7,
+Kittitas,Fauntleroy,Vashon,15:30,15:33,15:46,09/16/2025,Tuesday,,3,
+Tillikum,Shaw,Lopez,15:30,15:30,15:50,09/16/2025,Tuesday,,0,
 Sealth,Vashon,Fauntleroy,15:25,15:30,15:40,09/16/2025,Tuesday,,5,
 Tillikum,Orcas,Shaw,15:15,15:15,15:21,09/16/2025,Tuesday,,0,
 Walla Walla,Edmonds,Kingston,15:15,15:26,15:39,09/16/2025,Tuesday,,11,
@@ -8,6 +13,7 @@ Suquamish,Mukilteo,Clinton,15:05,15:07,15:21,09/16/2025,Tuesday,,2,
 Tokitae,Clinton,Mukilteo,15:05,15:07,15:22,09/16/2025,Tuesday,,2,
 Tacoma,Colman,Bainbridge,15:00,15:06,15:38,09/16/2025,Tuesday,15:02:20,6,2.0
 Kaleetan,Bainbridge,Colman,14:55,14:59,15:31,09/16/2025,Tuesday,,4,
+Chimacum,Colman,Bremerton,14:50,14:52,15:48,09/16/2025,Tuesday,,2,
 Sealth,Fauntleroy,Vashon,14:45,14:45,15:00,09/16/2025,Tuesday,,0,
 Salish,Keystone,Port Townsend,14:45,14:52,15:18,09/16/2025,Tuesday,,7,
 Kittitas,Southworth,Fauntleroy,14:45,14:50,15:19,09/16/2025,Tuesday,,5,
