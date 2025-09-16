@@ -1,7 +1,13 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Mukilteo,Clinton,16:05,16:06,16:22,09/16/2025,Tuesday,,1,
+Tokitae,Clinton,Mukilteo,16:05,16:11,16:25,09/16/2025,Tuesday,,6,
 Tillikum,Lopez,Shaw,16:00,16:00,16:19,09/16/2025,Tuesday,,0,
+Walla Walla,Kingston,Edmonds,16:00,16:03,16:23,09/16/2025,Tuesday,,3,
 Kittitas,Vashon,Southworth,15:55,15:58,16:07,09/16/2025,Tuesday,,3,
 Puyallup,Edmonds,Kingston,15:55,15:58,16:17,09/16/2025,Tuesday,,3,
+Issaquah,Southworth,Fauntleroy,15:55,16:00,16:19,09/16/2025,Tuesday,,5,
+Kaleetan,Colman,Bainbridge,15:50,15:54,16:24,09/16/2025,Tuesday,15:42:08,4,-8.0
+Samish,Friday Harbor,Lopez,15:50,15:50,16:22,09/16/2025,Tuesday,,0,
 Suquamish,Clinton,Mukilteo,15:35,15:37,15:52,09/16/2025,Tuesday,,2,
 Tokitae,Mukilteo,Clinton,15:35,15:41,15:56,09/16/2025,Tuesday,,6,
 Issaquah,Vashon,Southworth,15:30,15:37,15:47,09/16/2025,Tuesday,,7,
