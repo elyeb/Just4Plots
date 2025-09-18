@@ -1,5 +1,16 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Southworth,Vashon,07:20,07:24,07:35,09/18/2025
+Tillikum,Shaw,Orcas,07:10,07:19,07:27,09/18/2025
+WallaWalla,Edmonds,Kingston,07:10,07:11,07:33,09/18/2025
+Issaquah,Vashon,Fauntleroy,07:05,07:11,07:25,09/18/2025
+Sealth,Fauntleroy,Vashon,07:05,07:07,07:21,09/18/2025
+Wenatchee,Bainbridge,Colman,07:05,07:07,07:38,09/18/2025
+Tacoma,Colman,Bainbridge,07:05,07:06,07:38,09/18/2025
+Tokitae,Clinton,Mukilteo,07:00,07:01,07:15,09/18/2025
+Puyallup,Kingston,Edmonds,07:00,07:01,07:23,09/18/2025
+Suquamish,Mukilteo,Clinton,07:00,07:00,07:13,09/18/2025
 Issaquah,Southworth,Vashon,06:45,06:48,06:59,09/18/2025
+Tillikum,Lopez,Shaw,06:45,06:55,07:15,09/18/2025
 Kittitas,Fauntleroy,Southworth,06:40,06:41,06:59,09/18/2025
 Sealth,Vashon,Fauntleroy,06:35,06:36,06:50,09/18/2025
 Tokitae,Mukilteo,Clinton,06:30,06:30,06:45,09/18/2025
@@ -7,14 +18,17 @@ Suquamish,Clinton,Mukilteo,06:30,06:30,06:44,09/18/2025
 Salish,Port Townsend,Keystone,06:30,06:31,06:58,09/18/2025
 WallaWalla,Kingston,Edmonds,06:25,06:27,06:47,09/18/2025
 Tacoma,Bainbridge,Colman,06:20,06:22,06:52,09/18/2025
+Chimacum,Bremerton,Colman,06:20,06:23,07:16,09/18/2025
 Issaquah,Vashon,Southworth,06:15,06:16,06:27,09/18/2025
 Puyallup,Edmonds,Kingston,06:15,06:18,06:39,09/18/2025
 Samish,Lopez,Anacortes,06:15,06:19,07:03,09/18/2025
 Sealth,Fauntleroy,Vashon,06:10,06:11,06:25,09/18/2025
 Kittitas,Vashon,Fauntleroy,06:10,06:11,06:25,09/18/2025
 Wenatchee,Colman,Bainbridge,06:10,06:12,06:45,09/18/2025
+Yakima,Anacortes,Lopez,06:10,06:39,07:24,09/18/2025
 Tokitae,Clinton,Mukilteo,06:00,06:03,06:17,09/18/2025
 Suquamish,Mukilteo,Clinton,06:00,06:00,06:14,09/18/2025
+Kitsap,Colman,Bremerton,06:00,06:07,07:07,09/18/2025
 Tillikum,Friday Harbor,Lopez,05:55,06:02,06:44,09/18/2025
 Issaquah,Fauntleroy,Vashon,05:50,05:50,06:04,09/18/2025
 Kittitas,Southworth,Vashon,05:50,05:50,06:02,09/18/2025
