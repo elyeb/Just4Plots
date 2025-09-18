@@ -1,9 +1,16 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Southworth,Vashon,16:15,16:18,16:28,09/18/2025,Thursday,,3,
+Sealth,Fauntleroy,Southworth,16:10,16:10,16:36,09/18/2025,Thursday,,0,
+Tokitae,Clinton,Mukilteo,16:05,16:19,16:33,09/18/2025,Thursday,,14,
+Suquamish,Mukilteo,Clinton,16:05,16:18,16:32,09/18/2025,Thursday,,13,
+Tillikum,Lopez,Shaw,16:00,16:29,16:47,09/18/2025,Thursday,,29,
+Walla Walla,Kingston,Edmonds,16:00,16:10,16:32,09/18/2025,Thursday,,10,
 Kittitas,Vashon,Southworth,15:55,15:55,16:06,09/18/2025,Thursday,,0,
 Issaquah,Southworth,Fauntleroy,15:55,16:03,16:20,09/18/2025,Thursday,,8,
 Puyallup,Edmonds,Kingston,15:55,16:04,16:26,09/18/2025,Thursday,,9,
 Wenatchee,Bainbridge,Colman,15:50,16:01,16:28,09/18/2025,Thursday,,11,
 Tacoma,Colman,Bainbridge,15:50,15:55,16:27,09/18/2025,Thursday,15:52:11,5,2.0
+Samish,Friday Harbor,Lopez,15:50,16:04,16:38,09/18/2025,Thursday,,14,
 Tokitae,Mukilteo,Clinton,15:35,15:53,16:05,09/18/2025,Thursday,,18,
 Suquamish,Clinton,Mukilteo,15:35,15:51,16:02,09/18/2025,Thursday,,16,
 Issaquah,Vashon,Southworth,15:30,15:36,15:45,09/18/2025,Thursday,,6,
