@@ -1,6 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Tokitae,Clinton,Mukilteo,13:00,13:04,13:19,09/19/2025,Friday,,4,
 Suquamish,Mukilteo,Clinton,13:00,13:05,13:19,09/19/2025,Friday,,5,
+Issaquah,Southworth,Fauntleroy,13:00,13:01,13:31,09/19/2025,Friday,,1,
 Sealth,Fauntleroy,Vashon,12:50,12:51,13:05,09/19/2025,Friday,,1,
 Puyallup,Kingston,Edmonds,12:45,12:46,13:09,09/19/2025,Friday,,1,
 Walla Walla,Edmonds,Kingston,12:40,12:44,13:05,09/19/2025,Friday,,4,
