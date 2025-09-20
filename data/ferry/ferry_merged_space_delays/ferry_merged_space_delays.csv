@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Fauntleroy,Vashon,13:15,13:12,13:26,09/20/2025,Saturday,,-3,
+Issaquah,Southworth,Vashon,13:10,13:37,13:49,09/20/2025,Saturday,,27,
+Tillikum,Lopez,Friday Harbor,13:05,13:12,13:51,09/20/2025,Saturday,,7,
 Tokitae,Clinton,Mukilteo,13:00,13:11,13:26,09/20/2025,Saturday,,11,
 Suquamish,Mukilteo,Clinton,13:00,13:17,13:30,09/20/2025,Saturday,,17,
 Issaquah,Fauntleroy,Vashon,12:50,12:49,13:03,09/20/2025,Saturday,,-1,
