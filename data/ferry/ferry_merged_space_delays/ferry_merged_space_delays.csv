@@ -2,6 +2,7 @@ actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,D
 Suquamish,Clinton,Mukilteo,05:30,04:49,05:04,09/21/2025,Sunday,,-41,
 Kittitas,Vashon,Fauntleroy,04:40,04:41,04:55,09/21/2025,Sunday,,1,
 Kittitas,Southworth,Vashon,04:20,04:20,04:34,09/21/2025,Sunday,,0,
+Yakima,Anacortes,Friday Harbor,04:05,04:05,05:18,09/21/2025,Sunday,,0,
 Wenatchee,Colman,Bainbridge,02:10,02:12,02:42,09/21/2025,Sunday,,2,
 Kittitas,Vashon,Southworth,01:30,01:32,01:42,09/21/2025,Sunday,,2,
 Wenatchee,Bainbridge,Colman,01:25,01:26,02:00,09/21/2025,Sunday,,1,
