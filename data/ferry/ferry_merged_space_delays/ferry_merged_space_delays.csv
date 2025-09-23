@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kittitas,Vashon,Southworth,08:30,08:30,08:41,09/23/2025,Tuesday,,0,
+Suquamish,Clinton,Mukilteo,08:30,08:32,08:47,09/23/2025,Tuesday,,2,
+Tokitae,Mukilteo,Clinton,08:30,08:32,08:52,09/23/2025,Tuesday,,2,
 Issaquah,Fauntleroy,Vashon,08:25,08:26,08:39,09/23/2025,Tuesday,,1,
 Sealth,Vashon,Fauntleroy,08:15,08:24,08:40,09/23/2025,Tuesday,,9,
 Issaquah,Fauntleroy,Vashon,08:05,07:36,07:50,09/23/2025,Tuesday,,-29,
