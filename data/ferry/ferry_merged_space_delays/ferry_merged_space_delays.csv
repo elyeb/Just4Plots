@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Vashon,Southworth,14:00,14:06,14:17,09/23/2025,Tuesday,,6,
 Kittitas,Vashon,Fauntleroy,13:40,13:40,13:55,09/23/2025,Tuesday,,0,
 Walla Walla,Edmonds,Kingston,13:35,13:37,13:58,09/23/2025,Tuesday,,2,
 Issaquah,Fauntleroy,Vashon,13:35,13:40,13:53,09/23/2025,Tuesday,,5,
