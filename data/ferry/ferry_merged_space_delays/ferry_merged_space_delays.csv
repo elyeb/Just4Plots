@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Fauntleroy,Vashon,06:05,06:06,06:21,09/27/2025,Saturday,,1,
 Suquamish,Mukilteo,Clinton,06:00,05:04,05:18,09/27/2025,Saturday,,-56,
 Suquamish,Mukilteo,Clinton,06:00,06:00,06:14,09/27/2025,Saturday,,0,
 Kittitas,Southworth,Vashon,06:00,06:03,06:14,09/27/2025,Saturday,,3,
