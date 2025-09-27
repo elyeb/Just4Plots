@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Puyallup,Edmonds,Kingston,13:35,13:47,14:08,09/27/2025,Saturday,,12,
+Tillikum,Lopez,Friday Harbor,13:35,13:36,14:19,09/27/2025,Saturday,,1,
 Sealth,Vashon,Fauntleroy,13:30,13:36,13:50,09/27/2025,Saturday,,6,
 Walla Walla,Kingston,Edmonds,13:30,13:38,13:59,09/27/2025,Saturday,,8,
 Tokitae,Mukilteo,Clinton,13:30,13:44,13:58,09/27/2025,Saturday,,14,
