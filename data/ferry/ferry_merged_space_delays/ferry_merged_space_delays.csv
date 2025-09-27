@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Samish,Orcas,Lopez,11:50,11:49,12:07,09/27/2025,Saturday,,-1,
+Salish,Keystone,Port Townsend,11:45,11:45,12:10,09/27/2025,Saturday,,0,
 Sealth,Vashon,Southworth,11:35,11:46,11:58,09/27/2025,Saturday,,11,
 Kittitas,Fauntleroy,Vashon,11:35,11:46,12:00,09/27/2025,Saturday,,11,
+Kaleetan,Bainbridge,Colman,11:35,11:42,12:14,09/27/2025,Saturday,,7,
 Tokitae,Mukilteo,Clinton,11:30,11:34,11:50,09/27/2025,Saturday,,4,
 Suquamish,Clinton,Mukilteo,11:30,11:34,11:48,09/27/2025,Saturday,,4,
 Issaquah,Southworth,Vashon,11:30,11:46,11:58,09/27/2025,Saturday,,16,
