@@ -1,13 +1,18 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Tillikum,Orcas,Shaw,12:50,12:50,13:03,09/27/2025,Saturday,,0,
+Issaquah,Vashon,Southworth,12:50,13:03,13:12,09/27/2025,Saturday,,13,
+Walla Walla,Edmonds,Kingston,12:40,12:48,13:11,09/27/2025,Saturday,,8,
+Kittitas,Vashon,Fauntleroy,12:40,12:51,13:14,09/27/2025,Saturday,,11,
 Tokitae,Mukilteo,Clinton,12:30,12:41,12:55,09/27/2025,Saturday,,11,
 Kennewick,Keystone,Port Townsend,12:30,12:32,13:01,09/27/2025,Saturday,,2,
 Suquamish,Clinton,Mukilteo,12:30,12:43,12:57,09/27/2025,Saturday,,13,
 Salish,Port Townsend,Keystone,12:30,12:31,12:57,09/27/2025,Saturday,,1,
+Kaleetan,Colman,Bainbridge,12:30,12:38,13:10,09/27/2025,Saturday,11:30:33,8,-60.0
 Kittitas,Southworth,Vashon,12:20,12:32,12:44,09/27/2025,Saturday,,12,
 Tacoma,Bainbridge,Colman,12:20,12:21,12:53,09/27/2025,Saturday,,1,
 Samish,Lopez,Anacortes,12:20,12:20,13:02,09/27/2025,Saturday,,0,
 Issaquah,Fauntleroy,Vashon,12:20,12:40,12:53,09/27/2025,Saturday,,20,
+Kitsap,Bremerton,Colman,12:20,12:21,13:13,09/27/2025,Saturday,,1,
 Issaquah,Vashon,Fauntleroy,12:15,12:11,12:23,09/27/2025,Saturday,,-4,
 Tokitae,Clinton,Mukilteo,12:00,12:09,12:24,09/27/2025,Saturday,,9,
 Suquamish,Mukilteo,Clinton,12:00,12:13,12:28,09/27/2025,Saturday,,13,
