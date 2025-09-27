@@ -1,6 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Tokitae,Mukilteo,Clinton,08:30,08:32,08:46,09/27/2025
+Suquamish,Clinton,Mukilteo,08:30,08:32,08:47,09/27/2025
+Kittitas,Fauntleroy,Vashon,08:30,08:31,08:45,09/27/2025
 Issaquah,Southworth,Vashon,08:20,08:22,08:33,09/27/2025
+Samish,Friday Harbor,Lopez,08:10,08:11,08:46,09/27/2025
 Issaquah,Vashon,Southworth,08:00,08:00,08:11,09/27/2025
 Tokitae,Clinton,Mukilteo,08:00,08:02,08:19,09/27/2025
 Suquamish,Mukilteo,Clinton,08:00,08:01,08:15,09/27/2025
