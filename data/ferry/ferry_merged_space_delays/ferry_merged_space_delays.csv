@@ -1,4 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Yakima,Orcas,Shaw,08:55,08:55,09:06,09/27/2025,Saturday,,0,
+Walla Walla,Kingston,Edmonds,08:40,08:41,09:02,09/27/2025,Saturday,,1,
+Issaquah,Vashon,Fauntleroy,08:40,08:41,08:54,09/27/2025,Saturday,,1,
 Tokitae,Mukilteo,Clinton,08:30,08:32,08:46,09/27/2025,Saturday,,2,
 Suquamish,Clinton,Mukilteo,08:30,08:32,08:47,09/27/2025,Saturday,,2,
 Kittitas,Fauntleroy,Vashon,08:30,08:31,08:45,09/27/2025,Saturday,,1,
