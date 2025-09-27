@@ -1,4 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Southworth,10:30,10:32,10:42,09/27/2025,Saturday,,2,
+Sealth,Southworth,Vashon,10:20,10:21,10:33,09/27/2025,Saturday,,1,
+Issaquah,Vashon,Fauntleroy,10:20,10:26,10:40,09/27/2025,Saturday,,6,
+Salish,Keystone,Port Townsend,10:15,10:17,10:43,09/27/2025,Saturday,,2,
 Kittitas,Fauntleroy,Vashon,10:05,10:08,10:22,09/27/2025,Saturday,,3,
 Tillikum,Shaw,Lopez,10:00,09:59,10:18,09/27/2025,Saturday,,-1,
 Issaquah,Southworth,Vashon,10:00,10:04,10:16,09/27/2025,Saturday,,4,
