@@ -1,6 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Sealth,Fauntleroy,Vashon,16:00,16:05,16:18,09/28/2025
+Kittitas,Vashon,Fauntleroy,15:50,15:57,16:11,09/28/2025
+Samish,Friday Harbor,Lopez,15:35,15:36,16:09,09/28/2025
+Tokitae,Mukilteo,Clinton,15:35,15:57,16:11,09/28/2025
 Sealth,Vashon,Fauntleroy,15:30,15:37,15:52,09/28/2025
 Salish,Port Townsend,Keystone,15:30,15:32,15:58,09/28/2025
+Kennewick,Keystone,Port Townsend,15:30,15:37,16:07,09/28/2025
 Issaquah,Vashon,Southworth,15:25,15:47,16:03,09/28/2025
 Issaquah,Fauntleroy,Vashon,15:20,15:26,15:40,09/28/2025
 Puyallup,Edmonds,Kingston,15:15,15:17,15:39,09/28/2025

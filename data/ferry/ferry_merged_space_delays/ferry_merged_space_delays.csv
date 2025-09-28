@@ -1,6 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Fauntleroy,Vashon,16:00,16:05,16:18,09/28/2025,Sunday,,5,
+Kittitas,Vashon,Fauntleroy,15:50,15:57,16:11,09/28/2025,Sunday,,7,
+Samish,Friday Harbor,Lopez,15:35,15:36,16:09,09/28/2025,Sunday,,1,
+Tokitae,Mukilteo,Clinton,15:35,15:57,16:11,09/28/2025,Sunday,,22,
 Sealth,Vashon,Fauntleroy,15:30,15:37,15:52,09/28/2025,Sunday,,7,
 Salish,Port Townsend,Keystone,15:30,15:32,15:58,09/28/2025,Sunday,,2,
+Kennewick,Keystone,Port Townsend,15:30,15:37,16:07,09/28/2025,Sunday,,7,
 Issaquah,Vashon,Southworth,15:25,15:47,16:03,09/28/2025,Sunday,,22,
 Issaquah,Fauntleroy,Vashon,15:20,15:26,15:40,09/28/2025,Sunday,,6,
 Puyallup,Edmonds,Kingston,15:15,15:17,15:39,09/28/2025,Sunday,,2,
