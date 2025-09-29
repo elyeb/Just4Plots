@@ -1,4 +1,16 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tacoma,Colman,Bainbridge,02:10,02:15,02:47,09/29/2025
+Kittitas,Vashon,Southworth,01:30,01:50,02:01,09/29/2025
+Tacoma,Bainbridge,Colman,01:25,01:35,02:09,09/29/2025
+Tokitae,Mukilteo,Clinton,01:05,01:05,01:19,09/29/2025
+Kittitas,Fauntleroy,Vashon,01:05,01:12,01:28,09/29/2025
+Chimacum,Colman,Bremerton,00:50,00:52,01:50,09/29/2025
+Tacoma,Colman,Bainbridge,00:45,00:59,01:30,09/29/2025
+Tokitae,Clinton,Mukilteo,00:35,00:36,00:52,09/29/2025
+Kittitas,Southworth,Fauntleroy,00:35,00:35,00:55,09/29/2025
+Kittitas,Vashon,Southworth,00:15,00:15,00:27,09/29/2025
+Tokitae,Mukilteo,Clinton,00:05,00:05,00:20,09/29/2025
+Tacoma,Bainbridge,Colman,00:00,00:19,00:50,09/29/2025
 Tokitae,Clinton,Mukilteo,16:35,16:33,16:47,09/28/2025
 Kittitas,Fauntleroy,Vashon,16:20,16:33,16:45,09/28/2025
 Salish,Keystone,Port Townsend,16:15,16:17,16:45,09/28/2025
