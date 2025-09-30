@@ -1,13 +1,21 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Tillikum,Shaw,Lopez,16:20,15:45,15:47,09/30/2025
+Tokitae,Mukilteo,Clinton,16:05,16:01,16:06,09/30/2025
+Kitsap,Clinton,Mukilteo,16:05,16:00,16:01,09/30/2025
+Kitsap,Mukilteo,Clinton,16:05,16:01,16:01,09/30/2025
+Issaquah,Fauntleroy,Southworth,15:50,15:53,15:59,09/30/2025
 Kitsap,Clinton,Mukilteo,15:35,15:16,15:50,09/30/2025
 Salish,Vashon,Fauntleroy,15:20,14:24,14:42,09/30/2025
 Salish,Vashon,Fauntleroy,15:20,15:43,15:43,09/30/2025
 Tillikum,Lopez,Shaw,15:20,15:17,15:38,09/30/2025
+WallaWalla,Edmonds,Kingston,15:15,15:47,16:01,09/30/2025
+Puyallup,Kingston,Edmonds,15:10,15:25,16:00,09/30/2025
 Tokitae,Clinton,Mukilteo,15:05,15:08,15:22,09/30/2025
 Kitsap,Mukilteo,Clinton,15:05,15:05,15:18,09/30/2025
 Salish,Fauntleroy,Vashon,15:00,14:55,15:15,09/30/2025
 Sealth,Bremerton,Colman,15:00,15:01,15:55,09/30/2025
+Tacoma,Colman,Bainbridge,15:00,15:01,16:00,09/30/2025
+Kittitas,Southworth,Vashon,15:00,15:56,16:00,09/30/2025
 Kaleetan,Bainbridge,Colman,14:55,15:04,15:37,09/30/2025
 Chimacum,Colman,Bremerton,14:50,14:52,15:48,09/30/2025
 Kennewick,Keystone,Port Townsend,14:45,14:45,15:12,09/30/2025
