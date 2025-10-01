@@ -1,6 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,,13:40,13:43,00:00,10/01/2025,Wednesday,,3,
+Issaquah,Fauntleroy,,13:35,13:36,00:00,10/01/2025,Wednesday,,1,
+Walla Walla,Edmonds,Kingston,13:35,13:42,14:03,10/01/2025,Wednesday,,7,
 Kitsap,Clinton,Mukilteo,13:30,13:31,13:46,10/01/2025,Wednesday,,1,
 Tokitae,Mukilteo,Clinton,13:30,13:32,13:46,10/01/2025,Wednesday,,2,
+Puyallup,Kingston,Edmonds,13:30,13:31,13:55,10/01/2025,Wednesday,,1,
 Salish,Fauntleroy,,13:15,12:51,00:00,10/01/2025,Wednesday,,-24,
 Kittitas,Fauntleroy,,13:15,13:16,00:00,10/01/2025,Wednesday,,1,
 Kennewick,Keystone,Port Townsend,13:15,13:15,13:40,10/01/2025,Wednesday,,0,
