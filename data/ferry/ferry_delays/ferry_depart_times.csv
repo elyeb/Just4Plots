@@ -1,7 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Issaquah,Vashon,Southworth,05:25,04:41,04:52,10/01/2025
+Issaquah,Vashon,,05:25,04:41,00:00,10/01/2025
 Kitsap,Mukilteo,Clinton,05:05,04:10,04:25,10/01/2025
+WallaWalla,Kingston,Edmonds,04:45,04:46,05:08,10/01/2025
 Kitsap,Clinton,Mukilteo,04:40,03:54,04:08,10/01/2025
+Kitsap,Clinton,Mukilteo,04:40,04:40,04:57,10/01/2025
 Kittitas,Vashon,Fauntleroy,04:30,04:31,04:44,10/01/2025
 Kittitas,Vashon,,04:30,04:31,00:00,10/01/2025
 Issaquah,Southworth,Vashon,04:10,03:30,03:39,10/01/2025
