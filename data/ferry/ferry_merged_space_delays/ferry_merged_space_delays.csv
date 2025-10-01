@@ -1,8 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Fauntleroy,Vashon,07:40,07:07,07:26,10/01/2025,Wednesday,,-33,
+Tillikum,Shaw,Orcas,07:20,07:27,07:33,10/01/2025,Wednesday,,7,
 Issaquah,Vashon,Fauntleroy,07:15,07:10,07:23,10/01/2025,Wednesday,,-5,
+Kaleetan,Bainbridge,Colman,07:05,07:07,07:38,10/01/2025,Wednesday,,2,
+Tacoma,Colman,Bainbridge,07:05,07:09,07:40,10/01/2025,Wednesday,,4,
 Kitsap,Mukilteo,Clinton,07:00,07:00,07:13,10/01/2025,Wednesday,,0,
 Tokitae,Clinton,Mukilteo,07:00,07:01,07:16,10/01/2025,Wednesday,,1,
+Puyallup,Kingston,Edmonds,07:00,07:02,07:35,10/01/2025,Wednesday,,2,
 Salish,Vashon,Fauntleroy,06:55,06:34,06:53,10/01/2025,Wednesday,,-21,
 Tillikum,Lopez,Shaw,06:50,07:01,07:21,10/01/2025,Wednesday,,11,
 Kittitas,Fauntleroy,Vashon,06:45,06:46,07:01,10/01/2025,Wednesday,,1,
