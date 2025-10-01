@@ -1,5 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Salish,Southworth,Vashon,08:30,08:11,08:23,10/01/2025
+Kitsap,Clinton,Mukilteo,08:30,08:31,08:46,10/01/2025
+Kittitas,Southworth,Vashon,08:30,08:30,08:42,10/01/2025
+Tokitae,Mukilteo,Clinton,08:30,08:31,08:45,10/01/2025
+Issaquah,Fauntleroy,Vashon,08:15,08:24,08:38,10/01/2025
+Samish,Friday Harbor,Lopez,08:10,08:22,08:55,10/01/2025
 Salish,Vashon,Southworth,08:05,07:34,07:44,10/01/2025
 Kittitas,Vashon,Southworth,08:05,08:08,08:19,10/01/2025
 Kitsap,Mukilteo,Clinton,08:00,08:00,08:15,10/01/2025
