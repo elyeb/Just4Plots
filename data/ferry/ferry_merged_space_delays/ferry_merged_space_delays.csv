@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Clinton,Mukilteo,04:40,03:54,04:08,10/03/2025,Friday,,-46,
 Issaquah,Southworth,,04:10,03:30,00:00,10/03/2025,Friday,,-40,
 Tacoma,Colman,Bainbridge,01:35,01:43,02:15,10/03/2025,Friday,,8,
 Issaquah,Vashon,,01:30,01:31,00:00,10/03/2025,Friday,,1,
