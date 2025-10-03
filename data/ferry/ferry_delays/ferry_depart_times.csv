@@ -1,8 +1,15 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Issaquah,Southworth,Vashon,10:00,10:04,10:15,10/03/2025
+Tokitae,Clinton,Mukilteo,10:00,10:01,10:15,10/03/2025
+Tillikum,Shaw,Lopez,10:00,10:00,10:18,10/03/2025
+Kitsap,Mukilteo,Clinton,10:00,10:00,10:14,10/03/2025
+Kittitas,Vashon,Fauntleroy,09:55,10:00,10:15,10/03/2025
 Tillikum,Orcas,Shaw,09:45,09:45,09:53,10/03/2025
+Tacoma,Bainbridge,Colman,09:40,09:42,10:13,10/03/2025
 Issaquah,Vashon,Southworth,09:35,09:41,09:52,10/03/2025
 Puyallup,Kingston,Edmonds,09:35,09:36,09:59,10/03/2025
 WallaWalla,Edmonds,Kingston,09:35,09:37,09:58,10/03/2025
+Kaleetan,Colman,Bainbridge,09:35,09:36,10:07,10/03/2025
 Tokitae,Mukilteo,Clinton,09:30,09:30,09:46,10/03/2025
 Kitsap,Clinton,Mukilteo,09:30,09:30,09:44,10/03/2025
 Kittitas,Fauntleroy,,09:30,09:32,00:00,10/03/2025
@@ -18,6 +25,7 @@ Tacoma,Colman,Bainbridge,08:45,08:47,09:20,10/03/2025
 Kennewick,Keystone,Port Townsend,08:45,08:46,09:13,10/03/2025
 Tillikum,Friday Harbor,Orcas,08:45,08:47,09:21,10/03/2025
 Kaleetan,Bainbridge,Colman,08:45,08:46,09:18,10/03/2025
+Chimacum,Bremerton,Colman,08:45,09:06,10:04,10/03/2025
 Issaquah,Vashon,Fauntleroy,08:40,08:42,08:55,10/03/2025
 WallaWalla,Kingston,Edmonds,08:40,08:42,09:04,10/03/2025
 Sealth,Colman,Bremerton,08:35,08:36,09:47,10/03/2025
