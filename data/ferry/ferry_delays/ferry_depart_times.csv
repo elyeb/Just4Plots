@@ -2,6 +2,7 @@ Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Tokitae,Mukilteo,Clinton,10:30,10:31,10:45,10/03/2025
 Kitsap,Clinton,Mukilteo,10:30,10:31,10:45,10/03/2025
 Kittitas,Fauntleroy,Vashon,10:25,10:27,10:40,10/03/2025
+Kaleetan,Bainbridge,Colman,10:25,10:25,10:57,10/03/2025
 Issaquah,Vashon,Fauntleroy,10:20,10:24,10:37,10/03/2025
 Puyallup,Edmonds,Kingston,10:20,10:22,10:43,10/03/2025
 WallaWalla,Kingston,Edmonds,10:20,10:22,10:45,10/03/2025
@@ -11,6 +12,7 @@ Tokitae,Clinton,Mukilteo,10:00,10:01,10:15,10/03/2025
 Tillikum,Shaw,Lopez,10:00,10:00,10:18,10/03/2025
 Kitsap,Mukilteo,Clinton,10:00,10:00,10:14,10/03/2025
 Kittitas,Vashon,Fauntleroy,09:55,10:00,10:15,10/03/2025
+Sealth,Bremerton,Colman,09:50,09:58,10:55,10/03/2025
 Tillikum,Orcas,Shaw,09:45,09:45,09:53,10/03/2025
 Tacoma,Bainbridge,Colman,09:40,09:42,10:13,10/03/2025
 Issaquah,Vashon,Southworth,09:35,09:41,09:52,10/03/2025
