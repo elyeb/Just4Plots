@@ -1,5 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Fauntleroy,,16:35,15:38,00:00,10/03/2025,Friday,,-57,
+Tokitae,Clinton,Mukilteo,16:05,16:07,16:20,10/03/2025,Friday,,2,
+Kitsap,Mukilteo,Clinton,16:05,16:09,16:22,10/03/2025,Friday,,4,
+Issaquah,Southworth,,15:55,15:59,00:00,10/03/2025,Friday,,4,
+Walla Walla,Edmonds,Kingston,15:55,15:59,16:21,10/03/2025,Friday,,4,
+Tillikum,Shaw,Orcas,15:45,16:14,16:20,10/03/2025,Friday,,29,
 Tokitae,Mukilteo,Clinton,15:35,15:36,15:51,10/03/2025,Friday,,1,
 Kitsap,Clinton,Mukilteo,15:35,15:36,15:52,10/03/2025,Friday,,1,
 Issaquah,Vashon,,15:30,15:34,00:00,10/03/2025,Friday,,4,

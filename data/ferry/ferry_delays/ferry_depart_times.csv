@@ -1,5 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Salish,Fauntleroy,,16:35,15:38,00:00,10/03/2025
+Tokitae,Clinton,Mukilteo,16:05,16:07,16:20,10/03/2025
+Kitsap,Mukilteo,Clinton,16:05,16:09,16:22,10/03/2025
+Issaquah,Southworth,,15:55,15:59,00:00,10/03/2025
+WallaWalla,Edmonds,Kingston,15:55,15:59,16:21,10/03/2025
+Tillikum,Shaw,Orcas,15:45,16:14,16:20,10/03/2025
 Tokitae,Mukilteo,Clinton,15:35,15:36,15:51,10/03/2025
 Kitsap,Clinton,Mukilteo,15:35,15:36,15:52,10/03/2025
 Issaquah,Vashon,,15:30,15:34,00:00,10/03/2025
