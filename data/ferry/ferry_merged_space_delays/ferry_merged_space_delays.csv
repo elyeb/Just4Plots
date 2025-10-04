@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Mukilteo,Clinton,15:35,15:36,15:51,10/04/2025,Saturday,,1,
+Kitsap,Clinton,Mukilteo,15:35,15:36,15:51,10/04/2025,Saturday,,1,
 Salish,Vashon,Fauntleroy,15:25,15:04,15:32,10/04/2025,Saturday,,-21,
+Issaquah,Vashon,Fauntleroy,15:25,15:26,15:47,10/04/2025,Saturday,,1,
 Kittitas,Fauntleroy,,15:20,15:24,00:00,10/04/2025,Saturday,,4,
 Tillikum,Lopez,Shaw,15:20,15:28,15:44,10/04/2025,Saturday,,8,
 Puyallup,Edmonds,Kingston,15:15,15:21,15:41,10/04/2025,Saturday,,6,
@@ -9,6 +12,7 @@ Kitsap,Mukilteo,Clinton,15:05,15:05,15:19,10/04/2025,Saturday,,0,
 Kaleetan,Colman,Bainbridge,15:05,15:08,15:42,10/04/2025,Saturday,14:42:17,3,-23.0
 Salish,Southworth,Vashon,15:00,14:38,14:50,10/04/2025,Saturday,,-22,
 Issaquah,Southworth,Vashon,15:00,15:01,15:13,10/04/2025,Saturday,,1,
+Tacoma,Bainbridge,Colman,15:00,15:23,15:53,10/04/2025,Saturday,,23,
 Kittitas,Vashon,Fauntleroy,14:55,14:57,15:12,10/04/2025,Saturday,,2,
 Kennewick,Keystone,Port Townsend,14:45,14:47,15:12,10/04/2025,Saturday,,2,
 Tokitae,Mukilteo,Clinton,14:35,14:35,14:50,10/04/2025,Saturday,,0,
