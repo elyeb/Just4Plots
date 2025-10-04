@@ -1,9 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Vashon,Southworth,10:20,09:48,10:00,10/04/2025,Saturday,,-32,
 Tokitae,Clinton,Mukilteo,10:00,10:01,10:15,10/04/2025,Saturday,,1,
+Tillikum,Shaw,Lopez,10:00,10:00,10:20,10/04/2025,Saturday,,0,
+Kitsap,Mukilteo,Clinton,10:00,10:05,10:17,10/04/2025,Saturday,,5,
 Kittitas,Fauntleroy,Vashon,09:55,09:56,10:11,10/04/2025,Saturday,,1,
 Issaquah,Vashon,Fauntleroy,09:50,09:58,10:11,10/04/2025,Saturday,,8,
 Tillikum,Orcas,Shaw,09:45,09:45,09:53,10/04/2025,Saturday,,0,
+Tacoma,Bainbridge,Colman,09:45,09:46,10:19,10/04/2025,Saturday,,1,
 Walla Walla,Edmonds,Kingston,09:35,09:38,10:00,10/04/2025,Saturday,,3,
 Puyallup,Kingston,Edmonds,09:35,09:40,10:03,10/04/2025,Saturday,,5,
 Kaleetan,Colman,Bainbridge,09:35,09:37,10:10,10/04/2025,Saturday,,2,
