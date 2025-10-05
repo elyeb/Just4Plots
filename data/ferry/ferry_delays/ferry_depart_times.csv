@@ -1,4 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kitsap,Clinton,Mukilteo,06:30,06:32,06:46,10/05/2025
+Issaquah,Vashon,,06:30,06:31,00:00,10/05/2025
+Puyallup,Kingston,Edmonds,06:25,06:27,06:49,10/05/2025
+Kittitas,Vashon,Fauntleroy,06:15,06:16,06:31,10/05/2025
+Kaleetan,Colman,Bainbridge,06:10,06:11,06:49,10/05/2025
+Tillikum,Friday Harbor,Lopez,06:05,06:05,06:42,10/05/2025
 Kitsap,Mukilteo,Clinton,06:00,05:05,05:20,10/05/2025
 Kitsap,Mukilteo,Clinton,06:00,06:00,06:13,10/05/2025
 Kittitas,Southworth,Vashon,05:55,05:56,06:09,10/05/2025
