@@ -1,4 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Fauntleroy,Vashon,15:20,15:21,15:38,10/05/2025,Sunday,,1,
+Puyallup,Edmonds,Kingston,15:15,15:21,15:43,10/05/2025,Sunday,,6,
+Walla Walla,Kingston,Edmonds,15:10,15:15,15:37,10/05/2025,Sunday,,5,
 Kitsap,Mukilteo,Clinton,15:05,15:06,15:19,10/05/2025,Sunday,,1,
 Tokitae,Clinton,Mukilteo,15:05,15:07,15:20,10/05/2025,Sunday,,2,
 Issaquah,Southworth,Vashon,15:00,15:02,15:15,10/05/2025,Sunday,,2,
