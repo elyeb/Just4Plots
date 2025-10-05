@@ -1,5 +1,6 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kittitas,Southworth,Vashon,04:20,04:21,04:31,10/05/2025
+Kittitas,Southworth,,04:20,04:21,00:00,10/05/2025
 Kittitas,Vashon,,01:30,01:36,00:00,10/05/2025
 Kaleetan,Bainbridge,Colman,01:25,02:01,02:34,10/05/2025
 Kitsap,Mukilteo,Clinton,01:05,01:05,01:20,10/05/2025
