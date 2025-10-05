@@ -1,11 +1,19 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Issaquah,Fauntleroy,Vashon,11:15,11:20,11:32,10/05/2025
+Kittitas,Vashon,,11:10,11:11,00:00,10/05/2025
+WallaWalla,Edmonds,Kingston,11:05,11:15,11:35,10/05/2025
+Puyallup,Kingston,Edmonds,11:05,11:07,11:33,10/05/2025
 Kitsap,Mukilteo,Clinton,11:00,11:00,11:13,10/05/2025
 Tokitae,Clinton,Mukilteo,11:00,11:03,11:17,10/05/2025
+Samish,Lopez,Orcas,11:00,11:05,11:22,10/05/2025
+Kennewick,Port Townsend,Keystone,11:00,11:05,11:32,10/05/2025
 Issaquah,Vashon,Fauntleroy,10:45,10:48,11:02,10/05/2025
 Kittitas,Southworth,Vashon,10:45,10:49,11:02,10/05/2025
+Tacoma,Colman,Bainbridge,10:40,10:49,11:21,10/05/2025
 Kitsap,Clinton,Mukilteo,10:30,10:30,10:44,10/05/2025
 Tokitae,Mukilteo,Clinton,10:30,10:30,10:45,10/05/2025
 Tillikum,Lopez,Friday Harbor,10:30,10:30,11:08,10/05/2025
+Yakima,Anacortes,Friday Harbor,10:30,10:31,11:42,10/05/2025
 Kaleetan,Bainbridge,Colman,10:25,10:30,11:04,10/05/2025
 WallaWalla,Kingston,Edmonds,10:20,10:31,10:52,10/05/2025
 Issaquah,Fauntleroy,Vashon,10:20,10:20,10:36,10/05/2025
