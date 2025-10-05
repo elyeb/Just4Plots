@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Clinton,Mukilteo,05:30,04:40,04:54,10/05/2025,Sunday,,-50,
+Kittitas,Vashon,,04:40,04:41,00:00,10/05/2025,Sunday,,1,
 Kittitas,Southworth,Vashon,04:20,04:21,04:31,10/05/2025,Sunday,,1,
 Kittitas,Southworth,,04:20,04:21,00:00,10/05/2025,Sunday,,1,
+Yakima,Anacortes,Friday Harbor,04:05,04:07,05:18,10/05/2025,Sunday,,2,
 Kittitas,Vashon,,01:30,01:36,00:00,10/05/2025,Sunday,,6,
 Kaleetan,Bainbridge,Colman,01:25,02:01,02:34,10/05/2025,Sunday,,36,
 Kitsap,Mukilteo,Clinton,01:05,01:05,01:20,10/05/2025,Sunday,,0,
