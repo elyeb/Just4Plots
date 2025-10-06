@@ -1,7 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Issaquah,Vashon,,05:25,04:33,00:00,10/06/2025
 Kitsap,Mukilteo,Clinton,05:05,04:10,04:24,10/06/2025
+Kitsap,Mukilteo,Clinton,05:05,05:06,05:24,10/06/2025
+Tokitae,Clinton,Mukilteo,05:05,05:15,05:27,10/06/2025
+Kittitas,Fauntleroy,,05:05,05:05,00:00,10/06/2025
 Issaquah,Southworth,Vashon,05:00,05:01,05:13,10/06/2025
+Issaquah,Southworth,,05:00,05:01,00:00,10/06/2025
 Puyallup,Kingston,Edmonds,04:45,04:47,05:08,10/06/2025
 Tacoma,Bainbridge,Colman,04:45,04:46,05:18,10/06/2025
 Kitsap,Clinton,Mukilteo,04:40,03:51,04:05,10/06/2025
