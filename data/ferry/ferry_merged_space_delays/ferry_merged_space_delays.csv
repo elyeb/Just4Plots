@@ -2,6 +2,7 @@ actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,D
 Salish,Vashon,Southworth,08:05,07:30,07:42,10/06/2025,Monday,,-35,
 Salish,Fauntleroy,Vashon,07:40,07:06,07:24,10/06/2025,Monday,,-34,
 Issaquah,Fauntleroy,Vashon,07:40,07:31,07:44,10/06/2025,Monday,,-9,
+Kittitas,Fauntleroy,Vashon,07:40,07:44,07:59,10/06/2025,Monday,,4,
 Kitsap,Clinton,Mukilteo,07:30,07:32,07:45,10/06/2025,Monday,,2,
 Tokitae,Mukilteo,Clinton,07:30,07:31,07:46,10/06/2025,Monday,,1,
 Kittitas,Vashon,Fauntleroy,07:15,07:16,07:36,10/06/2025,Monday,,1,
