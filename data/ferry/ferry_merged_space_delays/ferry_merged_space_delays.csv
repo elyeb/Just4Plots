@@ -1,6 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Vashon,,05:25,04:33,00:00,10/06/2025,Monday,,-52,
 Kitsap,Mukilteo,Clinton,05:05,04:10,04:24,10/06/2025,Monday,,-55,
 Kitsap,Clinton,Mukilteo,04:40,03:51,04:05,10/06/2025,Monday,,-49,
+Kittitas,Vashon,,04:30,04:31,00:00,10/06/2025,Monday,,1,
 Kittitas,Southworth,Vashon,04:10,03:31,03:41,10/06/2025,Monday,,-39,
 Kittitas,Southworth,,04:10,03:31,00:00,10/06/2025,Monday,,-39,
 Kittitas,Southworth,,04:10,04:11,00:00,10/06/2025,Monday,,1,
