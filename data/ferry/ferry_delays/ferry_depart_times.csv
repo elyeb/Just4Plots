@@ -1,5 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Salish,Southworth,Vashon,08:30,08:09,08:22,10/06/2025
+Kitsap,Clinton,Mukilteo,08:30,08:31,08:45,10/06/2025
+Kittitas,Southworth,Vashon,08:30,08:31,08:42,10/06/2025
+Issaquah,Fauntleroy,Vashon,08:15,08:17,08:30,10/06/2025
 Salish,Vashon,Southworth,08:05,07:30,07:42,10/06/2025
 Kittitas,Vashon,Southworth,08:05,08:06,08:18,10/06/2025
 Kitsap,Mukilteo,Clinton,08:00,08:00,08:14,10/06/2025
@@ -13,6 +16,7 @@ Issaquah,Vashon,Fauntleroy,07:50,07:54,08:07,10/06/2025
 Salish,Fauntleroy,Vashon,07:40,07:06,07:24,10/06/2025
 Issaquah,Fauntleroy,Vashon,07:40,07:31,07:44,10/06/2025
 Kittitas,Fauntleroy,Vashon,07:40,07:44,07:59,10/06/2025
+Chimacum,Colman,Bremerton,07:35,07:37,08:36,10/06/2025
 Kitsap,Clinton,Mukilteo,07:30,07:32,07:45,10/06/2025
 Tokitae,Mukilteo,Clinton,07:30,07:31,07:46,10/06/2025
 Yakima,Anacortes,Orcas,07:30,07:30,08:25,10/06/2025
