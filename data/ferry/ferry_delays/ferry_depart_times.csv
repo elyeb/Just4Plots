@@ -1,7 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Tillikum,Shaw,Orcas,15:45,15:46,15:54,10/07/2025
 Tokitae,Mukilteo,Clinton,15:35,15:38,15:53,10/07/2025
+Kitsap,Clinton,Mukilteo,15:35,15:36,15:56,10/07/2025
 Issaquah,Vashon,Southworth,15:30,15:32,15:41,10/07/2025
+Issaquah,Vashon,,15:30,15:32,00:00,10/07/2025
 Salish,Vashon,Fauntleroy,15:20,15:02,15:19,10/07/2025
 Tillikum,Lopez,Shaw,15:20,15:22,15:41,10/07/2025
 Kittitas,Vashon,Fauntleroy,15:20,15:24,15:37,10/07/2025
@@ -13,6 +15,7 @@ Salish,Fauntleroy,Vashon,15:00,14:34,14:52,10/07/2025
 Kittitas,Southworth,Vashon,15:00,15:02,15:12,10/07/2025
 Issaquah,Fauntleroy,Vashon,15:00,15:06,15:20,10/07/2025
 Kaleetan,Colman,Bainbridge,15:00,15:07,15:41,10/07/2025
+Sealth,Bremerton,Colman,15:00,15:02,15:59,10/07/2025
 Tacoma,Bainbridge,Colman,14:55,14:56,15:29,10/07/2025
 Chimacum,Colman,Bremerton,14:50,14:54,15:50,10/07/2025
 Kennewick,Keystone,Port Townsend,14:45,14:50,15:19,10/07/2025
