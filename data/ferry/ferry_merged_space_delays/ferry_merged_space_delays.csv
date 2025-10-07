@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Vashon,Southworth,15:30,15:32,15:41,10/07/2025,Tuesday,,2,
 Salish,Vashon,Fauntleroy,15:20,15:02,15:19,10/07/2025,Tuesday,,-18,
+Tillikum,Lopez,Shaw,15:20,15:22,15:41,10/07/2025,Tuesday,,2,
+Kittitas,Vashon,Fauntleroy,15:20,15:24,15:37,10/07/2025,Tuesday,,4,
 Walla Walla,Edmonds,Kingston,15:15,15:18,15:39,10/07/2025,Tuesday,,3,
 Puyallup,Kingston,Edmonds,15:10,15:10,15:34,10/07/2025,Tuesday,,0,
 Tokitae,Clinton,Mukilteo,15:05,15:07,15:21,10/07/2025,Tuesday,,2,
@@ -7,6 +10,7 @@ Kitsap,Mukilteo,Clinton,15:05,15:06,15:19,10/07/2025,Tuesday,,1,
 Salish,Fauntleroy,Vashon,15:00,14:34,14:52,10/07/2025,Tuesday,,-26,
 Kittitas,Southworth,Vashon,15:00,15:02,15:12,10/07/2025,Tuesday,,2,
 Issaquah,Fauntleroy,Vashon,15:00,15:06,15:20,10/07/2025,Tuesday,,6,
+Kaleetan,Colman,Bainbridge,15:00,15:07,15:41,10/07/2025,Tuesday,15:02:27,7,2.0
 Tacoma,Bainbridge,Colman,14:55,14:56,15:29,10/07/2025,Tuesday,,1,
 Kennewick,Keystone,Port Townsend,14:45,14:50,15:19,10/07/2025,Tuesday,,5,
 Kittitas,Vashon,Southworth,14:35,14:45,14:53,10/07/2025,Tuesday,,10,
