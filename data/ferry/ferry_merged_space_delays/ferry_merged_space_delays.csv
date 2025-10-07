@@ -1,4 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Vashon,Fauntleroy,12:40,12:29,12:45,10/07/2025,Tuesday,,-11,
+Tokitae,Mukilteo,Clinton,12:30,12:31,12:47,10/07/2025,Tuesday,,1,
+Kitsap,Clinton,Mukilteo,12:30,12:37,12:51,10/07/2025,Tuesday,,7,
 Salish,Southworth,,12:15,12:09,00:00,10/07/2025,Tuesday,,-6,
 Tokitae,Clinton,Mukilteo,12:00,12:01,12:17,10/07/2025,Tuesday,,1,
 Kitsap,Mukilteo,Clinton,12:00,12:06,12:21,10/07/2025,Tuesday,,6,
