@@ -1,6 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tillikum,Shaw,Orcas,07:20,07:24,07:32,10/07/2025
+WallaWalla,Edmonds,Kingston,07:10,07:11,07:33,10/07/2025
 Tokitae,Clinton,Mukilteo,07:00,07:01,07:17,10/07/2025
 Kitsap,Mukilteo,Clinton,07:00,07:00,07:14,10/07/2025
+Puyallup,Kingston,Edmonds,07:00,07:02,07:24,10/07/2025
+Issaquah,Vashon,Fauntleroy,06:55,07:04,07:19,10/07/2025
 Tillikum,Lopez,Shaw,06:50,06:58,07:19,10/07/2025
 Kittitas,Fauntleroy,Vashon,06:45,06:48,07:02,10/07/2025
 Issaquah,Southworth,Vashon,06:35,06:43,06:55,10/07/2025
