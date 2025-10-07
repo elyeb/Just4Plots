@@ -1,9 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Fauntleroy,Vashon,15:00,14:34,14:52,10/07/2025,Tuesday,,-26,
+Kittitas,Southworth,Vashon,15:00,15:02,15:12,10/07/2025,Tuesday,,2,
 Kittitas,Vashon,Southworth,14:35,14:45,14:53,10/07/2025,Tuesday,,10,
 Tokitae,Mukilteo,Clinton,14:35,14:35,14:50,10/07/2025,Tuesday,,0,
 Kitsap,Clinton,Mukilteo,14:35,14:35,14:50,10/07/2025,Tuesday,,0,
 Walla Walla,Kingston,Edmonds,14:30,14:32,14:53,10/07/2025,Tuesday,,2,
+Tillikum,Friday Harbor,Lopez,14:30,14:35,15:15,10/07/2025,Tuesday,,5,
 Puyallup,Edmonds,Kingston,14:25,14:27,14:49,10/07/2025,Tuesday,,2,
 Samish,Lopez,Friday Harbor,14:25,14:34,15:04,10/07/2025,Tuesday,,9,
 Issaquah,Southworth,,14:20,14:26,00:00,10/07/2025,Tuesday,,6,
