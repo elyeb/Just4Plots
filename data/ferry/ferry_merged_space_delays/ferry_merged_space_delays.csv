@@ -1,6 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Vashon,Southworth,08:05,07:33,07:45,10/08/2025,Wednesday,,-32,
 Salish,Fauntleroy,Vashon,07:40,07:08,07:26,10/08/2025,Wednesday,,-32,
+Issaquah,Fauntleroy,Vashon,07:40,07:37,07:51,10/08/2025,Wednesday,,-3,
 Tokitae,Mukilteo,Clinton,07:30,07:31,07:45,10/08/2025,Wednesday,,1,
 Kitsap,Clinton,Mukilteo,07:30,07:31,07:45,10/08/2025,Wednesday,,1,
 Tillikum,Shaw,Orcas,07:20,07:20,07:27,10/08/2025,Wednesday,,0,
