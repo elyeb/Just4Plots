@@ -1,8 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tillikum,Lopez,Shaw,15:20,15:21,15:39,10/08/2025,Wednesday,,1,
+Walla Walla,Edmonds,Kingston,15:15,15:16,15:37,10/08/2025,Wednesday,,1,
+Puyallup,Kingston,Edmonds,15:10,15:11,15:33,10/08/2025,Wednesday,,1,
 Tokitae,Clinton,Mukilteo,15:05,15:08,15:22,10/08/2025,Wednesday,,3,
 Kitsap,Mukilteo,Clinton,15:05,15:05,15:18,10/08/2025,Wednesday,,0,
 Kittitas,Southworth,Vashon,15:00,15:08,15:18,10/08/2025,Wednesday,,8,
 Issaquah,Fauntleroy,Vashon,15:00,15:04,15:17,10/08/2025,Wednesday,,4,
+Kaleetan,Colman,Bainbridge,15:00,15:02,15:34,10/08/2025,Wednesday,15:02:27,2,2.0
 Tacoma,Bainbridge,Colman,14:55,14:55,15:30,10/08/2025,Wednesday,,0,
 Kennewick,Keystone,Port Townsend,14:45,14:48,15:16,10/08/2025,Wednesday,,3,
 Kittitas,Vashon,Southworth,14:35,14:40,15:00,10/08/2025,Wednesday,,5,
