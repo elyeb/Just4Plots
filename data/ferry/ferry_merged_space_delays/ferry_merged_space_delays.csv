@@ -1,4 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Vashon,Southworth,12:35,12:39,12:49,10/08/2025,Wednesday,,4,
+Tokitae,Mukilteo,Clinton,12:30,12:33,12:47,10/08/2025,Wednesday,,3,
+Kitsap,Clinton,Mukilteo,12:30,12:36,12:50,10/08/2025,Wednesday,,6,
 Tokitae,Clinton,Mukilteo,12:00,12:03,12:17,10/08/2025,Wednesday,,3,
 Kitsap,Mukilteo,Clinton,12:00,12:08,12:21,10/08/2025,Wednesday,,8,
 Puyallup,Kingston,Edmonds,11:55,11:56,12:18,10/08/2025,Wednesday,,1,
