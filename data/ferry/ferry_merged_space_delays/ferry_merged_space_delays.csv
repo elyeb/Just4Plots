@@ -1,11 +1,16 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kitsap,Clinton,Mukilteo,15:35,15:47,16:02,10/10/2025,Friday,,12,
 Kittitas,Fauntleroy,Vashon,15:30,15:40,15:53,10/10/2025,Friday,,10,
+Salish,Port Townsend,Keystone,15:30,15:31,15:57,10/10/2025,Friday,,1,
 Issaquah,Vashon,Fauntleroy,15:25,15:29,15:47,10/10/2025,Friday,,4,
+Tillikum,Lopez,Shaw,15:20,15:41,16:00,10/10/2025,Friday,,21,
 Puyallup,Edmonds,Kingston,15:15,15:20,15:41,10/10/2025,Friday,,5,
 Walla Walla,Kingston,Edmonds,15:10,15:25,15:47,10/10/2025,Friday,,15,
 Tokitae,Clinton,Mukilteo,15:05,15:25,15:38,10/10/2025,Friday,,20,
 Kitsap,Mukilteo,Clinton,15:05,15:20,15:34,10/10/2025,Friday,,15,
+Yakima,Lopez,Anacortes,15:05,15:19,16:05,10/10/2025,Friday,,14,
 Wenatchee,Colman,Bainbridge,15:00,15:08,15:39,10/10/2025,Friday,14:42:19,8,-18.0
+Sealth,Bremerton,Colman,15:00,15:02,16:00,10/10/2025,Friday,,2,
 Tacoma,Bainbridge,Colman,14:55,15:14,15:47,10/10/2025,Friday,,19,
 Chimacum,Colman,Bremerton,14:50,14:51,15:47,10/10/2025,Friday,,1,
 Issaquah,Fauntleroy,Vashon,14:45,14:49,15:03,10/10/2025,Friday,,4,
