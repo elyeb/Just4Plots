@@ -1,6 +1,15 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Salish,Port Townsend,Keystone,14:00,14:00,14:26,10/10/2025
+Kittitas,Vashon,Fauntleroy,13:40,13:40,13:54,10/10/2025
+Puyallup,Edmonds,Kingston,13:35,13:36,13:57,10/10/2025
+Tillikum,Lopez,Friday Harbor,13:35,13:38,14:20,10/10/2025
+Tokitae,Mukilteo,Clinton,13:30,13:45,13:58,10/10/2025
+WallaWalla,Kingston,Edmonds,13:30,13:34,13:55,10/10/2025
+Kitsap,Clinton,Mukilteo,13:30,13:41,13:55,10/10/2025
 Kittitas,Fauntleroy,Vashon,13:15,13:16,13:28,10/10/2025
 Salish,Keystone,Port Townsend,13:15,13:16,13:42,10/10/2025
+Tacoma,Bainbridge,Colman,13:15,13:24,13:55,10/10/2025
+Kaleetan,Colman,Bainbridge,13:10,13:17,13:50,10/10/2025
 Tillikum,Shaw,Lopez,13:05,13:11,13:29,10/10/2025
 Tokitae,Clinton,Mukilteo,13:00,13:11,13:25,10/10/2025
 Kitsap,Mukilteo,Clinton,13:00,13:07,13:21,10/10/2025
@@ -13,6 +22,7 @@ Tokitae,Mukilteo,Clinton,12:30,12:34,12:50,10/10/2025
 Kitsap,Clinton,Mukilteo,12:30,12:37,12:52,10/10/2025
 Salish,Port Townsend,Keystone,12:30,12:33,12:59,10/10/2025
 Tacoma,Colman,Bainbridge,12:25,12:33,13:05,10/10/2025
+Yakima,Friday Harbor,Anacortes,12:25,12:41,13:51,10/10/2025
 Issaquah,Vashon,Fauntleroy,12:20,12:21,12:34,10/10/2025
 Kaleetan,Bainbridge,Colman,12:20,12:24,12:55,10/10/2025
 Samish,Lopez,Anacortes,12:20,12:28,13:12,10/10/2025
