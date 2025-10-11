@@ -1,11 +1,18 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Issaquah,Fauntleroy,Vashon,11:10,11:11,11:25,10/11/2025,Saturday,,1,
+Kittitas,Vashon,Fauntleroy,11:10,11:12,11:26,10/11/2025,Saturday,,2,
+Walla Walla,Edmonds,Kingston,11:05,11:14,11:36,10/11/2025,Saturday,11:02:22,9,-3.0
 Tokitae,Clinton,Mukilteo,11:00,11:04,11:20,10/11/2025,Saturday,,4,
+Samish,Lopez,Orcas,11:00,11:04,11:22,10/11/2025,Saturday,,4,
+Kitsap,Mukilteo,Clinton,11:00,11:06,11:19,10/11/2025,Saturday,,6,
+Salish,Port Townsend,Keystone,11:00,11:00,11:29,10/11/2025,Saturday,,0,
 Kittitas,Southworth,Vashon,10:50,10:54,11:05,10/11/2025,Saturday,,4,
 Issaquah,Vashon,Fauntleroy,10:40,10:41,10:55,10/11/2025,Saturday,,1,
 Wenatchee,Colman,Bainbridge,10:40,10:42,11:13,10/11/2025,Saturday,,2,
 Tokitae,Mukilteo,Clinton,10:30,10:33,10:47,10/11/2025,Saturday,,3,
 Kitsap,Clinton,Mukilteo,10:30,10:34,10:48,10/11/2025,Saturday,,4,
 Kittitas,Vashon,Southworth,10:30,10:31,10:42,10/11/2025,Saturday,,1,
+Tillikum,Lopez,Friday Harbor,10:30,10:43,11:23,10/11/2025,Saturday,,13,
 Tacoma,Bainbridge,Colman,10:25,10:27,10:58,10/11/2025,Saturday,,2,
 Issaquah,Southworth,Vashon,10:20,10:23,10:34,10/11/2025,Saturday,,3,
 Walla Walla,Kingston,Edmonds,10:20,10:28,10:50,10/11/2025,Saturday,,8,
