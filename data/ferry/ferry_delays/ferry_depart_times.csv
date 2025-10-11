@@ -1,7 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kittitas,Vashon,Fauntleroy,09:35,09:36,09:52,10/11/2025
+WallaWalla,Edmonds,Kingston,09:35,09:44,10:06,10/11/2025
 Tokitae,Mukilteo,Clinton,09:30,09:30,09:46,10/11/2025
 Kitsap,Clinton,Mukilteo,09:30,09:31,09:46,10/11/2025
+Salish,Port Townsend,Keystone,09:30,09:31,09:57,10/11/2025
 Issaquah,Vashon,Fauntleroy,09:20,09:21,09:35,10/11/2025
 Kittitas,Southworth,Vashon,09:15,09:16,09:28,10/11/2025
 Tokitae,Clinton,Mukilteo,09:00,09:02,09:17,10/11/2025
