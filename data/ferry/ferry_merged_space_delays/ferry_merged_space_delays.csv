@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kitsap,Mukilteo,Clinton,06:00,05:07,05:19,10/11/2025,Saturday,,-53,
+Kitsap,Mukilteo,Clinton,06:00,06:00,06:13,10/11/2025,Saturday,,0,
+Kittitas,Southworth,Vashon,06:00,06:00,06:13,10/11/2025,Saturday,,0,
 Puyallup,Edmonds,Kingston,05:35,05:36,05:58,10/11/2025,Saturday,,1,
 Kittitas,Vashon,Southworth,05:35,05:37,05:47,10/11/2025,Saturday,,2,
 Kitsap,Clinton,Mukilteo,05:30,04:50,05:05,10/11/2025,Saturday,,-40,

@@ -1,5 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kitsap,Mukilteo,Clinton,06:00,05:07,05:19,10/11/2025
+Kitsap,Mukilteo,Clinton,06:00,06:00,06:13,10/11/2025
+Kittitas,Southworth,Vashon,06:00,06:00,06:13,10/11/2025
 Puyallup,Edmonds,Kingston,05:35,05:36,05:58,10/11/2025
 Kittitas,Vashon,Southworth,05:35,05:37,05:47,10/11/2025
 Kitsap,Clinton,Mukilteo,05:30,04:50,05:05,10/11/2025
