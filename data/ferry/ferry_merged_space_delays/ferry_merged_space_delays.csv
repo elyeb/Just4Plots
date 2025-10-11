@@ -1,11 +1,13 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Kitsap,Clinton,Mukilteo,06:30,06:30,06:45,10/11/2025,Saturday,,0,
+Salish,Port Townsend,Keystone,06:30,06:30,06:56,10/11/2025,Saturday,,0,
 Puyallup,Kingston,Edmonds,06:25,06:27,06:49,10/11/2025,Saturday,,2,
 Kittitas,Vashon,Fauntleroy,06:20,06:21,06:35,10/11/2025,Saturday,,1,
 Tacoma,Colman,Bainbridge,06:10,06:12,06:42,10/11/2025,Saturday,,2,
 Kitsap,Mukilteo,Clinton,06:00,05:07,05:19,10/11/2025,Saturday,,-53,
 Kitsap,Mukilteo,Clinton,06:00,06:00,06:13,10/11/2025,Saturday,,0,
 Kittitas,Southworth,Vashon,06:00,06:00,06:13,10/11/2025,Saturday,,0,
+Sealth,Colman,Bremerton,06:00,06:06,07:01,10/11/2025,Saturday,,6,
 Puyallup,Edmonds,Kingston,05:35,05:36,05:58,10/11/2025,Saturday,,1,
 Kittitas,Vashon,Southworth,05:35,05:37,05:47,10/11/2025,Saturday,,2,
 Kitsap,Clinton,Mukilteo,05:30,04:50,05:05,10/11/2025,Saturday,,-40,
