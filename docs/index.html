@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ferry Schedule Analysis</title>
+    <meta http-equiv="refresh" content="3600">  <!-- Auto-refresh every hour -->
+</head>
+<body>
+    <h1>Ferry Schedule Analysis</h1>
+    <img src="all_routes.png" alt="Ferry Routes Analysis">
+    <p>Last updated: <span id="lastUpdate"></span></p>
+    
+    <script>
+        document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
