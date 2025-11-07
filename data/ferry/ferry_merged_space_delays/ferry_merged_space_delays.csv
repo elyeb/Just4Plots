@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Suquamish,Clinton,Mukilteo,14:35,14:37,14:52,11/07/2025,Friday,,2,
+Tokitae,Mukilteo,Clinton,14:35,14:42,14:57,11/07/2025,Friday,,7,
+Chimacum,Vashon,Southworth,14:35,14:46,14:58,11/07/2025,Friday,,11,
+Puyallup,Kingston,Edmonds,14:30,14:37,14:59,11/07/2025,Friday,,7,
 Spokane,Edmonds,Kingston,14:25,14:26,14:48,11/07/2025,Friday,,1,
 Chimacum,Fauntleroy,Vashon,14:10,14:20,14:36,11/07/2025,Friday,,10,
 Suquamish,Mukilteo,Clinton,14:05,14:05,14:20,11/07/2025,Friday,,0,
