@@ -374,9 +374,15 @@ results_df = results_df[results_df["Latitude"].notna()]
 print(f"Addresses with coordinates: {len(results_df)}")
 
 
-results_df.rename(columns={"input_address": "cleaned_address"}, inplace=True)
-results_df.drop(columns=["id", "tiger_line_id", "side"], inplace=True)
-merged_pdc = pd.merge(pdc, results_df, on="cleaned_address", how="left")
+results_df.rename(
+    columns={"input_address": "cleaned_full_address", "id": "row_num"}, inplace=True
+)
+results_df.drop(columns=["tiger_line_id", "side"], inplace=True)
+results_df[["Latitude", "Longitude"]] = results_df[["Latitude", "Longitude"]].astype(
+    float
+)
+results_df["row_num"] = results_df["row_num"].astype(int)
+merged_pdc = pd.merge(pdc, results_df, left_index=True, right_on="row_num", how="left")
 
 ######################################################################################
 
