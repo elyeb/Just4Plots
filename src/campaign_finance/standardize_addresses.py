@@ -6,6 +6,7 @@ TODO:
 - what addresses are getting dropped while using Census mapper?
 """
 
+import csv
 import pandas as pd
 import geopandas as gpd
 import os
@@ -28,9 +29,13 @@ CENSUS_UPLOADS = os.path.join(
     os.path.dirname(__file__), "../../data/lobbying/census_uploads/"
 )
 PDC_FILE_NAME = "pdc_contributions_2025_2025-11-05_name_cleaned.csv"
+OUTPUT_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../../data/lobbying/powerbi_inputs/"
+)
 PDC_OUTFILE_NAME = PDC_FILE_NAME.replace(".csv", "_lat_long.csv")
 
 os.makedirs(CENSUS_UPLOADS, exist_ok=True)
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # delete contents of upload folder
 directory = Path(CENSUS_UPLOADS)
@@ -364,10 +369,10 @@ print(f"Rows returned: {len(results_df)}")
 
 # ---- merge results back to pdc ----
 results_df["Latitude"] = results_df["coordinates"].apply(
-    lambda x: float(x.split(",")[0].strip()) if pd.notna(x) else None
+    lambda x: float(x.split(",")[1].strip()) if pd.notna(x) else None
 )
 results_df["Longitude"] = results_df["coordinates"].apply(
-    lambda x: float(x.split(",")[1].strip()) if pd.notna(x) else None
+    lambda x: float(x.split(",")[0].strip()) if pd.notna(x) else None
 )
 
 results_df = results_df[results_df["Latitude"].notna()]
@@ -389,6 +394,13 @@ merged_pdc = pd.merge(pdc, results_df, left_index=True, right_on="row_num", how=
 # Save output ########################################################################
 
 merged_pdc.to_csv(
-    os.path.join(DATA_FOLDER, PDC_OUTFILE_NAME), index=False, encoding="utf-8"
+    os.path.join(OUTPUT_FOLDER, PDC_OUTFILE_NAME),
+    index=False,
+    sep=",",
+    quotechar='"',
+    quoting=csv.QUOTE_NONNUMERIC,  # quotes text columns only
+    lineterminator="\n",  # avoids \r\n issues on Windows
+    encoding="utf-8",
 )
+
 ######################################################################################
