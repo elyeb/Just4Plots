@@ -393,12 +393,23 @@ merged_pdc = pd.merge(pdc, results_df, left_index=True, right_on="row_num", how=
 
 # Save output ########################################################################
 
+text_cols = merged_pdc.select_dtypes(include=["object"]).columns
+for col in text_cols:
+    merged_pdc[col] = (
+        merged_pdc[col]
+        .astype(str)
+        .str.replace('"', "")
+        .str.replace("\n", " ")
+        .str.replace("\r", " ")
+        .str.replace(",", " ")
+    )
+
 merged_pdc.to_csv(
     os.path.join(OUTPUT_FOLDER, PDC_OUTFILE_NAME),
     index=False,
     sep=",",
     quotechar='"',
-    quoting=csv.QUOTE_NONNUMERIC,  # quotes text columns only
+    quoting=csv.QUOTE_ALL,  # quotes text columns only
     lineterminator="\n",  # avoids \r\n issues on Windows
     encoding="utf-8",
 )
