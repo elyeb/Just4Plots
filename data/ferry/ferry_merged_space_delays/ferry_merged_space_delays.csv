@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Clinton,Mukilteo,05:30,05:30,05:45,11/11/2025,Tuesday,,0,
+Chimacum,Vashon,Southworth,05:25,05:25,05:35,11/11/2025,Tuesday,,0,
 Suquamish,Mukilteo,Clinton,05:05,04:12,04:29,11/11/2025,Tuesday,,-53,
 Tokitae,Clinton,Mukilteo,05:05,05:06,05:27,11/11/2025,Tuesday,,1,
 Suquamish,Mukilteo,Clinton,05:05,05:06,05:20,11/11/2025,Tuesday,,1,
