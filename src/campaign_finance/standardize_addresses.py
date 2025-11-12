@@ -404,6 +404,7 @@ for col in text_cols:
         .str.replace(",", " ")
     )
 
+
 merged_pdc.to_csv(
     os.path.join(OUTPUT_FOLDER, PDC_OUTFILE_NAME),
     index=False,
