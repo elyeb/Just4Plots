@@ -1,7 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Chimacum,Vashon,Fauntleroy,07:40,07:45,08:00,11/13/2025,Thursday,,5,
 Tokitae,Mukilteo,Clinton,07:30,07:30,07:45,11/13/2025,Thursday,,0,
+Sealth,Vashon,Southworth,07:30,07:36,07:52,11/13/2025,Thursday,,6,
+Suquamish,Clinton,Mukilteo,07:30,07:30,07:46,11/13/2025,Thursday,,0,
 Salish,Shaw,Orcas,07:20,07:32,07:39,11/13/2025,Thursday,,12,
 Chimacum,Southworth,Vashon,07:20,07:21,07:34,11/13/2025,Thursday,,1,
+Kennewick,Keystone,Port Townsend,07:15,07:16,07:43,11/13/2025,Thursday,,1,
 Puyallup,Edmonds,Kingston,07:10,07:11,07:33,11/13/2025,Thursday,,1,
 Sealth,Fauntleroy,Vashon,07:05,07:07,07:24,11/13/2025,Thursday,,2,
 Tacoma,Colman,Bainbridge,07:05,07:10,07:42,11/13/2025,Thursday,,5,
