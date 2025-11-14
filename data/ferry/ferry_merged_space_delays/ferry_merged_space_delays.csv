@@ -1,6 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Mukilteo,Clinton,15:05,15:13,15:28,11/14/2025,Friday,,8,
+Tokitae,Clinton,Mukilteo,15:05,15:09,15:25,11/14/2025,Friday,,4,
+Tacoma,Bainbridge,Colman,14:55,15:00,15:30,11/14/2025,Friday,,5,
 Sealth,Fauntleroy,Vashon,14:45,14:46,15:01,11/14/2025,Friday,,1,
 Kennewick,Keystone,Port Townsend,14:45,14:46,15:11,11/14/2025,Friday,,1,
+Chimacum,Southworth,Fauntleroy,14:45,14:55,15:20,11/14/2025,Friday,,10,
 Tokitae,Mukilteo,Clinton,14:35,14:37,14:56,11/14/2025,Friday,,2,
 Suquamish,Clinton,Mukilteo,14:35,14:46,14:59,11/14/2025,Friday,,11,
 Puyallup,Kingston,Edmonds,14:30,14:30,14:52,11/14/2025,Friday,14:28:05,0,-2.0
