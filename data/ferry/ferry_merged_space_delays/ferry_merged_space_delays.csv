@@ -1,5 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Mukilteo,Clinton,12:30,12:34,12:55,11/15/2025,Saturday,,4,
 Chimacum,Southworth,Vashon,12:20,12:22,12:34,11/15/2025,Saturday,,2,
+Wenatchee,Bainbridge,Colman,12:20,12:21,12:52,11/15/2025,Saturday,,1,
 Sealth,Vashon,Fauntleroy,12:15,12:16,12:36,11/15/2025,Saturday,,1,
 Suquamish,Mukilteo,Clinton,12:00,12:12,12:26,11/15/2025,Saturday,,12,
 Chimacum,Vashon,Southworth,12:00,12:01,12:12,11/15/2025,Saturday,,1,
