@@ -82,7 +82,7 @@ def extract_lat_from_coord(coord_str):
     # get portion within brackets
     match = re.findall(r"\[([-.\d]+),\s*([-.\d]+)\]", coord_str)
     match = match[0]
-    lat = match[0]
+    lat = match[1]
     return float(lat)
 
 
@@ -93,8 +93,17 @@ def extract_long_from_coord(coord_str):
     # get portion within brackets
     match = re.findall(r"\[([-.\d]+),\s*([-.\d]+)\]", coord_str)
     match = match[0]
-    long = match[1]
+    long = match[0]
     return float(long)
+
+
+def clean_url(url_str):
+    if pd.isna(url_str):
+        return None
+    match = re.search(r"'(https?://[^']+)'", url_str)
+    if match:
+        return match.group(1)
+    return None
 
 
 ######################################################################################
@@ -391,8 +400,19 @@ merged_pdc = pd.merge(pdc, results_df, left_index=True, right_on="row_num", how=
 
 ######################################################################################
 
+
 # Save output ########################################################################
 
+
+merged_pdc["url"] = merged_pdc["url"].apply(lambda x: clean_url(x))
+merged_pdc["contributor_longitude_given"] = merged_pdc["contributor_location"].apply(
+    extract_long_from_coord
+)
+merged_pdc["contributor_latitude_given"] = merged_pdc["contributor_location"].apply(
+    extract_lat_from_coord
+)
+merged_pdc.drop(columns=["contributor_location"], inplace=True)
+merged_pdc.drop(columns=["coordinates"], inplace=True)
 text_cols = merged_pdc.select_dtypes(include=["object"]).columns
 for col in text_cols:
     merged_pdc[col] = (
@@ -401,9 +421,11 @@ for col in text_cols:
         .str.replace('"', "")
         .str.replace("\n", " ")
         .str.replace("\r", " ")
-        .str.replace(",", " ")
+        # .str.replace(",", " ")
     )
 
+# add index column
+merged_pdc["row_num_index"] = range(len(merged_pdc))
 
 merged_pdc.to_csv(
     os.path.join(OUTPUT_FOLDER, PDC_OUTFILE_NAME),
@@ -415,4 +437,6 @@ merged_pdc.to_csv(
     encoding="utf-8",
 )
 
+test_df = pd.read_csv(os.path.join(OUTPUT_FOLDER, PDC_OUTFILE_NAME))
+test_df.head()
 ######################################################################################
