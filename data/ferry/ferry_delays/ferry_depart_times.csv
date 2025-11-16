@@ -1,4 +1,16 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Wenatchee,Colman,Bainbridge,02:10,02:23,02:54,11/16/2025
+Chimacum,Vashon,Southworth,01:30,01:31,01:41,11/16/2025
+Wenatchee,Bainbridge,Colman,01:25,01:41,02:14,11/16/2025
+Chimacum,Fauntleroy,Vashon,01:05,01:08,01:22,11/16/2025
+Suquamish,Mukilteo,Clinton,01:05,01:05,01:23,11/16/2025
+WallaWalla,Colman,Bremerton,00:50,00:50,01:46,11/16/2025
+Wenatchee,Colman,Bainbridge,00:45,01:01,01:33,11/16/2025
+Chimacum,Southworth,Fauntleroy,00:35,00:36,00:55,11/16/2025
+Suquamish,Clinton,Mukilteo,00:35,00:36,00:59,11/16/2025
+Chimacum,Vashon,Southworth,00:15,00:16,00:27,11/16/2025
+Suquamish,Mukilteo,Clinton,00:05,00:05,00:23,11/16/2025
+Wenatchee,Bainbridge,Colman,00:00,00:16,00:48,11/16/2025
 Salish,Shaw,Orcas,15:45,15:45,15:53,11/15/2025
 Tokitae,Clinton,Mukilteo,15:35,15:42,15:56,11/15/2025
 Chimacum,Vashon,Fauntleroy,15:30,15:35,15:49,11/15/2025
