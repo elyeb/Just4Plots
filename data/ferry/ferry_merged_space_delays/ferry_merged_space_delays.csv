@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Fauntleroy,Vashon,10:05,10:27,10:41,11/16/2025,Sunday,,22,
 Tokitae,Clinton,Mukilteo,10:00,10:00,10:16,11/16/2025,Sunday,,0,
 Suquamish,Mukilteo,Clinton,10:00,10:00,10:16,11/16/2025,Sunday,,0,
 Salish,Shaw,Lopez,10:00,10:00,10:18,11/16/2025,Sunday,,0,
