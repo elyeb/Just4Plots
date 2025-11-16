@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Chimacum,Southworth,Vashon,07:35,07:35,07:48,11/16/2025,Sunday,,0,
 Suquamish,Clinton,Mukilteo,07:30,07:31,07:46,11/16/2025,Sunday,,1,
 Salish,Shaw,Orcas,07:20,07:14,07:22,11/16/2025,Sunday,,-6,
 Chimacum,Vashon,Southworth,07:15,07:15,07:28,11/16/2025,Sunday,,0,
