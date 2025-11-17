@@ -28,17 +28,18 @@ YEAR = 2025
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/lobbying/pdc_downloads/"
 )
+os.listdir(DATA_FOLDER)
 
 pdc_contributions_file = os.path.join(
-    DATA_FOLDER, f"pdc_contributions_{YEAR}_{TODAY_STR}.csv"
+    DATA_FOLDER, "pdc_contributions_2025_2025-11-05_name_cleaned_lat_long.csv"
 )
-ind_exp_output_file = os.path.join(DATA_FOLDER, "pdc_ind_exp_{YEAR}_{TODAY_STR}.csv")
+ind_exp_output_file = os.path.join(
+    DATA_FOLDER, "pdc_ind_exp_2025_2025-11-05_name_cleaned.csv"
+)
 
 contr_df = pd.read_csv(pdc_contributions_file)
 ind_df = pd.read_csv(ind_exp_output_file)
 
-
-import pandas as pd
 
 # Trim sponsor names
 ind_df["sponsor_name"] = ind_df["sponsor_name"].str.strip()
@@ -68,6 +69,8 @@ replace_map_sponsor = {
     "WASHINGTON STATE DENTAL PAC": "WASHINGTON STATE DENTAL POLITICAL ACTION COMMITTEE",
     "WORKING WASHINGTON PAC": "WORKING WASHINGTON",
     "WASHINGTON ASSOCIATION OF REALTORS®": "WASHINGTON REALTORS POLITICAL ACTION COMMITTEE",
+    "FUSE VOTERS": "FUSE VOTES",
+    "SERVICE EMPLOYEES INTERNATIONAL UNION 775 QUALITY CARE COMMITTEE": "SEIU 775 QUALITY CARE COMMITTEE",
 }
 
 ind_df["sponsor_name"] = ind_df["sponsor_name"].replace(replace_map_sponsor)

@@ -9,21 +9,35 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
+# recipient_list = [
+#     "BRUCE HARRELL",
+#     "BRUCE HARRELL FOR SEATTLE'S FUTURE",
+#     "KATIE WILSON",
+#     "KATIE WILSON FOR AN AFFORDABLE SEATTLE",
+# ]
 recipient_list = [
-    "BRUCE HARRELL",
-    "BRUCE HARRELL FOR SEATTLE'S FUTURE",
-    "KATIE WILSON",
-    "KATIE WILSON FOR AN AFFORDABLE SEATTLE",
+    "SARA FOR A BETTER SEATTLE",
+    "SARA NELSON",
+    "WA BIKES PAC SPONSORED BY WASHINGTON BIKES",
+    "DIONNE FOSTER",
+    "FUSE VOTES",
 ]
 
 candidate_1 = "BRUCE HARRELL"
 candidate_2 = "KATIE WILSON"
 
 candidate_map = {
+    "SARA FOR A BETTER SEATTLE": "SARA NELSON",
+    "SARA NELSON": "SARA NELSON",
+    "NATIONAL ASSOCIATION OF REALTORS FUND": "SARA NELSON",
+    "WA BIKES PAC SPONSORED BY WASHINGTON BIKES": "DIONNE FOSTER",
+    "FUSE VOTES": "DIONNE FOSTER",
+    "SEIU 775 QUALITY CARE COMMITTEE": "DIONNE FOSTER",
+    "PROGRESSIVE PEOPLE POWER": "DIONNE FOSTER",
     "BRUCE HARRELL": "BRUCE HARRELL",
     "BRUCE HARRELL FOR SEATTLE'S FUTURE": "BRUCE HARRELL",
     "KATIE WILSON": "KATIE WILSON",
-    "KATIE WILSON FOR AN AFFORDABLE SEATTLE": "KATIE WILSON",
+    "KATIE WILSON FOR AN AFFORDABLE SEATTLE": ("KATIE WILSON", "DIONNE FOSTER"),
 }
 
 
@@ -37,9 +51,12 @@ OUTPUT_DIR = os.path.join(
     os.path.dirname(__file__), "../", "../", "../", "outputs/plots/lobbying/"
 )
 os.listdir(OUTPUT_DIR)
-outfile = "contributions_dual_horizontal_bar_chart.png"
+outfile = "contributions_dual_horizontal_bar_chart_nelson_foster.png"
 
 df = pd.read_csv(os.path.join(DATA_DIR, data_file))
+
+df[df["filer_name"].str.contains("REALTORS")]["filer_name"].unique()
+
 
 df.rename(columns={"filer_name": "recipient_name"}, inplace=True)
 df = df[df["recipient_name"].isin(recipient_list)]
