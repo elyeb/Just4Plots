@@ -11,24 +11,32 @@ import matplotlib.cm as cm
 import os
 import numpy as np
 
-# recipient_list = [
-#     "BRUCE HARRELL",
-#     "BRUCE HARRELL FOR SEATTLE'S FUTURE",
-#     "KATIE WILSON",
-#     "KATIE WILSON FOR AN AFFORDABLE SEATTLE",
-# ]
+
 recipient_list = [
-    "SARA FOR A BETTER SEATTLE",
-    "SARA NELSON",
-    "DIONNE FOSTER",
+    # "DAVISON FOR COMMON SENSE",
+    # "ANN DAVISON",
+    # "ERIKA EVANS",
+    "EDWARD C. LIN (EDDIE LIN)",
+    "ADONIS E. DUCKSWORTH (ADONIS DUCKSWORTH)",
+    #     "SARA FOR A BETTER SEATTLE",
+    #     "SARA NELSON",
+    #     "DIONNE FOSTER",
+    #     "BRUCE HARRELL",
+    #     "BRUCE HARRELL FOR SEATTLE'S FUTURE",
+    #     "KATIE WILSON",
+    #     "KATIE WILSON FOR AN AFFORDABLE SEATTLE",
 ]
 
-candidate_1 = "SARA NELSON"
-candidate_2 = "DIONNE FOSTER"
+candidate_1 = "ADONIS E. DUCKSWORTH (ADONIS DUCKSWORTH)"
+candidate_2 = "EDWARD C. LIN (EDDIE LIN)"
+# candidate_1 = "SARA NELSON"
+# candidate_2 = "DIONNE FOSTER"
 # candidate_1 = "BRUCE HARRELL"
 # candidate_2 = "KATIE WILSON"
 
 candidate_map = {
+    "EDWARD C. LIN (EDDIE LIN)": "EDWARD C. LIN (EDDIE LIN)",
+    "ADONIS E. DUCKSWORTH (ADONIS DUCKSWORTH)": "ADONIS E. DUCKSWORTH (ADONIS DUCKSWORTH)",
     "SARA FOR A BETTER SEATTLE": "SARA NELSON",
     "SARA NELSON": "SARA NELSON",
     "DIONNE FOSTER": "DIONNE FOSTER",
@@ -36,6 +44,9 @@ candidate_map = {
     "BRUCE HARRELL FOR SEATTLE'S FUTURE": "BRUCE HARRELL",
     "KATIE WILSON": "KATIE WILSON",
     "KATIE WILSON FOR AN AFFORDABLE SEATTLE": "KATIE WILSON",
+    "DAVISON FOR COMMON SENSE": "ANN DAVISON",
+    "ANN DAVISON": "ANN DAVISON",
+    "ERIKA EVANS": "ERIKA EVANS",
 }
 
 
@@ -49,7 +60,7 @@ OUTPUT_DIR = os.path.join(
     os.path.dirname(__file__), "../", "../", "../", "outputs/plots/lobbying/"
 )
 os.listdir(OUTPUT_DIR)
-outfile = "contributions_dual_horizontal_bar_chart_nelson_foster.png"
+outfile = "contributions_dual_horizontal_bar_chart_lin_ducksworth.png"
 # outfile = "contributions_dual_horizontal_bar_chart_harrell_wilson.png"
 
 
@@ -57,7 +68,7 @@ df = pd.read_csv(os.path.join(DATA_DIR, data_file))
 
 # Prep data ###########################################################################
 
-df[df["filer_name"].str.contains("FOSTER")]["filer_name"].unique()
+df[df["filer_name"].str.contains("ADONIS")]["filer_name"].unique()
 
 
 df.rename(columns={"filer_name": "recipient_name"}, inplace=True)
@@ -158,22 +169,22 @@ cand_2_colors = [
 fig, ax = plt.subplots(figsize=(10, 6))
 
 # Positive side (candidate_1)
-left_accum = np.zeros(len(df_plot))
+right_accum = np.zeros(len(df_plot))
 for col, color in zip(candidate_1_cols, cand_1_colors):
-    ax.barh(df_plot["bin_str"], df_plot[col], left=left_accum, label=col, color=color)
+    ax.barh(df_plot["bin_str"], df_plot[col], left=right_accum, label=col, color=color)
     left_accum += df_plot[col]
 
 # Negative side (candidate_2)
-right_accum = np.zeros(len(df_plot))
+left_accum = np.zeros(len(df_plot))
 for col, color in zip(candidate_2_cols, cand_2_colors):
     ax.barh(
         df_plot["bin_str"],
         -df_plot[col],
-        left=-right_accum,
+        left=-left_accum,
         label=col,
         color=color,
     )
-    right_accum += df_plot[col]
+    left_accum += df_plot[col]
 
 ax.axvline(0, color="black")
 
@@ -181,8 +192,9 @@ ax.axvline(0, color="black")
 ticks = ax.get_xticks()
 ax.set_xticklabels([f"${abs(int(t)):,}" for t in ticks], rotation=45)
 
-plt.legend(bbox_to_anchor=(1.05, 1), loc="upper left")
+
 plt.tight_layout()
+plt.legend(bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.xlabel(f"{candidate_2}               {candidate_1}")
 plt.title(
     "Total Contributions per Donor by Size\nto Candidate Campaigns and Directly-Aligned PACs"
