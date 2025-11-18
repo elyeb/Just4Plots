@@ -7,7 +7,9 @@ Update candidate_map as needed.
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.cm as cm
 import os
+import numpy as np
 
 # recipient_list = [
 #     "BRUCE HARRELL",
@@ -18,26 +20,22 @@ import os
 recipient_list = [
     "SARA FOR A BETTER SEATTLE",
     "SARA NELSON",
-    "WA BIKES PAC SPONSORED BY WASHINGTON BIKES",
     "DIONNE FOSTER",
-    "FUSE VOTES",
 ]
 
-candidate_1 = "BRUCE HARRELL"
-candidate_2 = "KATIE WILSON"
+candidate_1 = "SARA NELSON"
+candidate_2 = "DIONNE FOSTER"
+# candidate_1 = "BRUCE HARRELL"
+# candidate_2 = "KATIE WILSON"
 
 candidate_map = {
     "SARA FOR A BETTER SEATTLE": "SARA NELSON",
     "SARA NELSON": "SARA NELSON",
-    "NATIONAL ASSOCIATION OF REALTORS FUND": "SARA NELSON",
-    "WA BIKES PAC SPONSORED BY WASHINGTON BIKES": "DIONNE FOSTER",
-    "FUSE VOTES": "DIONNE FOSTER",
-    "SEIU 775 QUALITY CARE COMMITTEE": "DIONNE FOSTER",
-    "PROGRESSIVE PEOPLE POWER": "DIONNE FOSTER",
+    "DIONNE FOSTER": "DIONNE FOSTER",
     "BRUCE HARRELL": "BRUCE HARRELL",
     "BRUCE HARRELL FOR SEATTLE'S FUTURE": "BRUCE HARRELL",
     "KATIE WILSON": "KATIE WILSON",
-    "KATIE WILSON FOR AN AFFORDABLE SEATTLE": ("KATIE WILSON", "DIONNE FOSTER"),
+    "KATIE WILSON FOR AN AFFORDABLE SEATTLE": "KATIE WILSON",
 }
 
 
@@ -52,15 +50,18 @@ OUTPUT_DIR = os.path.join(
 )
 os.listdir(OUTPUT_DIR)
 outfile = "contributions_dual_horizontal_bar_chart_nelson_foster.png"
+# outfile = "contributions_dual_horizontal_bar_chart_harrell_wilson.png"
+
 
 df = pd.read_csv(os.path.join(DATA_DIR, data_file))
 
-df[df["filer_name"].str.contains("REALTORS")]["filer_name"].unique()
+# Prep data ###########################################################################
+
+df[df["filer_name"].str.contains("FOSTER")]["filer_name"].unique()
 
 
 df.rename(columns={"filer_name": "recipient_name"}, inplace=True)
 df = df[df["recipient_name"].isin(recipient_list)]
-df["amount"].max()
 
 # break up grouped small contributions into individual
 df["description"] = df["description"].fillna("")
@@ -95,16 +96,21 @@ df_grouped = pd.concat(
     [small_contributors_expanded, non_small_contributors_grouped], ignore_index=True
 )
 
-# prep for plotting
+#######################################################################################
+
+# prep for plotting ###################################################################
 df_grouped["candidate"] = df_grouped["recipient_name"].map(candidate_map)
 df_grouped = df_grouped[df_grouped["total_amount"] > 0]
 
-bin_edges = [0, 100, 500, 1000, 5000, 10000, 50000, 100000, 1000000]
+bin_edges = [0, 100, 500, 2000, 5000, 10000, 50000, 100000, 1000000]
 df_grouped["bin"] = pd.cut(df_grouped["total_amount"], bins=bin_edges)
 
-df_binned = df_grouped.groupby(["candidate", "bin"])["total_amount"].sum().reset_index()
+
+df_binned = (
+    df_grouped.groupby(["recipient_name", "bin"])["total_amount"].sum().reset_index()
+)
 df_binned = df_binned.pivot(
-    index="bin", columns="candidate", values="total_amount"
+    index="bin", columns="recipient_name", values="total_amount"
 ).fillna(0)
 
 # make index into column
@@ -121,22 +127,67 @@ def pretty_bin(interval):
 df_plot["bin_str"] = df_plot["bin"].apply(pretty_bin)
 
 
-# plot results
-fig, ax = plt.subplots(figsize=(8, 5))
+candidate_1_cols = [
+    col
+    for col in df_plot.columns
+    if col in recipient_list and candidate_map[col] == candidate_1
+]
 
-ax.barh(
-    df_plot["bin_str"],
-    df_plot[candidate_1],
-    label=candidate_1,
-    align="center",
-)
-ax.barh(df_plot["bin_str"], -df_plot[candidate_2], label=candidate_2, align="center")
-ax.set_xticks(ax.get_xticks())  # ensure fixed locator
-ax.set_xticklabels([f"${abs(int(x)):,}" for x in ax.get_xticks()], rotation=45)
+candidate_2_cols = [
+    col
+    for col in df_plot.columns
+    if col in recipient_list and candidate_map[col] == candidate_2
+]
+
+# Number of stacked columns per side
+# Build per-candidate color sets
+blue_cmap = cm.get_cmap("Blues")
+red_cmap = cm.get_cmap("Reds")
+n_cand_1 = len(candidate_1_cols)
+n_cand_2 = len(candidate_2_cols)
+cand_1_colors = [
+    blue_cmap(0.4 + 0.5 * i / (max(n_cand_1 - 1, 1))) for i in range(n_cand_1)
+]
+cand_2_colors = [
+    red_cmap(0.4 + 0.5 * i / (max(n_cand_2 - 1, 1))) for i in range(n_cand_2)
+]
+
+#######################################################################################
+
+# Call plot ###########################################################################
+fig, ax = plt.subplots(figsize=(10, 6))
+
+# Positive side (candidate_1)
+left_accum = np.zeros(len(df_plot))
+for col, color in zip(candidate_1_cols, cand_1_colors):
+    ax.barh(df_plot["bin_str"], df_plot[col], left=left_accum, label=col, color=color)
+    left_accum += df_plot[col]
+
+# Negative side (candidate_2)
+right_accum = np.zeros(len(df_plot))
+for col, color in zip(candidate_2_cols, cand_2_colors):
+    ax.barh(
+        df_plot["bin_str"],
+        -df_plot[col],
+        left=-right_accum,
+        label=col,
+        color=color,
+    )
+    right_accum += df_plot[col]
+
 ax.axvline(0, color="black")
-plt.legend()
+
+# Pretty x-axis labels
+ticks = ax.get_xticks()
+ax.set_xticklabels([f"${abs(int(t)):,}" for t in ticks], rotation=45)
+
+plt.legend(bbox_to_anchor=(1.05, 1), loc="upper left")
 plt.tight_layout()
-plt.xlabel("Total Contribution Amount")
-plt.title("Total Contributions to Candidates and Aligned PACs by Contribution Size")
-plt.savefig(os.path.join(OUTPUT_DIR, outfile), bbox_inches="tight", dpi=300)
-plt.show()
+plt.xlabel(f"{candidate_2}               {candidate_1}")
+plt.title(
+    "Total Contributions per Donor by Size\nto Candidate Campaigns and Directly-Aligned PACs"
+)
+# plt.show()
+plt.savefig(OUTPUT_DIR + outfile, dpi=300, bbox_inches="tight")
+
+#######################################################################################
