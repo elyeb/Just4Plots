@@ -2,6 +2,7 @@ actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,D
 Suquamish,Clinton,Mukilteo,12:30,12:31,12:45,11/19/2025,Wednesday,,1,
 Tokitae,Mukilteo,Clinton,12:30,12:30,12:46,11/19/2025,Wednesday,,0,
 Sealth,Vashon,Fauntleroy,12:20,12:20,12:36,11/19/2025,Wednesday,,0,
+Tacoma,Bainbridge,Colman,12:20,12:22,12:54,11/19/2025,Wednesday,,2,
 Kittitas,Southworth,Vashon,12:15,12:16,12:26,11/19/2025,Wednesday,,1,
 Suquamish,Mukilteo,Clinton,12:00,12:00,12:13,11/19/2025,Wednesday,,0,
 Tokitae,Clinton,Mukilteo,12:00,12:01,12:15,11/19/2025,Wednesday,,1,
