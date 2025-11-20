@@ -1,6 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Vashon,Fauntleroy,10:15,10:16,10:30,11/20/2025
+Sealth,Fauntleroy,Vashon,10:10,10:10,10:26,11/20/2025
 Suquamish,Mukilteo,Clinton,10:00,10:00,10:14,11/20/2025
 Tokitae,Clinton,Mukilteo,10:00,10:02,10:17,11/20/2025
+Salish,Shaw,Lopez,10:00,10:14,10:32,11/20/2025
 Kittitas,Fauntleroy,Vashon,09:50,09:50,10:04,11/20/2025
 Salish,Orcas,Shaw,09:45,10:01,10:09,11/20/2025
 Sealth,Vashon,Fauntleroy,09:40,09:41,09:58,11/20/2025
