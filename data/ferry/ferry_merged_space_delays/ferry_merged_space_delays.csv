@@ -1,6 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Suquamish,Clinton,Mukilteo,13:30,13:32,13:45,11/21/2025,Friday,,2,
 Tokitae,Mukilteo,Clinton,13:30,13:32,13:45,11/21/2025,Friday,,2,
+Spokane,Kingston,Edmonds,13:30,13:32,13:54,11/21/2025,Friday,,2,
 Kittitas,Fauntleroy,Vashon,13:15,13:17,13:32,11/21/2025,Friday,,2,
 Wenatchee,Bainbridge,Colman,13:15,13:18,13:47,11/21/2025,Friday,,3,
 Kennewick,Keystone,Port Townsend,13:15,13:15,13:43,11/21/2025,Friday,,0,
