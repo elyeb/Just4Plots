@@ -1,6 +1,10 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Salish,Shaw,Orcas,07:20,07:20,07:28,11/22/2025,Saturday,,0,
 Kittitas,Vashon,Southworth,07:15,07:15,07:27,11/22/2025,Saturday,,0,
+Kennewick,Keystone,Port Townsend,07:15,07:16,07:43,11/22/2025,Saturday,,1,
+Kaleetan,Lopez,Friday Harbor,07:10,07:09,07:39,11/22/2025,Saturday,,-1,
+Puyallup,Edmonds,Kingston,07:10,07:12,07:33,11/22/2025,Saturday,,2,
+Tacoma,Bainbridge,Colman,07:05,07:06,07:39,11/22/2025,Saturday,,1,
 Spokane,Kingston,Edmonds,07:00,07:02,07:23,11/22/2025,Saturday,,2,
 Suquamish,Mukilteo,Clinton,07:00,07:12,07:26,11/22/2025,Saturday,,12,
 Salish,Lopez,Shaw,06:50,06:52,07:11,11/22/2025,Saturday,,2,
