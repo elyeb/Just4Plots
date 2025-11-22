@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Vashon,Southworth,11:35,11:35,11:48,11/22/2025,Saturday,,0,
 Tokitae,Mukilteo,Clinton,11:30,11:33,11:46,11/22/2025,Saturday,,3,
 Suquamish,Clinton,Mukilteo,11:30,11:30,11:44,11/22/2025,Saturday,,0,
 Sealth,Fauntleroy,Vashon,11:10,11:12,11:27,11/22/2025,Saturday,,2,
