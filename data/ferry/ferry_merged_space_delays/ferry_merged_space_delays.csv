@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Southworth,Vashon,07:35,07:36,07:49,11/22/2025,Saturday,,1,
+Suquamish,Clinton,Mukilteo,07:30,07:35,07:50,11/22/2025,Saturday,,5,
 Salish,Shaw,Orcas,07:20,07:20,07:28,11/22/2025,Saturday,,0,
 Kittitas,Vashon,Southworth,07:15,07:15,07:27,11/22/2025,Saturday,,0,
 Kennewick,Keystone,Port Townsend,07:15,07:16,07:43,11/22/2025,Saturday,,1,
