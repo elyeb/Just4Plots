@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Fauntleroy,Vashon,13:40,13:41,13:58,11/22/2025,Saturday,,1,
+Puyallup,Edmonds,Kingston,13:35,13:36,13:58,11/22/2025,Saturday,,1,
 Tokitae,Mukilteo,Clinton,13:30,13:30,13:44,11/22/2025,Saturday,,0,
 Suquamish,Clinton,Mukilteo,13:30,13:31,13:46,11/22/2025,Saturday,,1,
 Spokane,Kingston,Edmonds,13:30,13:32,13:53,11/22/2025,Saturday,,2,
