@@ -1,4 +1,5 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Salish,Shaw,Lopez,13:05,13:05,13:23,11/22/2025
 Tokitae,Clinton,Mukilteo,13:00,13:02,13:16,11/22/2025
 Suquamish,Mukilteo,Clinton,13:00,13:00,13:15,11/22/2025
 Salish,Orcas,Shaw,12:50,12:53,13:00,11/22/2025
@@ -14,6 +15,7 @@ Kittitas,Southworth,Vashon,12:20,12:24,12:37,11/22/2025
 Tacoma,Bainbridge,Colman,12:20,12:22,12:53,11/22/2025
 WallaWalla,Bremerton,Colman,12:20,12:26,13:18,11/22/2025
 Kaleetan,Lopez,Anacortes,12:20,12:20,13:04,11/22/2025
+Chimacum,Colman,Bremerton,12:20,12:25,13:21,11/22/2025
 Sealth,Vashon,Fauntleroy,12:15,12:18,12:33,11/22/2025
 Tokitae,Clinton,Mukilteo,12:00,12:01,12:16,11/22/2025
 Kittitas,Vashon,Southworth,12:00,12:05,12:16,11/22/2025
