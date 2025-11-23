@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Southworth,Vashon,15:10,15:12,15:24,11/23/2025
+Tokitae,Clinton,Mukilteo,15:05,15:07,15:22,11/23/2025
+Suquamish,Mukilteo,Clinton,15:05,15:05,15:20,11/23/2025
 Kittitas,Vashon,Southworth,14:45,14:45,14:56,11/23/2025
 Kennewick,Keystone,Port Townsend,14:45,14:45,15:12,11/23/2025
 Sealth,Vashon,Fauntleroy,14:45,14:54,15:09,11/23/2025
