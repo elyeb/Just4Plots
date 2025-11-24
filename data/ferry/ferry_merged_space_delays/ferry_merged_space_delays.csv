@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Fauntleroy,Vashon,13:15,13:16,13:28,11/24/2025,Monday,,1,
 Sealth,Fauntleroy,Vashon,12:50,12:51,13:07,11/24/2025,Monday,,1,
 Salish,Orcas,Shaw,12:50,12:50,13:05,11/24/2025,Monday,,0,
 Puyallup,Kingston,Edmonds,12:45,12:46,13:08,11/24/2025,Monday,,1,
@@ -12,6 +13,7 @@ Sealth,Vashon,Fauntleroy,12:20,12:20,12:35,11/24/2025,Monday,,0,
 Tacoma,Bainbridge,Colman,12:20,12:20,12:52,11/24/2025,Monday,,0,
 Walla Walla,Bremerton,Colman,12:20,12:22,13:15,11/24/2025,Monday,,2,
 Kaleetan,Lopez,Anacortes,12:20,12:24,13:08,11/24/2025,Monday,,4,
+Chimacum,Colman,Bremerton,12:20,12:22,13:20,11/24/2025,Monday,,2,
 Kittitas,Southworth,Vashon,12:15,12:22,12:34,11/24/2025,Monday,,7,
 Suquamish,Clinton,Mukilteo,12:00,12:10,12:25,11/24/2025,Monday,,10,
 Tokitae,Mukilteo,Clinton,12:00,12:14,12:28,11/24/2025,Monday,,14,
