@@ -19,6 +19,13 @@ print("Running ferry_merge_space_delays.py...")
 
 depart_data = pd.read_csv(DEP_TIME_FOLDER + "ferry_depart_times.csv")
 
+# Colman sanity check
+colman = depart_data[
+    (depart_data["Departing"] == "Colman") & (depart_data["Arriving"] == "Bainbridge")
+]
+print("Most recent departure times from Colman to Bainbridge in depart times:")
+print(colman[["Date", "Scheduled Depart"]].head(3))
+
 prev_space_db = pd.read_parquet(OUTPUT_ROOT + "ferry_space_db.parquet")
 prev_merged_db = pd.read_parquet(OUTPUT_ROOT + "ferry_merged_space_delays.parquet")
 
@@ -193,6 +200,7 @@ if len(colman_space_files) > 0:
     concat_list.append(colman_df)
 
 if len(concat_list) > 0:
+    print("Space files found, saving...")
     new_space_db = pd.concat(concat_list, ignore_index=True)
 
     db = pd.concat([prev_space_db, new_space_db], ignore_index=True)
@@ -200,6 +208,9 @@ if len(concat_list) > 0:
     db = db.drop_duplicates()
 
     db.to_parquet(OUTPUT_ROOT + "ferry_space_db.parquet", index=False)
+else:
+    print("No new space files found, using previous space database...")
+    db = prev_space_db
 
 # remove individual space files
 for f in space_files:
@@ -229,3 +240,11 @@ merged = merged.drop_duplicates()
 
 merged.to_parquet(OUTPUT_ROOT + "ferry_merged_space_delays.parquet", index=False)
 merged.to_csv(OUTPUT_ROOT + "ferry_merged_space_delays.csv", index=False)
+
+# Colman sanity check round 2
+colman = merged[
+    (merged["Departing"] == "Colman") & (merged["Destination"] == "Bainbridge")
+]
+print("Most recent departure times from Colman to Bainbridge in depart times:")
+print(colman[["Date", "scheduled_depart"]].head(3))
+print("ferry_merge_space_delays.py complete.")
