@@ -8,24 +8,19 @@ import os
 import re
 from datetime import datetime
 
-SPACE_FOLDER = os.path.join(
-    os.path.dirname(__file__), "../data/ferry/ferry_spaces/"
-)
-os.makedirs(SPACE_FOLDER, exist_ok=True,mode=0o777)  
-DEP_TIME_FOLDER = os.path.join(
-    os.path.dirname(__file__), "../data/ferry/ferry_delays/"
-)
+SPACE_FOLDER = os.path.join(os.path.dirname(__file__), "../data/ferry/ferry_spaces/")
+os.makedirs(SPACE_FOLDER, exist_ok=True, mode=0o777)
+DEP_TIME_FOLDER = os.path.join(os.path.dirname(__file__), "../data/ferry/ferry_delays/")
 OUTPUT_ROOT = os.path.join(
     os.path.dirname(__file__), "../data/ferry/ferry_merged_space_delays/"
 )
 
+print("Running ferry_merge_space_delays.py...")
 
-depart_data = pd.read_csv(
-    DEP_TIME_FOLDER + "ferry_depart_times.csv"
-)
+depart_data = pd.read_csv(DEP_TIME_FOLDER + "ferry_depart_times.csv")
 
-prev_space_db = pd.read_parquet(OUTPUT_ROOT+"ferry_space_db.parquet")
-prev_merged_db = pd.read_parquet(OUTPUT_ROOT+"ferry_merged_space_delays.parquet")
+prev_space_db = pd.read_parquet(OUTPUT_ROOT + "ferry_space_db.parquet")
+prev_merged_db = pd.read_parquet(OUTPUT_ROOT + "ferry_merged_space_delays.parquet")
 
 sub_strings = {
     "Bainbridge Island": "Bainbridge",
@@ -89,9 +84,6 @@ def format_space(data):
         .reset_index()
     )
     return soldout_grouped
-
-
-
 
 
 def calculate_depart_dif(row):
@@ -169,12 +161,18 @@ space_files = os.listdir(SPACE_FOLDER)
 docks = [f.split("_ferry")[0] for f in space_files if "_ferry" in f]
 docks = list(set(docks))
 
-edmonds_space_files = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "edmonds" in f]
+edmonds_space_files = [
+    pd.read_csv(SPACE_FOLDER + f) for f in space_files if "edmonds" in f
+]
 bainbridge_space_files = [
     pd.read_csv(SPACE_FOLDER + f) for f in space_files if "bainbridge" in f
 ]
-kingston_space_files = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "kingston" in f]
-colman_space_files = [pd.read_csv(SPACE_FOLDER + f) for f in space_files if "colman" in f]
+kingston_space_files = [
+    pd.read_csv(SPACE_FOLDER + f) for f in space_files if "kingston" in f
+]
+colman_space_files = [
+    pd.read_csv(SPACE_FOLDER + f) for f in space_files if "colman" in f
+]
 
 concat_list = []
 if len(edmonds_space_files) > 0:
@@ -194,10 +192,8 @@ if len(colman_space_files) > 0:
     colman_df["Departing"] = "Colman"
     concat_list.append(colman_df)
 
-if len(concat_list) >0:
-    new_space_db = pd.concat(
-        concat_list, ignore_index=True
-    )
+if len(concat_list) > 0:
+    new_space_db = pd.concat(concat_list, ignore_index=True)
 
     db = pd.concat([prev_space_db, new_space_db], ignore_index=True)
     # remove duplicates
@@ -208,7 +204,7 @@ if len(concat_list) >0:
 # remove individual space files
 for f in space_files:
     os.remove(SPACE_FOLDER + f)
-os.makedirs(SPACE_FOLDER, exist_ok=True,mode=0o777)
+os.makedirs(SPACE_FOLDER, exist_ok=True, mode=0o777)
 
 ## prep for merge
 # format the dataframes
@@ -220,22 +216,16 @@ merged = depart_data.merge(
     space_df, how="left", on=["scheduled_depart", "Departing", "Destination", "Date"]
 )
 
-merged = merged.sort_values(["Date","scheduled_depart"],ascending=False)
+merged = merged.sort_values(["Date", "scheduled_depart"], ascending=False)
 
 
 merged["depart_dif"] = merged.apply(lambda x: calculate_depart_dif(x), axis=1)
 
 merged["soldout_dif"] = merged.apply(lambda x: calculate_soldout_dif(x), axis=1)
 
-merged = pd.concat(
-    [merged, prev_merged_db], ignore_index=True
-)
+merged = pd.concat([merged, prev_merged_db], ignore_index=True)
 # remove duplicates
 merged = merged.drop_duplicates()
 
-merged.to_parquet(
-    OUTPUT_ROOT + "ferry_merged_space_delays.parquet", index=False
-)
-merged.to_csv(
-    OUTPUT_ROOT + "ferry_merged_space_delays.csv", index=False
-)
+merged.to_parquet(OUTPUT_ROOT + "ferry_merged_space_delays.parquet", index=False)
+merged.to_csv(OUTPUT_ROOT + "ferry_merged_space_delays.csv", index=False)
