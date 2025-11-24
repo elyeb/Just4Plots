@@ -9,7 +9,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import ElementClickInterceptedException, TimeoutException
+from selenium.common.exceptions import (
+    ElementClickInterceptedException,
+    TimeoutException,
+)
 import os
 import datetime
 from tqdm import tqdm
@@ -46,12 +49,16 @@ END_DATE = datetime.datetime.now().strftime("%m/%d/%Y")
 # left off 03/21/2025
 
 # Path to the GeckoDriver executable
-executable_path = "/usr/local/bin/geckodriver"
+# executable_path = "/usr/local/bin/geckodriver"
+executable_path = r"C:\Tools\geckodriver.exe"
+firefox_binary_path = r"C:\Program Files\Mozilla Firefox\firefox.exe"
+
 folder_path = os.path.join(os.getcwd(), "data")
 
 # Firefox options
 options = Options()
-options.add_argument('--headless')  # Run Firefox in headless mode
+options.add_argument("--headless")  # Run Firefox in headless mode
+options.binary_location = firefox_binary_path
 
 # GeckoDriver service
 service = Service(executable_path)
@@ -65,8 +72,10 @@ driver.get(URL)
 
 for ferry in tqdm(ferries):
 
-    ferry_place = ferries.index(ferry)+1
-    print(f"Gathering data for {ferry}, ferry {ferry_place} out of fleet of {len(ferries)}")
+    ferry_place = ferries.index(ferry) + 1
+    print(
+        f"Gathering data for {ferry}, ferry {ferry_place} out of fleet of {len(ferries)}"
+    )
     # Wait for the page to load
     wait = WebDriverWait(driver, 10)
 
@@ -79,15 +88,19 @@ for ferry in tqdm(ferries):
 
     # set start date
     ID_OF_START_DATE_PICKER = "RightContentPlaceHolder_txtDateFrom"
-    date_picker = wait.until(EC.presence_of_element_located((By.ID, ID_OF_START_DATE_PICKER)))
+    date_picker = wait.until(
+        EC.presence_of_element_located((By.ID, ID_OF_START_DATE_PICKER))
+    )
     date_picker.clear()
-    date_picker.send_keys(START_DATE)  
+    date_picker.send_keys(START_DATE)
 
     # set end date
     ID_OF_START_END_PICKER = "RightContentPlaceHolder_txtDateThru"
-    date_picker = wait.until(EC.presence_of_element_located((By.ID, ID_OF_START_END_PICKER)))
+    date_picker = wait.until(
+        EC.presence_of_element_located((By.ID, ID_OF_START_END_PICKER))
+    )
     date_picker.clear()
-    date_picker.send_keys(END_DATE)  
+    date_picker.send_keys(END_DATE)
 
     # select csv
     ID_OF_CSV = "RightContentPlaceHolder_radCsv"
@@ -113,7 +126,9 @@ for ferry in tqdm(ferries):
 
     # Wait for the popup to appear and click the "Yes" button
     popup_yes_button = wait.until(
-        EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'ui-button') and text()='Yes']"))
+        EC.element_to_be_clickable(
+            (By.XPATH, "//button[contains(@class, 'ui-button') and text()='Yes']")
+        )
     )
     driver.execute_script("arguments[0].scrollIntoView(true);", popup_yes_button)
     success = False
@@ -130,9 +145,16 @@ for ferry in tqdm(ferries):
     while not success:
         try:
             popup_complete_button = wait.until(
-                EC.element_to_be_clickable((By.XPATH, "//button[contains(@class, 'ui-button') and text()='Ok']"))
+                EC.element_to_be_clickable(
+                    (
+                        By.XPATH,
+                        "//button[contains(@class, 'ui-button') and text()='Ok']",
+                    )
+                )
             )
-            driver.execute_script("arguments[0].scrollIntoView(true);", popup_complete_button)
+            driver.execute_script(
+                "arguments[0].scrollIntoView(true);", popup_complete_button
+            )
             time.sleep(5)
             popup_complete_button.click()
             success = True
@@ -146,26 +168,24 @@ driver.quit()
 
 # Concat results of downloads
 
-DOWNLOAD_FOLDER = "/Users/elyebliss/Downloads/"
+DOWNLOAD_FOLDER = "C:/Users/Elye/Downloads/"
 
-OUTPUT_FOLDER = os.path.join(
-    os.path.dirname(__file__), "../data/ferry/ferry_delays/"
-)
+OUTPUT_FOLDER = os.path.join(os.path.dirname(__file__), "../data/ferry/ferry_delays/")
 
-START_DATE_MODIFIED = START_DATE.replace("/","")
-END_DATE_MODIFIED = END_DATE.replace("/","")
+START_DATE_MODIFIED = START_DATE.replace("/", "")
+END_DATE_MODIFIED = END_DATE.replace("/", "")
 OUTFILE = f"ferry_depart_times.csv"
 
-df_current = pd.read_csv(OUTPUT_FOLDER+OUTFILE,index_col=False)
+df_current = pd.read_csv(OUTPUT_FOLDER + OUTFILE, index_col=False)
 
 downloads_csvs = os.listdir(DOWNLOAD_FOLDER)
 downloads_csvs = [f for f in downloads_csvs if f.endswith("csv")]
 downloads_csvs = [f for f in downloads_csvs if f.split(".")[0] in ferries]
 df_list = []
 for f in downloads_csvs:
-    df_list.append(pd.read_csv(DOWNLOAD_FOLDER+f,index_col=False)) 
-    os.remove(DOWNLOAD_FOLDER+f)
-df_updates = pd.concat(df_list,ignore_index=True)
+    df_list.append(pd.read_csv(DOWNLOAD_FOLDER + f, index_col=False))
+    os.remove(DOWNLOAD_FOLDER + f)
+df_updates = pd.concat(df_list, ignore_index=True)
 columns = [c.strip() for c in df_updates.columns]
 df_updates.columns = columns
 
@@ -174,5 +194,5 @@ df = pd.concat([df_current, df_updates], ignore_index=True)
 df = df.drop_duplicates()
 df = df.sort_values(by=["Date", "Scheduled Depart"], ascending=False)
 
-df.to_csv(OUTPUT_FOLDER+OUTFILE,index=False)
-os.chmod(OUTPUT_FOLDER+OUTFILE,0o777)
+df.to_csv(OUTPUT_FOLDER + OUTFILE, index=False)
+os.chmod(OUTPUT_FOLDER + OUTFILE, 0o777)

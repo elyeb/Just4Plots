@@ -62,7 +62,7 @@ jobs:
         python -u src/ferry_scrape.py
         python -u src/ferry_delays_db_update_cloud_version.py
         python -u src/ferry_merge_space_delays.py
-        python -u src/ferry_plot_model.py
+        # python -u src/ferry_plot_model.py
     
     - name: Commit data changes
       run: |
