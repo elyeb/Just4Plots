@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,13:40,13:42,13:55,11/24/2025,Monday,,2,
+Puyallup,Edmonds,Kingston,13:35,13:36,13:57,11/24/2025,Monday,,1,
 Spokane,Kingston,Edmonds,13:30,13:31,13:52,11/24/2025,Monday,,1,
 Kittitas,Fauntleroy,Vashon,13:15,13:16,13:28,11/24/2025,Monday,,1,
 Wenatchee,Bainbridge,Colman,13:15,13:16,13:46,11/24/2025,Monday,,1,
