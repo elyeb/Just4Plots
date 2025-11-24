@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Southworth,01:30,01:36,01:48,11/24/2025,Monday,,6,
+Tacoma,Bainbridge,Colman,01:25,01:27,02:01,11/24/2025,Monday,,2,
 Suquamish,Mukilteo,Clinton,01:05,01:05,01:19,11/24/2025,Monday,,0,
 Kittitas,Fauntleroy,Vashon,01:05,01:14,01:29,11/24/2025,Monday,,9,
+Chimacum,Colman,Bremerton,00:50,00:51,01:48,11/24/2025,Monday,,1,
 Tacoma,Colman,Bainbridge,00:45,00:47,01:19,11/24/2025,Monday,,2,
 Suquamish,Clinton,Mukilteo,00:35,00:35,00:53,11/24/2025,Monday,,0,
 Kittitas,Southworth,Fauntleroy,00:35,00:36,00:54,11/24/2025,Monday,,1,
