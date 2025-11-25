@@ -1,6 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Salish,Lopez,Shaw,15:20,15:19,15:36,11/25/2025
+Puyallup,Edmonds,Kingston,15:15,15:18,15:39,11/25/2025
+Spokane,Kingston,Edmonds,15:10,15:12,15:34,11/25/2025
 Suquamish,Mukilteo,Clinton,15:05,15:09,15:23,11/25/2025
 Tokitae,Clinton,Mukilteo,15:05,15:06,15:21,11/25/2025
+Tacoma,Colman,Bainbridge,15:00,15:03,15:34,11/25/2025
+Wenatchee,Bainbridge,Colman,14:55,15:04,15:35,11/25/2025
 Kennewick,Keystone,Port Townsend,14:45,14:47,15:14,11/25/2025
 Sealth,Fauntleroy,Vashon,14:45,14:46,15:01,11/25/2025
 Kittitas,Southworth,Fauntleroy,14:45,14:48,15:16,11/25/2025
