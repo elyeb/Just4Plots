@@ -1,5 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Sealth,Fauntleroy,Vashon,06:10,06:11,06:26,11/26/2025
+Kittitas,Vashon,Fauntleroy,06:10,06:11,06:24,11/26/2025
 Tokitae,Clinton,Mukilteo,06:00,06:02,06:18,11/26/2025
+Suquamish,Mukilteo,Clinton,06:00,06:06,06:20,11/26/2025
 Kittitas,Southworth,Vashon,05:50,05:52,06:03,11/26/2025
 Yakima,Friday Harbor,Lopez,05:40,05:40,06:15,11/26/2025
 Sealth,Vashon,Fauntleroy,05:40,05:41,05:58,11/26/2025
