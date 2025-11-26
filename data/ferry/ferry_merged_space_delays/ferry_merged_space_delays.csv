@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Shaw,Orcas,15:45,15:45,15:53,11/26/2025,Wednesday,,0,
+Kittitas,Fauntleroy,Vashon,15:30,15:36,15:50,11/26/2025,Wednesday,,6,
 Sealth,Vashon,Fauntleroy,15:25,15:27,15:43,11/26/2025,Wednesday,,2,
 Salish,Lopez,Shaw,15:20,15:21,15:37,11/26/2025,Wednesday,,1,
 Puyallup,Edmonds,Kingston,15:15,15:19,15:40,11/26/2025,Wednesday,15:15:40,4,0.0
@@ -6,7 +8,9 @@ Spokane,Kingston,Edmonds,15:10,15:14,15:36,11/26/2025,Wednesday,,4,
 Tokitae,Clinton,Mukilteo,15:05,15:14,15:27,11/26/2025,Wednesday,,9,
 Suquamish,Mukilteo,Clinton,15:05,15:17,15:31,11/26/2025,Wednesday,,12,
 Wenatchee,Colman,Bainbridge,15:00,15:08,15:39,11/26/2025,Wednesday,14:51:44,8,-9.0
+Walla Walla,Bremerton,Colman,15:00,15:02,15:55,11/26/2025,Wednesday,,2,
 Tacoma,Bainbridge,Colman,14:55,15:00,15:29,11/26/2025,Wednesday,,5,
+Chimacum,Colman,Bremerton,14:50,14:52,15:50,11/26/2025,Wednesday,,2,
 Sealth,Fauntleroy,Vashon,14:45,14:57,15:11,11/26/2025,Wednesday,,12,
 Kennewick,Keystone,Port Townsend,14:45,14:45,15:14,11/26/2025,Wednesday,,0,
 Tokitae,Mukilteo,Clinton,14:35,14:41,14:56,11/26/2025,Wednesday,,6,
