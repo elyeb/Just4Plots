@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Clinton,Mukilteo,00:35,00:35,00:49,11/26/2025,Wednesday,,0,
+Tokitae,Mukilteo,Clinton,00:05,00:05,00:19,11/26/2025,Wednesday,,0,
 Salish,Lopez,Shaw,15:20,15:19,15:36,11/25/2025,Tuesday,,-1,
 Puyallup,Edmonds,Kingston,15:15,15:18,15:39,11/25/2025,Tuesday,,3,
 Spokane,Kingston,Edmonds,15:10,15:12,15:34,11/25/2025,Tuesday,,2,
