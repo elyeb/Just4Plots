@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,11:20,11:05,11:19,11/26/2025,Wednesday,,-15,
 Sealth,Southworth,Vashon,11:00,11:01,11:14,11/26/2025,Wednesday,,1,
+Suquamish,Mukilteo,Clinton,11:00,11:04,11:19,11/26/2025,Wednesday,,4,
+Tokitae,Clinton,Mukilteo,11:00,11:04,11:20,11/26/2025,Wednesday,,4,
 Kittitas,Fauntleroy,Vashon,10:40,10:41,10:54,11/26/2025,Wednesday,,1,
 Tacoma,Colman,Bainbridge,10:40,10:42,11:13,11/26/2025,Wednesday,,2,
 Sealth,Vashon,Southworth,10:35,10:38,10:47,11/26/2025,Wednesday,,3,
