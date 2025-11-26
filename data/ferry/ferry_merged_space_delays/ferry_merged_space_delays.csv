@@ -1,6 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Puyallup,Kingston,Edmonds,14:30,14:31,14:52,11/26/2025,Wednesday,,1,
+Spokane,Edmonds,Kingston,14:25,14:26,14:48,11/26/2025,Wednesday,14:15:38,1,-10.0
+Sealth,Vashon,Fauntleroy,14:15,14:29,14:43,11/26/2025,Wednesday,,14,
+Kittitas,Fauntleroy,Southworth,14:10,14:22,14:51,11/26/2025,Wednesday,,12,
 Suquamish,Mukilteo,Clinton,14:05,14:17,14:31,11/26/2025,Wednesday,,12,
 Wenatchee,Bainbridge,Colman,14:05,14:08,14:40,11/26/2025,Wednesday,,3,
+Tacoma,Colman,Bainbridge,14:05,14:09,14:42,11/26/2025,Wednesday,,4,
 Tokitae,Clinton,Mukilteo,14:00,14:11,14:26,11/26/2025,Wednesday,,11,
 Kennewick,Port Townsend,Keystone,14:00,14:02,14:28,11/26/2025,Wednesday,,2,
 Kittitas,Vashon,Fauntleroy,13:40,13:42,13:56,11/26/2025,Wednesday,,2,
