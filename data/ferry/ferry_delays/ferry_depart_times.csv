@@ -1,14 +1,20 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Sealth,Vashon,Southworth,11:25,11:26,11:38,11/27/2025
+Kittitas,Vashon,Fauntleroy,11:20,11:26,11:38,11/27/2025
+Spokane,Edmonds,Kingston,11:05,11:08,11:30,11/27/2025
+Puyallup,Kingston,Edmonds,11:05,11:11,11:33,11/27/2025
 Tokitae,Clinton,Mukilteo,11:00,11:03,11:17,11/27/2025
 Kittitas,Southworth,Vashon,11:00,11:02,11:14,11/27/2025
 Suquamish,Mukilteo,Clinton,11:00,11:05,11:18,11/27/2025
 Kaleetan,Lopez,Orcas,11:00,11:01,11:18,11/27/2025
+Kennewick,Port Townsend,Keystone,11:00,11:01,11:27,11/27/2025
 Sealth,Fauntleroy,Vashon,10:55,10:56,11:11,11/27/2025
 Kittitas,Vashon,Southworth,10:40,10:40,10:51,11/27/2025
 Wenatchee,Colman,Bainbridge,10:40,10:42,11:13,11/27/2025
 Tokitae,Mukilteo,Clinton,10:30,10:33,10:48,11/27/2025
 Suquamish,Clinton,Mukilteo,10:30,10:34,10:49,11/27/2025
 Salish,Lopez,Friday Harbor,10:30,10:30,11:06,11/27/2025
+Yakima,Anacortes,Friday Harbor,10:30,10:30,11:38,11/27/2025
 Tacoma,Bainbridge,Colman,10:25,10:27,10:59,11/27/2025
 Spokane,Kingston,Edmonds,10:20,10:21,10:42,11/27/2025
 Sealth,Vashon,Fauntleroy,10:20,10:20,10:35,11/27/2025
