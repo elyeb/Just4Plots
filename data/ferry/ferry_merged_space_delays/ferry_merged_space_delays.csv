@@ -1,10 +1,18 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Clinton,Mukilteo,12:00,12:05,12:19,11/27/2025,Thursday,,5,
+Suquamish,Mukilteo,Clinton,12:00,12:05,12:18,11/27/2025,Thursday,,5,
+Kaleetan,Orcas,Lopez,11:50,11:50,12:08,11/27/2025,Thursday,,0,
+Kittitas,Fauntleroy,Southworth,11:50,11:59,12:17,11/27/2025,Thursday,,9,
+Kennewick,Keystone,Port Townsend,11:45,11:45,12:10,11/27/2025,Thursday,,0,
+Sealth,Southworth,Vashon,11:45,11:52,12:05,11/27/2025,Thursday,,7,
+Wenatchee,Bainbridge,Colman,11:35,11:41,12:10,11/27/2025,Thursday,,6,
 Suquamish,Clinton,Mukilteo,11:30,11:34,11:49,11/27/2025,Thursday,,4,
 Tokitae,Mukilteo,Clinton,11:30,11:32,11:47,11/27/2025,Thursday,,2,
 Sealth,Vashon,Southworth,11:25,11:26,11:38,11/27/2025,Thursday,,1,
 Tacoma,Colman,Bainbridge,11:25,11:26,12:01,11/27/2025,Thursday,11:15:35,1,-10.0
 Kittitas,Vashon,Fauntleroy,11:20,11:26,11:38,11/27/2025,Thursday,,6,
 Walla Walla,Colman,Bremerton,11:10,11:12,12:07,11/27/2025,Thursday,,2,
+Chimacum,Bremerton,Colman,11:10,11:15,12:09,11/27/2025,Thursday,,5,
 Spokane,Edmonds,Kingston,11:05,11:08,11:30,11/27/2025,Thursday,,3,
 Puyallup,Kingston,Edmonds,11:05,11:11,11:33,11/27/2025,Thursday,,6,
 Tokitae,Clinton,Mukilteo,11:00,11:03,11:17,11/27/2025,Thursday,,3,
