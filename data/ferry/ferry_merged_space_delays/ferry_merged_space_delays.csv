@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Clinton,Mukilteo,08:30,08:31,08:45,11/27/2025,Thursday,,1,
+Tokitae,Mukilteo,Clinton,08:30,08:32,08:49,11/27/2025,Thursday,,2,
 Kittitas,Fauntleroy,Vashon,08:20,08:21,08:36,11/27/2025,Thursday,,1,
 Sealth,Vashon,Fauntleroy,08:15,08:17,08:32,11/27/2025,Thursday,,2,
+Kaleetan,Friday Harbor,Lopez,08:10,08:11,08:44,11/27/2025,Thursday,,1,
 Tokitae,Clinton,Mukilteo,08:00,08:01,08:19,11/27/2025,Thursday,,1,
 Suquamish,Mukilteo,Clinton,08:00,08:00,08:14,11/27/2025,Thursday,,0,
 Kennewick,Port Townsend,Keystone,08:00,08:00,08:27,11/27/2025,Thursday,,0,
