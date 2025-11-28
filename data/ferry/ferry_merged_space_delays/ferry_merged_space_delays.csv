@@ -1,5 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Fauntleroy,Vashon,14:45,14:51,15:08,11/28/2025,Friday,,6,
+Kennewick,Keystone,Port Townsend,14:45,14:58,15:23,11/28/2025,Friday,,13,
 Suquamish,Clinton,Mukilteo,14:35,14:59,15:13,11/28/2025,Friday,,24,
 Tokitae,Mukilteo,Clinton,14:35,14:57,15:10,11/28/2025,Friday,,22,
 Puyallup,Kingston,Edmonds,14:30,14:31,14:51,11/28/2025,Friday,,1,
