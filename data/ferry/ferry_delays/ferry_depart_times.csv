@@ -1,6 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Salish,Orcas,Shaw,09:45,09:46,09:53,11/28/2025
+Sealth,Vashon,Fauntleroy,09:40,09:42,09:58,11/28/2025
+Puyallup,Kingston,Edmonds,09:35,09:37,09:59,11/28/2025
+Spokane,Edmonds,Kingston,09:35,09:37,10:00,11/28/2025
+Suquamish,Clinton,Mukilteo,09:30,09:31,09:47,11/28/2025
+Kennewick,Port Townsend,Keystone,09:30,09:30,09:56,11/28/2025
+Tokitae,Mukilteo,Clinton,09:30,09:32,09:48,11/28/2025
 Sealth,Southworth,Vashon,09:20,09:21,09:33,11/28/2025
 Kittitas,Vashon,Fauntleroy,09:15,09:16,09:38,11/28/2025
+Yakima,Shaw,Anacortes,09:10,09:10,10:05,11/28/2025
 Suquamish,Mukilteo,Clinton,09:00,09:00,09:15,11/28/2025
 Tokitae,Clinton,Mukilteo,09:00,09:01,09:20,11/28/2025
 Yakima,Orcas,Shaw,08:55,08:55,09:05,11/28/2025
@@ -12,6 +20,7 @@ Kennewick,Keystone,Port Townsend,08:45,08:45,09:12,11/28/2025
 Sealth,Fauntleroy,Southworth,08:45,08:46,09:05,11/28/2025
 Tacoma,Colman,Bainbridge,08:45,08:47,09:23,11/28/2025
 Salish,Friday Harbor,Orcas,08:45,08:45,09:31,11/28/2025
+Chimacum,Bremerton,Colman,08:45,08:48,09:46,11/28/2025
 Spokane,Kingston,Edmonds,08:40,08:41,09:04,11/28/2025
 WallaWalla,Colman,Bremerton,08:35,08:36,09:30,11/28/2025
 Kittitas,Vashon,Southworth,08:30,08:30,08:41,11/28/2025
