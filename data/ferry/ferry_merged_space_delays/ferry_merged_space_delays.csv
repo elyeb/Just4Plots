@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Orcas,Shaw,09:45,09:46,09:53,11/29/2025,Saturday,,1,
 Tokitae,Mukilteo,Clinton,09:30,09:31,09:45,11/29/2025,Saturday,,1,
 Suquamish,Clinton,Mukilteo,09:30,09:30,09:44,11/29/2025,Saturday,,0,
 Sealth,Vashon,Fauntleroy,09:20,09:22,09:38,11/29/2025,Saturday,,2,
@@ -13,6 +14,7 @@ Puyallup,Edmonds,Kingston,08:50,08:52,09:12,11/29/2025,Saturday,,2,
 Wenatchee,Bainbridge,Colman,08:45,08:47,09:16,11/29/2025,Saturday,,2,
 Kennewick,Keystone,Port Townsend,08:45,08:46,09:11,11/29/2025,Saturday,,1,
 Salish,Friday Harbor,Orcas,08:45,08:46,09:30,11/29/2025,Saturday,,1,
+Chimacum,Bremerton,Colman,08:45,08:48,09:48,11/29/2025,Saturday,,3,
 Spokane,Kingston,Edmonds,08:40,08:41,09:03,11/29/2025,Saturday,,1,
 Walla Walla,Colman,Bremerton,08:35,08:36,09:29,11/29/2025,Saturday,,1,
 Tokitae,Mukilteo,Clinton,08:30,08:30,08:48,11/29/2025,Saturday,,0,
