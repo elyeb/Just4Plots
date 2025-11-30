@@ -1,6 +1,13 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Suquamish,Clinton,Mukilteo,07:30,07:32,07:45,11/30/2025
+Salish,Shaw,Orcas,07:20,07:24,07:32,11/30/2025
 Kittitas,Vashon,Southworth,07:15,07:15,07:25,11/30/2025
+Kennewick,Keystone,Port Townsend,07:15,07:15,07:44,11/30/2025
+Puyallup,Edmonds,Kingston,07:10,07:10,07:31,11/30/2025
+Kaleetan,Lopez,Friday Harbor,07:10,07:09,07:41,11/30/2025
+Wenatchee,Bainbridge,Colman,07:05,07:07,07:41,11/30/2025
 Suquamish,Mukilteo,Clinton,07:00,07:01,07:14,11/30/2025
+Spokane,Kingston,Edmonds,07:00,07:10,07:32,11/30/2025
 Salish,Lopez,Shaw,06:50,06:50,07:17,11/30/2025
 Kittitas,Fauntleroy,Vashon,06:50,06:50,07:05,11/30/2025
 Suquamish,Clinton,Mukilteo,06:30,06:31,06:45,11/30/2025
