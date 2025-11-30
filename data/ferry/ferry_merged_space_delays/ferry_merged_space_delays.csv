@@ -1,4 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Southworth,Vashon,15:10,15:12,15:23,11/30/2025,Sunday,,2,
+Tokitae,Clinton,Mukilteo,15:05,15:06,15:22,11/30/2025,Sunday,,1,
+Suquamish,Mukilteo,Clinton,15:05,15:07,15:22,11/30/2025,Sunday,,2,
 Kittitas,Vashon,Southworth,14:45,14:46,14:58,11/30/2025,Sunday,,1,
 Kennewick,Keystone,Port Townsend,14:45,14:45,15:11,11/30/2025,Sunday,,0,
 Sealth,Vashon,Fauntleroy,14:45,14:57,15:12,11/30/2025,Sunday,,12,
