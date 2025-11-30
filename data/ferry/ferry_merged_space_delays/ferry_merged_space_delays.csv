@@ -1,4 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Mukilteo,Clinton,14:05,14:05,14:18,11/30/2025,Sunday,,0,
+Tokitae,Clinton,Mukilteo,14:00,14:00,14:17,11/30/2025,Sunday,,0,
+Kittitas,Vashon,Fauntleroy,13:50,14:00,14:13,11/30/2025,Sunday,,10,
+Sealth,Fauntleroy,Vashon,13:40,13:52,14:07,11/30/2025,Sunday,,12,
 Puyallup,Edmonds,Kingston,13:35,13:37,13:58,11/30/2025,Sunday,,2,
 Tokitae,Mukilteo,Clinton,13:30,13:31,13:45,11/30/2025,Sunday,,1,
 Suquamish,Clinton,Mukilteo,13:30,13:31,13:46,11/30/2025,Sunday,,1,
