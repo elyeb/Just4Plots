@@ -1,4 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Clinton,Mukilteo,12:30,12:30,12:44,12/01/2025,Monday,,0,
+Tokitae,Mukilteo,Clinton,12:30,12:30,12:44,12/01/2025,Monday,,0,
+Wenatchee,Bainbridge,Colman,12:20,12:21,12:54,12/01/2025,Monday,,1,
 Kittitas,Southworth,Vashon,12:15,12:19,12:31,12/01/2025,Monday,,4,
 Tokitae,Clinton,Mukilteo,12:00,12:03,12:17,12/01/2025,Monday,,3,
 Suquamish,Mukilteo,Clinton,12:00,12:00,12:14,12/01/2025,Monday,,0,
