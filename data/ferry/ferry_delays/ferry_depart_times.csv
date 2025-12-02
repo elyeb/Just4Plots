@@ -1,5 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kittitas,Fauntleroy,Vashon,11:30,11:27,11:41,12/02/2025
+Suquamish,Clinton,Mukilteo,11:30,11:40,11:54,12/02/2025
+Tokitae,Mukilteo,Clinton,11:30,11:33,11:50,12/02/2025
+Wenatchee,Colman,Bainbridge,11:25,11:26,11:55,12/02/2025
 Puyallup,Kingston,Edmonds,11:05,11:06,11:29,12/02/2025
 Spokane,Edmonds,Kingston,11:05,11:05,11:26,12/02/2025
 Tokitae,Clinton,Mukilteo,11:00,11:08,11:22,12/02/2025
