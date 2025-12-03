@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Clinton,Mukilteo,04:40,03:53,04:08,12/03/2025,Wednesday,,-47,
 Tacoma,Colman,Bainbridge,01:35,01:36,02:08,12/03/2025,Wednesday,,1,
 Tokitae,Mukilteo,Clinton,01:05,01:03,01:17,12/03/2025,Wednesday,,-2,
 Tacoma,Bainbridge,Colman,00:55,00:56,01:27,12/03/2025,Wednesday,,1,
