@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Clinton,Mukilteo,00:35,00:35,00:49,12/03/2025
+Tacoma,Colman,Bainbridge,00:15,00:16,00:49,12/03/2025
+Tokitae,Mukilteo,Clinton,00:05,00:05,00:18,12/03/2025
 Kittitas,Fauntleroy,Vashon,15:30,15:42,15:44,12/02/2025
 Puyallup,Edmonds,Kingston,15:15,15:23,15:44,12/02/2025
 Sealth,Tahlequah,Pt. Defiance,15:10,15:13,15:25,12/02/2025
