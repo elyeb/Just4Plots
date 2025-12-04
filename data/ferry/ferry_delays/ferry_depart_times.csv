@@ -1,10 +1,16 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Clinton,Mukilteo,08:00,08:01,08:16,12/04/2025
+Suquamish,Mukilteo,Clinton,08:00,08:02,08:15,12/04/2025
+Sealth,Tahlequah,Pt. Defiance,08:00,08:03,08:14,12/04/2025
+Puyallup,Kingston,Edmonds,07:55,07:56,08:18,12/04/2025
+Spokane,Edmonds,Kingston,07:55,07:56,08:17,12/04/2025
 Kittitas,Vashon,Fauntleroy,07:40,07:47,08:02,12/04/2025
 Sealth,Pt. Defiance,Tahlequah,07:35,07:40,07:50,12/04/2025
 Suquamish,Clinton,Mukilteo,07:30,07:31,07:47,12/04/2025
 Tokitae,Mukilteo,Clinton,07:30,07:30,07:45,12/04/2025
 Salish,Shaw,Orcas,07:20,07:20,07:27,12/04/2025
 Kittitas,Southworth,Vashon,07:20,07:22,07:34,12/04/2025
+WallaWalla,Bremerton,Colman,07:20,07:22,08:20,12/04/2025
 Kennewick,Keystone,Port Townsend,07:15,07:16,07:41,12/04/2025
 Sealth,Tahlequah,Pt. Defiance,07:10,07:13,07:26,12/04/2025
 Puyallup,Edmonds,Kingston,07:10,07:11,07:33,12/04/2025
