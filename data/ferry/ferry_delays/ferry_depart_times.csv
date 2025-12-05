@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Vashon,Fauntleroy,13:40,13:44,13:58,12/05/2025
+Sealth,Pt. Defiance,Tahlequah,13:40,13:41,13:59,12/05/2025
+Puyallup,Edmonds,Kingston,13:35,13:36,13:57,12/05/2025
 Tokitae,Mukilteo,Clinton,13:30,13:32,13:46,12/05/2025
 Suquamish,Clinton,Mukilteo,13:30,13:31,13:46,12/05/2025
 Spokane,Kingston,Edmonds,13:30,13:31,13:53,12/05/2025
@@ -9,6 +12,7 @@ Tacoma,Colman,Bainbridge,13:10,13:12,13:45,12/05/2025
 Suquamish,Mukilteo,Clinton,13:00,13:00,13:14,12/05/2025
 Sealth,Tahlequah,Pt. Defiance,13:00,13:01,13:15,12/05/2025
 Tokitae,Clinton,Mukilteo,13:00,13:02,13:17,12/05/2025
+Salish,Orcas,Shaw,12:50,13:55,14:02,12/05/2025
 Puyallup,Kingston,Edmonds,12:45,12:46,13:07,12/05/2025
 Spokane,Edmonds,Kingston,12:40,12:40,13:02,12/05/2025
 Kittitas,Vashon,Fauntleroy,12:40,12:41,12:58,12/05/2025
