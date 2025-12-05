@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Mukilteo,Clinton,14:05,14:05,14:18,12/05/2025,Friday,,0,
+Tokitae,Clinton,Mukilteo,14:00,14:02,14:15,12/05/2025,Friday,,2,
 Kittitas,Vashon,Fauntleroy,13:40,13:44,13:58,12/05/2025,Friday,,4,
 Sealth,Pt. Defiance,Tahlequah,13:40,13:41,13:59,12/05/2025,Friday,,1,
 Puyallup,Edmonds,Kingston,13:35,13:36,13:57,12/05/2025,Friday,,1,
