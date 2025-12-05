@@ -1,4 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Mukilteo,Clinton,13:30,13:32,13:46,12/05/2025
+Suquamish,Clinton,Mukilteo,13:30,13:31,13:46,12/05/2025
+Kennewick,Keystone,Port Townsend,13:15,13:15,13:41,12/05/2025
+Kittitas,Fauntleroy,Vashon,13:15,13:17,13:33,12/05/2025
+Tacoma,Colman,Bainbridge,13:10,13:12,13:45,12/05/2025
 Suquamish,Mukilteo,Clinton,13:00,13:00,13:14,12/05/2025
 Sealth,Tahlequah,Pt. Defiance,13:00,13:01,13:15,12/05/2025
 Tokitae,Clinton,Mukilteo,13:00,13:02,13:17,12/05/2025
