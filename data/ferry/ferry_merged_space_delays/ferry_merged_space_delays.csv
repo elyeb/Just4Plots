@@ -1,7 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Mukilteo,Clinton,05:35,05:35,05:50,12/05/2025,Friday,,0,
 Suquamish,Clinton,Mukilteo,05:30,05:31,05:45,12/05/2025,Friday,,1,
 Sealth,Tahlequah,Pt. Defiance,05:30,05:32,05:44,12/05/2025,Friday,,2,
 Kittitas,Vashon,Southworth,05:25,05:31,05:42,12/05/2025,Friday,,6,
+Tacoma,Bainbridge,Colman,05:20,05:23,05:56,12/05/2025,Friday,,3,
 Suquamish,Mukilteo,Clinton,05:05,04:11,04:27,12/05/2025,Friday,,-54,
 Kittitas,Fauntleroy,Vashon,05:05,05:06,05:27,12/05/2025,Friday,,1,
 Sealth,Pt. Defiance,Tahlequah,05:05,05:09,05:26,12/05/2025,Friday,,4,
