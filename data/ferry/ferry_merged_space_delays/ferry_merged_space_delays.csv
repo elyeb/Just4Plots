@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,10:15,10:16,10:29,12/05/2025,Friday,,1,
+Sealth,Pt. Defiance,Tahlequah,10:05,10:10,10:21,12/05/2025,Friday,,5,
 Tokitae,Clinton,Mukilteo,10:00,10:02,10:17,12/05/2025,Friday,,2,
 Suquamish,Mukilteo,Clinton,10:00,10:03,10:17,12/05/2025,Friday,,3,
+Salish,Shaw,Lopez,10:00,10:07,10:22,12/05/2025,Friday,,7,
 Kittitas,Fauntleroy,Vashon,09:50,09:51,10:04,12/05/2025,Friday,,1,
 Salish,Orcas,Shaw,09:45,09:52,10:01,12/05/2025,Friday,,7,
 Sealth,Tahlequah,Pt. Defiance,09:40,09:43,09:56,12/05/2025,Friday,,3,
