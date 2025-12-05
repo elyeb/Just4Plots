@@ -1,6 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Wenatchee,Colman,Bainbridge,01:35,01:36,02:08,12/05/2025
 Tokitae,Mukilteo,Clinton,01:05,01:04,01:17,12/05/2025
 Wenatchee,Bainbridge,Colman,00:55,00:57,01:27,12/05/2025
+Chimacum,Colman,Bremerton,00:50,00:51,01:43,12/05/2025
 Tokitae,Clinton,Mukilteo,00:35,00:35,00:49,12/05/2025
 Wenatchee,Colman,Bainbridge,00:15,00:17,00:57,12/05/2025
 Tokitae,Mukilteo,Clinton,00:05,00:05,00:19,12/05/2025
