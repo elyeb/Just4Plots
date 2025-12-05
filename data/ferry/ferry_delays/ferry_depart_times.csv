@@ -1,5 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Suquamish,Mukilteo,Clinton,09:00,09:01,09:14,12/05/2025
+Tokitae,Clinton,Mukilteo,09:00,09:01,09:17,12/05/2025
+Yakima,Orcas,Shaw,08:55,09:07,09:18,12/05/2025
+Kittitas,Southworth,Vashon,08:55,08:57,09:09,12/05/2025
 Sealth,Tahlequah,Pt. Defiance,08:50,08:51,09:03,12/05/2025
+Puyallup,Edmonds,Kingston,08:50,08:51,09:14,12/05/2025
 Spokane,Kingston,Edmonds,08:40,08:42,09:03,12/05/2025
 Kittitas,Vashon,Southworth,08:30,08:31,08:41,12/05/2025
 Tokitae,Mukilteo,Clinton,08:30,08:30,08:44,12/05/2025
