@@ -1,4 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Southworth,Fauntleroy,00:35,00:36,00:52,12/06/2025,Saturday,,1,
+Suquamish,Clinton,Mukilteo,00:35,00:35,00:49,12/06/2025,Saturday,,0,
+Wenatchee,Colman,Bainbridge,00:15,00:18,00:51,12/06/2025,Saturday,,3,
+Kittitas,Vashon,Southworth,00:15,00:16,00:28,12/06/2025,Saturday,,1,
+Suquamish,Mukilteo,Clinton,00:05,00:06,00:18,12/06/2025,Saturday,,1,
 Puyallup,Edmonds,Kingston,15:15,15:19,15:41,12/05/2025,Friday,,4,
 Sealth,Tahlequah,Pt. Defiance,15:10,15:16,15:27,12/05/2025,Friday,,6,
 Spokane,Kingston,Edmonds,15:10,15:11,15:33,12/05/2025,Friday,,1,
