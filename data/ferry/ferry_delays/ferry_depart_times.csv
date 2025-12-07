@@ -1,4 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Suquamish,Clinton,Mukilteo,00:35,00:36,00:53,12/07/2025
+Kittitas,Southworth,Fauntleroy,00:35,00:35,00:52,12/07/2025
+Kittitas,Vashon,Southworth,00:15,00:16,00:28,12/07/2025
+Suquamish,Mukilteo,Clinton,00:05,00:05,00:19,12/07/2025
+Tacoma,Bainbridge,Colman,00:00,00:24,00:57,12/07/2025
 Salish,Lopez,Shaw,15:20,15:20,15:39,12/06/2025
 Puyallup,Edmonds,Kingston,15:15,15:16,15:41,12/06/2025
 Kittitas,Southworth,Vashon,15:10,15:15,15:28,12/06/2025
