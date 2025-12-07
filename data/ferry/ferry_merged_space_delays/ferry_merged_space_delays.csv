@@ -1,7 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Southworth,14:45,14:45,14:54,12/07/2025,Sunday,,0,
 Sealth,Pt. Defiance,Tahlequah,14:40,14:42,14:53,12/07/2025,Sunday,,2,
 Suquamish,Clinton,Mukilteo,14:35,14:37,14:52,12/07/2025,Sunday,,2,
 Tokitae,Mukilteo,Clinton,14:35,14:36,14:52,12/07/2025,Sunday,,1,
+Puyallup,Kingston,Edmonds,14:30,14:37,14:58,12/07/2025,Sunday,,7,
 Spokane,Edmonds,Kingston,14:25,14:27,14:49,12/07/2025,Sunday,,2,
 Kittitas,Fauntleroy,Vashon,14:20,14:21,14:35,12/07/2025,Sunday,,1,
 Sealth,Tahlequah,Pt. Defiance,14:10,14:10,14:21,12/07/2025,Sunday,,0,
