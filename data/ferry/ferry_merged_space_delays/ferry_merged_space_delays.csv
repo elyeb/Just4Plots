@@ -1,5 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Pt. Defiance,Tahlequah,13:40,13:40,13:52,12/07/2025,Sunday,,0,
+Puyallup,Edmonds,Kingston,13:35,13:38,13:59,12/07/2025,Sunday,,3,
 Tokitae,Mukilteo,Clinton,13:30,13:30,13:44,12/07/2025,Sunday,,0,
 Suquamish,Clinton,Mukilteo,13:30,13:30,13:45,12/07/2025,Sunday,,0,
 Spokane,Kingston,Edmonds,13:30,13:32,13:52,12/07/2025,Sunday,,2,
