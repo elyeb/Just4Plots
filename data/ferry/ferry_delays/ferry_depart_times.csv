@@ -1,6 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Suquamish,Mukilteo,Clinton,05:05,04:10,04:24,12/08/2025
 Suquamish,Clinton,Mukilteo,04:40,03:51,04:06,12/08/2025
+Suquamish,Clinton,Mukilteo,04:40,04:41,04:57,12/08/2025
+Kittitas,Vashon,,04:30,04:31,00:00,12/08/2025
 Kittitas,Southworth,Vashon,04:10,03:30,03:44,12/08/2025
 Kittitas,Southworth,,04:10,03:30,00:00,12/08/2025
 Kittitas,Southworth,,04:10,04:11,00:00,12/08/2025
