@@ -1,4 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Mukilteo,Clinton,08:30,08:31,08:48,12/08/2025
+Kittitas,Southworth,Vashon,08:30,08:38,08:50,12/08/2025
+Suquamish,Clinton,Mukilteo,08:30,08:30,08:46,12/08/2025
+Sealth,Pt. Defiance,Tahlequah,08:25,08:28,08:39,12/08/2025
 Kittitas,Vashon,Southworth,08:05,08:13,08:23,12/08/2025
 Tokitae,Clinton,Mukilteo,08:00,08:00,08:17,12/08/2025
 Sealth,Tahlequah,Pt. Defiance,08:00,08:03,08:16,12/08/2025
@@ -8,8 +12,10 @@ Puyallup,Kingston,Edmonds,07:55,07:56,08:17,12/08/2025
 Spokane,Edmonds,Kingston,07:55,07:57,08:18,12/08/2025
 Wenatchee,Bainbridge,Colman,07:55,08:01,08:32,12/08/2025
 Tacoma,Colman,Bainbridge,07:55,07:57,08:28,12/08/2025
+Salish,Orcas,Friday Harbor,07:40,07:47,08:33,12/08/2025
 Sealth,Pt. Defiance,Tahlequah,07:35,07:39,07:56,12/08/2025
 Issaquah,Lopez,Anacortes,07:35,07:35,08:22,12/08/2025
+Chimacum,Colman,Bremerton,07:35,07:37,08:38,12/08/2025
 Tokitae,Mukilteo,Clinton,07:30,07:31,07:45,12/08/2025
 Suquamish,Clinton,Mukilteo,07:30,07:31,07:46,12/08/2025
 Salish,Shaw,Orcas,07:20,07:25,07:32,12/08/2025
