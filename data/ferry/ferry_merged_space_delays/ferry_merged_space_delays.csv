@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Pt. Defiance,Tahlequah,07:35,07:39,07:56,12/08/2025,Monday,,4,
 Tokitae,Mukilteo,Clinton,07:30,07:31,07:45,12/08/2025,Monday,,1,
 Suquamish,Clinton,Mukilteo,07:30,07:31,07:46,12/08/2025,Monday,,1,
 Salish,Shaw,Orcas,07:20,07:25,07:32,12/08/2025,Monday,,5,
