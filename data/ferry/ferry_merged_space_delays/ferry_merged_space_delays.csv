@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Southworth,Vashon,04:10,03:30,03:44,12/08/2025,Monday,,-40,
 Tacoma,Colman,Bainbridge,02:10,02:11,02:42,12/08/2025,Monday,,1,
 Kittitas,Vashon,Southworth,01:30,01:30,01:43,12/08/2025,Monday,,0,
 Tacoma,Bainbridge,Colman,01:25,01:27,02:00,12/08/2025,Monday,,2,
