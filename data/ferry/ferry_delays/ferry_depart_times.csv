@@ -1,9 +1,12 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Sealth,Tahlequah,Pt. Defiance,10:30,10:33,10:45,12/09/2025
 Suquamish,Clinton,Mukilteo,10:30,10:31,10:46,12/09/2025
+Tokitae,Mukilteo,Clinton,10:30,10:31,10:50,12/09/2025
 Kittitas,Fauntleroy,Vashon,10:25,09:46,10:00,12/09/2025
+Tacoma,Bainbridge,Colman,10:25,10:27,10:57,12/09/2025
 Kittitas,Vashon,Fauntleroy,10:20,10:16,10:30,12/09/2025
 Puyallup,Edmonds,Kingston,10:20,10:21,10:41,12/09/2025
+Spokane,Kingston,Edmonds,10:20,10:22,10:49,12/09/2025
 Kennewick,Keystone,Port Townsend,10:15,10:15,10:39,12/09/2025
 Sealth,Pt. Defiance,Tahlequah,10:05,10:08,10:18,12/09/2025
 Suquamish,Mukilteo,Clinton,10:00,10:00,10:16,12/09/2025
