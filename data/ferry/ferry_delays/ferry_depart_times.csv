@@ -1,10 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Southworth,Vashon,15:00,15:00,15:11,12/09/2025
+Kennewick,Keystone,Port Townsend,14:45,14:45,15:11,12/09/2025
 Kittitas,Vashon,Southworth,14:35,14:36,14:45,12/09/2025
 Tokitae,Mukilteo,Clinton,14:35,14:36,14:52,12/09/2025
 Suquamish,Clinton,Mukilteo,14:35,14:35,14:50,12/09/2025
 Puyallup,Kingston,Edmonds,14:30,14:31,14:52,12/09/2025
+Salish,Friday Harbor,Lopez,14:30,14:39,15:15,12/09/2025
 Spokane,Edmonds,Kingston,14:25,14:26,14:49,12/09/2025
 Kittitas,Fauntleroy,Vashon,14:10,14:14,14:26,12/09/2025
+Sealth,Tahlequah,Pt. Defiance,14:10,15:04,15:16,12/09/2025
 Suquamish,Mukilteo,Clinton,14:05,14:05,14:20,12/09/2025
 Wenatchee,Colman,Bainbridge,14:05,14:06,14:37,12/09/2025
 Tacoma,Bainbridge,Colman,14:05,14:07,14:39,12/09/2025
