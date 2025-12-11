@@ -1,6 +1,7 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Tokitae,Mukilteo,Clinton,08:30,08:30,08:45,12/11/2025,Thursday,,0,
 Suquamish,Clinton,Mukilteo,08:30,08:32,08:46,12/11/2025,Thursday,,2,
+Kittitas,Southworth,Vashon,08:30,08:48,08:58,12/11/2025,Thursday,,18,
 Sealth,Pt. Defiance,Tahlequah,08:25,08:34,08:45,12/11/2025,Thursday,,9,
 Yakima,Lopez,Orcas,08:15,08:28,08:46,12/11/2025,Thursday,,13,
 Kittitas,Vashon,Southworth,08:05,08:20,08:30,12/11/2025,Thursday,,15,
