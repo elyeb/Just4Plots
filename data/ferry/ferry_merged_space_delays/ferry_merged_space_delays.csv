@@ -2,6 +2,7 @@ actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,D
 Sealth,Pt. Defiance,Tahlequah,10:05,10:07,10:17,12/12/2025,Friday,,2,
 Suquamish,Mukilteo,Clinton,10:00,10:00,10:15,12/12/2025,Friday,,0,
 Tokitae,Clinton,Mukilteo,10:00,10:03,10:17,12/12/2025,Friday,,3,
+Salish,Shaw,,10:00,10:06,00:00,12/12/2025,Friday,,6,
 Kittitas,Vashon,Fauntleroy,09:55,09:57,10:11,12/12/2025,Friday,,2,
 Salish,Orcas,Shaw,09:45,09:52,10:01,12/12/2025,Friday,,7,
 Salish,Orcas,,09:45,09:52,00:00,12/12/2025,Friday,,7,
