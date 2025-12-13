@@ -1,6 +1,10 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Spokane,Kingston,Edmonds,13:30,13:31,13:53,12/13/2025
+Suquamish,Clinton,Mukilteo,13:30,13:37,13:51,12/13/2025
+Tokitae,Mukilteo,Clinton,13:30,13:32,13:48,12/13/2025
 Kittitas,Fauntleroy,Vashon,13:20,13:21,13:36,12/13/2025
 Kennewick,Keystone,Port Townsend,13:15,13:15,13:40,12/13/2025
+Wenatchee,Colman,Bainbridge,13:15,13:17,13:49,12/13/2025
 Salish,Shaw,,13:05,13:05,00:00,12/13/2025
 Sealth,Tahlequah,Pt. Defiance,13:00,13:01,13:11,12/13/2025
 Suquamish,Mukilteo,Clinton,13:00,13:06,13:19,12/13/2025
