@@ -1,6 +1,11 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Southworth,Vashon,07:20,07:21,07:33,12/13/2025
+Salish,Shaw,,07:20,07:26,00:00,12/13/2025
 Sealth,Tahlequah,Pt. Defiance,07:10,07:11,07:23,12/13/2025
+Puyallup,Edmonds,Kingston,07:10,07:11,07:32,12/13/2025
 Issaquah,Shaw,Lopez,07:05,07:06,07:24,12/13/2025
+Issaquah,Shaw,,07:05,07:06,00:00,12/13/2025
+Wenatchee,Bainbridge,Colman,07:05,07:06,07:38,12/13/2025
 Suquamish,Mukilteo,Clinton,07:00,07:00,07:14,12/13/2025
 Spokane,Kingston,Edmonds,07:00,07:01,07:23,12/13/2025
 Issaquah,Orcas,Shaw,06:50,06:50,07:01,12/13/2025
