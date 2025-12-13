@@ -1,6 +1,12 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Mukilteo,Clinton,01:05,01:04,01:17,12/13/2025,Saturday,,-1,
+Kittitas,Southworth,,00:35,00:48,00:00,12/13/2025,Saturday,,13,
+Suquamish,Clinton,Mukilteo,00:35,00:35,00:49,12/13/2025,Saturday,,0,
+Tacoma,Colman,Bainbridge,00:15,00:21,00:56,12/13/2025,Saturday,,6,
+Kittitas,Vashon,,00:15,00:30,00:00,12/13/2025,Saturday,,15,
 Suquamish,Mukilteo,Clinton,00:05,00:05,00:18,12/13/2025,Saturday,,0,
 Kittitas,Fauntleroy,Vashon,23:50,00:03,00:20,12/12/2025,Friday,,13,
+Kittitas,Fauntleroy,,23:50,00:03,00:00,12/12/2025,Friday,,13,
 Salish,Shaw,Orcas,15:45,15:45,15:53,12/12/2025,Friday,,0,
 Sealth,Pt. Defiance,Tahlequah,15:40,15:41,15:53,12/12/2025,Friday,,1,
 Suquamish,Clinton,Mukilteo,15:35,15:40,15:54,12/12/2025,Friday,,5,
