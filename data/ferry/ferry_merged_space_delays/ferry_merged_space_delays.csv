@@ -1,7 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Suquamish,Mukilteo,Clinton,06:00,05:05,05:17,12/13/2025,Saturday,,-55,
+Kittitas,Vashon,,05:35,05:35,00:00,12/13/2025,Saturday,,0,
 Suquamish,Clinton,Mukilteo,05:30,04:49,05:03,12/13/2025,Saturday,,-41,
 Suquamish,Clinton,Mukilteo,05:30,05:30,05:43,12/13/2025,Saturday,,0,
+Wenatchee,Bainbridge,Colman,05:20,05:21,05:53,12/13/2025,Saturday,,1,
 Kittitas,Fauntleroy,,05:10,05:11,00:00,12/13/2025,Saturday,,1,
 Walla Walla,Bremerton,Colman,04:50,04:52,05:46,12/13/2025,Saturday,,2,
 Puyallup,Kingston,Edmonds,04:45,04:46,05:09,12/13/2025,Saturday,,1,
