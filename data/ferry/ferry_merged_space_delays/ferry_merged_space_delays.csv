@@ -1,7 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Pt. Defiance,Tahlequah,13:40,13:41,13:51,12/15/2025,Monday,,1,
+Tokitae,Mukilteo,Clinton,13:30,13:33,13:49,12/15/2025,Monday,,3,
+Spokane,Kingston,Edmonds,13:30,13:31,13:52,12/15/2025,Monday,,1,
 Kittitas,Fauntleroy,Vashon,13:15,13:17,13:29,12/15/2025,Monday,,2,
 Kittitas,Fauntleroy,,13:15,13:17,00:00,12/15/2025,Monday,,2,
 Kennewick,Keystone,Port Townsend,13:15,13:15,13:44,12/15/2025,Monday,,0,
+Tacoma,Bainbridge,Colman,13:15,13:16,13:53,12/15/2025,Monday,,1,
 Wenatchee,Colman,Bainbridge,13:10,13:12,13:43,12/15/2025,Monday,,2,
 Salish,Shaw,,13:05,13:05,00:00,12/15/2025,Monday,,0,
 Tokitae,Clinton,Mukilteo,13:00,13:04,13:21,12/15/2025,Monday,,4,
