@@ -1,6 +1,9 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Tahlequah,Pt. Defiance,14:10,14:17,14:29,12/18/2025,Thursday,,7,
+Kittitas,Fauntleroy,Vashon,14:10,14:22,14:34,12/18/2025,Thursday,,12,
 Suquamish,Mukilteo,Clinton,14:05,14:05,14:18,12/18/2025,Thursday,,0,
+Tacoma,Bainbridge,Colman,14:05,14:06,14:39,12/18/2025,Thursday,,1,
+Wenatchee,Colman,Bainbridge,14:05,14:06,14:38,12/18/2025,Thursday,,1,
 Tokitae,Clinton,Mukilteo,14:00,14:05,14:19,12/18/2025,Thursday,,5,
 Sealth,Pt. Defiance,Tahlequah,13:40,13:43,13:54,12/18/2025,Thursday,,3,
 Kittitas,Vashon,Fauntleroy,13:40,13:50,14:03,12/18/2025,Thursday,,10,
