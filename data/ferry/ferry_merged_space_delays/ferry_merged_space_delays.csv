@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Orcas,,12:50,12:49,00:00,12/18/2025,Thursday,,-1,
+Kittitas,Vashon,,12:40,12:45,00:00,12/18/2025,Thursday,,5,
 Suquamish,Clinton,Mukilteo,12:30,12:30,12:45,12/18/2025,Thursday,,0,
 Tokitae,Mukilteo,Clinton,12:30,12:31,12:45,12/18/2025,Thursday,,1,
 Wenatchee,Colman,Bainbridge,12:25,12:25,12:57,12/18/2025,Thursday,,0,
