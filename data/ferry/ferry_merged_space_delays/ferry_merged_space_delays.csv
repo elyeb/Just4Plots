@@ -2,6 +2,8 @@ actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,D
 Suquamish,Mukilteo,Clinton,05:05,04:09,04:22,12/18/2025,Thursday,,-56,
 Sealth,Pt. Defiance,Tahlequah,05:05,05:07,05:18,12/18/2025,Thursday,,2,
 Suquamish,Mukilteo,Clinton,05:05,05:05,05:18,12/18/2025,Thursday,,0,
+Kittitas,Fauntleroy,,05:05,05:05,00:00,12/18/2025,Thursday,,0,
+Tokitae,Clinton,Mukilteo,05:05,05:06,05:24,12/18/2025,Thursday,,1,
 Wenatchee,Bainbridge,Colman,04:45,04:46,05:16,12/18/2025,Thursday,,1,
 Puyallup,Kingston,Edmonds,04:45,04:46,05:08,12/18/2025,Thursday,,1,
 Suquamish,Clinton,Mukilteo,04:40,03:54,04:08,12/18/2025,Thursday,,-46,
