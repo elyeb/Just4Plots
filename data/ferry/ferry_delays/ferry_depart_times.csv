@@ -1,8 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Mukilteo,Clinton,13:30,13:33,13:47,12/18/2025
+Suquamish,Clinton,Mukilteo,13:30,13:30,13:45,12/18/2025
+Wenatchee,Bainbridge,Colman,13:15,13:17,13:47,12/18/2025
+Kittitas,Fauntleroy,,13:15,13:16,00:00,12/18/2025
+Tacoma,Colman,Bainbridge,13:10,13:13,13:45,12/18/2025
 Salish,Shaw,,13:05,13:04,00:00,12/18/2025
 Tokitae,Clinton,Mukilteo,13:00,13:03,13:19,12/18/2025
 Suquamish,Mukilteo,Clinton,13:00,13:00,13:13,12/18/2025
 Issaquah,Shaw,Orcas,12:55,13:15,13:24,12/18/2025
+Issaquah,Shaw,,12:55,13:15,00:00,12/18/2025
 Salish,Orcas,,12:50,12:49,00:00,12/18/2025
 Puyallup,Kingston,Edmonds,12:45,12:50,13:12,12/18/2025
 Kittitas,Vashon,,12:40,12:45,00:00,12/18/2025
@@ -10,6 +16,7 @@ Spokane,Edmonds,Kingston,12:40,12:48,13:09,12/18/2025
 Suquamish,Clinton,Mukilteo,12:30,12:30,12:45,12/18/2025
 Tokitae,Mukilteo,Clinton,12:30,12:31,12:45,12/18/2025
 Wenatchee,Colman,Bainbridge,12:25,12:25,12:57,12/18/2025
+Yakima,Friday Harbor,,12:25,12:25,00:00,12/18/2025
 Tacoma,Bainbridge,Colman,12:20,12:21,12:54,12/18/2025
 Chimacum,Colman,Bremerton,12:20,12:22,13:17,12/18/2025
 WallaWalla,Bremerton,Colman,12:20,12:22,13:18,12/18/2025
