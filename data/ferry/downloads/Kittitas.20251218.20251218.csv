@@ -1,0 +1,12 @@
+Vessel, Departing, Arriving, Scheduled Depart, Actual Depart, Est. Arrival, Date 
+Kittitas,Southworth,,04:10,04:12,00:00,12/18/2025,
+Kittitas,Vashon,,04:30,04:30,00:00,12/18/2025,
+Kittitas,Fauntleroy,,05:05,05:05,00:00,12/18/2025,
+Kittitas,Vashon,,05:25,05:25,00:00,12/18/2025,
+Kittitas,Southworth,,05:50,05:51,00:00,12/18/2025,
+Kittitas,Vashon,Fauntleroy,06:15,06:16,06:29,12/18/2025,
+Kittitas,Fauntleroy,Vashon,06:45,06:46,07:01,12/18/2025,
+Kittitas,Vashon,Fauntleroy,07:15,07:16,07:34,12/18/2025,
+Kittitas,Vashon,Southworth,08:05,08:17,08:27,12/18/2025,
+Kittitas,Southworth,Vashon,08:30,08:47,09:00,12/18/2025,
+Kittitas,Vashon,,09:00,09:12,00:00,12/18/2025,
