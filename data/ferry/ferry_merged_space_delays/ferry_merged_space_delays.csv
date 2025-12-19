@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Mukilteo,Clinton,00:05,00:05,00:19,12/19/2025,Friday,,0,
 Salish,Lopez,Shaw,15:20,15:31,15:47,12/18/2025,Thursday,,11,
 Kittitas,Vashon,Fauntleroy,15:20,15:31,15:44,12/18/2025,Thursday,,11,
 Puyallup,Edmonds,Kingston,15:15,15:21,15:43,12/18/2025,Thursday,,6,
