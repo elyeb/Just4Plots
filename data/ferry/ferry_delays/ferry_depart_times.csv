@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Suquamish,Mukilteo,Clinton,05:05,04:12,04:31,12/19/2025
+Suquamish,Clinton,Mukilteo,04:40,03:53,04:09,12/19/2025
+Kittitas,Southworth,,04:10,04:11,00:00,12/19/2025
 Wenatchee,Colman,Bainbridge,01:35,01:54,02:33,12/19/2025
 Tokitae,Mukilteo,Clinton,01:05,01:04,01:19,12/19/2025
 Wenatchee,Bainbridge,Colman,00:55,01:10,01:43,12/19/2025
