@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Wenatchee,Colman,Bainbridge,01:35,01:54,02:33,12/19/2025,Friday,,19,
 Tokitae,Mukilteo,Clinton,01:05,01:04,01:19,12/19/2025,Friday,,-1,
 Wenatchee,Bainbridge,Colman,00:55,01:10,01:43,12/19/2025,Friday,,15,
 Chimacum,Colman,Bremerton,00:50,00:51,01:45,12/19/2025,Friday,,1,
