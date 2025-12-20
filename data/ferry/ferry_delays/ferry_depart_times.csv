@@ -1,4 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Suquamish,Clinton,Mukilteo,00:35,00:35,00:50,12/20/2025
+Kittitas,Southworth,,00:35,00:36,00:00,12/20/2025
+Kittitas,Vashon,,00:15,00:15,00:00,12/20/2025
+Wenatchee,Colman,Bainbridge,00:15,00:19,00:49,12/20/2025
+Suquamish,Mukilteo,Clinton,00:05,00:06,00:20,12/20/2025
 Kittitas,Vashon,Fauntleroy,15:20,15:29,15:42,12/19/2025
 Salish,Lopez,,15:20,15:23,00:00,12/19/2025
 Sealth,Tahlequah,Pt. Defiance,15:10,15:11,15:23,12/19/2025
