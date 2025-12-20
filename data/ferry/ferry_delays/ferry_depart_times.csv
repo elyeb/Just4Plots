@@ -1,10 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Sealth,Tahlequah,Pt. Defiance,08:00,08:01,08:13,12/20/2025
+Puyallup,Kingston,Edmonds,07:55,07:56,08:16,12/20/2025
+Spokane,Edmonds,Kingston,07:55,07:57,08:17,12/20/2025
 Kittitas,Vashon,Fauntleroy,07:40,07:41,07:59,12/20/2025
 Sealth,Pt. Defiance,Tahlequah,07:35,07:36,07:49,12/20/2025
 Suquamish,Clinton,Mukilteo,07:30,07:32,07:46,12/20/2025
 Tillikum,Shaw,Orcas,07:20,07:21,07:29,12/20/2025
 Kittitas,Southworth,Vashon,07:20,07:21,07:33,12/20/2025
 Tillikum,Shaw,,07:20,07:21,00:00,12/20/2025
+WallaWalla,Bremerton,Colman,07:20,07:21,08:14,12/20/2025
 Kennewick,Keystone,Port Townsend,07:15,07:16,07:41,12/20/2025
 Salish,Lopez,Friday Harbor,07:15,07:15,07:52,12/20/2025
 Sealth,Tahlequah,Pt. Defiance,07:10,07:11,07:23,12/20/2025
