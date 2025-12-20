@@ -1,4 +1,5 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Sealth,Pt. Defiance,Tahlequah,08:25,08:26,08:38,12/20/2025
 Kittitas,Fauntleroy,Vashon,08:15,08:16,08:30,12/20/2025
 Sealth,Tahlequah,Pt. Defiance,08:00,08:01,08:13,12/20/2025
 Tokitae,Clinton,Mukilteo,08:00,08:17,08:32,12/20/2025
@@ -10,10 +11,13 @@ Tacoma,Bainbridge,Colman,07:55,07:57,08:27,12/20/2025
 Wenatchee,Colman,Bainbridge,07:55,07:56,08:28,12/20/2025
 Kittitas,Vashon,Fauntleroy,07:40,07:41,07:59,12/20/2025
 Tillikum,Orcas,Friday Harbor,07:40,07:41,08:27,12/20/2025
+Tillikum,Orcas,,07:40,07:41,00:00,12/20/2025
 Sealth,Pt. Defiance,Tahlequah,07:35,07:36,07:49,12/20/2025
 Issaquah,Lopez,,07:35,07:35,00:00,12/20/2025
+Chimacum,Colman,Bremerton,07:35,07:36,08:33,12/20/2025
 Suquamish,Clinton,Mukilteo,07:30,07:32,07:46,12/20/2025
 Yakima,Anacortes,Orcas,07:30,07:35,08:28,12/20/2025
+Yakima,Anacortes,,07:30,07:35,00:00,12/20/2025
 Tillikum,Shaw,Orcas,07:20,07:21,07:29,12/20/2025
 Kittitas,Southworth,Vashon,07:20,07:21,07:33,12/20/2025
 Tillikum,Shaw,,07:20,07:21,00:00,12/20/2025
