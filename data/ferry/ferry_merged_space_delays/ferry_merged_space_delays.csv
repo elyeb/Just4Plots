@@ -1,4 +1,6 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Clinton,Mukilteo,14:00,14:01,14:15,12/21/2025,Sunday,,1,
+Kittitas,Vashon,Fauntleroy,13:55,13:56,14:12,12/21/2025,Sunday,,1,
 Sealth,Pt. Defiance,Tahlequah,13:40,13:41,13:52,12/21/2025,Sunday,,1,
 Puyallup,Edmonds,Kingston,13:35,13:39,14:00,12/21/2025,Sunday,,4,
 Tokitae,Mukilteo,Clinton,13:30,13:31,13:46,12/21/2025,Sunday,,1,
