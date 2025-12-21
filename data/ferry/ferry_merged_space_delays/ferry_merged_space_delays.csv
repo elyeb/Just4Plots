@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Mukilteo,Clinton,00:05,00:05,00:21,12/21/2025,Sunday,,0,
 Tillikum,Shaw,Orcas,15:45,15:45,15:53,12/20/2025,Saturday,,0,
 Sealth,Pt. Defiance,Tahlequah,15:40,15:40,15:52,12/20/2025,Saturday,,0,
 Tokitae,Mukilteo,Clinton,15:35,15:36,15:52,12/20/2025,Saturday,,1,
