@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tacoma,Colman,Bainbridge,02:10,02:11,02:43,12/22/2025,Monday,,1,
 Kittitas,Vashon,,01:30,01:30,00:00,12/22/2025,Monday,,0,
 Tacoma,Bainbridge,Colman,01:25,01:27,02:00,12/22/2025,Monday,,2,
 Kittitas,Fauntleroy,,01:05,01:10,00:00,12/22/2025,Monday,,5,
