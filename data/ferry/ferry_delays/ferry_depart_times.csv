@@ -1,9 +1,14 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Clinton,Mukilteo,06:00,06:01,06:15,12/22/2025
+Suquamish,Mukilteo,Clinton,06:00,06:00,06:14,12/22/2025
+Sealth,Pt. Defiance,Tahlequah,05:55,05:58,06:09,12/22/2025
+Kittitas,Southworth,,05:50,05:52,00:00,12/22/2025
 Tokitae,Mukilteo,Clinton,05:35,05:35,05:49,12/22/2025
 Puyallup,Edmonds,Kingston,05:35,05:35,05:57,12/22/2025
 Sealth,Tahlequah,Pt. Defiance,05:30,05:33,05:45,12/22/2025
 Suquamish,Clinton,Mukilteo,05:30,05:31,05:44,12/22/2025
 Spokane,Kingston,Edmonds,05:30,05:32,05:52,12/22/2025
+Wenatchee,Colman,Bainbridge,05:30,05:31,06:03,12/22/2025
 Kittitas,Vashon,,05:25,05:25,00:00,12/22/2025
 Tacoma,Bainbridge,Colman,05:20,05:21,05:55,12/22/2025
 Suquamish,Mukilteo,Clinton,05:05,04:10,04:25,12/22/2025
