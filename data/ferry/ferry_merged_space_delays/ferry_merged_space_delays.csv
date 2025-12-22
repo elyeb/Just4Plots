@@ -1,5 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tokitae,Clinton,Mukilteo,07:00,07:02,07:16,12/22/2025,Monday,,2,
+Suquamish,Mukilteo,Clinton,07:00,07:00,07:15,12/22/2025,Monday,,0,
 Issaquah,Orcas,Shaw,06:50,06:50,07:00,12/22/2025,Monday,,0,
+Issaquah,Orcas,,06:50,06:50,00:00,12/22/2025,Monday,,0,
 Sealth,Pt. Defiance,Tahlequah,06:45,06:47,06:59,12/22/2025,Monday,,2,
 Kittitas,Fauntleroy,Vashon,06:45,06:47,07:00,12/22/2025,Monday,,2,
 Suquamish,Clinton,Mukilteo,06:30,06:31,06:48,12/22/2025,Monday,,1,
