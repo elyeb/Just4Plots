@@ -1,8 +1,19 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kittitas,Fauntleroy,Vashon,15:00,14:17,14:31,12/24/2025
+Kittitas,Southworth,Vashon,15:00,15:00,15:10,12/24/2025
+Kennewick,Keystone,Port Townsend,14:45,14:45,15:12,12/24/2025
+Salish,Pt. Defiance,Tahlequah,14:40,14:40,14:54,12/24/2025
+Tokitae,Mukilteo,Clinton,14:35,14:52,15:09,12/24/2025
+Kittitas,Vashon,Southworth,14:35,14:36,14:50,12/24/2025
+Suquamish,Clinton,Mukilteo,14:35,14:41,14:59,12/24/2025
+Puyallup,Kingston,Edmonds,14:30,14:31,14:51,12/24/2025
+Tillikum,Friday Harbor,Lopez,14:30,14:30,15:07,12/24/2025
+Kaleetan,Lopez,Friday Harbor,14:25,14:24,14:55,12/24/2025
+Spokane,Edmonds,Kingston,14:25,14:25,14:49,12/24/2025
 Salish,Tahlequah,Pt. Defiance,14:10,14:15,14:23,12/24/2025
 Tokitae,Mukilteo,Clinton,14:05,14:02,14:09,12/24/2025
 Wenatchee,Bainbridge,Colman,14:05,14:13,14:37,12/24/2025
+Tacoma,Colman,Bainbridge,14:05,14:24,14:56,12/24/2025
 Suquamish,Clinton,Mukilteo,14:00,14:02,14:07,12/24/2025
 Kennewick,Port Townsend,Keystone,14:00,14:09,14:29,12/24/2025
 Issaquah,Lopez,Anacortes,14:00,14:10,14:41,12/24/2025
