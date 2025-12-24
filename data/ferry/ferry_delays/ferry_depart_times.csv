@@ -1,7 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Wenatchee,Colman,Bainbridge,01:35,01:58,02:17,12/24/2025
 Kittitas,Vashon,,01:30,01:32,00:00,12/24/2025
 Tokitae,Mukilteo,Clinton,01:05,00:10,00:12,12/24/2025
 Suquamish,Mukilteo,Clinton,01:05,00:34,00:43,12/24/2025
+Kittitas,Fauntleroy,,01:05,02:35,00:00,12/24/2025
 Wenatchee,Bainbridge,Colman,00:55,01:00,01:01,12/24/2025
 Chimacum,Colman,Bremerton,00:50,01:46,01:48,12/24/2025
 Tokitae,Clinton,Mukilteo,00:35,00:06,00:09,12/24/2025
