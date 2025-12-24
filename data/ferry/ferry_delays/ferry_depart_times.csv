@@ -1,12 +1,25 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Salish,Tahlequah,Pt. Defiance,12:10,12:13,12:25,12/24/2025
+Suquamish,Mukilteo,Clinton,12:00,12:00,12:17,12/24/2025
+Tokitae,Clinton,Mukilteo,12:00,12:08,12:23,12/24/2025
+Kittitas,Vashon,Southworth,11:55,12:01,12:11,12/24/2025
+Puyallup,Edmonds,Kingston,11:55,11:58,12:19,12/24/2025
+Spokane,Kingston,Edmonds,11:55,12:00,12:22,12/24/2025
+Sealth,Fauntleroy,Vashon,11:50,11:54,12:09,12/24/2025
+Kaleetan,Orcas,Lopez,11:50,11:50,12:09,12/24/2025
 Salish,Pt. Defiance,Tahlequah,11:45,11:46,11:57,12/24/2025
+Kennewick,Keystone,Port Townsend,11:45,11:49,12:14,12/24/2025
 Tokitae,Mukilteo,Clinton,11:30,11:37,11:51,12/24/2025
 Suquamish,Clinton,Mukilteo,11:30,11:30,11:47,12/24/2025
 Kittitas,Fauntleroy,Vashon,11:30,11:37,11:50,12/24/2025
+Tacoma,Bainbridge,Colman,11:30,11:39,12:09,12/24/2025
+Tillikum,Friday Harbor,Orcas,11:30,11:47,12:21,12/24/2025
 Wenatchee,Colman,Bainbridge,11:25,11:27,11:56,12/24/2025
 Kittitas,Vashon,Fauntleroy,11:20,11:08,11:21,12/24/2025
 Sealth,Vashon,Fauntleroy,11:20,11:21,11:44,12/24/2025
 Salish,Tahlequah,Pt. Defiance,11:20,11:22,11:33,12/24/2025
+WallaWalla,Colman,Bremerton,11:10,11:11,12:06,12/24/2025
+Chimacum,Bremerton,Colman,11:10,11:12,12:07,12/24/2025
 Spokane,Edmonds,Kingston,11:05,11:11,11:33,12/24/2025
 Puyallup,Kingston,Edmonds,11:05,11:09,11:31,12/24/2025
 Suquamish,Mukilteo,Clinton,11:00,11:00,11:17,12/24/2025
