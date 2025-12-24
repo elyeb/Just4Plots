@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Tahlequah,Pt. Defiance,15:10,15:12,15:25,12/24/2025,Wednesday,,2,
 Kittitas,Fauntleroy,Vashon,15:00,14:17,14:31,12/24/2025,Wednesday,,-43,
 Kittitas,Southworth,Vashon,15:00,15:00,15:10,12/24/2025,Wednesday,,0,
 Kennewick,Keystone,Port Townsend,14:45,14:45,15:12,12/24/2025,Wednesday,,0,
