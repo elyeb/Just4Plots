@@ -2,6 +2,7 @@ actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,D
 Kittitas,Vashon,Fauntleroy,13:40,13:34,13:36,12/24/2025,Wednesday,,-6,
 Kittitas,Fauntleroy,Vashon,13:35,13:36,13:42,12/24/2025,Wednesday,,1,
 Issaquah,Orcas,Lopez,13:30,13:36,13:49,12/24/2025,Wednesday,,6,
+Spokane,Kingston,Edmonds,13:30,13:46,13:56,12/24/2025,Wednesday,,16,
 Kittitas,Fauntleroy,Vashon,13:15,13:28,13:33,12/24/2025,Wednesday,,13,
 Kennewick,Keystone,Port Townsend,13:15,13:16,13:42,12/24/2025,Wednesday,,1,
 Wenatchee,Colman,Bainbridge,13:10,13:15,13:49,12/24/2025,Wednesday,,5,
