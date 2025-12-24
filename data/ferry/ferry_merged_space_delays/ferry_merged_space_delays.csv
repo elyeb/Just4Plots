@@ -1,8 +1,13 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Sealth,Vashon,Southworth,07:30,07:31,07:43,12/24/2025,Wednesday,,1,
+Suquamish,Clinton,Mukilteo,07:30,07:34,07:48,12/24/2025,Wednesday,,4,
+Tokitae,Mukilteo,Clinton,07:30,07:30,07:45,12/24/2025,Wednesday,,0,
 Tillikum,Shaw,Orcas,07:20,07:20,07:29,12/24/2025,Wednesday,,0,
 Kittitas,Southworth,Vashon,07:20,07:22,07:34,12/24/2025,Wednesday,,2,
+Kennewick,Keystone,Port Townsend,07:15,07:15,07:42,12/24/2025,Wednesday,,0,
 Salish,Tahlequah,Pt. Defiance,07:10,07:11,07:23,12/24/2025,Wednesday,,1,
 Puyallup,Edmonds,Kingston,07:10,07:12,07:33,12/24/2025,Wednesday,,2,
+Kaleetan,Lopez,Friday Harbor,07:10,07:09,07:40,12/24/2025,Wednesday,,-1,
 Issaquah,Shaw,Lopez,07:05,07:05,07:24,12/24/2025,Wednesday,,0,
 Sealth,Fauntleroy,Vashon,07:05,07:06,07:21,12/24/2025,Wednesday,,1,
 Wenatchee,Bainbridge,Colman,07:05,07:07,07:37,12/24/2025,Wednesday,,2,
