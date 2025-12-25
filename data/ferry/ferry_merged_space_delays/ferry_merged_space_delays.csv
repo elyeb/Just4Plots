@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Pt. Defiance,Tahlequah,10:05,10:07,10:19,12/25/2025,Thursday,,2,
 Tillikum,Shaw,Lopez,10:00,10:00,10:18,12/25/2025,Thursday,,0,
 Tokitae,Clinton,Mukilteo,10:00,10:01,10:15,12/25/2025,Thursday,,1,
 Suquamish,Mukilteo,Clinton,10:00,10:00,10:15,12/25/2025,Thursday,,0,
