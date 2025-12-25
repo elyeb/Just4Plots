@@ -1,4 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Suquamish,Clinton,Mukilteo,00:35,00:35,00:48,12/25/2025,Thursday,,0,
+Tacoma,Colman,Bainbridge,00:15,00:17,00:48,12/25/2025,Thursday,,2,
+Suquamish,Mukilteo,Clinton,00:05,00:05,00:18,12/25/2025,Thursday,,0,
+Spokane,Edmonds,Kingston,23:45,00:05,00:25,12/24/2025,Wednesday,,20,
 Tillikum,Shaw,Orcas,15:45,15:49,15:53,12/24/2025,Wednesday,,4,
 Salish,Pt. Defiance,Tahlequah,15:40,15:47,15:53,12/24/2025,Wednesday,,7,
 Tillikum,Lopez,Shaw,15:20,15:20,15:38,12/24/2025,Wednesday,,0,
