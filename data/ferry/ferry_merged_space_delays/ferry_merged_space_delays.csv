@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Kittitas,Vashon,Fauntleroy,07:40,07:41,07:55,12/26/2025,Friday,,1,
 Salish,Pt. Defiance,Tahlequah,07:35,07:36,07:47,12/26/2025,Friday,,1,
 Sealth,Vashon,Southworth,07:30,07:31,07:43,12/26/2025,Friday,,1,
 Tokitae,Mukilteo,Clinton,07:30,07:30,07:45,12/26/2025,Friday,,0,
