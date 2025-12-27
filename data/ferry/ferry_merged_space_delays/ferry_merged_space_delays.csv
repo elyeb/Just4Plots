@@ -1,4 +1,5 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Salish,Pt. Defiance,Tahlequah,08:25,08:26,08:37,12/27/2025,Saturday,,1,
 Suquamish,Mukilteo,Clinton,08:00,08:01,08:14,12/27/2025,Saturday,,1,
 Tokitae,Clinton,Mukilteo,08:00,08:01,08:18,12/27/2025,Saturday,,1,
 Salish,Tahlequah,Pt. Defiance,08:00,08:01,08:13,12/27/2025,Saturday,,1,
@@ -12,6 +13,7 @@ Tillikum,Orcas,Friday Harbor,07:40,07:41,08:25,12/27/2025,Saturday,,1,
 Kittitas,Southworth,Vashon,07:35,07:35,07:48,12/27/2025,Saturday,,0,
 Salish,Pt. Defiance,Tahlequah,07:35,07:36,07:47,12/27/2025,Saturday,,1,
 Issaquah,Lopez,Anacortes,07:35,07:35,08:21,12/27/2025,Saturday,,0,
+Chimacum,Colman,Bremerton,07:35,07:37,08:32,12/27/2025,Saturday,,2,
 Suquamish,Clinton,Mukilteo,07:30,07:30,07:45,12/27/2025,Saturday,,0,
 Yakima,Anacortes,Orcas,07:30,07:29,08:24,12/27/2025,Saturday,,-1,
 Tillikum,Shaw,Orcas,07:20,07:21,07:29,12/27/2025,Saturday,,1,
