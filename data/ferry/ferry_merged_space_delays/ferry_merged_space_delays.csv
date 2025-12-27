@@ -1,5 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
+Tillikum,Orcas,Shaw,12:50,12:53,13:01,12/27/2025,Saturday,,3,
 Salish,Pt. Defiance,Tahlequah,12:35,12:36,12:46,12/27/2025,Saturday,,1,
+Tokitae,Mukilteo,Clinton,12:30,12:36,12:51,12/27/2025,Saturday,,6,
+Suquamish,Clinton,Mukilteo,12:30,12:37,12:51,12/27/2025,Saturday,,7,
+Tacoma,Colman,Bainbridge,12:30,12:32,13:04,12/27/2025,Saturday,12:01:57,2,-29.0
+Kittitas,Southworth,Vashon,12:20,12:41,12:51,12/27/2025,Saturday,,21,
+Wenatchee,Bainbridge,Colman,12:20,12:33,13:04,12/27/2025,Saturday,,13,
 Sealth,Vashon,Fauntleroy,12:15,12:17,12:32,12/27/2025,Saturday,,2,
 Salish,Tahlequah,Pt. Defiance,12:10,12:12,12:23,12/27/2025,Saturday,,2,
 Suquamish,Mukilteo,Clinton,12:00,12:03,12:17,12/27/2025,Saturday,,3,
