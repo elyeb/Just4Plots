@@ -1,6 +1,8 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Sealth,Fauntleroy,Vashon,14:45,14:49,15:03,12/31/2025,Wednesday,,4,
+Suquamish,Clinton,Mukilteo,14:35,14:53,15:11,12/31/2025,Wednesday,,18,
 Puyallup,Kingston,Edmonds,14:30,14:37,14:59,12/31/2025,Wednesday,,7,
+Tillikum,Friday Harbor,Lopez,14:30,14:32,15:10,12/31/2025,Wednesday,,2,
 Spokane,Edmonds,Kingston,14:25,14:25,14:47,12/31/2025,Wednesday,,0,
 Kaleetan,Lopez,Friday Harbor,14:25,14:27,14:59,12/31/2025,Wednesday,,2,
 Sealth,Vashon,Fauntleroy,14:15,14:21,14:37,12/31/2025,Wednesday,,6,
