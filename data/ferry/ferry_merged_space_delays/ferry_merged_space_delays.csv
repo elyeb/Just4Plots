@@ -1,8 +1,11 @@
 actual_vessel,Departing,Destination,scheduled_depart,actual_depart,est_arrival,Date,day_of_week,soldout_time,depart_dif,soldout_dif
 Tokitae,Clinton,Mukilteo,15:35,15:42,15:47,12/31/2025,Wednesday,,7,
+Suquamish,Mukilteo,Clinton,15:35,15:40,15:54,12/31/2025,Wednesday,,5,
+Sealth,Vashon,Fauntleroy,15:25,15:40,15:50,12/31/2025,Wednesday,,15,
 Tillikum,Lopez,Shaw,15:20,15:39,15:43,12/31/2025,Wednesday,,19,
 Puyallup,Edmonds,Kingston,15:15,15:40,15:44,12/31/2025,Wednesday,,25,
 Spokane,Kingston,Edmonds,15:10,15:22,15:33,12/31/2025,Wednesday,,12,
+Salish,Tahlequah,Pt. Defiance,15:10,15:42,15:51,12/31/2025,Wednesday,,32,
 Tacoma,Colman,Bainbridge,15:00,15:02,15:35,12/31/2025,Wednesday,,2,
 Wenatchee,Bainbridge,Colman,14:55,15:14,15:40,12/31/2025,Wednesday,,19,
 Sealth,Fauntleroy,Vashon,14:45,14:49,15:03,12/31/2025,Wednesday,,4,
