@@ -15,6 +15,14 @@ DATA_FOLDER = os.path.join(
 
 os.makedirs(os.path.dirname(DATA_FOLDER), exist_ok=True, mode=0o777)
 
+# First archive existing files that end with csv in the data folder
+for filename in os.listdir(DATA_FOLDER):
+    if filename.endswith(".csv"):
+
+        os.rename(
+            os.path.join(DATA_FOLDER, filename),
+            os.path.join(DATA_FOLDER, "ARCHIVE/", filename),
+        )
 
 ## Fetch all campaign contributions for the election year 2025
 all_results = []
@@ -76,7 +84,7 @@ for year in range(2008, 2025):
 
     # Save to CSV
     ind_exp_output_file = os.path.join(
-        DATA_FOLDER, f"pdc_ind_exp_{YEAR}_{TODAY_STR}.csv"
+        DATA_FOLDER, f"pdc_ind_exp_{year}_{TODAY_STR}.csv"
     )
     ind_exp_results_df.to_csv(ind_exp_output_file, index=False)
 
