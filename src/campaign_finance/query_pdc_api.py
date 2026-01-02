@@ -4,7 +4,7 @@ import os
 import datetime
 
 TODAY = datetime.date.today()
-TODAY_STR = TODAY.strftime('%Y-%m-%d')
+TODAY_STR = TODAY.strftime("%Y-%m-%d")
 YEAR = 2025
 
 client = Socrata("data.wa.gov", None)
@@ -27,7 +27,7 @@ while True:
         where="election_year=2025",
         order="receipt_date DESC",
         limit=limit,
-        offset=offset
+        offset=offset,
     )
     if not results:
         break
@@ -47,7 +47,8 @@ results_df.to_csv(output_file, index=False)
 
 
 ## Fetch all independent expenditures for the election year
-for year in range(2008,2025):
+all_historic = []
+for year in range(2008, 2025):
     print(f"Fetching independent expenditures for the year {year}...")
     all_results = []
     limit = 50000  # Use a smaller limit to avoid backend issues
@@ -59,7 +60,7 @@ for year in range(2008,2025):
             where=f"election_year={year}",
             order="report_date DESC",
             limit=limit,
-            offset=offset
+            offset=offset,
         )
         if not results:
             break
@@ -73,6 +74,18 @@ for year in range(2008,2025):
     ind_exp_results_df = pd.DataFrame.from_records(all_results)
     print(f"Total rows fetched: {len(ind_exp_results_df)}")
 
-# Save to CSV
-ind_exp_output_file = os.path.join(DATA_FOLDER, f"pdc_ind_exp_{YEAR}_{TODAY_STR}.csv")
-ind_exp_results_df.to_csv(ind_exp_output_file, index=False)
+    # Save to CSV
+    ind_exp_output_file = os.path.join(
+        DATA_FOLDER, f"pdc_ind_exp_{YEAR}_{TODAY_STR}.csv"
+    )
+    ind_exp_results_df.to_csv(ind_exp_output_file, index=False)
+
+    all_historic.append(ind_exp_results_df)
+
+# Combine all years into a single DataFrame
+combined_ind_exp_df = pd.concat(all_historic, ignore_index=True)
+# Save combined DataFrame to CSV
+combined_output_file = os.path.join(
+    DATA_FOLDER, f"pdc_ind_exp_all_time_{TODAY_STR}.csv"
+)
+combined_ind_exp_df.to_csv(combined_output_file, index=False)

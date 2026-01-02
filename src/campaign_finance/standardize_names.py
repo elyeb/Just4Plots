@@ -29,16 +29,21 @@ DATA_FOLDER = os.path.join(
 )
 os.listdir(DATA_FOLDER)
 
+# pdc_contributions_file = os.path.join(
+#     DATA_FOLDER, "pdc_contributions_2025_2025-11-05_name_cleaned_lat_long.csv"
+# )
 pdc_contributions_file = os.path.join(
-    DATA_FOLDER, "pdc_contributions_2025_2025-11-05_name_cleaned_lat_long.csv"
+    DATA_FOLDER, "pdc_contributions_2025_2025-11-05.csv"
 )
-ind_exp_output_file = os.path.join(
-    DATA_FOLDER, "pdc_ind_exp_2025_2025-11-05_name_cleaned.csv"
-)
-
+# ind_exp_output_file = os.path.join(
+#     DATA_FOLDER, "pdc_ind_exp_2025_2025-11-05_name_cleaned.csv"
+# )
+ind_exp_output_file = os.path.join(DATA_FOLDER, "pdc_ind_exp_2025.csv")
 contr_df = pd.read_csv(pdc_contributions_file)
 ind_df = pd.read_csv(ind_exp_output_file)
 
+len(ind_df["sponsor_name"].unique())
+len(ind_df["sponsor_id"].unique())
 
 # Trim sponsor names
 ind_df["sponsor_name"] = ind_df["sponsor_name"].str.strip()
