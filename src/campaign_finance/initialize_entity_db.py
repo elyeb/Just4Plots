@@ -301,6 +301,262 @@ conn.commit()
 
 # Initialize candidate database  ###################################################
 
+conn2 = sqlite3.connect(DATA_FOLDER + "candidate_entities.db")
+
+cur2 = conn2.cursor()
+
+cur2.executescript(
+    """
+CREATE TABLE IF NOT EXISTS candidate_entities (
+    filer_id TEXT PRIMARY KEY,
+    preferred_name_id INTEGER);
+
+CREATE TABLE IF NOT EXISTS names (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    filer_id TEXT,
+    filer_name TEXT,
+    UNIQUE(filer_id, filer_name)
+);
+                  
+CREATE TABLE IF NOT EXISTS committee_ids (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    filer_id TEXT,
+    committee_id TEXT,
+    UNIQUE(filer_id, committee_id)
+);
+
+CREATE TABLE IF NOT EXISTS fund_ids (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    filer_id TEXT,
+    fund_id TEXT,
+    UNIQUE(filer_id, fund_id)
+);
+
+CREATE TABLE IF NOT EXISTS election_contributor_source (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    filer_id TEXT,
+    type TEXT,
+    election_year INTEGER,
+    party TEXT,
+    office TEXT,
+    position TEXT,
+    jurisdiction TEXT,
+    jurisdiction_county TEXT,
+    juristiction_type TEXT,
+    legislative_district TEXT,
+    primary_general TEXT,
+    UNIQUE(filer_id, type, election_year, party, office, position, jurisdiction, jurisdiction_county, juristiction_type, legislative_district, primary_general)
+);
+
+CREATE TABLE IF NOT EXISTS election_ie_source (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    filer_id TEXT,
+    candidate_entity_id INTEGER,
+    candidate_candidacy_id INTEGER,
+    candidate_committee_id TEXT,
+    candidate_name TEXT,
+    candidate_last_name TEXT,
+    candidate_first_name TEXT,
+    candidate_office TEXT,
+    candidate_jurisdiction TEXT,
+    candidate_party TEXT,
+    UNIQUE(filer_id, candidate_entity_id, candidate_candidacy_id, candidate_committee_id, candidate_name, candidate_last_name, candidate_first_name, candidate_office, candidate_jurisdiction, candidate_party)
+);
+"""
+)
+
+conn2.commit()
+
+
+def add_candidate(filer_id):
+    cur2.execute(
+        "INSERT OR IGNORE INTO candidate_entities(filer_id) VALUES (?)", (filer_id,)
+    )
+
+
+def add_candidate_name(filer_id, candidate_name):
+    cur2.execute(
+        """
+        INSERT OR IGNORE INTO names(filer_id, filer_name)
+        VALUES (?, ?)
+    """,
+        (filer_id, candidate_name),
+    )
+
+
+def add_committee_id(filer_id, committee_id):
+    cur2.execute(
+        """
+        INSERT OR IGNORE INTO committee_ids(filer_id, committee_id)
+        VALUES (?, ?)
+    """,
+        (filer_id, committee_id),
+    )
+
+
+def add_fund_id(filer_id, fund_id):
+    cur2.execute(
+        """
+        INSERT OR IGNORE INTO fund_ids(filer_id, fund_id)
+        VALUES (?, ?)
+    """,
+        (filer_id, fund_id),
+    )
+
+
+def add_election_contributor_source(
+    filer_id,
+    type,
+    election_year,
+    party,
+    office,
+    position,
+    jurisdiction,
+    jurisdiction_county,
+    juristiction_type,
+    legislative_district,
+    primary_general,
+):
+    cur2.execute(
+        """
+        INSERT OR IGNORE INTO election_contributor_source(
+            filer_id, type, election_year, party, office, position, jurisdiction, jurisdiction_county, juristiction_type, legislative_district, primary_general
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """,
+        (
+            filer_id,
+            type,
+            election_year,
+            party,
+            office,
+            position,
+            jurisdiction,
+            jurisdiction_county,
+            juristiction_type,
+            legislative_district,
+            primary_general,
+        ),
+    )
+
+
+def add_election_ie_source(
+    filer_id,
+    candidate_entity_id,
+    candidate_candidacy_id,
+    candidate_committee_id,
+    candidate_name,
+    candidate_last_name,
+    candidate_first_name,
+    candidate_office,
+    candidate_jurisdiction,
+    candidate_party,
+):
+    cur2.execute(
+        """
+        INSERT OR IGNORE INTO election_ie_source(
+            filer_id, candidate_entity_id, candidate_candidacy_id, candidate_committee_id, candidate_name, candidate_last_name, candidate_first_name, candidate_office, candidate_jurisdiction, candidate_party
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """,
+        (
+            filer_id,
+            candidate_entity_id,
+            candidate_candidacy_id,
+            candidate_committee_id,
+            candidate_name,
+            candidate_last_name,
+            candidate_first_name,
+            candidate_office,
+            candidate_jurisdiction,
+            candidate_party,
+        ),
+    )
+
+
+def set_preferred_candidate_name(filer_id, filer_name):
+    cur2.execute(
+        """
+        SELECT id FROM names
+        WHERE filer_id = ? AND filer_name = ?
+    """,
+        (filer_id, filer_name),
+    )
+    name_id = cur2.fetchone()[0]
+
+    cur2.execute(
+        """
+        UPDATE candidate_entities
+        SET preferred_name_id = ?
+        WHERE filer_id = ?
+    """,
+        (name_id, filer_id),
+    )
+
+
+def get_candidate(filer_id):
+    cur2.execute(
+        """
+        SELECT n.filer_name, a.cleaned_full_address
+        FROM candidate_entities e
+        LEFT JOIN names n ON e.preferred_name_id = n.id
+        LEFT JOIN cleaned_full_addresses a ON e.preferred_address_id = a.id
+        WHERE e.filer_id = ?
+    """,
+        (filer_id,),
+    )
+    return cur2.fetchone()
+
+
+conn2.execute("BEGIN")
+for index, row in contr_df.iterrows():
+    filer_id = row["filer_id"]
+    filer_name = row["filer_name"]
+
+    add_candidate(filer_id)
+    add_candidate_name(filer_id, filer_name)
+
+    add_election_contributor_source(
+        filer_id,
+        row["type"],
+        row["election_year"],
+        row["party"],
+        row["office"],
+        row["position"],
+        row["jurisdiction"],
+        row["jurisdiction_county"],
+        row["jurisdiction_type"],
+        row["legislative_district"],
+        row["primary_general"],
+    )
+
+    # Optionally set preferred name and address
+    set_preferred_candidate_name(filer_id, filer_name)
+
+conn2.commit()
+
+
+conn2.execute("BEGIN")
+for index, row in ie_df.iterrows():
+    filer_id = row["candidate_filer_id"]
+
+    add_candidate(filer_id)
+
+    add_election_ie_source(
+        filer_id,
+        row["candidate_candidacy_id"],
+        row["candidate_candidacy_id"],
+        row["candidate_committee_id"],
+        row["candidate_name"],
+        row["candidate_last_name"],
+        row["candidate_first_name"],
+        row["candidate_office"],
+        row["candidate_jurisdiction"],
+        row["candidate_party"],
+    )
+
+conn2.commit()
+
 ####################################################################################
 
 # Initialize contributor database  #################################################
@@ -332,5 +588,12 @@ df[df["sponsor_name"].duplicated(keep=False)].sort_values("sponsor_name")
 
 # find duplicate IDs
 df[df["sponsor_id"].duplicated(keep=False)].sort_values("sponsor_id")
+
+# find candidate ID
+c_ids = contr_df[
+    ["committee_id", "fund_id", "filer_id", "election_year"]
+].drop_duplicates()
+c_ids[c_ids["filer_id"].duplicated(keep=False)]
+
 
 ####################################################################################
