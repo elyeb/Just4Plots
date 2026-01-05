@@ -617,7 +617,6 @@ contributor_employer_city
 contributor_employer_state
 """
 
-
 conn3 = sqlite3.connect(DATA_FOLDER + "contributor_entities.db")
 
 cur3 = conn3.cursor()
@@ -658,8 +657,8 @@ CREATE TABLE IF NOT EXISTS contributor_addresses (
     UNIQUE(
         contributor_id,
         cleaned_full_address,
-        latitude,
-        longitude
+        Latitude,
+        Longitude
     )
 );
 
@@ -682,6 +681,24 @@ CREATE TABLE IF NOT EXISTS contributor_occupations (
     )
 );
 
+-- =========================
+-- Indexes (Suggestion #1)
+-- =========================
+
+CREATE INDEX IF NOT EXISTS idx_contributor_names_name
+    ON contributor_names(contributor_name);
+
+CREATE INDEX IF NOT EXISTS idx_contributor_names_contributor
+    ON contributor_names(contributor_id);
+
+CREATE INDEX IF NOT EXISTS idx_contributor_addresses_cleaned
+    ON contributor_addresses(cleaned_full_address);
+
+CREATE INDEX IF NOT EXISTS idx_contributor_addresses_latlon
+    ON contributor_addresses(Latitude, Longitude);
+
+CREATE INDEX IF NOT EXISTS idx_contributor_addresses_contributor
+    ON contributor_addresses(contributor_id);
 """
 )
 
@@ -694,6 +711,9 @@ def normalize(s):
     return s
 
 
+# =========================
+# Faster lookup (Suggestion #3)
+# =========================
 def find_existing_contributor(row):
     name = normalize(row["contributor_name"])
     addr = normalize(row["cleaned_full_address"])
@@ -702,15 +722,17 @@ def find_existing_contributor(row):
 
     cur3.execute(
         """
-        SELECT DISTINCT c.contributor_id
-        FROM contributor_entities c
-        JOIN contributor_names n ON c.contributor_id = n.contributor_id
-        JOIN contributor_addresses a ON c.contributor_id = a.contributor_id
-        WHERE
-            n.contributor_name = ?
-        AND (
-            a.cleaned_full_address = ?
-            OR (a.latitude = ? AND a.longitude = ?)
+        SELECT n.contributor_id
+        FROM contributor_names n
+        WHERE n.contributor_name = ?
+        AND EXISTS (
+            SELECT 1
+            FROM contributor_addresses a
+            WHERE a.contributor_id = n.contributor_id
+              AND (
+                    a.cleaned_full_address = ?
+                 OR (a.Latitude = ? AND a.Longitude = ?)
+              )
         )
         LIMIT 1
     """,
@@ -748,8 +770,8 @@ def add_contributor_address(contributor_id, row):
             contributor_zip,
             cleaned_full_address,
             matched_address,
-            latitude,
-            longitude,
+            Latitude,
+            Longitude,
             contributor_latitude_given,
             contributor_longitude_given
         )
@@ -798,7 +820,9 @@ def add_contributor_occupation(contributor_id, row):
 
 conn3.execute("BEGIN")
 
-for _, row in contr_df.iterrows():
+for i in tqdm(range(len(contr_df))):
+    row = contr_df.iloc[i]
+
     contributor_id = find_existing_contributor(row)
 
     if contributor_id is None:
@@ -809,6 +833,7 @@ for _, row in contr_df.iterrows():
     add_contributor_occupation(contributor_id, row)
 
 conn3.commit()
+
 
 ####################################################################################
 
@@ -843,6 +868,30 @@ c_ids = contr_df[
     ["committee_id", "fund_id", "filer_id", "election_year"]
 ].drop_duplicates()
 c_ids[c_ids["filer_id"].duplicated(keep=False)]
+
+# load contributors
+df2 = pd.read_sql_query(
+    """
+    SELECT
+        c.contributor_id,
+        n.contributor_name,
+        a.cleaned_full_address,
+        o.contributor_occupation
+    FROM contributor_entities c
+    JOIN contributor_names n
+        ON c.contributor_id = n.contributor_id
+    JOIN contributor_addresses a
+        ON c.contributor_id = a.contributor_id
+    JOIN contributor_occupations o
+        ON c.contributor_id = o.contributor_id
+    ORDER BY c.contributor_id
+""",
+    conn3,
+)
+# examine duplicates
+df2_dups = df2[df2["contributor_name"].duplicated(keep=False)].sort_values(
+    "contributor_name"
+)
 
 
 ####################################################################################
