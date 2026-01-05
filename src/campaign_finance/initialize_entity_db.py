@@ -739,7 +739,7 @@ def add_contributor_name(contributor_id, name):
 def add_contributor_address(contributor_id, row):
     cur3.execute(
         """
-        INSERT OR IGNORE INTO contributor_addresses (
+        INSERT OR IGNORE INTO contributor_addresses(
             contributor_id,
             contributor_address,
             cleaned_address,
@@ -751,7 +751,7 @@ def add_contributor_address(contributor_id, row):
             latitude,
             longitude,
             contributor_latitude_given,
-            contributor_longitude_given,
+            contributor_longitude_given
         )
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """,
