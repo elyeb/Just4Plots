@@ -57750,11 +57750,17 @@ Kittitas,Southworth,Fauntleroy,00:35,00:35,00:53,04/25/2025
 Kittitas,Vashon,Southworth,00:15,00:16,00:26,04/25/2025
 Kaleetan,Colman,Bainbridge,00:15,00:16,00:46,04/25/2025
 Tokitae,Mukilteo,Clinton,00:05,00:07,00:21,04/25/2025
+Kitsap,Mukilteo,Clinton,11:00,11:02,11:17,01/05/2026
+Kaleetan,Lopez,Orcas,11:00,10:59,11:18,01/05/2026
+Tokitae,Clinton,Mukilteo,11:00,11:04,11:18,01/05/2026
 Salish,Pt. Defiance,Tahlequah,10:55,10:56,11:08,01/05/2026
+Sealth,Fauntleroy,Southworth,10:45,10:56,11:14,01/05/2026
 Wenatchee,Colman,Bainbridge,10:40,10:41,11:12,01/05/2026
+Wenatchee,Colman,,10:40,10:41,00:00,01/05/2026
 Salish,Tahlequah,Pt. Defiance,10:30,10:30,10:42,01/05/2026
 Tokitae,Mukilteo,Clinton,10:30,10:35,10:49,01/05/2026
 Kitsap,Clinton,Mukilteo,10:30,10:36,10:50,01/05/2026
+Tillikum,Lopez,Friday Harbor,10:30,10:30,11:13,01/05/2026
 Spokane,Edmonds,Kingston,10:20,10:21,10:43,01/05/2026
 Sealth,Vashon,Fauntleroy,10:20,10:21,10:37,01/05/2026
 Puyallup,Kingston,Edmonds,10:20,10:21,10:42,01/05/2026
@@ -57766,6 +57772,7 @@ Sealth,Southworth,Vashon,10:00,10:01,10:12,01/05/2026
 Kitsap,Mukilteo,Clinton,10:00,10:06,10:22,01/05/2026
 Tokitae,Clinton,Mukilteo,10:00,10:09,10:22,01/05/2026
 Chimacum,Colman,Bremerton,10:00,10:01,11:01,01/05/2026
+Chimacum,Colman,,10:00,10:01,00:00,01/05/2026
 Tillikum,Orcas,Shaw,09:45,09:46,09:54,01/05/2026
 Salish,Tahlequah,Pt. Defiance,09:40,09:41,09:52,01/05/2026
 Wenatchee,Bainbridge,,09:40,09:42,00:00,01/05/2026
