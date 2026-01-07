@@ -704,6 +704,29 @@ CREATE INDEX IF NOT EXISTS idx_contributor_addresses_contributor
 
 conn3.commit()
 
+cur3.execute(
+    """
+CREATE TABLE IF NOT EXISTS contributor_aliases (
+    contributor_id INTEGER PRIMARY KEY,
+    canonical_id INTEGER
+);
+"""
+)
+conn3.commit()
+
+cur3.execute(
+    """
+CREATE VIEW canonical_contributors AS
+SELECT
+    c.contributor_id,
+    COALESCE(a.canonical_id, c.contributor_id) AS canonical_id
+FROM contributor_entities c
+LEFT JOIN contributor_aliases a
+  ON c.contributor_id = a.contributor_id;
+"""
+)
+conn3.commit()
+
 
 def normalize(s):
     if s is not np.nan:
@@ -711,36 +734,56 @@ def normalize(s):
     return s
 
 
-# =========================
-# Faster lookup (Suggestion #3)
-# =========================
 def find_existing_contributor(row):
+    # Normalize values
     name = normalize(row["contributor_name"])
     addr = normalize(row["cleaned_full_address"])
     lat = row["Latitude"]
     lon = row["Longitude"]
 
+    # If any key field is missing, return None immediately
+    if not name or not addr or pd.isna(lat) or pd.isna(lon):
+        return None
+
+    # Try exact name + (address OR coordinates)
     cur3.execute(
         """
-        SELECT n.contributor_id
+        SELECT cc.canonical_id
         FROM contributor_names n
+        JOIN contributor_addresses a
+          ON n.contributor_id = a.contributor_id
+        JOIN canonical_contributors cc
+          ON n.contributor_id = cc.contributor_id
         WHERE n.contributor_name = ?
-        AND EXISTS (
-            SELECT 1
-            FROM contributor_addresses a
-            WHERE a.contributor_id = n.contributor_id
-              AND (
-                    a.cleaned_full_address = ?
-                 OR (a.Latitude = ? AND a.Longitude = ?)
-              )
-        )
+          AND (a.cleaned_full_address = ? OR (a.Latitude = ? AND a.Longitude = ?))
         LIMIT 1
-    """,
+        """,
         (name, addr, lat, lon),
     )
 
     r = cur3.fetchone()
-    return r[0] if r else None
+    if r:
+        return r[0]
+
+    # Fallback: match by coordinates alone
+    cur3.execute(
+        """
+        SELECT cc.canonical_id
+        FROM contributor_addresses a
+        JOIN canonical_contributors cc
+          ON a.contributor_id = cc.contributor_id
+        WHERE a.Latitude = ? AND a.Longitude = ?
+        LIMIT 1
+        """,
+        (lat, lon),
+    )
+
+    r = cur3.fetchone()
+    if r:
+        return r[0]
+
+    # No match found
+    return None
 
 
 def create_contributor():
@@ -893,5 +936,62 @@ df2_dups = df2[df2["contributor_name"].duplicated(keep=False)].sort_values(
     "contributor_name"
 )
 
+df3 = pd.read_sql_query(
+    """
+    SELECT *
+    FROM contributor_entities c
+    JOIN contributor_names n
+        ON c.contributor_id = n.contributor_id
+    JOIN contributor_addresses a
+        ON c.contributor_id = a.contributor_id
+    JOIN contributor_occupations o
+        ON c.contributor_id = o.contributor_id
+    ORDER BY c.contributor_id
+""",
+    conn3,
+)
 
+
+# deduplicate
+# 1️⃣ Deduplicate contributor_names
+cur3.execute(
+    """
+DELETE FROM contributor_names
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM contributor_names
+    GROUP BY contributor_id, contributor_name
+)
+"""
+)
+
+# 2️⃣ Deduplicate contributor_addresses
+cur3.execute(
+    """
+DELETE FROM contributor_addresses
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM contributor_addresses
+    GROUP BY contributor_id, cleaned_full_address, Latitude, Longitude
+)
+"""
+)
+
+# 3️⃣ Deduplicate contributor_occupations
+cur3.execute(
+    """
+DELETE FROM contributor_occupations
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM contributor_occupations
+    GROUP BY contributor_id, contributor_occupation, contributor_employer_name, contributor_employer_city, contributor_employer_state
+)
+"""
+)
+
+conn3.commit()
+
+# 4️⃣ Reclaim database space
+cur3.execute("VACUUM")
+conn3.commit()
 ####################################################################################
