@@ -57755,12 +57755,15 @@ Tillikum,Orcas,Shaw,12:50,12:50,13:00,01/07/2026
 Spokane,Kingston,Edmonds,12:45,12:46,13:08,01/07/2026
 Puyallup,Edmonds,Kingston,12:40,12:45,13:06,01/07/2026
 Kittitas,Vashon,Fauntleroy,12:40,12:49,13:02,01/07/2026
+Kittitas,Vashon,,12:40,12:49,00:00,01/07/2026
 Kennewick,Port Townsend,Keystone,12:30,12:30,12:56,01/07/2026
 Sealth,Clinton,Mukilteo,12:30,12:34,12:54,01/07/2026
 Tokitae,Mukilteo,Clinton,12:30,12:45,12:59,01/07/2026
+Kitsap,Colman,Bainbridge,12:25,12:38,13:10,01/07/2026
 Wenatchee,Bainbridge,Colman,12:20,12:21,12:52,01/07/2026
 Kaleetan,Lopez,Anacortes,12:20,12:20,13:02,01/07/2026
 Kittitas,Southworth,Vashon,12:15,12:22,12:35,01/07/2026
+Kittitas,Southworth,,12:15,12:22,00:00,01/07/2026
 Sealth,Mukilteo,Clinton,12:00,12:02,12:19,01/07/2026
 Tokitae,Clinton,Mukilteo,12:00,12:10,12:24,01/07/2026
 Spokane,Edmonds,Kingston,11:55,11:57,12:19,01/07/2026
@@ -57790,10 +57793,12 @@ Tillikum,Lopez,Friday Harbor,10:30,10:30,11:13,01/07/2026
 Yakima,Anacortes,Friday Harbor,10:30,10:30,11:40,01/07/2026
 Kittitas,Fauntleroy,Vashon,10:25,09:53,10:01,01/07/2026
 Wenatchee,Bainbridge,Colman,10:25,10:25,10:57,01/07/2026
+Kittitas,Fauntleroy,,10:25,09:53,00:00,01/07/2026
 Kittitas,Vashon,Fauntleroy,10:20,10:15,10:29,01/07/2026
 Puyallup,Kingston,Edmonds,10:20,10:21,10:42,01/07/2026
 Spokane,Edmonds,Kingston,10:20,10:21,10:43,01/07/2026
 Issaquah,Friday Harbor,Anacortes,10:20,10:20,11:27,01/07/2026
+Kittitas,Vashon,,10:20,10:15,00:00,01/07/2026
 Kennewick,Keystone,Port Townsend,10:15,10:16,10:44,01/07/2026
 Kaleetan,Anacortes,Lopez,10:05,10:11,10:52,01/07/2026
 Tillikum,Shaw,Lopez,10:00,10:04,10:20,01/07/2026
@@ -57828,9 +57833,11 @@ Issaquah,Anacortes,Friday Harbor,08:40,08:52,10:00,01/07/2026
 Tokitae,Mukilteo,Clinton,08:30,08:42,08:56,01/07/2026
 Kittitas,Southworth,Vashon,08:30,08:43,08:55,01/07/2026
 Sealth,Clinton,Mukilteo,08:30,08:33,08:52,01/07/2026
+Kittitas,Southworth,,08:30,08:43,00:00,01/07/2026
 Salish,Pt. Defiance,Tahlequah,08:25,08:35,08:45,01/07/2026
 Kaleetan,Friday Harbor,Lopez,08:10,08:26,09:07,01/07/2026
 Kittitas,Vashon,Southworth,08:05,08:13,08:25,01/07/2026
+Kittitas,Vashon,,08:05,08:13,00:00,01/07/2026
 Salish,Tahlequah,Pt. Defiance,08:00,08:03,08:15,01/07/2026
 Sealth,Mukilteo,Clinton,08:00,08:03,08:19,01/07/2026
 Tokitae,Clinton,Mukilteo,08:00,08:02,08:16,01/07/2026
@@ -57849,6 +57856,7 @@ Yakima,Anacortes,Orcas,07:30,07:31,08:23,01/07/2026
 Tillikum,Shaw,Orcas,07:20,07:28,07:37,01/07/2026
 Kittitas,Vashon,Fauntleroy,07:15,07:18,07:42,01/07/2026
 Kennewick,Keystone,Port Townsend,07:15,07:16,07:43,01/07/2026
+Kittitas,Vashon,,07:15,07:18,00:00,01/07/2026
 Salish,Tahlequah,Pt. Defiance,07:10,07:13,07:26,01/07/2026
 Spokane,Edmonds,Kingston,07:10,07:11,07:34,01/07/2026
 Kaleetan,Lopez,Friday Harbor,07:10,07:18,07:49,01/07/2026
@@ -57862,6 +57870,7 @@ Issaquah,Orcas,Shaw,06:50,07:01,07:12,01/07/2026
 Tillikum,Lopez,Shaw,06:50,06:57,07:23,01/07/2026
 Salish,Pt. Defiance,Tahlequah,06:45,06:46,06:58,01/07/2026
 Kittitas,Fauntleroy,Vashon,06:45,06:46,07:02,01/07/2026
+Kittitas,Fauntleroy,,06:45,06:46,00:00,01/07/2026
 Tokitae,Mukilteo,Clinton,06:30,06:30,06:45,01/07/2026
 Sealth,Clinton,Mukilteo,06:30,06:31,06:46,01/07/2026
 Kennewick,Port Townsend,Keystone,06:30,06:30,06:58,01/07/2026
@@ -57873,6 +57882,7 @@ Chimacum,Bremerton,,06:20,06:25,00:00,01/07/2026
 Puyallup,Edmonds,Kingston,06:15,06:17,06:39,01/07/2026
 Kittitas,Vashon,Fauntleroy,06:15,06:15,06:28,01/07/2026
 Kaleetan,Anacortes,Lopez,06:15,06:16,07:06,01/07/2026
+Kittitas,Vashon,,06:15,06:15,00:00,01/07/2026
 Wenatchee,Colman,Bainbridge,06:10,06:11,06:46,01/07/2026
 Tillikum,Friday Harbor,Lopez,06:05,06:09,06:50,01/07/2026
 Sealth,Mukilteo,Clinton,06:00,06:02,06:17,01/07/2026
