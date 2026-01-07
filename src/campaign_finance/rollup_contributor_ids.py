@@ -12,6 +12,7 @@ VALUES (822, 41);
 import pandas as pd
 import sqlite3
 import os
+from tqdm import tqdm
 
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/lobbying/intermediate_processing/"
@@ -62,7 +63,57 @@ m1 = variants[
 m1 = m1.sort_values(by=["contributor_name", "latlong", "contributor_id"])
 m1["contributor_name"].nunique()
 
-# test rollup
+
+# test rollup - assuming all of the above are matches
+cur = conn.cursor()
+names = m1["contributor_name"].unique()
+for name in tqdm(names):
+    subset = m1[m1["contributor_name"] == name]
+
+    canonical_id = subset.iloc[0]["contributor_id"]
+    other_ids = subset.iloc[1:]["contributor_id"]
+
+    for other_id in other_ids:
+        cur.execute(
+            """
+            INSERT OR REPLACE INTO contributor_aliases(contributor_id, canonical_id)
+            VALUES (?, ?)
+            """,
+            (int(other_id), int(canonical_id)),
+        )
+        conn.commit()
+
+    preferred_address = subset["cleaned_full_address"].dropna()
+    if len(preferred_address) > 0:
+        preferred_address = preferred_address.iloc[0]
+
+        # Update the canonical contributor to point to that preferred address
+        # We need the id from contributor_addresses
+        cur.execute(
+            """
+            SELECT id
+            FROM contributor_addresses
+            WHERE contributor_id = ?
+            AND cleaned_full_address = ?
+            """,
+            (int(canonical_id), preferred_address),
+        )
+        addr_id = cur.fetchone()[0]
+
+        # Update contributor_entities.preferred_address_id
+        cur.execute(
+            """
+            UPDATE contributor_entities
+            SET preferred_address_id = ?
+            WHERE contributor_id = ?
+            """,
+            (int(addr_id), int(canonical_id)),
+        )
+        conn.commit()
+
+
+## TEST
+
 # Pick the first two rows in m1 to roll up
 rows_to_merge = m1.iloc[:2]
 
@@ -74,7 +125,7 @@ other_id = rows_to_merge.iloc[1]["contributor_id"]
 print(f"Rolling up {other_id} into {canonical_id}")
 
 # 1️⃣ Add to contributor_aliases
-cur = conn.cursor()
+
 cur.execute(
     """
     INSERT OR REPLACE INTO contributor_aliases(contributor_id, canonical_id)
