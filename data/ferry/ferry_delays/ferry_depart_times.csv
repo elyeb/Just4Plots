@@ -57750,10 +57750,17 @@ Kittitas,Southworth,Fauntleroy,00:35,00:35,00:53,04/25/2025
 Kittitas,Vashon,Southworth,00:15,00:16,00:26,04/25/2025
 Kaleetan,Colman,Bainbridge,00:15,00:16,00:46,04/25/2025
 Tokitae,Mukilteo,Clinton,00:05,00:07,00:21,04/25/2025
+Kitsap,Clinton,Mukilteo,07:30,07:31,07:46,01/20/2026
+Sealth,Vashon,Southworth,07:30,07:31,07:45,01/20/2026
+Tokitae,Mukilteo,Clinton,07:30,07:30,07:45,01/20/2026
 Tillikum,Shaw,Orcas,07:20,07:26,07:34,01/20/2026
 Kittitas,Southworth,Vashon,07:20,07:21,07:32,01/20/2026
+Kennewick,Keystone,Port Townsend,07:15,07:16,07:43,01/20/2026
+Spokane,Edmonds,Kingston,07:10,07:12,07:35,01/20/2026
 Issaquah,Shaw,Lopez,07:05,07:06,07:25,01/20/2026
 Sealth,Fauntleroy,Vashon,07:05,07:06,07:20,01/20/2026
+Tacoma,Bainbridge,Colman,07:05,07:07,07:40,01/20/2026
+Wenatchee,Colman,Bainbridge,07:05,07:07,07:38,01/20/2026
 Tokitae,Clinton,Mukilteo,07:00,07:01,07:16,01/20/2026
 Kitsap,Mukilteo,Clinton,07:00,07:00,07:15,01/20/2026
 Puyallup,Kingston,Edmonds,07:00,07:03,07:24,01/20/2026
@@ -57768,6 +57775,7 @@ Spokane,Kingston,Edmonds,06:25,06:27,06:48,01/20/2026
 Yakima,Lopez,Anacortes,06:25,06:25,07:09,01/20/2026
 Wenatchee,Bainbridge,Colman,06:20,06:21,06:52,01/20/2026
 Chimacum,Bremerton,Colman,06:20,06:27,07:24,01/20/2026
+Chimacum,Bremerton,,06:20,06:27,00:00,01/20/2026
 Puyallup,Edmonds,Kingston,06:15,06:18,06:39,01/20/2026
 Kaleetan,Anacortes,Lopez,06:15,06:18,07:08,01/20/2026
 Sealth,Fauntleroy,Vashon,06:10,06:11,06:24,01/20/2026
