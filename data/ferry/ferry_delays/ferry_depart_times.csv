@@ -57751,6 +57751,8 @@ Kittitas,Vashon,Southworth,00:15,00:16,00:26,04/25/2025
 Kaleetan,Colman,Bainbridge,00:15,00:16,00:46,04/25/2025
 Tokitae,Mukilteo,Clinton,00:05,00:07,00:21,04/25/2025
 Tillikum,Shaw,Orcas,07:20,07:20,07:28,01/24/2026
+Kittitas,Southworth,Vashon,07:20,07:21,07:33,01/24/2026
+Spokane,Edmonds,Kingston,07:10,07:11,07:33,01/24/2026
 Issaquah,Shaw,Lopez,07:05,07:05,07:23,01/24/2026
 Kitsap,Mukilteo,Clinton,07:00,07:00,07:14,01/24/2026
 Puyallup,Kingston,Edmonds,07:00,07:02,07:24,01/24/2026
@@ -57762,6 +57764,7 @@ Kennewick,Port Townsend,Keystone,06:30,06:38,07:04,01/24/2026
 Spokane,Kingston,Edmonds,06:25,06:26,06:48,01/24/2026
 Yakima,Lopez,Anacortes,06:25,06:25,07:10,01/24/2026
 Chimacum,Bremerton,Colman,06:20,06:23,07:23,01/24/2026
+Chimacum,Bremerton,,06:20,06:23,00:00,01/24/2026
 Kittitas,Vashon,,06:15,06:16,00:00,01/24/2026
 Kaleetan,Anacortes,Lopez,06:15,06:15,07:02,01/24/2026
 Sealth,Colman,Bainbridge,06:10,06:16,06:52,01/24/2026
