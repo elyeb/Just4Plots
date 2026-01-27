@@ -57750,6 +57750,14 @@ Kittitas,Southworth,Fauntleroy,00:35,00:35,00:53,04/25/2025
 Kittitas,Vashon,Southworth,00:15,00:16,00:26,04/25/2025
 Kaleetan,Colman,Bainbridge,00:15,00:16,00:46,04/25/2025
 Tokitae,Mukilteo,Clinton,00:05,00:07,00:21,04/25/2025
+Tokitae,Clinton,Mukilteo,09:00,09:01,09:17,01/27/2026
+Yakima,Orcas,Shaw,08:55,08:58,09:08,01/27/2026
+Kittitas,Southworth,Vashon,08:55,08:58,09:10,01/27/2026
+Spokane,Edmonds,Kingston,08:50,08:52,09:14,01/27/2026
+Kennewick,Keystone,Port Townsend,08:45,08:45,09:11,01/27/2026
+Sealth,Fauntleroy,Southworth,08:45,08:45,09:05,01/27/2026
+Wenatchee,Bainbridge,Colman,08:45,08:46,09:17,01/27/2026
+Puyallup,Kingston,Edmonds,08:40,08:41,09:03,01/27/2026
 Kitsap,Clinton,Mukilteo,08:30,08:30,08:44,01/27/2026
 Tokitae,Mukilteo,Clinton,08:30,08:30,08:45,01/27/2026
 Kittitas,Vashon,Southworth,08:30,08:35,08:46,01/27/2026
@@ -57765,6 +57773,7 @@ Tacoma,Bainbridge,Colman,07:55,08:00,08:34,01/27/2026
 Wenatchee,Colman,Bainbridge,07:55,07:56,08:26,01/27/2026
 Kittitas,Vashon,Fauntleroy,07:40,07:48,08:00,01/27/2026
 Kaleetan,Orcas,Friday Harbor,07:40,07:50,08:30,01/27/2026
+Kaleetan,Orcas,,07:40,07:50,00:00,01/27/2026
 Issaquah,Lopez,Anacortes,07:35,07:34,08:17,01/27/2026
 Chimacum,Colman,,07:35,07:43,00:00,01/27/2026
 Sealth,Vashon,Southworth,07:30,07:31,07:47,01/27/2026
@@ -57773,6 +57782,7 @@ Kitsap,Clinton,Mukilteo,07:30,07:30,07:46,01/27/2026
 Yakima,Anacortes,Orcas,07:30,07:43,08:37,01/27/2026
 Kaleetan,Shaw,Orcas,07:20,07:31,07:41,01/27/2026
 Kittitas,Southworth,Vashon,07:20,07:22,07:34,01/27/2026
+Kaleetan,Shaw,,07:20,07:31,00:00,01/27/2026
 Kennewick,Keystone,Port Townsend,07:15,07:15,07:42,01/27/2026
 Spokane,Edmonds,Kingston,07:10,07:11,07:33,01/27/2026
 Issaquah,Shaw,Lopez,07:05,07:06,07:23,01/27/2026
@@ -57784,6 +57794,7 @@ Tokitae,Clinton,Mukilteo,07:00,07:01,07:17,01/27/2026
 Puyallup,Kingston,Edmonds,07:00,07:02,07:22,01/27/2026
 Issaquah,Orcas,Shaw,06:50,06:50,07:00,01/27/2026
 Kaleetan,Lopez,Shaw,06:50,07:13,07:28,01/27/2026
+Kaleetan,Lopez,,06:50,07:13,00:00,01/27/2026
 Kittitas,Fauntleroy,Southworth,06:40,06:41,07:01,01/27/2026
 Sealth,Vashon,Fauntleroy,06:35,06:36,06:50,01/27/2026
 Tokitae,Mukilteo,Clinton,06:30,06:31,06:46,01/27/2026
