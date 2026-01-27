@@ -1,4 +1,18 @@
-# Layman's Research Projects
+# Layman's Research Projects  
+
+### **Date added** Jan 26, 2026 <br>
+**Posting some results from work projects as they become publicly available**  
+"Societal Costs of Dementia: 204 Countries, 2000–2019" research project led by Amy Lastuka.
+- Paper link (figures at end of paper): https://pmc.ncbi.nlm.nih.gov/articles/PMC11380273/
+- Code contribution links:
+    - [Data prep code for cost component](https://github.com/ihmeuw/Resource_Tracking_Domestic_Health_Accounts/tree/main/Societal%20Costs%20of%20Dementia%202024/0_data_prep/cost)
+    - [Income model prep](https://github.com/ihmeuw/Resource_Tracking_Domestic_Health_Accounts/tree/main/Societal%20Costs%20of%20Dementia%202024/1_stage1_model/income_model)
+    - [Forecasting scripts](https://github.com/ihmeuw/Resource_Tracking_Domestic_Health_Accounts/tree/main/Societal%20Costs%20of%20Dementia%202024/5_scenarios)
+  
+Goalkeepers Reports: 
+- [2025 link](https://www.gatesfoundation.org/goalkeepers/report/2025-report/#WipingDiseasesOfftheMap)
+- [2024 link](https://www.gatesfoundation.org/goalkeepers/report/2024-report/)
+
 
 ### **Date added** Aug 8, 2025 <br>
 **PAC spending vs net wins**  
@@ -8,7 +22,7 @@ Trying to answer the question: which Independent Expenditure groups came out ahe
 - Data from: https://results.vote.wa.gov/results/20250805/export.html
 
 ### **Date added** Jul 31, 2025 <br>
-**More on campaing contriubtions and PAC spending in local races**  
+**More on campaign contriubtions and PAC spending in local races**  
 Making bar charts to distinguish between candidates on the 2025 Seattle ballot (mainly only for candidates having raised over a few thousand dollars). For each race, try to answer: 
 - which PACs are spending money for and against the candidates?
 - who receives most from real estate (from employer/occupation info)?
