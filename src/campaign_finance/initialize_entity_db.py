@@ -18,6 +18,7 @@ import pandas as pd
 import sqlite3
 import os
 from tqdm import tqdm
+import numpy as np
 
 # load downloaded data sets
 DATA_FOLDER = os.path.join(
@@ -559,7 +560,323 @@ conn2.commit()
 
 ####################################################################################
 
+
+import pandas as pd
+import sqlite3
+import os
+from tqdm import tqdm
+import numpy as np
+
+# load downloaded data sets
+DATA_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../../data/lobbying/intermediate_processing/"
+)
+os.listdir(DATA_FOLDER)
+ie_df = pd.read_csv(
+    os.path.join(DATA_FOLDER, "pdc_ind_exp_all_time_2026-01-02_cleaned_lat_long.csv")
+)
+contr_df = pd.read_csv(
+    os.path.join(DATA_FOLDER, "pdc_contributions_2025_2026-01-02_cleaned_lat_long.csv")
+)
+
+unique_ids = ie_df["sponsor_id"].nunique()
+unique_names = ie_df["sponsor_name"].nunique()
+print(f"IE Unique IDs: {unique_ids}, Unique Names: {unique_names}")
+
 # Initialize contributor database  #################################################
+"""
+Now I am looking to make a similar database for contributors, who have names, addresses and occupations, sometimes inconsistently-entered in the raw data. I have the following algorithm in mind for creating a data base for contributors:
+1. Each new unique entry from the raw data gets it's own unique indentifying number.
+2. A sub-algorithm (to be written later) shows likely duplicates based on fuzzy matches of names, addresses (especially if their coordinates are found), and occupation. Let's not work on this right away, but ideally it will identify possible matches in a ranked list for each.
+3. Once entries are manually determined to be the same person, I want to simply be able to add later entries under the entry number of when the unique entry was first recorded. But these matched entries should still be searchable to see if future entries match them.
+
+Database schema:
+contributors   (the person)
+names          (all name variants)
+addresses      (all known addresses)
+occupations    (all known employment records)
+
+
+contributor_category
+contributor_name
+contributor_address
+cleaned_address
+contributor_city
+contributor_state
+contributor_zip
+cleaned_full_address
+matched_address
+Latitude
+Longitude
+contributor_longitude_given
+contributor_latitude_given
+contributor_location
+contributor_occupation
+contributor_employer_name
+contributor_employer_city
+contributor_employer_state
+"""
+
+conn3 = sqlite3.connect(DATA_FOLDER + "contributor_entities.db")
+
+cur3 = conn3.cursor()
+
+cur3.executescript(
+    """
+CREATE TABLE contributor_entities (
+    contributor_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    preferred_name_id INTEGER,
+    preferred_address_id INTEGER,
+    preferred_occupation_id INTEGER
+);
+
+CREATE TABLE IF NOT EXISTS contributor_names (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    contributor_id INTEGER,
+    contributor_name TEXT,
+    UNIQUE(contributor_id, contributor_name)
+);
+                  
+CREATE TABLE IF NOT EXISTS contributor_addresses (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    contributor_id INTEGER,
+
+    contributor_address TEXT,
+    cleaned_address TEXT,
+    contributor_city TEXT,
+    contributor_state TEXT,
+    contributor_zip INTEGER,
+    cleaned_full_address TEXT,
+    matched_address TEXT,
+
+    Latitude REAL,
+    Longitude REAL,
+    contributor_latitude_given REAL,
+    contributor_longitude_given REAL,
+
+    UNIQUE(
+        contributor_id,
+        cleaned_full_address,
+        Latitude,
+        Longitude
+    )
+);
+
+CREATE TABLE IF NOT EXISTS contributor_occupations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    contributor_id INTEGER,
+
+    contributor_occupation TEXT,
+    contributor_employer_name TEXT,
+    contributor_employer_city TEXT,
+    contributor_employer_state TEXT,
+    contributor_category TEXT,
+
+    UNIQUE(
+        contributor_id,
+        contributor_occupation,
+        contributor_employer_name,
+        contributor_employer_city,
+        contributor_employer_state
+    )
+);
+
+-- =========================
+-- Indexes (Suggestion #1)
+-- =========================
+
+CREATE INDEX IF NOT EXISTS idx_contributor_names_name
+    ON contributor_names(contributor_name);
+
+CREATE INDEX IF NOT EXISTS idx_contributor_names_contributor
+    ON contributor_names(contributor_id);
+
+CREATE INDEX IF NOT EXISTS idx_contributor_addresses_cleaned
+    ON contributor_addresses(cleaned_full_address);
+
+CREATE INDEX IF NOT EXISTS idx_contributor_addresses_latlon
+    ON contributor_addresses(Latitude, Longitude);
+
+CREATE INDEX IF NOT EXISTS idx_contributor_addresses_contributor
+    ON contributor_addresses(contributor_id);
+"""
+)
+
+conn3.commit()
+
+cur3.execute(
+    """
+CREATE TABLE IF NOT EXISTS contributor_aliases (
+    contributor_id INTEGER PRIMARY KEY,
+    canonical_id INTEGER
+);
+"""
+)
+conn3.commit()
+
+cur3.execute(
+    """
+CREATE VIEW canonical_contributors AS
+SELECT
+    c.contributor_id,
+    COALESCE(a.canonical_id, c.contributor_id) AS canonical_id
+FROM contributor_entities c
+LEFT JOIN contributor_aliases a
+  ON c.contributor_id = a.contributor_id;
+"""
+)
+conn3.commit()
+
+
+def normalize(s):
+    if s is not np.nan:
+        return s.strip().upper()
+    return s
+
+
+def find_existing_contributor(row):
+    # Normalize values
+    name = normalize(row["contributor_name"])
+    addr = normalize(row["cleaned_full_address"])
+    lat = row["Latitude"]
+    lon = row["Longitude"]
+
+    # If any key field is missing, return None immediately
+    if not name or not addr or pd.isna(lat) or pd.isna(lon):
+        return None
+
+    # Try exact name + (address OR coordinates)
+    cur3.execute(
+        """
+        SELECT cc.canonical_id
+        FROM contributor_names n
+        JOIN contributor_addresses a
+          ON n.contributor_id = a.contributor_id
+        JOIN canonical_contributors cc
+          ON n.contributor_id = cc.contributor_id
+        WHERE n.contributor_name = ?
+          AND (a.cleaned_full_address = ? OR (a.Latitude = ? AND a.Longitude = ?))
+        LIMIT 1
+        """,
+        (name, addr, lat, lon),
+    )
+
+    r = cur3.fetchone()
+    if r:
+        return r[0]
+
+    # Fallback: match by coordinates alone
+    cur3.execute(
+        """
+        SELECT cc.canonical_id
+        FROM contributor_addresses a
+        JOIN canonical_contributors cc
+          ON a.contributor_id = cc.contributor_id
+        WHERE a.Latitude = ? AND a.Longitude = ?
+        LIMIT 1
+        """,
+        (lat, lon),
+    )
+
+    r = cur3.fetchone()
+    if r:
+        return r[0]
+
+    # No match found
+    return None
+
+
+def create_contributor():
+    cur3.execute("INSERT INTO contributor_entities DEFAULT VALUES")
+    return cur3.lastrowid
+
+
+def add_contributor_name(contributor_id, name):
+    cur3.execute(
+        """
+        INSERT OR IGNORE INTO contributor_names(contributor_id, contributor_name)
+        VALUES (?, ?)
+    """,
+        (contributor_id, normalize(name)),
+    )
+
+
+def add_contributor_address(contributor_id, row):
+    cur3.execute(
+        """
+        INSERT OR IGNORE INTO contributor_addresses(
+            contributor_id,
+            contributor_address,
+            cleaned_address,
+            contributor_city,
+            contributor_state,
+            contributor_zip,
+            cleaned_full_address,
+            matched_address,
+            Latitude,
+            Longitude,
+            contributor_latitude_given,
+            contributor_longitude_given
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """,
+        (
+            contributor_id,
+            row["contributor_address"],
+            row["cleaned_address"],
+            row["contributor_city"],
+            row["contributor_state"],
+            row["contributor_zip"],
+            normalize(row["cleaned_full_address"]),
+            row["matched_address"],
+            row["Latitude"],
+            row["Longitude"],
+            row["contributor_latitude_given"],
+            row["contributor_longitude_given"],
+        ),
+    )
+
+
+def add_contributor_occupation(contributor_id, row):
+    cur3.execute(
+        """
+        INSERT OR IGNORE INTO contributor_occupations (
+            contributor_id,
+            contributor_occupation,
+            contributor_employer_name,
+            contributor_employer_city,
+            contributor_employer_state,
+            contributor_category
+        )
+        VALUES (?, ?, ?, ?, ?, ?)
+    """,
+        (
+            contributor_id,
+            normalize(row["contributor_occupation"]),
+            normalize(row["contributor_employer_name"]),
+            normalize(row["contributor_employer_city"]),
+            normalize(row["contributor_employer_state"]),
+            normalize(row["contributor_category"]),
+        ),
+    )
+
+
+conn3.execute("BEGIN")
+
+for i in tqdm(range(len(contr_df))):
+    row = contr_df.iloc[i]
+
+    contributor_id = find_existing_contributor(row)
+
+    if contributor_id is None:
+        contributor_id = create_contributor()
+
+    add_contributor_name(contributor_id, row["contributor_name"])
+    add_contributor_address(contributor_id, row)
+    add_contributor_occupation(contributor_id, row)
+
+conn3.commit()
+
 
 ####################################################################################
 
@@ -595,5 +912,86 @@ c_ids = contr_df[
 ].drop_duplicates()
 c_ids[c_ids["filer_id"].duplicated(keep=False)]
 
+# load contributors
+df2 = pd.read_sql_query(
+    """
+    SELECT
+        c.contributor_id,
+        n.contributor_name,
+        a.cleaned_full_address,
+        o.contributor_occupation
+    FROM contributor_entities c
+    JOIN contributor_names n
+        ON c.contributor_id = n.contributor_id
+    JOIN contributor_addresses a
+        ON c.contributor_id = a.contributor_id
+    JOIN contributor_occupations o
+        ON c.contributor_id = o.contributor_id
+    ORDER BY c.contributor_id
+""",
+    conn3,
+)
+# examine duplicates
+df2_dups = df2[df2["contributor_name"].duplicated(keep=False)].sort_values(
+    "contributor_name"
+)
 
+df3 = pd.read_sql_query(
+    """
+    SELECT *
+    FROM contributor_entities c
+    JOIN contributor_names n
+        ON c.contributor_id = n.contributor_id
+    JOIN contributor_addresses a
+        ON c.contributor_id = a.contributor_id
+    JOIN contributor_occupations o
+        ON c.contributor_id = o.contributor_id
+    ORDER BY c.contributor_id
+""",
+    conn3,
+)
+
+
+# deduplicate
+# 1️⃣ Deduplicate contributor_names
+cur3.execute(
+    """
+DELETE FROM contributor_names
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM contributor_names
+    GROUP BY contributor_id, contributor_name
+)
+"""
+)
+
+# 2️⃣ Deduplicate contributor_addresses
+cur3.execute(
+    """
+DELETE FROM contributor_addresses
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM contributor_addresses
+    GROUP BY contributor_id, cleaned_full_address, Latitude, Longitude
+)
+"""
+)
+
+# 3️⃣ Deduplicate contributor_occupations
+cur3.execute(
+    """
+DELETE FROM contributor_occupations
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM contributor_occupations
+    GROUP BY contributor_id, contributor_occupation, contributor_employer_name, contributor_employer_city, contributor_employer_state
+)
+"""
+)
+
+conn3.commit()
+
+# 4️⃣ Reclaim database space
+cur3.execute("VACUUM")
+conn3.commit()
 ####################################################################################
