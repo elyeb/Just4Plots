@@ -1,4 +1,7 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kitsap,Mukilteo,Clinton,22:00,22:00,22:13,01/30/2026
+Spokane,Edmonds,Kingston,21:50,21:53,22:14,01/30/2026
+Puyallup,Kingston,Edmonds,21:40,21:40,22:03,01/30/2026
 Issaquah,Shaw,Orcas,21:35,21:37,21:46,01/30/2026
 Kitsap,Clinton,Mukilteo,21:30,21:30,21:44,01/30/2026
 Wenatchee,Colman,Bainbridge,21:20,21:22,21:53,01/30/2026
@@ -9,6 +12,7 @@ Yakima,Lopez,Friday Harbor,21:10,21:10,21:43,01/30/2026
 Puyallup,Edmonds,Kingston,21:05,21:06,21:28,01/30/2026
 Kitsap,Mukilteo,Clinton,21:00,21:04,21:23,01/30/2026
 Tacoma,Bainbridge,Colman,21:00,21:02,21:33,01/30/2026
+Chimacum,Bremerton,Colman,21:00,21:02,22:16,01/30/2026
 Issaquah,Anacortes,Shaw,20:40,20:44,21:32,01/30/2026
 Tokitae,Mukilteo,Clinton,20:35,20:53,21:07,01/30/2026
 Kittitas,Southworth,Fauntleroy,20:35,20:41,20:58,01/30/2026
