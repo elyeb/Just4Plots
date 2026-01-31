@@ -1,12 +1,20 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kitsap,Clinton,Mukilteo,14:35,14:35,14:49,01/31/2026
+Tokitae,Mukilteo,Clinton,14:35,14:36,14:51,01/31/2026
+Kittitas,Fauntleroy,Vashon,14:30,14:31,14:46,01/31/2026
+Puyallup,Kingston,Edmonds,14:30,14:30,14:52,01/31/2026
+Spokane,Edmonds,Kingston,14:25,14:29,14:50,01/31/2026
 Tacoma,Bainbridge,Colman,14:10,14:11,14:43,01/31/2026
+Wenatchee,Colman,Bainbridge,14:10,14:17,14:47,01/31/2026
 Kitsap,Mukilteo,Clinton,14:05,14:05,14:18,01/31/2026
 Tokitae,Clinton,Mukilteo,14:00,14:01,14:15,01/31/2026
 Kennewick,Port Townsend,Keystone,14:00,14:08,14:35,01/31/2026
+Issaquah,Lopez,Anacortes,14:00,14:00,14:43,01/31/2026
 Kittitas,Vashon,Fauntleroy,13:55,13:56,14:10,01/31/2026
 Yakima,Anacortes,Lopez,13:55,13:55,14:36,01/31/2026
 Puyallup,Edmonds,Kingston,13:35,13:36,13:58,01/31/2026
 Tillikum,Lopez,Friday Harbor,13:35,13:35,14:15,01/31/2026
+Kaleetan,Anacortes,Friday Harbor,13:35,13:34,14:42,01/31/2026
 Kitsap,Clinton,Mukilteo,13:30,13:30,13:45,01/31/2026
 Tokitae,Mukilteo,Clinton,13:30,13:31,13:46,01/31/2026
 Issaquah,Orcas,Lopez,13:30,13:30,13:48,01/31/2026
