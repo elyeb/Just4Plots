@@ -213,9 +213,9 @@ else:
     db = prev_space_db
 
 # remove individual space files
-for f in space_files:
-    os.remove(SPACE_FOLDER + f)
-os.makedirs(SPACE_FOLDER, exist_ok=True, mode=0o777)
+if len(space_files) > 20:
+    for f in space_files:
+        os.remove(SPACE_FOLDER + f)
 
 ## prep for merge
 # format the dataframes
@@ -223,6 +223,8 @@ depart_data = format_depart(depart_data)
 
 space_df = format_space(db)
 
+# This should not cause many-to-one merges since previous merged stored in
+# prev_merged_db
 merged = depart_data.merge(
     space_df, how="left", on=["scheduled_depart", "Departing", "Destination", "Date"]
 )

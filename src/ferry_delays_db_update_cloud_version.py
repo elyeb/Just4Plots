@@ -1,5 +1,8 @@
 """
 Download all ferry real-time map history from https://wsdot.com/ferries/vesselwatch/
+
+Theory: Ferry reports for performance after about 3 pm don't get updated until the next day.
+This effectively means their lost if the script only runs for the same day.
 """
 
 from selenium import webdriver
@@ -15,6 +18,7 @@ from selenium.common.exceptions import (
 )
 import os
 import datetime
+from datetime import timedelta
 
 # from tqdm import tqdm
 import time
@@ -45,7 +49,7 @@ ferries = [
     "Yakima",
 ]
 
-START_DATE = datetime.datetime.now().strftime("%m/%d/%Y")
+START_DATE = (datetime.datetime.now() - timedelta(days=1)).strftime("%m/%d/%Y")
 END_DATE = datetime.datetime.now().strftime("%m/%d/%Y")
 # left off 03/21/2025
 
