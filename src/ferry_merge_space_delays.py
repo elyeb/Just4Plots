@@ -261,9 +261,13 @@ merged_without_soldout = merged_without_soldout.merge(
     how="left",
 )
 
-merged_without_soldout = merged_without_soldout[
-    merged_without_soldout["version"].isna()
-]
+if "version" in merged_without_soldout.columns:
+    print("Removing previous rows without soldout_time...")
+    merged_without_soldout = merged_without_soldout[
+        merged_without_soldout["version"].isna()
+    ]
+
+    merged_without_soldout = merged_without_soldout.drop(columns=["version"])
 
 
 merged = pd.concat(
