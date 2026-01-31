@@ -192,7 +192,13 @@ df_updates.columns = columns
 # Combine with current data
 df = pd.concat([df_current, df_updates], ignore_index=True)
 df = df.drop_duplicates()
-df = df.sort_values(by=["Date", "Scheduled Depart"], ascending=False)
+
+df["year"] = df["Date"].str.split("/").str[2].astype(int)
+df["month"] = df["Date"].str.split("/").str[0].astype(int)
+df["day"] = df["Date"].str.split("/").str[1].astype(int)
+
+df = df.sort_values(by=["year", "month", "day", "Scheduled Depart"], ascending=False)
+df = df.drop(columns=["year", "month", "day"])
 
 df.to_csv(OUTPUT_FOLDER + OUTFILE, index=False)
 os.chmod(OUTPUT_FOLDER + OUTFILE, 0o777)
