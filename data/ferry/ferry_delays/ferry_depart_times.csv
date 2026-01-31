@@ -1,8 +1,30 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Sealth,Fauntleroy,Vashon,17:40,17:43,17:58,01/30/2026
+Kittitas,Vashon,Southworth,17:35,17:43,17:56,01/30/2026
+Tokitae,Clinton,Mukilteo,17:35,17:38,17:52,01/30/2026
+Puyallup,Kingston,Edmonds,17:30,17:31,17:51,01/30/2026
+Spokane,Edmonds,Kingston,17:25,17:28,17:52,01/30/2026
+Yakima,Lopez,Friday Harbor,17:15,17:15,17:49,01/30/2026
+Kitsap,Mukilteo,Clinton,17:10,17:10,17:28,01/30/2026
+Kittitas,Fauntleroy,Vashon,17:10,17:16,17:31,01/30/2026
+Sealth,Vashon,Fauntleroy,17:05,17:10,17:26,01/30/2026
+Issaquah,Shaw,Anacortes,16:50,16:50,17:42,01/30/2026
+Tillikum,Lopez,Friday Harbor,16:50,16:50,17:31,01/30/2026
+Wenatchee,Bainbridge,Colman,16:45,16:46,17:16,01/30/2026
+Sealth,Southworth,Vashon,16:45,16:50,17:03,01/30/2026
+Tacoma,Colman,Bainbridge,16:45,16:54,17:28,01/30/2026
+Puyallup,Edmonds,Kingston,16:45,16:47,17:10,01/30/2026
+Kittitas,Vashon,Fauntleroy,16:40,16:45,16:58,01/30/2026
+Tokitae,Mukilteo,Clinton,16:40,16:41,16:56,01/30/2026
+Spokane,Kingston,Edmonds,16:40,16:41,17:05,01/30/2026
 Issaquah,Orcas,Shaw,16:35,16:34,16:43,01/30/2026
+Kitsap,Clinton,Mukilteo,16:35,16:41,16:54,01/30/2026
 Tillikum,Shaw,Lopez,16:20,16:20,16:37,01/30/2026
+Yakima,Anacortes,Lopez,16:20,16:22,17:05,01/30/2026
+Kaleetan,Lopez,Anacortes,16:20,16:20,17:04,01/30/2026
 Kennewick,Keystone,Port Townsend,16:15,16:16,16:43,01/30/2026
 Kittitas,Southworth,Vashon,16:15,16:20,16:32,01/30/2026
+Chimacum,Bremerton,,16:15,16:17,00:00,01/30/2026
 Sealth,Fauntleroy,Southworth,16:10,16:11,16:39,01/30/2026
 Kitsap,Mukilteo,Clinton,16:05,16:12,16:26,01/30/2026
 Tillikum,Orcas,Shaw,16:05,16:05,16:12,01/30/2026
