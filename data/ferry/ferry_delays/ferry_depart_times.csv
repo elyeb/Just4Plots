@@ -1,8 +1,12 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Tokitae,Clinton,Mukilteo,15:05,15:07,15:20,01/31/2026
+Kittitas,Vashon,Fauntleroy,14:55,14:59,15:12,01/31/2026
+Kennewick,Keystone,Port Townsend,14:45,14:49,15:13,01/31/2026
 Kitsap,Clinton,Mukilteo,14:35,14:35,14:49,01/31/2026
 Tokitae,Mukilteo,Clinton,14:35,14:36,14:51,01/31/2026
 Kittitas,Fauntleroy,Vashon,14:30,14:31,14:46,01/31/2026
 Puyallup,Kingston,Edmonds,14:30,14:30,14:52,01/31/2026
+Tillikum,Friday Harbor,Lopez,14:30,14:30,15:17,01/31/2026
 Spokane,Edmonds,Kingston,14:25,14:29,14:50,01/31/2026
 Tacoma,Bainbridge,Colman,14:10,14:11,14:43,01/31/2026
 Wenatchee,Colman,Bainbridge,14:10,14:17,14:47,01/31/2026
