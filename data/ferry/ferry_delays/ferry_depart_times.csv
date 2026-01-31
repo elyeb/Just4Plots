@@ -1,4 +1,9 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Wenatchee,Colman,Bainbridge,01:35,01:37,02:08,01/31/2026
+Kittitas,Vashon,Southworth,01:30,01:31,01:42,01/31/2026
+Kittitas,Fauntleroy,Vashon,01:05,01:09,01:24,01/31/2026
+Wenatchee,Bainbridge,Colman,00:55,00:56,01:29,01/31/2026
+Chimacum,Colman,,00:50,00:57,00:00,01/31/2026
 Kittitas,Southworth,Fauntleroy,00:35,00:35,00:54,01/31/2026
 Kittitas,Vashon,Southworth,00:15,00:16,00:27,01/31/2026
 Kitsap,Mukilteo,Clinton,00:15,00:15,00:28,01/31/2026
