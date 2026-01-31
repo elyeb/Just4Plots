@@ -239,6 +239,12 @@ merged["soldout_dif"] = merged.apply(lambda x: calculate_soldout_dif(x), axis=1)
 merged = pd.concat([merged, prev_merged_db], ignore_index=True)
 
 # remove duplicates. Keep any rows where soldout_time is not null first
+if "version" in merged.columns:
+    merged = merged.drop(columns=["version"])
+if "version_x" in merged.columns:
+    merged = merged.drop(columns=["version_x"])
+if "version_y" in merged.columns:
+    merged = merged.drop(columns=["version_y"])
 merged_with_soldout = merged[~merged["soldout_time"].isna()].drop_duplicates()
 merged_without_soldout = merged[merged["soldout_time"].isna()].drop_duplicates()
 merged_with_soldout["version"] = "sold out"
@@ -274,6 +280,8 @@ merged = pd.concat(
     [merged_with_soldout.drop(columns=["version"]), merged_without_soldout],
     ignore_index=True,
 )
+
+print("Merged columns", merged.columns)
 
 merged["year"] = merged["Date"].str.split("/").str[2].astype(int)
 merged["month"] = merged["Date"].str.split("/").str[0].astype(int)
