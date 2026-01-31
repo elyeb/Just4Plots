@@ -194,9 +194,10 @@ downloads_csvs = [f for f in downloads_csvs if f.split(".")[0] in ferries]
 df_list = []
 for f in downloads_csvs:
     df_list.append(pd.read_csv(DATA_FOLDER + "/" + f, index_col=False))
-    print(f"File {f}")
-    print(pd.read_csv(DATA_FOLDER + "/" + f, index_col=False).tail(5))
-    # os.remove(DATA_FOLDER+"/"+f)
+    if ("Tacoma" in f) or ("Wenatchee" in f):
+        print(f"File {f}")
+        print(pd.read_csv(DATA_FOLDER + "/" + f, index_col=False).tail(5))
+
 # keep some files. They might not get merged right away with the database.
 if len(df_list) > 200:
     for f in downloads_csvs:
@@ -210,12 +211,19 @@ colman = df_updates[
     (df_updates["Departing"] == "Colman") & (df_updates["Arriving"] == "Bainbridge")
 ]
 print("Most recent departure times from Colman to Bainbridge in depart times:")
-print(colman[["Date", "Scheduled Depart"]].head(3))
+print(colman[["Date", "Scheduled Depart"]].tail(3))
 
 # Combine with current data
 df = pd.concat([df_current, df_updates], ignore_index=True)
 df = df.drop_duplicates()
-df = df.sort_values(by=["Date", "Scheduled Depart"], ascending=False)
+df = df.drop_duplicates()
+
+df["year"] = df["Date"].str.split("/").str[2].astype(int)
+df["month"] = df["Date"].str.split("/").str[0].astype(int)
+df["day"] = df["Date"].str.split("/").str[1].astype(int)
+
+df = df.sort_values(by=["year", "month", "day", "Scheduled Depart"], ascending=False)
+df = df.drop(columns=["year", "month", "day"])
 
 df.to_csv(OUTPUT_FOLDER + OUTFILE, index=False)
 os.chmod(OUTPUT_FOLDER + OUTFILE, 0o777)
