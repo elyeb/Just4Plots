@@ -1,4 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
+Kittitas,Fauntleroy,Vashon,23:50,23:51,00:06,01/30/2026
+Puyallup,Edmonds,Kingston,23:45,23:46,00:07,01/30/2026
+Kitsap,Clinton,Mukilteo,23:30,23:30,23:51,01/30/2026
+Wenatchee,Bainbridge,Colman,23:30,23:31,00:02,01/30/2026
 Kittitas,Southworth,Fauntleroy,23:20,23:21,23:40,01/30/2026
 Spokane,Edmonds,Kingston,23:10,23:11,23:31,01/30/2026
 Puyallup,Kingston,Edmonds,23:10,23:10,23:31,01/30/2026
