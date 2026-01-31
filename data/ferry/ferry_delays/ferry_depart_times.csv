@@ -1,6 +1,8 @@
 Vessel,Departing,Arriving,Scheduled Depart,Actual Depart,Est. Arrival,Date
 Kitsap,Mukilteo,Clinton,12:00,12:00,12:14,01/31/2026
 Tokitae,Clinton,Mukilteo,12:00,12:00,12:15,01/31/2026
+Puyallup,Edmonds,Kingston,11:55,11:57,12:19,01/31/2026
+Spokane,Kingston,Edmonds,11:55,12:01,12:23,01/31/2026
 Kaleetan,Orcas,Lopez,11:50,11:50,12:10,01/31/2026
 Kennewick,Keystone,Port Townsend,11:45,11:46,12:15,01/31/2026
 Kittitas,Fauntleroy,Southworth,11:40,11:42,12:00,01/31/2026
