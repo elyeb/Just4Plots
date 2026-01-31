@@ -15,6 +15,7 @@ from selenium.common.exceptions import (
 )
 import os
 import datetime
+from datetime import timedelta
 from tqdm import tqdm
 import time
 import pandas as pd
@@ -44,7 +45,7 @@ ferries = [
     "Yakima",
 ]
 
-START_DATE = datetime.datetime.now().strftime("%m/%d/%Y")
+START_DATE = (datetime.datetime.now() - timedelta(days=1)).strftime("%m/%d/%Y")
 END_DATE = datetime.datetime.now().strftime("%m/%d/%Y")
 # left off 03/21/2025
 
