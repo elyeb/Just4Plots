@@ -237,8 +237,48 @@ merged["depart_dif"] = merged.apply(lambda x: calculate_depart_dif(x), axis=1)
 merged["soldout_dif"] = merged.apply(lambda x: calculate_soldout_dif(x), axis=1)
 
 merged = pd.concat([merged, prev_merged_db], ignore_index=True)
-# remove duplicates
-merged = merged.drop_duplicates()
+
+# remove duplicates. Keep any rows where soldout_time is not null first
+merged_with_soldout = merged[~merged["soldout_time"].isna()].drop_duplicates()
+merged_without_soldout = merged[merged["soldout_time"].isna()].drop_duplicates()
+merged_with_soldout["version"] = "sold out"
+
+merged_without_soldout = merged_without_soldout.merge(
+    merged_with_soldout,
+    on=[
+        "actual_vessel",
+        "Departing",
+        "Destination",
+        "scheduled_depart",
+        "actual_depart",
+        "est_arrival",
+        "Date",
+        "day_of_week",
+        "soldout_time",
+        "depart_dif",
+        "soldout_dif",
+    ],
+    how="left",
+)
+
+merged_without_soldout = merged_without_soldout[
+    merged_without_soldout["version"].isna()
+]
+
+
+merged = pd.concat(
+    [merged_with_soldout.drop(columns=["version"]), merged_without_soldout],
+    ignore_index=True,
+)
+
+merged["year"] = merged["Date"].str.split("/").str[2].astype(int)
+merged["month"] = merged["Date"].str.split("/").str[0].astype(int)
+merged["day"] = merged["Date"].str.split("/").str[1].astype(int)
+
+merged = merged.sort_values(
+    by=["year", "month", "day", "scheduled_depart"], ascending=False
+)
+merged = merged.drop(columns=["year", "month", "day"])
 
 merged.to_parquet(OUTPUT_ROOT + "ferry_merged_space_delays.parquet", index=False)
 merged.to_csv(OUTPUT_ROOT + "ferry_merged_space_delays.csv", index=False)
