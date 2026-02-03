@@ -8,11 +8,13 @@ import os
 import re
 from datetime import datetime
 
-SPACE_FOLDER = os.path.join(os.path.dirname(__file__), "../data/ferry/ferry_spaces/")
+SPACE_FOLDER = os.path.join(os.path.dirname(__file__), "../../data/ferry/ferry_spaces/")
 os.makedirs(SPACE_FOLDER, exist_ok=True, mode=0o777)
-DEP_TIME_FOLDER = os.path.join(os.path.dirname(__file__), "../data/ferry/ferry_delays/")
+DEP_TIME_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../../data/ferry/ferry_delays/"
+)
 OUTPUT_ROOT = os.path.join(
-    os.path.dirname(__file__), "../data/ferry/ferry_merged_space_delays/"
+    os.path.dirname(__file__), "../../data/ferry/ferry_merged_space_delays/"
 )
 
 print("Running ferry_merge_space_delays.py...")

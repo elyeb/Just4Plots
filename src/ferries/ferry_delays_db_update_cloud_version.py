@@ -63,9 +63,13 @@ options.add_argument("--headless")  # Run Firefox in headless mode
 
 # Create Firefox profile for downloading
 DATA_FOLDER = os.getenv(
-    "DATA_DIR", os.path.join(os.path.dirname(__file__), "../data/ferry/downloads/")
+    "DATA_DIR", os.path.join(os.path.dirname(__file__), "../../data/ferry/downloads/")
 )
 os.makedirs(DATA_FOLDER, exist_ok=True)
+
+OUTPUT_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../../data/ferry/ferry_delays/"
+)
 
 firefox_profile = webdriver.FirefoxProfile()
 firefox_profile.set_preference("browser.download.folderList", 2)
@@ -184,10 +188,6 @@ driver.quit()
 # Concat results of downloads
 
 
-OUTPUT_FOLDER = os.path.join(os.path.dirname(__file__), "../data/ferry/ferry_delays/")
-
-START_DATE_MODIFIED = START_DATE.replace("/", "")
-END_DATE_MODIFIED = END_DATE.replace("/", "")
 OUTFILE = f"ferry_depart_times.csv"
 
 df_current = pd.read_csv(OUTPUT_FOLDER + OUTFILE, index_col=False)
