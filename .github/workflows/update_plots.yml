@@ -53,6 +53,7 @@ jobs:
         mkdir -p ${{ github.workspace }}/data/downloads
         mkdir -p ${{ github.workspace }}/data/ferry/downloads
         mkdir -p ${{ github.workspace }}/data/ferry/ferry_spaces
+        mkdir -p ${{ github.workspace }}/data/ferry/ferry_schedules
         chmod -R 777 ${{ github.workspace }}/data
     
     - name: Run ferry scripts
@@ -62,6 +63,7 @@ jobs:
         python -u src/ferries/ferry_scrape.py
         python -u src/ferries/ferry_delays_db_update_cloud_version.py
         python -u src/ferries/ferry_merge_space_delays.py
+        python -u src/ferries/get_ferry_schedule.py
         # python -u src/ferry_plot_model.py
     
     - name: Commit data changes
