@@ -22,6 +22,8 @@ outfile_root = f"ferry_schedule_{TODAY}_{day_of_week}_"
 
 previously_downloaded_schedules = os.listdir(SCHEDULE_FOLDER)
 
+print(f"Getting schedule for {day_of_week} {TODAY}...")
+
 dock_dict_names = {
     "Colman": "Seattle",
     "Bainbridge": "Bainbridge",
