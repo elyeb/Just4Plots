@@ -7,18 +7,24 @@ import pandas as pd
 import re
 import requests
 from bs4 import BeautifulSoup
-import datetime
 import os
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+PACIFIC = ZoneInfo("America/Los_Angeles")
+
+now_pacific = datetime.now(PACIFIC)
+today_pacific = now_pacific.date()
+
+TODAY = today_pacific.strftime("%Y_%m_%d")
+day_of_week = today_pacific.strftime("%A").lower()
+
+outfile_root = f"ferry_schedule_{TODAY}_{day_of_week}_"
 
 SCHEDULE_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/ferry/ferry_schedules/"
 )
 os.makedirs(SCHEDULE_FOLDER, exist_ok=True, mode=0o777)
-
-TODAY = datetime.datetime.now().strftime("%Y_%m_%d")
-day_of_week = datetime.date.today().strftime("%A")
-day_of_week = day_of_week.lower()
-outfile_root = f"ferry_schedule_{TODAY}_{day_of_week}_"
 
 previously_downloaded_schedules = os.listdir(SCHEDULE_FOLDER)
 
@@ -164,8 +170,8 @@ def get_ferry_schedule(dock, dest, day_of_week):
         weekend_schedule[2] = weekend_schedule[2].apply(replace_time_str)
         weekend_schedule[3] = weekend_schedule[3].apply(replace_time_str)
 
-        if day_of_week in ["Saturday", "Sunday"]:
-            if day_of_week == "Saturday":
+        if day_of_week in ["saturday", "sunday"]:
+            if day_of_week == "saturday":
                 previous_overlap = (
                     weekday_schedule[weekday_schedule[2].str.contains("AM")][
                         2
@@ -216,7 +222,7 @@ def get_ferry_schedule(dock, dest, day_of_week):
                     convert_to_24_hour_format(time_str) for time_str in todays_schedule
                 ]
         else:
-            if day_of_week == "Monday":
+            if day_of_week == "monday":
                 previous_overlap = (
                     weekend_schedule[weekend_schedule[2].str.contains("AM")][
                         2
