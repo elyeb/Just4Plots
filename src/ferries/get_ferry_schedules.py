@@ -164,8 +164,8 @@ def get_ferry_schedule(dock, dest, day_of_week):
         weekend_schedule[2] = weekend_schedule[2].apply(replace_time_str)
         weekend_schedule[3] = weekend_schedule[3].apply(replace_time_str)
 
-        if day_of_week in ["Saturday", "Sunday"]:
-            if day_of_week == "Saturday":
+        if day_of_week in ["saturday", "sunday"]:
+            if day_of_week == "saturday":
                 previous_overlap = (
                     weekday_schedule[weekday_schedule[2].str.contains("AM")][
                         2
@@ -216,7 +216,7 @@ def get_ferry_schedule(dock, dest, day_of_week):
                     convert_to_24_hour_format(time_str) for time_str in todays_schedule
                 ]
         else:
-            if day_of_week == "Monday":
+            if day_of_week == "monday":
                 previous_overlap = (
                     weekend_schedule[weekend_schedule[2].str.contains("AM")][
                         2
