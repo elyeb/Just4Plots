@@ -25,7 +25,7 @@ from zoneinfo import ZoneInfo
 
 PACIFIC = ZoneInfo("America/Los_Angeles")
 
-now_pacific = datetime.now(PACIFIC)
+now_pacific = datetime.datetime.now(PACIFIC)
 today_pacific = now_pacific.date()
 
 TODAY = today_pacific.strftime("%Y_%m_%d")
