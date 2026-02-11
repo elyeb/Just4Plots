@@ -17,12 +17,22 @@ from selenium.common.exceptions import (
     TimeoutException,
 )
 import os
-import datetime
-from datetime import timedelta
-
-# from tqdm import tqdm
 import time
 import pandas as pd
+import datetime
+from datetime import timedelta
+from zoneinfo import ZoneInfo
+
+PACIFIC = ZoneInfo("America/Los_Angeles")
+
+now_pacific = datetime.now(PACIFIC)
+today_pacific = now_pacific.date()
+
+TODAY = today_pacific.strftime("%Y_%m_%d")
+day_of_week = today_pacific.strftime("%A").lower()
+
+# from tqdm import tqdm
+
 
 # Ferry list
 ferries = [
@@ -49,8 +59,8 @@ ferries = [
     "Yakima",
 ]
 
-START_DATE = (datetime.datetime.now() - timedelta(days=88)).strftime("%m/%d/%Y")
-END_DATE = datetime.datetime.now().strftime("%m/%d/%Y")
+START_DATE = (datetime.datetime.now(PACIFIC) - timedelta(days=88)).strftime("%m/%d/%Y")
+END_DATE = datetime.datetime.now(PACIFIC).strftime("%m/%d/%Y")
 # left off 03/21/2025
 
 # Path to the GeckoDriver executable
