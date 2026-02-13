@@ -19,7 +19,6 @@ today_pacific = now_pacific.date()
 TODAY = today_pacific.strftime("%Y_%m_%d")
 day_of_week = today_pacific.strftime("%A").lower()
 
-outfile_root = f"ferry_schedule_{TODAY}_{day_of_week}_"
 
 SCHEDULE_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/ferry/ferry_schedules/"
@@ -330,15 +329,22 @@ def get_ferry_schedule(dock, dest, day_of_week):
 
 
 # DRIVER CODE
+outfile_root = f"ferry_schedule_{TODAY}_{day_of_week}_"
+outfile_today = (
+    "ferry_schedule_today_"  # make second version that is name-constant for today
+)
 for route in ROUTES:
     dock = route[0]
     dest = route[1]
     outfile = f"{outfile_root}{dock}_to_{dest}.csv"
+    outfile_2 = f"{outfile_today}{dock}_to_{dest}.csv"
     if outfile not in previously_downloaded_schedules:
 
         print(f"Getting schedule for {dock} to {dest}...")
         schedule_times = get_ferry_schedule(dock, dest, day_of_week)
         df_schedule = pd.DataFrame(schedule_times, columns=["scheduled_depart"])
         csv_file_path = os.path.join(SCHEDULE_FOLDER, outfile)
+        csv_file_path_2 = os.path.join(SCHEDULE_FOLDER, outfile_2)
         df_schedule.to_csv(csv_file_path, index=False)
+        df_schedule.to_csv(csv_file_path_2, index=False)
         print(f"Saved schedule for {dock} to {dest}")
