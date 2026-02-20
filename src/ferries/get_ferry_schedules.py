@@ -1,6 +1,15 @@
 """
 Get daily ferry schedules for seattle-bainbridge and edmonds-kingston routes.
 
+Landing page: https://wsdot.com/ferries/schedule/scheduledetailbyroute.aspx?
+
+Issues can arrise when conflicting schedules posted on same page, for example,
+Seattle-Bainbridge has tables for:
+- Feb 16, 2026 - Mar 21, 2026
+- Feb 9, 2026 - Mar 21, 2026
+
+The first table is for Leave Seattle M-F, followed by Leave Bainbridge M-F and
+then the weekend table. The second date-range is for Leave Seattle S-S.
 """
 
 import pandas as pd
@@ -44,12 +53,38 @@ ROUTES = [
 ]
 
 
+# helper functions:
+def replace_time_str(time_str):
+    if time_str is None:
+        return ""
+    time_str = time_str.replace("12:", "00:")
+    time_str = time_str.replace("Midnight", "00:00")
+    return time_str
+
+
+def convert_to_24_hour_format(time_str):
+    pattern = re.compile(r" AM| PM")
+    hour = time_str.split(":")[0]
+    if hour == "12":  # Handle the case for 12 AM
+        time_str = re.sub(pattern, "", time_str)  # Remove AM/PM
+        return time_str  # 12 AM is already in 24-hour format
+    if "PM" in time_str:
+
+        minute = time_str.split(":")[1]
+        new_hour = str(int(hour) + 12)
+        new_time = f"{new_hour}:{minute}"
+        time_str = re.sub(pattern, "", new_time)
+    else:
+        time_str = re.sub(pattern, "", time_str)
+    return time_str
+
+
 def get_ferry_schedule(dock, dest, day_of_week):
     """
 
-    dock = "Colman"
-    dest = "Bainbridge"
-    day_of_week = "Wednesday"
+    dock = "Edmonds"
+    dest = "Kingston"
+    day_of_week = "thursday"
     """
 
     dock_dict_route = {
@@ -65,67 +100,44 @@ def get_ferry_schedule(dock, dest, day_of_week):
     response = requests.get(request_url)
     html_content = response.text
     soup = BeautifulSoup(html_content, "html.parser")
-    tables = soup.find(
-        "table", class_="schedgridbyroute"
-    )  # Replace with your table's class or other identifier
+    tables = soup.find_all("table", class_="schedgridbyroute")
 
-    rows = tables.find_all("tr")
     schdeule_data = []
-    for row in rows:
-        cols = []
-        tds = row.find_all("td")
-        for td in tds:
-            # Find divs with class 'am' or 'pm' inside each td
-            div = td.find("div", class_=["am", "pm"])
-            if div:
-                ampm = div.get("class")[0].upper()  # 'AM' or 'PM'
-                time_str = f"{div.text.strip()} {ampm}"
-                cols.append(time_str)
-            else:
-                # Fallback: just get the stripped text of the td
-                cols.append(td.text.strip())
-        schdeule_data.append(cols)
+
+    for table in tables:
+        rows = table.find_all("tr")
+        for row in rows:
+            cols = []
+            tds = row.find_all("td")
+            for td in tds:
+                # Find divs with class 'am' or 'pm' inside each td
+                div = td.find("div", class_=["am", "pm"])
+                if div:
+                    ampm = div.get("class")[0].upper()  # 'AM' or 'PM'
+                    time_str = f"{div.text.strip()} {ampm}"
+                    cols.append(time_str)
+                else:
+                    cols.append(td.text.strip())
+            schdeule_data.append(cols)
     schdeule_df = pd.DataFrame(schdeule_data)
 
-    # depart and return shown on same page
-    depart_index_range = schdeule_df[
+    # check if schedule is split into weekdays/weekend, or if it's all daily
+    departures_rows = schdeule_df[schdeule_df[0].str.contains(dock_dict_names[dock])]
+    non_data_rows = schdeule_df[
         schdeule_df[0].str.contains(dock_dict_names[dock])
+        | schdeule_df[0].str.contains(dock_dict_names[dest])
     ].index.tolist()
-    return_index_range = schdeule_df[
-        schdeule_df[0].str.contains(dock_dict_names[dest])
-    ].index.tolist()
+    non_data_rows += [len(schdeule_df)]
+    subtables = []
+    for i in range(len(non_data_rows) - 1):
+        subtable = schdeule_df.iloc[non_data_rows[i] : non_data_rows[i + 1]]
+        if dock_dict_names[dock] in subtable[0].iloc[0]:
+            subtables.append(subtable)
 
-    # helper functions:
-    def replace_time_str(time_str):
-        time_str = time_str.replace("12:", "00:")
-        time_str = time_str.replace("Midnight", "00:00")
-        return time_str
-
-    def convert_to_24_hour_format(time_str):
-        pattern = re.compile(r" AM| PM")
-        hour = time_str.split(":")[0]
-        if hour == "12":  # Handle the case for 12 AM
-            time_str = re.sub(pattern, "", time_str)  # Remove AM/PM
-            return time_str  # 12 AM is already in 24-hour format
-        if "PM" in time_str:
-
-            minute = time_str.split(":")[1]
-            new_hour = str(int(hour) + 12)
-            new_time = f"{new_hour}:{minute}"
-            time_str = re.sub(pattern, "", new_time)
-        else:
-            time_str = re.sub(pattern, "", time_str)
-        return time_str
-
-    if len(depart_index_range) == 1:
-        # Weekday and weekend schedule are the same
-        if depart_index_range[0] == 0:
-            schedule = schdeule_df.iloc[
-                (depart_index_range[0] + 1) : return_index_range[0]
-            ]
-        else:
-            schedule = schdeule_df.iloc[(depart_index_range[0] + 1) : len(schdeule_df)]
-
+    if len(departures_rows) == 1:
+        # schedule is daily, not split into weekday/weekend
+        schedule = subtables[0]
+        schedule[1] = schedule[1].apply(replace_time_str)
         schedule[2] = schedule[2].apply(replace_time_str)
         schedule[3] = schedule[3].apply(replace_time_str)
 
@@ -144,31 +156,27 @@ def get_ferry_schedule(dock, dest, day_of_week):
             ].to_list()
         )
         todays_schedule = previous_overlap + todays_schedule
+        todays_schedule = [t for t in todays_schedule if ("AM" in t) or ("PM" in t)]
         todays_schedule = [
             convert_to_24_hour_format(time_str) for time_str in todays_schedule
         ]
-
-    else:
-        if depart_index_range[0] == 0:
-            weekday_schedule = schdeule_df.iloc[
-                (depart_index_range[0] + 1) : return_index_range[0]
-            ]
-            weekend_schedule = schdeule_df.iloc[
-                (depart_index_range[1] + 1) : return_index_range[1]
-            ]
+        return todays_schedule
+    elif len(departures_rows) == 2:
+        # schedule is split into weekday/weekend
+        if "Monday" in subtables[0][0].iloc[0]:
+            weekday_schedule = subtables[0]
+            weekend_schedule = subtables[1]
         else:
-            weekday_schedule = schdeule_df.iloc[
-                (depart_index_range[0] + 1) : return_index_range[1]
-            ]
-            weekend_schedule = schdeule_df.iloc[
-                (depart_index_range[1] + 1) : len(schdeule_df)
-            ]
-
+            weekday_schedule = subtables[1]
+            weekend_schedule = subtables[0]
+        weekday_schedule[1] = weekday_schedule[1].apply(replace_time_str)
         weekday_schedule[2] = weekday_schedule[2].apply(replace_time_str)
         weekday_schedule[3] = weekday_schedule[3].apply(replace_time_str)
+        weekend_schedule[1] = weekend_schedule[1].apply(replace_time_str)
         weekend_schedule[2] = weekend_schedule[2].apply(replace_time_str)
         weekend_schedule[3] = weekend_schedule[3].apply(replace_time_str)
 
+        # deal with Monday bleeding over into weekend schedule, and Sunday bleeding over into weekday schedule
         if day_of_week in ["saturday", "sunday"]:
             if day_of_week == "saturday":
                 previous_overlap = (
@@ -192,6 +200,9 @@ def get_ferry_schedule(dock, dest, day_of_week):
                     ][3].to_list()
                 )
                 todays_schedule = previous_overlap + todays_schedule
+                todays_schedule = [
+                    t for t in todays_schedule if ("AM" in t) or ("PM" in t)
+                ]
                 todays_schedule = [
                     convert_to_24_hour_format(time_str) for time_str in todays_schedule
                 ]
@@ -217,6 +228,9 @@ def get_ferry_schedule(dock, dest, day_of_week):
                     ][3].to_list()
                 )
                 todays_schedule = previous_overlap + todays_schedule
+                todays_schedule = [
+                    t for t in todays_schedule if ("AM" in t) or ("PM" in t)
+                ]
                 todays_schedule = [
                     convert_to_24_hour_format(time_str) for time_str in todays_schedule
                 ]
@@ -244,6 +258,9 @@ def get_ferry_schedule(dock, dest, day_of_week):
                 )
                 todays_schedule = previous_overlap + todays_schedule
                 todays_schedule = [
+                    t for t in todays_schedule if ("AM" in t) or ("PM" in t)
+                ]
+                todays_schedule = [
                     convert_to_24_hour_format(time_str) for time_str in todays_schedule
                 ]
             else:
@@ -269,63 +286,17 @@ def get_ferry_schedule(dock, dest, day_of_week):
                 )
                 todays_schedule = previous_overlap + todays_schedule
                 todays_schedule = [
+                    t for t in todays_schedule if ("AM" in t) or ("PM" in t)
+                ]
+                todays_schedule = [
                     convert_to_24_hour_format(time_str) for time_str in todays_schedule
                 ]
-
-    # previous method also shows which vessels are planned. Good to keep for modeling stage
-
-    # get today's ferry schedule
-    # dock_dict_nums = {
-    #     "Colman": 7,
-    #     "Bainbridge": 3,
-    #     "Kingston": 12,
-    #     "Edmonds": 8,
-    # }
-    # schedule_date = datetime.date.today().strftime("%Y%m%d")
-    # previous_date = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%Y%m%d")
-
-    # get today's schedule
-    # request_url = f"https://www.wsdot.com/Ferries/Schedule/scheduledetail.aspx?tripdate={schedule_date}&departingterm={dock_dict[dock]}&arrivingterm={dock_dict[dest]}"
-
-    # response = requests.get(request_url)
-    # html_content = response.text
-    # soup = BeautifulSoup(html_content, 'html.parser')
-    # table = soup.find('table', class_='schedgrid')  # Replace with your table's class or other identifier
-
-    # rows = table.find_all('tr')
-    # schdeule_data = []
-    # for row in rows:
-    #     cols = row.find_all('td')
-    #     cols = [ele.text.strip() for ele in cols]
-    #     schdeule_data.append(cols)
-    # schdeule_df = pd.DataFrame(schdeule_data)
-    # schdeule_df.columns = ["time","vessel","null"]
-    # schdeule_df = schdeule_df[~schdeule_df['time'].isnull()]
-    # # covert times after PM to 24-hour format
-    # schdeule_df = schdeule_df.reset_index(drop=True)
-    # schdeule_df.drop(columns=["null"], inplace=True)
-    # schedule_am_index = schdeule_df[schdeule_df["time"]=='AM'].index.tolist()[0]
-    # schedule_pm_index = schdeule_df[schdeule_df["time"]=='PM'].index.tolist()[0]
-    # midnight_index = schdeule_df[schdeule_df["time"].str.contains('AM ')].index.tolist()[0]
-    # schdeule_df = schdeule_df[schdeule_df.index <midnight_index]
-    # schedule_am = schdeule_df[schdeule_df.index<schedule_pm_index]
-    # schedule_am = schedule_am[~schedule_am["vessel"].isnull()]
-    # schedule_pm = schdeule_df[schdeule_df.index>schedule_pm_index]
-
-    # def convert_to_24_hour_format(time_str):
-    #     hour = time_str.split(':')[0]
-    #     if hour == '12':  # Handle the case for 12 AM
-    #         return time_str  # 12 AM is already in 24-hour format
-    #     minute = time_str.split(':')[1]
-    #     new_hour = str(int(hour)+12)
-    #     new_time = f"{new_hour}:{minute}"
-    #     return new_time
-
-    # schedule_pm["time"] = schedule_pm["time"].apply(convert_to_24_hour_format)
-
-    # schdeule_df = pd.concat([schedule_am, schedule_pm], ignore_index=True)
-
-    return todays_schedule
+        return todays_schedule
+    else:
+        print(
+            f"Unexpected schedule format for {dock} to {dest}. Check the webpage and update the code if needed."
+        )
+        return []
 
 
 # DRIVER CODE
