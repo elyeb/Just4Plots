@@ -57,6 +57,7 @@ ROUTES = [
 def replace_time_str(time_str):
     if time_str is None:
         return ""
+    time_str = str(time_str)
     time_str = time_str.replace("12:", "00:")
     time_str = time_str.replace("Midnight", "00:00")
     return time_str
