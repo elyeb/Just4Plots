@@ -310,13 +310,14 @@ for route in ROUTES:
     dest = route[1]
     outfile = f"{outfile_root}{dock}_to_{dest}.csv"
     outfile_2 = f"{outfile_today}{dock}_to_{dest}.csv"
-    if outfile not in previously_downloaded_schedules:
+    # if outfile not in previously_downloaded_schedules:
 
-        print(f"Getting schedule for {dock} to {dest}...")
-        schedule_times = get_ferry_schedule(dock, dest, day_of_week)
-        df_schedule = pd.DataFrame(schedule_times, columns=["scheduled_depart"])
-        csv_file_path = os.path.join(SCHEDULE_FOLDER, outfile)
-        csv_file_path_2 = os.path.join(SCHEDULE_FOLDER, outfile_2)
-        df_schedule.to_csv(csv_file_path, index=False)
-        df_schedule.to_csv(csv_file_path_2, index=False)
-        print(f"Saved schedule for {dock} to {dest}")
+    print(f"Getting schedule for {dock} to {dest}...")
+    schedule_times = get_ferry_schedule(dock, dest, day_of_week)
+    df_schedule = pd.DataFrame(schedule_times, columns=["scheduled_depart"])
+    csv_file_path = os.path.join(SCHEDULE_FOLDER, outfile)
+    csv_file_path_2 = os.path.join(SCHEDULE_FOLDER, outfile_2)
+    os.chmod(csv_file_path_2, 0o777)
+    df_schedule.to_csv(csv_file_path, index=False)
+    df_schedule.to_csv(csv_file_path_2, index=False)
+    print(f"Saved schedule for {dock} to {dest}")
