@@ -7,11 +7,21 @@ import pandas as pd
 import os
 import re
 from datetime import datetime
+from zoneinfo import ZoneInfo
+
+PACIFIC = ZoneInfo("America/Los_Angeles")
+now_pacific = datetime.now(PACIFIC)
+today_pacific = now_pacific.date()
+TODAY = today_pacific.strftime("%m/%d/%Y")
+day_of_week = today_pacific.strftime("%A")
 
 SPACE_FOLDER = os.path.join(os.path.dirname(__file__), "../../data/ferry/ferry_spaces/")
 os.makedirs(SPACE_FOLDER, exist_ok=True, mode=0o777)
 DEP_TIME_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/ferry/ferry_delays/"
+)
+SCHEDULE_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../../data/ferry/ferry_schedules/"
 )
 OUTPUT_ROOT = os.path.join(
     os.path.dirname(__file__), "../../data/ferry/ferry_merged_space_delays/"
@@ -25,8 +35,6 @@ depart_data = pd.read_csv(DEP_TIME_FOLDER + "ferry_depart_times.csv")
 colman = depart_data[
     (depart_data["Departing"] == "Colman") & (depart_data["Arriving"] == "Bainbridge")
 ]
-print("Most recent departure times from Colman to Bainbridge in depart times:")
-print(colman[["Date", "Scheduled Depart"]].head(3))
 
 prev_space_db = pd.read_parquet(OUTPUT_ROOT + "ferry_space_db.parquet")
 prev_merged_db = pd.read_parquet(OUTPUT_ROOT + "ferry_merged_space_delays.parquet")
@@ -283,11 +291,51 @@ merged = pd.concat(
     ignore_index=True,
 )
 
-print("Merged columns", merged.columns)
 
 merged["year"] = merged["Date"].str.split("/").str[2].astype(int)
 merged["month"] = merged["Date"].str.split("/").str[0].astype(int)
 merged["day"] = merged["Date"].str.split("/").str[1].astype(int)
+
+
+# concact/merge schedules on for current date for main 2 routes
+schedule_files = os.listdir(SCHEDULE_FOLDER)
+
+for f in schedule_files:
+    depart_dock = f.split("today_")[1].split("_")[0]
+    dest_dock = f.split("today_")[1].split("_")[2].split(".")[0]
+    schedule_df = pd.read_csv(SCHEDULE_FOLDER + f)
+    schedule_df["Departing"] = depart_dock
+    schedule_df["Destination"] = dest_dock
+    schedule_df["Date"] = TODAY
+    schedule_df["day_of_week"] = day_of_week
+    schedule_df["year"] = schedule_df["Date"].str.split("/").str[2].astype(int)
+    schedule_df["month"] = schedule_df["Date"].str.split("/").str[0].astype(int)
+    schedule_df["day"] = schedule_df["Date"].str.split("/").str[1].astype(int)
+
+    schedule_df["scheduled_depart"] = pd.to_datetime(schedule_df["scheduled_depart"])
+
+    schedule_df["scheduled_depart"] = schedule_df["scheduled_depart"].apply(
+        lambda x: x.strftime("%H:%M")
+    )
+    # remove entries that already exist
+    schedule_df = schedule_df.merge(
+        merged,
+        on=[
+            "scheduled_depart",
+            "Departing",
+            "Destination",
+            "Date",
+            "day_of_week",
+            "year",
+            "month",
+            "day",
+        ],
+        how="left",
+    )
+    schedule_df = schedule_df[schedule_df["actual_depart"].isna()]
+
+    merged = pd.concat([merged, schedule_df], ignore_index=True)
+
 
 merged = merged.sort_values(
     by=["year", "month", "day", "scheduled_depart"], ascending=False
@@ -301,6 +349,4 @@ merged.to_csv(OUTPUT_ROOT + "ferry_merged_space_delays.csv", index=False)
 colman = merged[
     (merged["Departing"] == "Colman") & (merged["Destination"] == "Bainbridge")
 ]
-print("Most recent departure times from Colman to Bainbridge in depart times:")
-print(colman[["Date", "scheduled_depart"]].head(3))
 print("ferry_merge_space_delays.py complete.")

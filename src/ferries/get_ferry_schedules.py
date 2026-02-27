@@ -318,6 +318,6 @@ for route in ROUTES:
     csv_file_path = os.path.join(SCHEDULE_FOLDER, outfile)
     csv_file_path_2 = os.path.join(SCHEDULE_FOLDER, outfile_2)
     os.chmod(csv_file_path_2, 0o777)
-    df_schedule.to_csv(csv_file_path, index=False)
+    # df_schedule.to_csv(csv_file_path, index=False)
     df_schedule.to_csv(csv_file_path_2, index=False)
     print(f"Saved schedule for {dock} to {dest}")
