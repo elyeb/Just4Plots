@@ -1,3 +1,8 @@
+# Ignore the large environment folder and logs
+geo_env_311/
+*.log
+.conda/
+venv/
 /data/past/
 /data/lobbying/
 config/
