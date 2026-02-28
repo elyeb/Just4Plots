@@ -1,5 +1,11 @@
 # Layman's Research Projects  
 
+### **Date added** Feb 27, 2026 <br>
+After attempting to do all of this via Microsoft Power BI, and learning more than I ever wanted to know about admin settings, I discovered that Python visuals can't be made public to the web. Fortunately Streamlit was significantly easier to set up. The goal of these plots are to help me check which of the main ferry routes are running smoother based on the day's performance, and to gather enough historic data to eventually create a useful model.
+[![Live Ferry Tracker](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://just4plots-ferry-routes.streamlit.app/)
+- Code for all of this lives [here](src/ferries/)
+
+
 ### **Date added** Jan 26, 2026 <br>
 **Posting some results from work projects as they become publicly available**  
 "Societal Costs of Dementia: 204 Countries, 2000–2019" research project led by Amy Lastuka.
@@ -18,7 +24,7 @@ Goalkeepers Reports:
 **PAC spending vs net wins**  
 Trying to answer the question: which Independent Expenditure groups came out ahead/behind in the 2025 WA primary election? 
 ![2025_primary_pac_win_loss.html](outputs/plots/lobbying/2025_primary_pac_win_loss.html)
-- Plotting code: [here](src/campaign_finance/explore_results.R)
+- Plotting code: [here](src/campaign_finance/campaign_finance/explore_results.R)
 - Data from: https://results.vote.wa.gov/results/20250805/export.html
 
 ### **Date added** Jul 31, 2025 <br>
@@ -33,7 +39,7 @@ Making bar charts to distinguish between candidates on the 2025 Seattle ballot (
 ![seattle_city_council_position_no_9.png](outputs/plots/lobbying/seattle_city_council_position_no_9.png)
 ![city_attorney.png](outputs/plots/lobbying/city_attorney.png)
 ![seattle_district_2_school_director.png](outputs/plots/lobbying/seattle_district_2_school_director.png)
-- Plotting code: [here](src/candidate_contributions_bar_charts.R)
+- Plotting code: [here](src/campaign_finance/candidate_contributions_bar_charts.R)
 - Data from: https://www.pdc.wa.gov/political-disclosure-reporting-data
 
 ### **Date added** July 31, 2025 <br>
@@ -49,7 +55,7 @@ Pointing to an plot that should update daily via Github Actions
 Exploring ways to see differences in campaign contributions by candidates
 for the King County Executive position in 2025. 
 ![donors_hist_Balducci_Zahilay.png](outputs/plots/lobbying/donors_hist_Balducci_Zahilay.png)
-- Plotting code: [here](src/draft_campaign_finance_analysis.py)
+- Plotting code: [here](src/campaign_finance/draft_campaign_finance_analysis.py)
 
 ### **Date added** May 16, 2025 <br>
 **Main ferry plots for the weekend**  
