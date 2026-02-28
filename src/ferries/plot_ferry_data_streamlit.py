@@ -13,12 +13,18 @@ import streamlit as st
 st.set_page_config(page_title="Ferry Tracker", layout="wide")
 
 # Set variables #####################################################
-#  
-@st.cache_data(ttl=600) 
-
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/ferry/ferry_merged_space_delays/"
 )
+
+
+@st.cache_data(ttl=600)
+def load_data(DATA_FOLDER):
+    dataset = pd.read_parquet(
+        os.path.join(DATA_FOLDER, "ferry_merged_space_delays.parquet")
+    )
+    return dataset
+
 
 today = datetime.date.today().strftime("%m/%d/%Y")
 day_of_week = datetime.date.today().strftime("%A")
@@ -36,9 +42,7 @@ dock_dict_names = {
 }
 
 # Filter data and format #####################################################
-dataset = pd.read_parquet(
-    os.path.join(DATA_FOLDER, "ferry_merged_space_delays.parquet")
-)
+
 df = dataset.copy()
 df = df[df["Departing"] == depart_dock]
 df = df[df["Destination"] == arrive_dock]
@@ -60,6 +64,7 @@ for col in time_cols:
     df[col] = df[col].apply(lambda t: t.strftime("%H:%M"))
 
 st.title("Seattle to Bainbridge")
+
 
 def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
     """
