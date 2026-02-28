@@ -17,6 +17,9 @@ st.set_page_config(page_title="Ferry Tracker", layout="wide")
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/ferry/ferry_merged_space_delays/"
 )
+STATIC_PLOT_FOLDER = os.path.join(
+    os.path.dirname(__file__), "../../outputs/plots/ferries/"
+)
 
 
 @st.cache_data(ttl=600)
@@ -176,6 +179,9 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     fig.suptitle(graph_title, fontsize=30)
     fig.text(0.5, 0.05, "Scheduled Departure Time", ha="center", fontsize=14)
 
+    # save static version of plot
+    save_path = os.path.join(STATIC_PLOT_FOLDER, f"{dock}_to_{dest}.png")
+    fig.savefig(save_path, bbox_inches="tight")
     st.pyplot(fig)
 
 
