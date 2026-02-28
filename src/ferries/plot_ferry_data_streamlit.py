@@ -19,9 +19,9 @@ DATA_FOLDER = os.path.join(
 
 
 @st.cache_data(ttl=600)
-def load_data(DATA_FOLDER):
+def load_data(data_folder):
     dataset = pd.read_parquet(
-        os.path.join(DATA_FOLDER, "ferry_merged_space_delays.parquet")
+        os.path.join(data_folder, "ferry_merged_space_delays.parquet")
     )
     return dataset
 
@@ -43,7 +43,7 @@ dock_dict_names = {
 
 # Filter data and format #####################################################
 
-df = dataset.copy()
+df = load_data(DATA_FOLDER)
 df = df[df["Departing"] == depart_dock]
 df = df[df["Destination"] == arrive_dock]
 df = df[df["day_of_week"] == day_of_week]
