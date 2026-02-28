@@ -188,13 +188,13 @@ with col1:
     st.subheader("Seattle to Bainbridge")
     depart_dock = "Colman"
     arrive_dock = "Bainbridge"
-    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today)
+    plot_scatter_day(data, depart_dock, arrive_dock, day_of_week, today)
 
 with col2:
     st.subheader("Bainbridge to Seattle")
     depart_dock = "Bainbridge"
     arrive_dock = "Colman"
-    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today)
+    plot_scatter_day(data, depart_dock, arrive_dock, day_of_week, today)
 
 # Row 2
 col3, col4 = st.columns(2)
@@ -202,10 +202,10 @@ with col3:
     st.subheader("Edmonds to Kingston")
     depart_dock = "Edmonds"
     arrive_dock = "Kingston"
-    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today)
+    plot_scatter_day(data, depart_dock, arrive_dock, day_of_week, today)
 
 with col4:
     st.subheader("Kingston to Edmonds")
     depart_dock = "Kingston"
     arrive_dock = "Edmonds"
-    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today)
+    plot_scatter_day(data, depart_dock, arrive_dock, day_of_week, today)
