@@ -3,6 +3,7 @@ import matplotlib.cm as cm
 from matplotlib.colors import to_rgba
 import pandas as pd
 import datetime
+from zoneinfo import ZoneInfo
 import sys
 import math
 import matplotlib.dates as mdates
@@ -26,12 +27,13 @@ def load_data(data_folder):
     return dataset
 
 
-today = datetime.date.today().strftime("%m/%d/%Y")
-day_of_week = datetime.date.today().strftime("%A")
+PACIFIC = ZoneInfo("America/Los_Angeles")
+now_pacific = datetime.datetime.now(PACIFIC)
+today_pacific = now_pacific.date()
 
+today = today_pacific.strftime("%m/%d/%Y")
+day_of_week = today_pacific.strftime("%A")
 
-depart_dock = "Colman"
-arrive_dock = "Bainbridge"
 
 ## Constants
 dock_dict_names = {
@@ -62,8 +64,6 @@ time_cols = ["actual_depart", "est_arrival"]
 for col in time_cols:
     df[col] = pd.to_datetime(df[col]).dt.time
     df[col] = df[col].apply(lambda t: t.strftime("%H:%M"))
-
-st.title("Seattle to Bainbridge")
 
 
 def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
@@ -174,8 +174,32 @@ def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
     fig.suptitle(graph_title, fontsize=30)
     fig.text(0.5, 0.05, "Scheduled Departure Time", ha="center", fontsize=14)
 
-    # plt.show()
     st.pyplot(fig)
 
 
-plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
+col1, col2 = st.columns(2)
+with col1:
+    st.subheader("Seattle to Bainbridge")
+    depart_dock = "Colman"
+    arrive_dock = "Bainbridge"
+    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
+
+with col2:
+    st.subheader("Bainbridge to Seattle")
+    depart_dock = "Bainbridge"
+    arrive_dock = "Colman"
+    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
+
+# Row 2
+col3, col4 = st.columns(2)
+with col3:
+    st.subheader("Edmonds to Kingston")
+    depart_dock = "Edmonds"
+    arrive_dock = "Kingston"
+    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
+
+with col4:
+    st.subheader("Kingston to Edmonds")
+    depart_dock = "Kingston"
+    arrive_dock = "Edmonds"
+    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
