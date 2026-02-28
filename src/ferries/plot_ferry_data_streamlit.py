@@ -7,8 +7,14 @@ import sys
 import math
 import matplotlib.dates as mdates
 import os
+import streamlit as st
+
+# Page Config  #####################################################
+st.set_page_config(page_title="Ferry Tracker", layout="wide")
 
 # Set variables #####################################################
+#  
+@st.cache_data(ttl=600) 
 
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/ferry/ferry_merged_space_delays/"
@@ -53,6 +59,7 @@ for col in time_cols:
     df[col] = pd.to_datetime(df[col]).dt.time
     df[col] = df[col].apply(lambda t: t.strftime("%H:%M"))
 
+st.title("Seattle to Bainbridge")
 
 def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
     """
