@@ -3,7 +3,7 @@
 ### **Date added** Feb 27, 2026 <br>
 After attempting to do all of this via Microsoft Power BI, and learning more than I ever wanted to know about admin settings, I discovered that Python visuals can't be made public to the web. Fortunately Streamlit was significantly easier to set up. The goal of these plots are to help me check which of the main ferry routes are running smoother based on the day's performance, and to gather enough historic data to eventually create a useful model.
 [![Live Ferry Tracker](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://just4plots-ferry-routes.streamlit.app/)
-![Coleman_to_Bainbridge.png](outputs/plots/ferries/Coleman_to_Bainbridge.png)
+![Coleman_to_Bainbridge.png](outputs/plots/ferries/Colman_to_Bainbridge.png)
 - Code for all of this lives [here](src/ferries/)
 
 
