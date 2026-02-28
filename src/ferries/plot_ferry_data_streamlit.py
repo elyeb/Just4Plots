@@ -43,34 +43,16 @@ dock_dict_names = {
     "Edmonds": "Edmonds",
 }
 
-# Filter data and format #####################################################
+# Load full data and define plot function #####################################################
 
-df = load_data(DATA_FOLDER)
-df = df[df["Departing"] == depart_dock]
-df = df[df["Destination"] == arrive_dock]
-df = df[df["day_of_week"] == day_of_week]
-
-df["scheduled_depart"] = pd.to_datetime(df["scheduled_depart"]).dt.time
-df["scheduled_depart"] = df["scheduled_depart"].apply(lambda t: t.strftime("%H:%M"))
-df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%m/%d/%Y")
-
-todays_schedules = df[df["Date"] == today]["scheduled_depart"]
-todays_schedules = pd.to_datetime(todays_schedules).dt.time
-todays_schedules = todays_schedules.apply(lambda t: t.strftime("%H:%M"))
-todays_schedules = todays_schedules.unique().astype(str).tolist()
-
-df = df[~df["actual_depart"].isna()]
-time_cols = ["actual_depart", "est_arrival"]
-for col in time_cols:
-    df[col] = pd.to_datetime(df[col]).dt.time
-    df[col] = df[col].apply(lambda t: t.strftime("%H:%M"))
+data = load_data(DATA_FOLDER)
 
 
-def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
+def plot_scatter_day(data, dock, dest, day_of_week, date):
     """
     Troubleshooting:
     data = df.copy()
-    dock, dest, day_of_week, date, schedule = depart_dock, arrive_dock, day_of_week, today, todays_schedules
+    dock, dest, day_of_week, date, schedule = depart_dock, arrive_dock, day_of_week, today
     """
 
     graph_title = (
@@ -78,6 +60,28 @@ def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
     )
 
     df = data.copy()
+
+    ## FORMAT DATA
+    df = data.copy()
+    df = df[df["Departing"] == dock]
+    df = df[df["Destination"] == dest]
+    df = df[df["day_of_week"] == day_of_week]
+
+    df["scheduled_depart"] = pd.to_datetime(df["scheduled_depart"]).dt.time
+    df["scheduled_depart"] = df["scheduled_depart"].apply(lambda t: t.strftime("%H:%M"))
+    df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%m/%d/%Y")
+
+    todays_schedules = df[df["Date"] == today]["scheduled_depart"]
+    todays_schedules = pd.to_datetime(todays_schedules).dt.time
+    todays_schedules = todays_schedules.apply(lambda t: t.strftime("%H:%M"))
+    todays_schedules = todays_schedules.unique().astype(str).tolist()
+
+    df = df[~df["actual_depart"].isna()]
+    time_cols = ["actual_depart", "est_arrival"]
+    for col in time_cols:
+        df[col] = pd.to_datetime(df[col]).dt.time
+        df[col] = df[col].apply(lambda t: t.strftime("%H:%M"))
+
     df = df.sort_values(by="scheduled_depart")
 
     # format times as datetime (NOT strings)
@@ -104,7 +108,7 @@ def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
     y_lower = -60  # math.floor(df["soldout_dif"].min() / 5) * 5 - 5
 
     # schedule ticks as datetime
-    depart_times = pd.to_datetime(schedule, format="%H:%M")
+    depart_times = pd.to_datetime(todays_schedules, format="%H:%M")
 
     fig, ax = plt.subplots(figsize=(16, 9))
 
@@ -177,18 +181,20 @@ def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
     st.pyplot(fig)
 
 
+# Plot 2x2 layout #####################################################
+
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("Seattle to Bainbridge")
     depart_dock = "Colman"
     arrive_dock = "Bainbridge"
-    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
+    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today)
 
 with col2:
     st.subheader("Bainbridge to Seattle")
     depart_dock = "Bainbridge"
     arrive_dock = "Colman"
-    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
+    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today)
 
 # Row 2
 col3, col4 = st.columns(2)
@@ -196,10 +202,10 @@ with col3:
     st.subheader("Edmonds to Kingston")
     depart_dock = "Edmonds"
     arrive_dock = "Kingston"
-    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
+    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today)
 
 with col4:
     st.subheader("Kingston to Edmonds")
     depart_dock = "Kingston"
     arrive_dock = "Edmonds"
-    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
+    plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today)
