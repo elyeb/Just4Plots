@@ -55,9 +55,7 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     dock, dest, day_of_week, date, schedule = depart_dock, arrive_dock, day_of_week, today
     """
 
-    graph_title = (
-        f"{dock_dict_names[dock]} to {dock_dict_names[dest]}\n{day_of_week}, {date}"
-    )
+    graph_title = f"{day_of_week}, {date}"
 
     df = data.copy()
 
