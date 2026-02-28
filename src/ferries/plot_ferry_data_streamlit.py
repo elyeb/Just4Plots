@@ -174,7 +174,8 @@ def plot_scatter_day(data, dock, dest, day_of_week, date, schedule):
     fig.suptitle(graph_title, fontsize=30)
     fig.text(0.5, 0.05, "Scheduled Departure Time", ha="center", fontsize=14)
 
-    plt.show()
+    # plt.show()
+    st.pyplot(fig)
 
 
 plot_scatter_day(df, depart_dock, arrive_dock, day_of_week, today, todays_schedules)
