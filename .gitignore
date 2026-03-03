@@ -8,3 +8,4 @@ venv/
 config/
 run_ferry_scrape.sh
 README_with_links.md
+/dashboards/
