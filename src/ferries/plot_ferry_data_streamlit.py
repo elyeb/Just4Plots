@@ -55,7 +55,7 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     """
     Troubleshooting:
     data = df.copy()
-    dock, dest, day_of_week, date, schedule = depart_dock, arrive_dock, day_of_week, today
+    dock, dest, day_of_week, date = depart_dock, arrive_dock, day_of_week, today
     """
 
     graph_title = f"{day_of_week}, {date}"
@@ -68,19 +68,21 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     df = df[df["Destination"] == dest]
     df = df[df["day_of_week"] == day_of_week]
 
-    df["scheduled_depart"] = pd.to_datetime(df["scheduled_depart"]).dt.time
+    df["scheduled_depart"] = pd.to_datetime(
+        df["scheduled_depart"], format="%H:%M"
+    ).dt.time
     df["scheduled_depart"] = df["scheduled_depart"].apply(lambda t: t.strftime("%H:%M"))
     df["Date"] = pd.to_datetime(df["Date"]).dt.strftime("%m/%d/%Y")
 
     todays_schedules = df[df["Date"] == today]["scheduled_depart"]
-    todays_schedules = pd.to_datetime(todays_schedules).dt.time
+    todays_schedules = pd.to_datetime(todays_schedules, format="%H:%M").dt.time
     todays_schedules = todays_schedules.apply(lambda t: t.strftime("%H:%M"))
     todays_schedules = todays_schedules.unique().astype(str).tolist()
 
     df = df[~df["actual_depart"].isna()]
     time_cols = ["actual_depart", "est_arrival"]
     for col in time_cols:
-        df[col] = pd.to_datetime(df[col]).dt.time
+        df[col] = pd.to_datetime(df[col], format="%H:%M").dt.time
         df[col] = df[col].apply(lambda t: t.strftime("%H:%M"))
 
     df = df.sort_values(by="scheduled_depart")
