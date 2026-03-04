@@ -56,14 +56,33 @@ def create_webdriver(max_retries=3, retry_interval=5):
                 raise
 
 
+def create_local_webdriver():
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    # Set Firefox preferences through options
+    options.set_preference("browser.download.folderList", 2)
+    options.set_preference("browser.download.manager.showWhenStarting", False)
+    options.set_preference("browser.download.dir", os.path.abspath(DATA_FOLDER))
+
+    driver = webdriver.Firefox(options=options)
+    return driver
+
+
 # Ensure data directory exists
 os.makedirs(DATA_FOLDER, exist_ok=True)
 
 try:
     # Initialize WebDriver
     driver = create_webdriver()
+    # driver = create_local_webdriver()
 
     for dock, terminal_id in dock_dict.items():
+        """
+        dock = "bainbridge"
+        terminal_id = 3
+        """
         url = f"{URL_ROOT}{terminal_id}"
         print(f"Scraping {dock} dock at {url}...")
 
@@ -72,7 +91,12 @@ try:
             try:
                 driver.get(url)
                 wait = WebDriverWait(driver, 20)
-                wait.until(EC.presence_of_element_located((By.ID, "realtimecontent")))
+                # wait.until(EC.presence_of_element_located((By.ID, "realtimecontent")))
+                wait.until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "#realtimecontent table tr")
+                    )
+                )
 
                 html = driver.page_source
                 soup = BeautifulSoup(html, "html.parser")
