@@ -108,89 +108,91 @@ for ferry in ferries:  # tqdm(ferries):
     # Wait for the page to load
     wait = WebDriverWait(driver, 10)
 
-    # Example: Select an option from a drop-down menu
-    ID_OF_DROPDOWN = "RightContentPlaceHolder_ddlVessels"
-
-    dropdown = wait.until(EC.presence_of_element_located((By.ID, ID_OF_DROPDOWN)))
-    select = Select(dropdown)
-    select.select_by_visible_text(ferry)
-
-    # set start date
-    ID_OF_START_DATE_PICKER = "RightContentPlaceHolder_txtDateFrom"
-    date_picker = wait.until(
-        EC.presence_of_element_located((By.ID, ID_OF_START_DATE_PICKER))
-    )
-    date_picker.clear()
-    date_picker.send_keys(START_DATE)
-
-    # set end date
-    ID_OF_START_END_PICKER = "RightContentPlaceHolder_txtDateThru"
-    date_picker = wait.until(
-        EC.presence_of_element_located((By.ID, ID_OF_START_END_PICKER))
-    )
-    date_picker.clear()
-    date_picker.send_keys(END_DATE)
-
-    # select csv
-    ID_OF_CSV = "RightContentPlaceHolder_radCsv"
-    csv_button = WebDriverWait(driver, 20).until(
-        EC.element_to_be_clickable((By.ID, ID_OF_CSV))
-    )
-    csv_button.click()
-
-    # Example: Click a button to download data
-    ID_OF_DOWNLOAD_BUTTON = "RightContentPlaceHolder_btnDownload"
-    download_button = wait.until(
-        EC.element_to_be_clickable((By.ID, ID_OF_DOWNLOAD_BUTTON))
-    )
-    driver.execute_script("arguments[0].scrollIntoView(true);", download_button)
-
-    time.sleep(5)
     try:
-        download_button.click()
-        success = True
-    except ElementClickInterceptedException:
-        download_button.click()
+        # Example: Select an option from a drop-down menu
+        ID_OF_DROPDOWN = "RightContentPlaceHolder_ddlVessels"
 
-    # Wait for the popup to appear and click the "Yes" button
-    popup_yes_button = wait.until(
-        EC.element_to_be_clickable(
-            (By.XPATH, "//button[contains(@class, 'ui-button') and text()='Yes']")
+        dropdown = wait.until(EC.presence_of_element_located((By.ID, ID_OF_DROPDOWN)))
+        select = Select(dropdown)
+        select.select_by_visible_text(ferry)
+
+        # set start date
+        ID_OF_START_DATE_PICKER = "RightContentPlaceHolder_txtDateFrom"
+        date_picker = wait.until(
+            EC.presence_of_element_located((By.ID, ID_OF_START_DATE_PICKER))
         )
-    )
-    driver.execute_script("arguments[0].scrollIntoView(true);", popup_yes_button)
-    try:
-        popup_yes_button.click()
-        success = True
-    except ElementClickInterceptedException:
-        popup_yes_button.click()
+        date_picker.clear()
+        date_picker.send_keys(START_DATE)
 
-    # close the complete window
-    try:
-        popup_complete_button = wait.until(
+        # set end date
+        ID_OF_START_END_PICKER = "RightContentPlaceHolder_txtDateThru"
+        date_picker = wait.until(
+            EC.presence_of_element_located((By.ID, ID_OF_START_END_PICKER))
+        )
+        date_picker.clear()
+        date_picker.send_keys(END_DATE)
+
+        # select csv
+        ID_OF_CSV = "RightContentPlaceHolder_radCsv"
+        csv_button = WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.ID, ID_OF_CSV))
+        )
+        csv_button.click()
+
+        # Example: Click a button to download data
+        ID_OF_DOWNLOAD_BUTTON = "RightContentPlaceHolder_btnDownload"
+        download_button = wait.until(
+            EC.element_to_be_clickable((By.ID, ID_OF_DOWNLOAD_BUTTON))
+        )
+        driver.execute_script("arguments[0].scrollIntoView(true);", download_button)
+
+        time.sleep(5)
+        try:
+            download_button.click()
+            success = True
+        except ElementClickInterceptedException:
+            download_button.click()
+
+        # Wait for the popup to appear and click the "Yes" button
+        popup_yes_button = wait.until(
             EC.element_to_be_clickable(
-                (
-                    By.XPATH,
-                    "//button[contains(@class, 'ui-button') and text()='Ok']",
-                )
+                (By.XPATH, "//button[contains(@class, 'ui-button') and text()='Yes']")
             )
         )
-        driver.execute_script(
-            "arguments[0].scrollIntoView(true);", popup_complete_button
-        )
-        time.sleep(5)
-        popup_complete_button.click()
-        success = True
-    except (ElementClickInterceptedException, TimeoutException):
-        print("No completion popup found, moving on...")
+        driver.execute_script("arguments[0].scrollIntoView(true);", popup_yes_button)
+        try:
+            popup_yes_button.click()
+            success = True
+        except ElementClickInterceptedException:
+            popup_yes_button.click()
+
+        # close the complete window
+        try:
+            popup_complete_button = wait.until(
+                EC.element_to_be_clickable(
+                    (
+                        By.XPATH,
+                        "//button[contains(@class, 'ui-button') and text()='Ok']",
+                    )
+                )
+            )
+            driver.execute_script(
+                "arguments[0].scrollIntoView(true);", popup_complete_button
+            )
+            time.sleep(5)
+            popup_complete_button.click()
+            success = True
+        except (ElementClickInterceptedException, TimeoutException):
+            print("No completion popup found, moving on...")
+    except Exception as e:
+        print(f"Error processing {ferry}: {str(e)}. Skipping to next ferry.")
+        continue
 
 # Close the browser
 driver.quit()
 
 
 # Concat results of downloads
-
-
 OUTFILE = f"ferry_depart_times.csv"
 
 df_current = pd.read_csv(OUTPUT_FOLDER + OUTFILE, index_col=False)
