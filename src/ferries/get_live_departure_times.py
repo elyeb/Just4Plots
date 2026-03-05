@@ -192,6 +192,7 @@ try:
             ]
 
             df = df[df["est_arrival"] != "At Dock"]
+            df = df[df["est_arrival"] != ""]
 
             def convert_to_24h(timestr):
                 time_hr = int(timestr.split(":")[0])
