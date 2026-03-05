@@ -50,7 +50,7 @@ def create_webdriver(max_retries=1, retry_interval=5):
     # Set Firefox preferences through options
     options.set_preference("browser.download.folderList", 2)
     options.set_preference("browser.download.manager.showWhenStarting", False)
-    options.set_preference("browser.download.dir", os.path.abspath(DATA_FOLDER))
+    # options.set_preference("browser.download.dir", os.path.abspath(DATA_FOLDER))
 
     for attempt in range(max_retries):
         try:
