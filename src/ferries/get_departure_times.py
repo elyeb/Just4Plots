@@ -59,7 +59,7 @@ ferries = [
     "Yakima",
 ]
 
-START_DATE = (datetime.datetime.now(PACIFIC) - timedelta(days=2)).strftime("%m/%d/%Y")
+START_DATE = (datetime.datetime.now(PACIFIC) - timedelta(days=1)).strftime("%m/%d/%Y")
 END_DATE = datetime.datetime.now(PACIFIC).strftime("%m/%d/%Y")
 # left off 03/21/2025
 
