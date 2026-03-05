@@ -42,7 +42,7 @@ dock_dict_names_remap = {
 }
 
 
-def create_webdriver(max_retries=3, retry_interval=5):
+def create_webdriver(max_retries=1, retry_interval=5):
     options = Options()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
@@ -89,7 +89,7 @@ try:
     driver = create_webdriver()
     # driver = create_local_webdriver()
 
-    max_retries = 3
+    max_retries = 1
     for attempt in range(max_retries):
         try:
             driver.get(URL)
@@ -227,14 +227,14 @@ try:
 
         except Exception as e:
             print(f"Error scraping live ferry departure data: {str(e)}")
-            if attempt < max_retries - 1:
-                print("Waiting 5 seconds before retry...")
-                time.sleep(5)
-                driver = create_webdriver()
-            else:
-                print(
-                    f"Failed to scrape data after {max_retries} attempts, raising error"
-                )
+            # if attempt < max_retries - 1:
+            #     print("Waiting 5 seconds before retry...")
+            #     time.sleep(5)
+            #     driver = create_webdriver()
+            # else:
+            #     print(
+            #         f"Failed to scrape data after {max_retries} attempts, raising error"
+            #     )
 
 finally:
     if "driver" in locals():
