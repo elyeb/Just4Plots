@@ -165,7 +165,7 @@ try:
 
             # merge with historic data and save
             # format df
-
+            df = df[df["date"].notna()]
             hour = int(df["date"].iloc[0].split()[1].split(":")[0])
             df["Date"] = TODAY
 
@@ -193,16 +193,25 @@ try:
 
             df = df[df["est_arrival"] != "At Dock"]
 
-            def convert_to_24h(timstr):
-                time_hr = int(timstr.split(":")[0])
-                time_min = int(timstr.split(":")[1])
+            def convert_to_24h(timestr):
+                time_hr = int(timestr.split(":")[0])
+                time_min = timestr.split(":")[1]
+
+                if time_hr == 12:
+                    return timestr
 
                 time_hr += 12
-
                 return_str = f"{time_hr}:{time_min}"
                 return return_str
 
             if hour >= 12:
+                """
+                Times after 12 pm will include some 1 pm departure times,
+                requiring conversion. 11 am times will not have any 1 pm times,
+                and 12 is already in 24 hour format.
+                """
+                for col in ["est_arrival", "actual_depart", "scheduled_depart"]:
+                    df[col] = df[col].apply(convert_to_24h)
 
             # Change names where applicable
             df.loc[df["Departing"].isin(dock_dict_names_remap.keys()), "Departing"] = (
@@ -219,20 +228,36 @@ try:
             )
 
             # replace data in df_hist with df when empty values in df_hist
+
+            # merge data onto one another to find which rows to replace
+            df_hist.drop_duplicates(inplace=True)
             df_hist["version"] = "historical"
             df = df.merge(
-                df_hist[["Date", "Departing", "Destination", "version"]],
-                on=["Date", "Departing", "Destination"],
+                df_hist[
+                    ["Date", "Departing", "Destination", "scheduled_depart", "version"]
+                ],
+                on=["Date", "Departing", "Destination", "scheduled_depart"],
                 how="left",
             )
             df = df[df["version"].notna()]
+            df = df.drop(columns=["version"])
 
+            # repeat for df on df_hist
+            df["version"] = "live"
+            df_hist = df_hist.drop(columns=["version"])
+            df_hist = df_hist.merge(
+                df[["Date", "Departing", "Destination", "scheduled_depart", "version"]],
+                on=["Date", "Departing", "Destination", "scheduled_depart"],
+                how="left",
+            )
 
             if len(df) > 0:
 
-                df_hist = pd.concat([df, df_hist], ignore_index=True)
+                df_hist = df_hist[df_hist["version"].isna()]
+                df = df.drop(columns=["version"])
                 df_hist = df_hist.drop(columns=["version"])
-                df_hist.drop_duplicates(inplace=True)
+
+                df_hist = pd.concat([df, df_hist], ignore_index=True)
 
                 df_hist["year"] = df_hist["Date"].str.split("/").str[2].astype(int)
                 df_hist["month"] = df_hist["Date"].str.split("/").str[0].astype(int)
