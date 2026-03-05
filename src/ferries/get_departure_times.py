@@ -144,14 +144,13 @@ for ferry in ferries:  # tqdm(ferries):
         EC.element_to_be_clickable((By.ID, ID_OF_DOWNLOAD_BUTTON))
     )
     driver.execute_script("arguments[0].scrollIntoView(true);", download_button)
-    success = False
-    while not success:
-        time.sleep(5)
-        try:
-            download_button.click()
-            success = True
-        except ElementClickInterceptedException:
-            download_button.click()
+
+    time.sleep(5)
+    try:
+        download_button.click()
+        success = True
+    except ElementClickInterceptedException:
+        download_button.click()
 
     # Wait for the popup to appear and click the "Yes" button
     popup_yes_button = wait.until(
@@ -160,36 +159,30 @@ for ferry in ferries:  # tqdm(ferries):
         )
     )
     driver.execute_script("arguments[0].scrollIntoView(true);", popup_yes_button)
-    success = False
-    while not success:
-        time.sleep(5)
-        try:
-            popup_yes_button.click()
-            success = True
-        except ElementClickInterceptedException:
-            popup_yes_button.click()
+    try:
+        popup_yes_button.click()
+        success = True
+    except ElementClickInterceptedException:
+        popup_yes_button.click()
 
     # close the complete window
-    success = False
-    while not success:
-        try:
-            popup_complete_button = wait.until(
-                EC.element_to_be_clickable(
-                    (
-                        By.XPATH,
-                        "//button[contains(@class, 'ui-button') and text()='Ok']",
-                    )
+    try:
+        popup_complete_button = wait.until(
+            EC.element_to_be_clickable(
+                (
+                    By.XPATH,
+                    "//button[contains(@class, 'ui-button') and text()='Ok']",
                 )
             )
-            driver.execute_script(
-                "arguments[0].scrollIntoView(true);", popup_complete_button
-            )
-            time.sleep(5)
-            popup_complete_button.click()
-            success = True
-        except (ElementClickInterceptedException, TimeoutException):
-            print(f"Retrying to find and click 'Ok' button for ferry {ferry}")
-            time.sleep(5)
+        )
+        driver.execute_script(
+            "arguments[0].scrollIntoView(true);", popup_complete_button
+        )
+        time.sleep(5)
+        popup_complete_button.click()
+        success = True
+    except (ElementClickInterceptedException, TimeoutException):
+        print("No completion popup found, moving on...")
 
 # Close the browser
 driver.quit()
@@ -220,12 +213,6 @@ df_updates = pd.concat(df_list, ignore_index=True)
 columns = [c.strip() for c in df_updates.columns]
 df_updates.columns = columns
 
-# Colman sanity check round 1
-colman = df_updates[
-    (df_updates["Departing"] == "Colman") & (df_updates["Arriving"] == "Bainbridge")
-]
-print("Most recent departure times from Colman to Bainbridge in depart times:")
-print(colman[["Date", "Scheduled Depart"]].tail(3))
 
 # Combine with current data
 df = pd.concat([df_current, df_updates], ignore_index=True)
