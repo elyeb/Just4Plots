@@ -27,7 +27,7 @@ dock_dict = {
 }
 
 
-def create_webdriver(max_retries=3, retry_interval=5):
+def create_webdriver(max_retries=1, retry_interval=5):
     options = Options()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
@@ -86,7 +86,7 @@ try:
         url = f"{URL_ROOT}{terminal_id}"
         print(f"Scraping {dock} dock at {url}...")
 
-        max_retries = 3
+        max_retries = 1
         for attempt in range(max_retries):
             try:
                 driver.get(url)
@@ -141,12 +141,12 @@ try:
 
             except Exception as e:
                 print(f"Error scraping {dock} (attempt {attempt + 1}): {str(e)}")
-                if attempt < max_retries - 1:
-                    print("Waiting 5 seconds before retry...")
-                    time.sleep(5)
-                    driver = create_webdriver()
-                else:
-                    print(f"Failed to scrape {dock} after {max_retries} attempts")
+                # if attempt < max_retries - 1:
+                #     print("Waiting 5 seconds before retry...")
+                #     time.sleep(5)
+                #     driver = create_webdriver()
+                # else:
+                #     print(f"Failed to scrape {dock} after {max_retries} attempts")
 
 finally:
     if "driver" in locals():
