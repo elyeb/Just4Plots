@@ -172,7 +172,7 @@ try:
             df.rename(
                 columns={
                     "sched_depart": "scheduled_depart",
-                    "eta": "estimated_arrival",
+                    "eta": "est_arrival",
                     "departing": "Departing",
                     "arriving": "Destination",
                     "vessel": "actual_vessel",
@@ -181,7 +181,7 @@ try:
             )
             df = df[
                 [
-                    "estimated_arrival",
+                    "est_arrival",
                     "actual_depart",
                     "scheduled_depart",
                     "Destination",
@@ -191,7 +191,7 @@ try:
                 ]
             ]
 
-            df = df[df["estimated_arrival"] != "At Dock"]
+            df = df[df["est_arrival"] != "At Dock"]
 
             def convert_to_24h(timstr):
                 time_hr = int(timstr.split(":")[0])

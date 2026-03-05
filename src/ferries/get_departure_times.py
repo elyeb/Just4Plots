@@ -201,9 +201,6 @@ downloads_csvs = [f for f in downloads_csvs if f.split(".")[0] in ferries]
 df_list = []
 for f in downloads_csvs:
     df_list.append(pd.read_csv(DATA_FOLDER + "/" + f, index_col=False))
-    if ("Tacoma" in f) or ("Wenatchee" in f):
-        print(f"File {f}")
-        print(pd.read_csv(DATA_FOLDER + "/" + f, index_col=False).tail(5))
 
 # keep some files. They might not get merged right away with the database.
 if len(df_list) > 200:
