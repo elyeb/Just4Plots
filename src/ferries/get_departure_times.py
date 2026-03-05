@@ -241,8 +241,3 @@ df = df.drop(columns=["year", "month", "day"])
 
 df.to_csv(OUTPUT_FOLDER + OUTFILE, index=False)
 os.chmod(OUTPUT_FOLDER + OUTFILE, 0o777)
-
-# Colman sanity check round 2
-colman = df[(df["Departing"] == "Colman") & (df["Arriving"] == "Bainbridge")]
-print("Most recent departure times from Colman to Bainbridge in depart times:")
-print(colman[["Date", "Scheduled Depart"]].head(3))
