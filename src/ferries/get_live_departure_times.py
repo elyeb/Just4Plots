@@ -146,18 +146,18 @@ try:
                     ]
                 )
 
-                columns = [
-                    "date",
-                    "pos",
-                    "route",
-                    "eta",
-                    "actual_depart",
-                    "sched_depart",
-                    "arriving",
-                    "departing",
-                    "speed",
-                    "vessel",
-                ]
+            columns = [
+                "date",
+                "pos",
+                "route",
+                "eta",
+                "actual_depart",
+                "sched_depart",
+                "arriving",
+                "departing",
+                "speed",
+                "vessel",
+            ]
 
             df = pd.DataFrame(data, columns=columns)
 
