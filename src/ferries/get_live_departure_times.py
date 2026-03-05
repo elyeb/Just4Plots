@@ -165,6 +165,8 @@ try:
 
             # merge with historic data and save
             # format df
+
+            hour = int(df["date"].iloc[0].split()[1].split(":")[0])
             df["Date"] = TODAY
 
             df.rename(
@@ -189,6 +191,19 @@ try:
                 ]
             ]
 
+            df = df[df["estimated_arrival"] != "At Dock"]
+
+            def convert_to_24h(timstr):
+                time_hr = int(timstr.split(":")[0])
+                time_min = int(timstr.split(":")[1])
+
+                time_hr += 12
+
+                return_str = f"{time_hr}:{time_min}"
+                return return_str
+
+            if hour >= 12:
+
             # Change names where applicable
             df.loc[df["Departing"].isin(dock_dict_names_remap.keys()), "Departing"] = (
                 df.loc[
@@ -211,10 +226,21 @@ try:
                 how="left",
             )
             df = df[df["version"].notna()]
+
+
             if len(df) > 0:
 
                 df_hist = pd.concat([df, df_hist], ignore_index=True)
                 df_hist = df_hist.drop(columns=["version"])
+                df_hist.drop_duplicates(inplace=True)
+
+                df_hist["year"] = df_hist["Date"].str.split("/").str[2].astype(int)
+                df_hist["month"] = df_hist["Date"].str.split("/").str[0].astype(int)
+                df_hist["day"] = df_hist["Date"].str.split("/").str[1].astype(int)
+                df_hist = df_hist.sort_values(
+                    by=["year", "month", "day", "scheduled_depart"], ascending=False
+                )
+                df_hist = df_hist.drop(columns=["year", "month", "day"])
 
                 df_hist.to_parquet(
                     DATA_PATH + "ferry_merged_space_delays.parquet", index=False
