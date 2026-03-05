@@ -60,8 +60,8 @@ jobs:
       env:
         DATA_DIR: ${{ github.workspace }}/data/ferry/downloads
       run: |
-        python -u src/ferries/get_vehicle_spaces.py
         python -u src/ferries/get_departure_times.py
+        python -u src/ferries/get_vehicle_spaces.py
         python -u src/ferries/get_ferry_schedules.py
         python -u src/ferries/merge_ferry_data.py
         python -u src/ferries/get_live_departure_times.py        
