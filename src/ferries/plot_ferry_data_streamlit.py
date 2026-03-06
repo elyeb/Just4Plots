@@ -4,16 +4,24 @@ from matplotlib.colors import to_rgba
 import pandas as pd
 import datetime
 from zoneinfo import ZoneInfo
-import sys
-import math
+import requests
+import io
 import matplotlib.dates as mdates
 import os
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
 
 # Page Config  #####################################################
-# Refresh the whole app every 5 minutes (300,000 ms)
-st_autorefresh(interval=300 * 1000, key="datarefresh")
+PACIFIC = ZoneInfo("America/Los_Angeles")
+now_pacific = datetime.datetime.now(PACIFIC)
+today_pacific = now_pacific.date()
+
+today = today_pacific.strftime("%m/%d/%Y")
+day_of_week = today_pacific.strftime("%A")
+
+# Refresh the whole app every 5 minutes
+st_autorefresh(interval=300000, key="datarefresh")
+st.caption(f"Last refresh: {datetime.datetime.now(PACIFIC).strftime('%H:%M:%S')}")
 
 st.set_page_config(page_title="Ferry Tracker", layout="wide")
 
@@ -21,26 +29,29 @@ st.set_page_config(page_title="Ferry Tracker", layout="wide")
 DATA_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/ferry/ferry_merged_space_delays/"
 )
+DATA_URL = "https://raw.githubusercontent.com/elyeb/Just4Plots/refs/heads/main/data/ferry/ferry_merged_space_delays/ferry_merged_space_delays.parquet"
 STATIC_PLOT_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../outputs/plots/ferries/"
 )
 
 
-# @st.cache_data(ttl=300)
 # st.cache_data.clear()
-def load_data(data_folder):
-    dataset = pd.read_parquet(
-        os.path.join(data_folder, "ferry_merged_space_delays.parquet")
-    )
-    return dataset
+@st.cache_data(ttl=300)
+def load_data(url):
+    response = requests.get(url)
+    response.raise_for_status()  # fail loudly if download fails
+
+    buffer = io.BytesIO(response.content)
+    df = pd.read_parquet(buffer)
+
+    return df
 
 
-PACIFIC = ZoneInfo("America/Los_Angeles")
-now_pacific = datetime.datetime.now(PACIFIC)
-today_pacific = now_pacific.date()
-
-today = today_pacific.strftime("%m/%d/%Y")
-day_of_week = today_pacific.strftime("%A")
+# def load_data(data_folder):
+#     dataset = pd.read_parquet(
+#         os.path.join(data_folder, "ferry_merged_space_delays.parquet")
+#     )
+#     return dataset
 
 
 ## Constants
@@ -53,7 +64,8 @@ dock_dict_names = {
 
 # Load full data and define plot function #####################################################
 
-data = load_data(DATA_FOLDER)
+# data = load_data(DATA_FOLDER)
+data = load_data(DATA_URL)
 
 
 # @st.fragment(run_every="5m")
