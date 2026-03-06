@@ -29,12 +29,14 @@ TODAY = today_pacific.strftime("%m/%d/%Y")
 
 URL = "https://wsdot.com/ferries/vesselwatch/default.aspx"
 
-DATA_PATH = os.path.join(
-    os.path.dirname(__file__), "../../data/ferry/ferry_merged_space_delays/"
-)
+# DATA_PATH = os.path.join(
+#     os.path.dirname(__file__), "../../data/ferry/ferry_merged_space_delays/"
+# )
 
+DATA_PATH = os.path.join(os.path.dirname(__file__), "../../data/ferry/ferry_delays/")
+# df_hist = pd.read_csv(DATA_PATH + "ferry_merged_space_delays.csv")
+df_hist = pd.read_csv(DATA_PATH + "ferry_depart_times.csv")
 
-df_hist = pd.read_csv(DATA_PATH + "ferry_merged_space_delays.csv")
 ## Constants
 dock_dict_names_remap = {
     "Seattle": "Colman",
@@ -171,48 +173,69 @@ try:
 
             df.rename(
                 columns={
-                    "sched_depart": "scheduled_depart",
-                    "eta": "est_arrival",
+                    "sched_depart": "Scheduled Depart",
+                    "eta": "Est. Arrival",
+                    "actual_depart": "Actual Depart",
                     "departing": "Departing",
-                    "arriving": "Destination",
-                    "vessel": "actual_vessel",
+                    "arriving": "Arriving",
+                    "vessel": "Vessel",
                 },
                 inplace=True,
             )
             df = df[
                 [
-                    "est_arrival",
-                    "actual_depart",
-                    "scheduled_depart",
-                    "Destination",
+                    "Est. Arrival",
+                    "Actual Depart",
+                    "Scheduled Depart",
+                    "Arriving",
                     "Departing",
-                    "actual_vessel",
+                    "Vessel",
                     "Date",
                 ]
             ]
 
-            df = df[df["est_arrival"] != "At Dock"]
-            df = df[df["est_arrival"] != ""]
+            df = df[df["Est. Arrival"] != "At Dock"]
+            df = df[df["Est. Arrival"] != ""]
 
-            def convert_to_24h(timestr):
+            def convert_to_24h_afternoon(timestr):
                 time_hr = int(timestr.split(":")[0])
                 time_min = timestr.split(":")[1]
 
-                if time_hr == 12:
+                if time_hr in [11, 12]:
                     return timestr
 
                 time_hr += 12
                 return_str = f"{time_hr}:{time_min}"
                 return return_str
 
-            if hour >= 12:
+            def convert_to_24h_night(timestr):
+                time_hr = int(timestr.split(":")[0])
+                time_min = timestr.split(":")[1]
+
+                if time_hr == 12:
+                    return f"00:{time_min}"
+
+                time_hr += 12
+                return_str = f"{time_hr}:{time_min}"
+                return return_str
+
+            """
+            Issue 1: hour is after 12, but some depart times are still before 11. This
+            makes the depart times 23:xx but the est arrive 12:xx
+
+            Issue 2: hour is around 23, and so some of the est arrival times are 12:
+            """
+            if (hour >= 12) & (hour < 23):
                 """
                 Times after 12 pm will include some 1 pm departure times,
                 requiring conversion. 11 am times will not have any 1 pm times,
                 and 12 is already in 24 hour format.
                 """
-                for col in ["est_arrival", "actual_depart", "scheduled_depart"]:
-                    df[col] = df[col].apply(convert_to_24h)
+                for col in ["Est. Arrival", "Actual Depart", "Scheduled Depart"]:
+                    df[col] = df[col].apply(convert_to_24h_afternoon)
+            elif (hour >= 23) & (hour < 1):
+                for col in ["Est. Arrival", "Actual Depart", "Scheduled Depart"]:
+                    df[col] = df[col].apply(convert_to_24h_night)
 
             # Change names where applicable
             df.loc[df["Departing"].isin(dock_dict_names_remap.keys()), "Departing"] = (
@@ -220,58 +243,25 @@ try:
                     df["Departing"].isin(dock_dict_names_remap.keys()), "Departing"
                 ].map(dock_dict_names_remap)
             )
-            df.loc[
-                df["Destination"].isin(dock_dict_names_remap.keys()), "Destination"
-            ] = df.loc[
-                df["Destination"].isin(dock_dict_names_remap.keys()), "Destination"
-            ].map(
-                dock_dict_names_remap
-            )
-
-            # replace data in df_hist with df when empty values in df_hist
-
-            # merge data onto one another to find which rows to replace
-            df_hist.drop_duplicates(inplace=True)
-            df_hist["version"] = "historical"
-            df = df.merge(
-                df_hist[
-                    ["Date", "Departing", "Destination", "scheduled_depart", "version"]
-                ],
-                on=["Date", "Departing", "Destination", "scheduled_depart"],
-                how="left",
-            )
-            df = df[df["version"].notna()]
-            df = df.drop(columns=["version"])
-
-            # repeat for df on df_hist
-            df["version"] = "live"
-            df_hist = df_hist.drop(columns=["version"])
-            df_hist = df_hist.merge(
-                df[["Date", "Departing", "Destination", "scheduled_depart", "version"]],
-                on=["Date", "Departing", "Destination", "scheduled_depart"],
-                how="left",
+            df.loc[df["Arriving"].isin(dock_dict_names_remap.keys()), "Arriving"] = (
+                df.loc[
+                    df["Arriving"].isin(dock_dict_names_remap.keys()), "Arriving"
+                ].map(dock_dict_names_remap)
             )
 
             if len(df) > 0:
 
-                df_hist = df_hist[df_hist["version"].isna()]
-                df = df.drop(columns=["version"])
-                df_hist = df_hist.drop(columns=["version"])
-
                 df_hist = pd.concat([df, df_hist], ignore_index=True)
-
+                df_hist = df_hist.drop_duplicates()
                 df_hist["year"] = df_hist["Date"].str.split("/").str[2].astype(int)
                 df_hist["month"] = df_hist["Date"].str.split("/").str[0].astype(int)
                 df_hist["day"] = df_hist["Date"].str.split("/").str[1].astype(int)
                 df_hist = df_hist.sort_values(
-                    by=["year", "month", "day", "scheduled_depart"], ascending=False
+                    by=["year", "month", "day", "Scheduled Depart"], ascending=False
                 )
                 df_hist = df_hist.drop(columns=["year", "month", "day"])
 
-                df_hist.to_parquet(
-                    DATA_PATH + "ferry_merged_space_delays.parquet", index=False
-                )
-                df_hist.to_csv(DATA_PATH + "ferry_merged_space_delays.csv", index=False)
+                df_hist.to_csv(DATA_PATH + "ferry_depart_times.csv", index=False)
 
                 print(f"Updated {len(df)} rows of historic data")
                 print(df.head())
