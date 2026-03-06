@@ -52,6 +52,7 @@ dock_dict_names = {
 data = load_data(DATA_FOLDER)
 
 
+@st.fragment(run_every="5m")
 def plot_scatter_day(data, dock, dest, day_of_week, date):
     """
     Troubleshooting:
