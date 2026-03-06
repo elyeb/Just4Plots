@@ -22,10 +22,8 @@ STATIC_PLOT_FOLDER = os.path.join(
 )
 
 
-# @st.cache_data(ttl=600)
-st.cache_data.clear()
-
-
+@st.cache_data(ttl=300)
+# st.cache_data.clear()
 def load_data(data_folder):
     dataset = pd.read_parquet(
         os.path.join(data_folder, "ferry_merged_space_delays.parquet")
