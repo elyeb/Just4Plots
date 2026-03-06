@@ -9,8 +9,12 @@ import math
 import matplotlib.dates as mdates
 import os
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 
 # Page Config  #####################################################
+# Refresh the whole app every 5 minutes (300,000 ms)
+st_autorefresh(interval=300 * 1000, key="datarefresh")
+
 st.set_page_config(page_title="Ferry Tracker", layout="wide")
 
 # Set variables #####################################################
@@ -22,7 +26,7 @@ STATIC_PLOT_FOLDER = os.path.join(
 )
 
 
-@st.cache_data(ttl=300)
+# @st.cache_data(ttl=300)
 # st.cache_data.clear()
 def load_data(data_folder):
     dataset = pd.read_parquet(
@@ -52,7 +56,7 @@ dock_dict_names = {
 data = load_data(DATA_FOLDER)
 
 
-@st.fragment(run_every="5m")
+# @st.fragment(run_every="5m")
 def plot_scatter_day(data, dock, dest, day_of_week, date):
     """
     Troubleshooting:
