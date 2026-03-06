@@ -39,13 +39,13 @@ colman = depart_data[
 prev_space_db = pd.read_parquet(OUTPUT_ROOT + "ferry_space_db.parquet")
 prev_merged_db = pd.read_parquet(OUTPUT_ROOT + "ferry_merged_space_delays.parquet")
 
-# perform one-time cleaning operation
-prev_merged_db = prev_merged_db[prev_merged_db["day_of_week"].notna()]
-prev_merged_db.to_csv(OUTPUT_ROOT + "ferry_merged_space_delays.csv", index=False)
-prev_merged_db.to_parquet(
-    OUTPUT_ROOT + "ferry_merged_space_delays.parquet", index=False
-)
-# End
+# # perform one-time cleaning operation
+# prev_merged_db = prev_merged_db[prev_merged_db["day_of_week"].notna()]
+# prev_merged_db.to_csv(OUTPUT_ROOT + "ferry_merged_space_delays.csv", index=False)
+# prev_merged_db.to_parquet(
+#     OUTPUT_ROOT + "ferry_merged_space_delays.parquet", index=False
+# )
+# # End
 
 sub_strings = {
     "Bainbridge Island": "Bainbridge",
