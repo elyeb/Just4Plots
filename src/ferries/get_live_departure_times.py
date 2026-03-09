@@ -168,7 +168,6 @@ try:
             # merge with historic data and save
             # format df
             df = df[df["date"].notna()]
-            hour = int(df["date"].iloc[0].split()[1].split(":")[0])
             df["Date"] = TODAY
 
             df.rename(
@@ -182,6 +181,80 @@ try:
                 },
                 inplace=True,
             )
+
+            df = df[df["Est. Arrival"] != "At Dock"]
+            df = df[df["Est. Arrival"] != ""]
+
+            def convert_to_24h(row):
+                time_stamp_hr = int(row["date"].split()[1].split(":")[0])
+                est_arrival_hr = int(row["Est. Arrival"].split(":")[0])
+                est_arrival_min = row["Est. Arrival"].split(":")[1]
+                actual_depart_hr = int(row["Actual Depart"].split(":")[0])
+                actual_depart_min = row["Actual Depart"].split(":")[1]
+                sched_depart_hr = int(row["Scheduled Depart"].split(":")[0])
+                sched_depart_min = row["Scheduled Depart"].split(":")[1]
+
+                concurrent_hours = [
+                    sched_depart_hr,
+                    actual_depart_hr,
+                    est_arrival_hr,
+                ]
+
+                # Screen for 4 situations of day based on truth conditions.
+                mixed_afternoon = (
+                    (time_stamp_hr >= 12)
+                    & (time_stamp_hr <= 14)
+                    & (1 in concurrent_hours)
+                    & (12 in concurrent_hours)
+                )
+                mixed_night = ((time_stamp_hr >= 22) | (time_stamp_hr <= 1)) & (
+                    ((11 in concurrent_hours) & (12 in concurrent_hours))
+                    | ((12 in concurrent_hours) & (1 in concurrent_hours))
+                )
+                all_morning = (time_stamp_hr <= 13) & (
+                    max(concurrent_hours) <= 12
+                ) and (not mixed_afternoon)
+                all_afternoon = (
+                    (time_stamp_hr >= 12) & (max(concurrent_hours) < 12)
+                    and (not all_morning)
+                    and (not mixed_night)
+                )
+
+                if mixed_afternoon:
+                    est_arrival_hr += 12 if est_arrival_hr <= 2 else 0
+                    actual_depart_hr += 12 if actual_depart_hr <= 2 else 0
+                    sched_depart_hr += 12 if sched_depart_hr <= 2 else 0
+                    row["Est. Arrival"] = f"{est_arrival_hr}:{est_arrival_min}"
+                    row["Actual Depart"] = f"{actual_depart_hr}:{actual_depart_min}"
+                    row["Scheduled Depart"] = f"{sched_depart_hr}:{sched_depart_min}"
+                    return row
+
+                elif mixed_night:
+                    est_arrival_hr = "00" if est_arrival_hr == 12 else est_arrival_hr
+                    actual_depart_hr = (
+                        "00" if actual_depart_hr == 12 else actual_depart_hr
+                    )
+                    sched_depart_hr = "00" if sched_depart_hr == 12 else sched_depart_hr
+                    row["Est. Arrival"] = f"{est_arrival_hr}:{est_arrival_min}"
+                    row["Actual Depart"] = f"{actual_depart_hr}:{actual_depart_min}"
+                    row["Scheduled Depart"] = f"{sched_depart_hr}:{sched_depart_min}"
+                    return row
+
+                elif all_morning:
+                    # Do nothing, as times are already in 24 hour format
+                    return row
+
+                # Situation 4: all data rows and hour are after noon
+                elif all_afternoon:
+                    est_arrival_hr += 12
+                    actual_depart_hr += 12
+                    sched_depart_hr += 12
+                    row["Est. Arrival"] = f"{est_arrival_hr}:{est_arrival_min}"
+                    row["Actual Depart"] = f"{actual_depart_hr}:{actual_depart_min}"
+                    row["Scheduled Depart"] = f"{sched_depart_hr}:{sched_depart_min}"
+                    return row
+
+            df = df.apply(convert_to_24h, axis=1)
             df = df[
                 [
                     "Est. Arrival",
@@ -193,49 +266,6 @@ try:
                     "Date",
                 ]
             ]
-
-            df = df[df["Est. Arrival"] != "At Dock"]
-            df = df[df["Est. Arrival"] != ""]
-
-            def convert_to_24h_afternoon(timestr):
-                time_hr = int(timestr.split(":")[0])
-                time_min = timestr.split(":")[1]
-
-                if time_hr in [11, 12]:
-                    return timestr
-
-                time_hr += 12
-                return_str = f"{time_hr}:{time_min}"
-                return return_str
-
-            def convert_to_24h_night(timestr):
-                time_hr = int(timestr.split(":")[0])
-                time_min = timestr.split(":")[1]
-
-                if time_hr == 12:
-                    return f"00:{time_min}"
-
-                time_hr += 12
-                return_str = f"{time_hr}:{time_min}"
-                return return_str
-
-            """
-            Issue 1: hour is after 12, but some depart times are still before 11. This
-            makes the depart times 23:xx but the est arrive 12:xx
-
-            Issue 2: hour is around 23, and so some of the est arrival times are 12:
-            """
-            if (hour >= 12) & (hour < 23):
-                """
-                Times after 12 pm will include some 1 pm departure times,
-                requiring conversion. 11 am times will not have any 1 pm times,
-                and 12 is already in 24 hour format.
-                """
-                for col in ["Est. Arrival", "Actual Depart", "Scheduled Depart"]:
-                    df[col] = df[col].apply(convert_to_24h_afternoon)
-            elif (hour >= 23) & (hour < 1):
-                for col in ["Est. Arrival", "Actual Depart", "Scheduled Depart"]:
-                    df[col] = df[col].apply(convert_to_24h_night)
 
             # Change names where applicable
             df.loc[df["Departing"].isin(dock_dict_names_remap.keys()), "Departing"] = (
@@ -250,9 +280,18 @@ try:
             )
 
             if len(df) > 0:
-
+                df_hist = df_hist.drop_duplicates(
+                    subset=["Departing", "Arriving", "Date", "Scheduled Depart"]
+                )
                 df_hist = pd.concat([df, df_hist], ignore_index=True)
-                df_hist = df_hist.drop_duplicates()
+
+                # Remove outliers that may have been past miscalculations
+                # df_hist["est_arrival_hr"] = df_hist["Est. Arrival"].str.split(":").str[0].astype(int)
+                # df_hist["actual_depart_hr"] = df_hist["Actual Depart"].str.split(":").str[0].astype(int)
+                # df_hist["sched_depart_hr"] = df_hist["Scheduled Depart"].str.split(":").str[0].astype(int)
+                # df_hist["sched_depart_arrival_dif"] = abs(df_hist["sched_depart_hr"] - df_hist["est_arrival_hr"])
+                # df_hist["actual_depart_arrival_dif"] = abs(df_hist["actual_depart_hr"] - df_hist["est_arrival_hr"])
+
                 df_hist["year"] = df_hist["Date"].str.split("/").str[2].astype(int)
                 df_hist["month"] = df_hist["Date"].str.split("/").str[0].astype(int)
                 df_hist["day"] = df_hist["Date"].str.split("/").str[1].astype(int)

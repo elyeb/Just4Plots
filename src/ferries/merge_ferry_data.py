@@ -39,6 +39,18 @@ colman = depart_data[
 prev_space_db = pd.read_parquet(OUTPUT_ROOT + "ferry_space_db.parquet")
 prev_merged_db = pd.read_parquet(OUTPUT_ROOT + "ferry_merged_space_delays.parquet")
 
+# remove duplicates from previous merged db just in case
+prev_merged_db = prev_merged_db.drop_duplicates(
+    subset=[
+        "Departing",
+        "Destination",
+        "actual_depart",
+        "scheduled_depart",
+        "Date",
+    ]
+)
+
+
 # # perform one-time cleaning operation
 # prev_merged_db = prev_merged_db[prev_merged_db["day_of_week"].notna()]
 # prev_merged_db.to_csv(OUTPUT_ROOT + "ferry_merged_space_delays.csv", index=False)
