@@ -83,9 +83,9 @@ def convert_to_24_hour_format(time_str):
 def get_ferry_schedule(dock, dest, day_of_week):
     """
 
-    dock = "Edmonds"
-    dest = "Kingston"
-    day_of_week = "thursday"
+    dock = route[0]
+    dest = route[1]
+    day_of_week = "tuesday"
     """
 
     dock_dict_route = {
@@ -293,6 +293,146 @@ def get_ferry_schedule(dock, dest, day_of_week):
                     convert_to_24_hour_format(time_str) for time_str in todays_schedule
                 ]
         return todays_schedule
+    elif len(departures_rows) == 4:
+        """
+        Example:
+         Feb 16, 2026 - Mar 21, 2026
+         Mar 22, 2026 - Jun 13, 2026
+
+        First one should be current
+        """
+        # schedule is split into weekday/weekend
+        subtables = subtables[0:2]
+
+        if "Monday" in subtables[0][0].iloc[0]:
+            weekday_schedule = subtables[0]
+            weekend_schedule = subtables[1]
+        else:
+            weekday_schedule = subtables[1]
+            weekend_schedule = subtables[0]
+        weekday_schedule[1] = weekday_schedule[1].apply(replace_time_str)
+        weekday_schedule[2] = weekday_schedule[2].apply(replace_time_str)
+        weekday_schedule[3] = weekday_schedule[3].apply(replace_time_str)
+        weekend_schedule[1] = weekend_schedule[1].apply(replace_time_str)
+        weekend_schedule[2] = weekend_schedule[2].apply(replace_time_str)
+        weekend_schedule[3] = weekend_schedule[3].apply(replace_time_str)
+
+        # deal with Monday bleeding over into weekend schedule, and Sunday bleeding over into weekday schedule
+        if day_of_week in ["saturday", "sunday"]:
+            if day_of_week == "saturday":
+                previous_overlap = (
+                    weekday_schedule[weekday_schedule[2].str.contains("AM")][
+                        2
+                    ].to_list()
+                    + weekday_schedule[
+                        (weekday_schedule[3].str.contains("AM"))
+                        & (weekday_schedule[3] != "")
+                    ][3].to_list()
+                )
+                todays_schedule = (
+                    weekend_schedule[0].to_list()
+                    + weekend_schedule[1].to_list()
+                    + weekend_schedule[~weekend_schedule[2].str.contains("AM")][
+                        2
+                    ].to_list()
+                    + weekend_schedule[
+                        (~weekend_schedule[3].str.contains("AM"))
+                        & (weekend_schedule[3] != "")
+                    ][3].to_list()
+                )
+                todays_schedule = previous_overlap + todays_schedule
+                todays_schedule = [
+                    t for t in todays_schedule if ("AM" in t) or ("PM" in t)
+                ]
+                todays_schedule = [
+                    convert_to_24_hour_format(time_str) for time_str in todays_schedule
+                ]
+            else:
+                previous_overlap = (
+                    weekend_schedule[weekend_schedule[2].str.contains("AM")][
+                        2
+                    ].to_list()
+                    + weekend_schedule[
+                        (weekend_schedule[3].str.contains("AM"))
+                        & (weekend_schedule[3] != "")
+                    ][3].to_list()
+                )
+                todays_schedule = (
+                    weekend_schedule[0].to_list()
+                    + weekend_schedule[1].to_list()
+                    + weekend_schedule[~weekend_schedule[2].str.contains("AM")][
+                        2
+                    ].to_list()
+                    + weekend_schedule[
+                        (~weekend_schedule[3].str.contains("AM"))
+                        & (weekend_schedule[3] != "")
+                    ][3].to_list()
+                )
+                todays_schedule = previous_overlap + todays_schedule
+                todays_schedule = [
+                    t for t in todays_schedule if ("AM" in t) or ("PM" in t)
+                ]
+                todays_schedule = [
+                    convert_to_24_hour_format(time_str) for time_str in todays_schedule
+                ]
+        else:
+            if day_of_week == "monday":
+                previous_overlap = (
+                    weekend_schedule[weekend_schedule[2].str.contains("AM")][
+                        2
+                    ].to_list()
+                    + weekend_schedule[
+                        (weekend_schedule[3].str.contains("AM"))
+                        & (weekend_schedule[3] != "")
+                    ][3].to_list()
+                )
+                todays_schedule = (
+                    weekday_schedule[0].to_list()
+                    + weekday_schedule[1].to_list()
+                    + weekday_schedule[~weekday_schedule[2].str.contains("AM")][
+                        2
+                    ].to_list()
+                    + weekday_schedule[
+                        (~weekday_schedule[3].str.contains("AM"))
+                        & (weekday_schedule[3] != "")
+                    ][3].to_list()
+                )
+                todays_schedule = previous_overlap + todays_schedule
+                todays_schedule = [
+                    t for t in todays_schedule if ("AM" in t) or ("PM" in t)
+                ]
+                todays_schedule = [
+                    convert_to_24_hour_format(time_str) for time_str in todays_schedule
+                ]
+            else:
+                previous_overlap = (
+                    weekday_schedule[weekday_schedule[2].str.contains("AM")][
+                        2
+                    ].to_list()
+                    + weekday_schedule[
+                        (weekday_schedule[3].str.contains("AM"))
+                        & (weekday_schedule[3] != "")
+                    ][3].to_list()
+                )
+                todays_schedule = (
+                    weekday_schedule[0].to_list()
+                    + weekday_schedule[1].to_list()
+                    + weekday_schedule[~weekday_schedule[2].str.contains("AM")][
+                        2
+                    ].to_list()
+                    + weekday_schedule[
+                        (~weekday_schedule[3].str.contains("AM"))
+                        & (weekday_schedule[3] != "")
+                    ][3].to_list()
+                )
+                todays_schedule = previous_overlap + todays_schedule
+                todays_schedule = [
+                    t for t in todays_schedule if ("AM" in t) or ("PM" in t)
+                ]
+                todays_schedule = [
+                    convert_to_24_hour_format(time_str) for time_str in todays_schedule
+                ]
+        return todays_schedule
     else:
         print(
             f"Unexpected schedule format for {dock} to {dest}. Check the webpage and update the code if needed."
@@ -306,6 +446,9 @@ outfile_today = (
     "ferry_schedule_today_"  # make second version that is name-constant for today
 )
 for route in ROUTES:
+    """
+    route = ROUTES[0]
+    """
     dock = route[0]
     dest = route[1]
     outfile = f"{outfile_root}{dock}_to_{dest}.csv"
