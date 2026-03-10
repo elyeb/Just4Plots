@@ -185,6 +185,15 @@ try:
             df = df[df["Est. Arrival"] != "At Dock"]
             df = df[df["Est. Arrival"] != ""]
 
+            # print statement for future debugging
+            if len(df) > 0:
+                print("Time stamp : ")
+                print(
+                    df[
+                        ["date", "Scheduled Depart", "Est. Arrival", "Actual Depart"]
+                    ].head()
+                )
+
             def convert_to_24h(row):
                 time_stamp_hr = int(row["date"].split()[1].split(":")[0])
                 est_arrival_hr = int(row["Est. Arrival"].split(":")[0])
@@ -255,6 +264,15 @@ try:
                     return row
 
             df = df.apply(convert_to_24h, axis=1)
+
+            # make sure time_stamp hour is greater than or equal to actual_depart.
+            # Past error includes noon times being recorded after midnight.
+
+            df["actual_depart_hr"] = (
+                df["Actual Depart"].str.split(":").str[0].astype(int)
+            )
+            df = df[df["actual_depart_hr"] <= time_stamp_hr]
+
             df = df[
                 [
                     "Est. Arrival",
