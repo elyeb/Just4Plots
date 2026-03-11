@@ -17,6 +17,7 @@ import math
 import shutil
 from pathlib import Path
 from typing import List
+from tqdm import tqdm
 
 TODAY = datetime.date.today()
 TODAY_STR = TODAY.strftime("%Y-%m-%d")
@@ -29,15 +30,15 @@ CENSUS_UPLOADS = os.path.join(
     os.path.dirname(__file__), "../../data/lobbying/census_uploads/"
 )
 
-PDC_FILE_NAME = "pdc_contributions_2025_2026-01-02.csv"
-IE_FILE_NAME = "pdc_ind_exp_all_time_2026-01-02.csv"
+PDC_FILE_NAME = "pdc_contributions_new.csv"
+IE_FILE_NAME = "pdc_ind_exp_new.csv"
 
 OUTPUT_FOLDER = os.path.join(
     os.path.dirname(__file__), "../../data/lobbying/intermediate_processing/"
 )
 
-PDC_OUTFILE_NAME = PDC_FILE_NAME.replace(".csv", "_cleaned_lat_long.csv")
-IE_OUTFILE_NAME = IE_FILE_NAME.replace(".csv", "_cleaned_lat_long.csv")
+PDC_OUTFILE_NAME = "pdc_contributions_cleaned_lat_long.csv"
+IE_OUTFILE_NAME = "pdc_ind_exp_cleaned_lat_long.csv"
 
 os.makedirs(CENSUS_UPLOADS, exist_ok=True)
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -47,37 +48,51 @@ directory = Path(CENSUS_UPLOADS)
 
 for item in directory.iterdir():
     if item.is_dir():
-        shutil.rmtree(item)
+        continue
     else:
         item.unlink()
 
+
 pdc = pd.read_csv(os.path.join(DATA_FOLDER, PDC_FILE_NAME))
 ie = pd.read_csv(os.path.join(DATA_FOLDER, IE_FILE_NAME))
+
+# read in previous cleaned files:
+prev_pdc = pd.read_csv(os.path.join(OUTPUT_FOLDER, PDC_OUTFILE_NAME))
+prev_ie = pd.read_csv(os.path.join(OUTPUT_FOLDER, IE_OUTFILE_NAME))
+
+# move previous cleaned files to archive:
+os.makedirs(os.path.join(OUTPUT_FOLDER, "ARCHIVE/"), exist_ok=True)
+for filename in [PDC_OUTFILE_NAME, IE_OUTFILE_NAME]:
+    os.rename(
+        os.path.join(OUTPUT_FOLDER, filename),
+        os.path.join(OUTPUT_FOLDER, "ARCHIVE/", filename),
+    )
+
 ######################################################################################
 
 # Explore data #######################################################################
 
-pdc[~pdc["contributor_address"].isna()][
-    [
-        "contributor_address",
-        "contributor_city",
-        "contributor_state",
-        "contributor_zip",
-        "contributor_location",
-    ]
-].head()
+# pdc[~pdc["contributor_address"].isna()][
+#     [
+#         "contributor_address",
+#         "contributor_city",
+#         "contributor_state",
+#         "contributor_zip",
+#         "contributor_location",
+#     ]
+# ].head()
 
 
-pdc[~pdc["contributor_location"].isna()]["contributor_location"].nunique()
+# pdc[~pdc["contributor_location"].isna()]["contributor_location"].nunique()
 
-# how many addresses just don't have coordinates? about half
-len(pdc[pdc["contributor_location"].isna() & ~pdc["contributor_address"].isna()])
+# # how many addresses just don't have coordinates? about half
+# len(pdc[pdc["contributor_location"].isna() & ~pdc["contributor_address"].isna()])
 
-# get examples
-target_addresses = pdc[
-    pdc["contributor_location"].isna() & ~pdc["contributor_address"].isna()
-][["contributor_address"]]
-[a for a in target_addresses["contributor_address"].unique()]
+# # get examples
+# target_addresses = pdc[
+#     pdc["contributor_location"].isna() & ~pdc["contributor_address"].isna()
+# ][["contributor_address"]]
+# [a for a in target_addresses["contributor_address"].unique()]
 
 
 ######################################################################################
@@ -329,34 +344,43 @@ num_chunks = math.ceil(len(upload_df) / CHUNK_SIZE)
 
 upload_files = []
 result_files = []
+failed_files = []
 
-for i in range(num_chunks):
+for i in tqdm(range(num_chunks)):
     chunk = upload_df.iloc[i * CHUNK_SIZE : (i + 1) * CHUNK_SIZE]
 
     # Save chunk to file
     upload_file = f"{CENSUS_UPLOADS}census_upload_{TODAY_STR}_{i}.csv"
     chunk.to_csv(upload_file, index=False, header=False, sep=",", encoding="utf-8")
-
     upload_files.append(upload_file)
 
-    # Send to Census API
-    with open(upload_file, "rb") as f:
-        files = {"addressFile": f, "benchmark": (None, "Public_AR_Census2020")}
-        r = requests.post(
-            "https://geocoding.geo.census.gov/geocoder/locations/addressbatch",
-            files=files,
-        )
+    try:
 
-    # Save result
-    result_file = f"{CENSUS_UPLOADS}census_results_{TODAY_STR}_{i}.csv"
-    with open(result_file, "wb") as f:
-        f.write(r.content)
-    result_files.append(result_file)
+        # Send to Census API
+        with open(upload_file, "rb") as f:
+            files = {"addressFile": f, "benchmark": (None, "Public_AR_Census2020")}
+            r = requests.post(
+                "https://geocoding.geo.census.gov/geocoder/locations/addressbatch",
+                files=files,
+            )
 
-    returned = sum(1 for _ in open(result_file))
-    expected = len(chunk)
-    if returned != expected:
-        print(f"Batch {i}: expected {expected}, got {returned}")
+        # Save result
+        result_file = f"{CENSUS_UPLOADS}census_results_{TODAY_STR}_{i}.csv"
+        with open(result_file, "wb") as f:
+            f.write(r.content)
+        result_files.append(result_file)
+
+        # read back in and test length
+        with open(result_file, "rb") as f:
+            test = pd.read_csv(f)
+        returned = len(test) + 1
+        expected = len(chunk)
+        if returned != expected:
+            print(f"Batch {i}: expected {expected}, got {returned}")
+    except:
+        print(f"Batch {i} failed")
+        failed_files.append(upload_file)
+        pass
 
 # combine results
 results_df = pd.DataFrame(
@@ -431,6 +455,41 @@ for col in text_cols:
     )
 
 # add index column
+prev_pdc.drop(columns="row_num_index", inplace=True)
+
+merged_pdc = pd.concat([prev_pdc, merged_pdc], ignore_index=True)
+
+# drop resulting duplicates
+# prioritize rows with non-empty matched_address
+rows_before = len(merged_pdc)
+merged_pdc["matched_address_priority"] = merged_pdc["matched_address"].notna()
+merged_pdc.sort_values(by=["matched_address_priority"], ascending=False, inplace=True)
+
+merged_pdc.drop_duplicates(
+    subset=[
+        "id",
+        "report_number",
+        "origin",
+        "committee_id",
+        "fund_id",
+        "filer_id",
+        "type",
+        "filer_name",
+        "election_year",
+        "amount",
+        "cash_or_in_kind",
+        "description",
+        "code",
+        "contributor_category",
+        "contributor_name",
+        "contributor_address",
+    ],
+    inplace=True,
+)
+merged_pdc.drop(columns=["matched_address_priority"], inplace=True)
+rows_after = len(merged_pdc)
+print(f"Dropping {rows_before-rows_after} duplicated rows")
+
 merged_pdc["row_num_index"] = range(len(merged_pdc))
 
 merged_pdc.to_csv(
@@ -443,8 +502,7 @@ merged_pdc.to_csv(
     encoding="utf-8",
 )
 
-test_df = pd.read_csv(os.path.join(OUTPUT_FOLDER, PDC_OUTFILE_NAME))
-test_df.head()
+
 ######################################################################################
 
 
@@ -532,7 +590,7 @@ num_chunks = math.ceil(len(upload_df) / CHUNK_SIZE)
 upload_files = []
 result_files = []
 
-for i in range(num_chunks):
+for i in tqdm(range(num_chunks)):
     chunk = upload_df.iloc[i * CHUNK_SIZE : (i + 1) * CHUNK_SIZE]
 
     # Save chunk to file
@@ -541,24 +599,28 @@ for i in range(num_chunks):
 
     upload_files.append(upload_file)
 
-    # Send to Census API
-    with open(upload_file, "rb") as f:
-        files = {"addressFile": f, "benchmark": (None, "Public_AR_Census2020")}
-        r = requests.post(
-            "https://geocoding.geo.census.gov/geocoder/locations/addressbatch",
-            files=files,
-        )
+    try:
+        # Send to Census API
+        with open(upload_file, "rb") as f:
+            files = {"addressFile": f, "benchmark": (None, "Public_AR_Census2020")}
+            r = requests.post(
+                "https://geocoding.geo.census.gov/geocoder/locations/addressbatch",
+                files=files,
+            )
 
-    # Save result
-    result_file = f"{CENSUS_UPLOADS}census_results_{TODAY_STR}_{i}.csv"
-    with open(result_file, "wb") as f:
-        f.write(r.content)
-    result_files.append(result_file)
+        # Save result
+        result_file = f"{CENSUS_UPLOADS}census_results_{TODAY_STR}_{i}.csv"
+        with open(result_file, "wb") as f:
+            f.write(r.content)
+        result_files.append(result_file)
 
-    returned = sum(1 for _ in open(result_file))
-    expected = len(chunk)
-    if returned != expected:
-        print(f"Batch {i}: expected {expected}, got {returned}")
+        returned = sum(1 for _ in open(result_file))
+        expected = len(chunk)
+        if returned != expected:
+            print(f"Batch {i}: expected {expected}, got {returned}")
+    except:
+        print(f"Batch {i} failed")
+        pass
 
 # combine results
 results_df = pd.DataFrame(
@@ -573,7 +635,7 @@ results_df = pd.DataFrame(
         "side",
     ]
 )
-for file in result_files:
+for file in tqdm(result_files):
     try:
         file_df = read_census_output(file)
         results_df = pd.concat([results_df, file_df], ignore_index=True)
@@ -632,6 +694,45 @@ for col in text_cols:
         # .str.replace(",", " ")
     )
 
+prev_ie.drop(columns=["row_num_index"], inplace=True)
+
+merged_ie = pd.concat([merged_ie, prev_ie], ignore_index=True)
+# drop resulting duplicates
+# prioritize rows with non-empty matched_address
+rows_before = len(merged_ie)
+
+
+merged_ie["matched_address_priority"] = merged_ie["matched_address"].notna()
+merged_ie.sort_values(by=["matched_address_priority"], ascending=False, inplace=True)
+merged_ie.drop_duplicates(
+    subset=[
+        "id",
+        "report_number",
+        "origin",
+        "sponsor_entity_id",
+        "sponsor_id",
+        "sponsor_name",
+        "sponsor_description",
+        "report_type",
+        "report_date",
+        "election_year",
+        "sponsor_address",
+        "sponsor_city",
+        "sponsor_state",
+        "sponsor_zip",
+        "total_unitemized",
+        "total_cycle",
+        "total_this_report",
+        "candidate_entity_id",
+        "candidate_candidacy_id",
+    ],
+    inplace=True,
+)
+merged_ie.drop(columns=["matched_address_priority"], inplace=True)
+rows_after = len(merged_ie)
+print(f"Dropping {rows_before-rows_after} duplicated rows")
+
+
 # add index column
 merged_ie["row_num_index"] = range(len(merged_ie))
 
@@ -645,5 +746,12 @@ merged_ie.to_csv(
     encoding="utf-8",
 )
 
+
+# Delete contents of upload folder again to avoid pushing to repo
+for item in directory.iterdir():
+    if item.is_dir():
+        continue
+    else:
+        item.unlink()
 
 ######################################################################################
