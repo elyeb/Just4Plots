@@ -1,5 +1,11 @@
 # Layman's Research Projects  
 
+
+### **Date added** Feb 27, 2026 <br>
+Trying to showcase a Power BI project while doing something interesting. Here, I'm pulling campaign contributions for Washington State local elections from the WA Secretary of State API, geolocating any provided addresses for donors using the free Census API, standardizing names of candidates and PACs, and plotting the results in an interactive map using Power BI.
+<iframe title="donation_map" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOGIxZGNjYzItZWEyNS00MTRkLTg1MTctYWEzZTU4NDE5OWVhIiwidCI6IjBjYTcyNjNjLTc3YjMtNGYxMi04ZTZkLTc3ODg3Yjc1NWE3OCJ9" frameborder="0" allowFullScreen="true"></iframe>
+- Code for all of this lives in scripts 0-2 [here](src/campaign_finance/)
+
 ### **Date added** Feb 27, 2026 <br>
 After attempting to do all of this via Microsoft Power BI, and learning more than I ever wanted to know about admin settings, I discovered that Python visuals can't be made public to the web. Fortunately Streamlit was significantly easier to set up. The goal of these plots are to help me check which of the main ferry routes are running smoother based on the day's performance, and to gather enough historic data to eventually create a useful model.
 [![Live Ferry Tracker](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://just4plots-ferry-routes.streamlit.app/)
