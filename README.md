@@ -2,10 +2,10 @@
 
 
 ### **Date added** Feb 27, 2026 <br>
-Trying to showcase a Power BI project while doing something interesting. Here, I'm pulling campaign contributions for Washington State local elections from the WA Secretary of State API, geolocating any provided addresses for donors using the free Census API, standardizing names of candidates and PACs, and plotting the results in an interactive map using Power BI.
-- [Link to interactive map](https://app.powerbi.com/view?r=eyJrIjoiOGIxZGNjYzItZWEyNS00MTRkLTg1MTctYWEzZTU4NDE5OWVhIiwidCI6IjBjYTcyNjNjLTc3YjMtNGYxMi04ZTZkLTc3ODg3Yjc1NWE3OCJ9)
+Trying to showcase a Power BI project while doing something interesting. Here, I'm pulling campaign contributions for Washington State local elections from the WA Secretary of State API, geolocating any provided addresses for donors using the free Census API, standardizing names of candidates and PACs, and plotting the results in an interactive map using Power BI.  
 An interesting aspect of this data is to see how donations for local candidates varies by neighborhood. I would be particularly interested in seeing how well these correlate to which districts candidates won/lost, as well as the average home values of donors for each candidate.
-- ![screenshot of map example](outputs/plots/lobbying/powerbiscreenshot.png)
+- [Link to interactive map](https://app.powerbi.com/view?r=eyJrIjoiOGIxZGNjYzItZWEyNS00MTRkLTg1MTctYWEzZTU4NDE5OWVhIiwidCI6IjBjYTcyNjNjLTc3YjMtNGYxMi04ZTZkLTc3ODg3Yjc1NWE3OCJ9)  
+![screenshot of map example](outputs/plots/lobbying/powerbiscreenshot.png)
 - Code for all of this lives in scripts 0-2 [here](src/campaign_finance/)
 
 ### **Date added** Feb 27, 2026 <br>
