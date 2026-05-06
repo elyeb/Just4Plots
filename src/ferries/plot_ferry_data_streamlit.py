@@ -73,6 +73,8 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     """
     Troubleshooting:
     data = df.copy()
+    depart_dock = "Colman"
+    arrive_dock = "Bainbridge"
     dock, dest, day_of_week, date = depart_dock, arrive_dock, day_of_week, today
     """
 
@@ -115,9 +117,11 @@ def plot_scatter_day(data, dock, dest, day_of_week, date):
     prev_df["days_ago"] = (
         pd.to_datetime(date) - pd.to_datetime(prev_df["Date"])
     ).dt.days
-    prev_df["inverse_days_ago"] = max(
-        (365 - prev_df["days_ago"]) / 365, 0.001
+    prev_df["inverse_days_ago"] = (365 - prev_df["days_ago"]) / 365
+    prev_df["inverse_days_ago"] = prev_df["inverse_days_ago"].apply(
+        lambda x: max(x, 0.001)
     )  # prevent negatives
+
     prev_df["inverse_days_ago"] = prev_df["inverse_days_ago"] / 3
 
     prev_df["departure_color"] = prev_df["inverse_days_ago"].apply(
