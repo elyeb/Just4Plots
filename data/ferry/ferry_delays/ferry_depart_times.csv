@@ -1,11 +1,36 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+08:35,08:20,08:20,Vashon,Fauntleroy,Kittitas,07/04/2026
+08:32,08:18,08:15,Fauntleroy,Vashon,Kitsap,07/04/2026
+08:14,08:00,08:00,Mukilteo,Clinton,Tokitae,07/04/2026
+08:16,08:02,08:00,Clinton,Mukilteo,Suquamish,07/04/2026
+08:25,08:00,08:00,Keystone,Port Townsend,Kennewick,07/04/2026
+08:18,07:56,07:55,Edmonds,Kingston,Puyallup,07/04/2026
+08:17,07:57,07:55,Kingston,Edmonds,Spokane,07/04/2026
+08:28,07:55,07:55,Colman,Bainbridge,Wenatchee,07/04/2026
+08:30,07:56,07:55,Bainbridge,Colman,Tacoma,07/04/2026
+08:03,07:50,07:50,Fauntleroy,Vashon,Kittitas,07/04/2026
+08:34,07:36,07:35,Bremerton,Colman,Chimacum,07/04/2026
+07:45,07:31,07:30,Clinton,Mukilteo,Tokitae,07/04/2026
+07:45,07:31,07:30,Mukilteo,Clinton,Suquamish,07/04/2026
+07:42,07:30,07:30,Vashon,Southworth,Kittitas,07/04/2026
+08:18,07:25,07:25,Friday Harbor,Orcas,Tillikum,07/04/2026
+08:17,07:25,07:25,Orcas,Anacortes,Samish,07/04/2026
+08:16,07:21,07:20,Colman,Bremerton,Kaleetan,07/04/2026
+07:41,07:15,07:15,Port Townsend,Keystone,Kennewick,07/04/2026
+07:32,07:11,07:10,Kingston,Edmonds,Puyallup,07/04/2026
+07:21,07:10,07:10,Southworth,Vashon,Kittitas,07/04/2026
 07:14,07:05,07:05,Orcas,Shaw,Tillikum,07/04/2026
+07:38,07:06,07:05,Colman,Bainbridge,Tacoma,07/04/2026
 07:15,06:59,07:00,Mukilteo,Clinton,Tokitae,07/04/2026
+07:23,07:02,07:00,Edmonds,Kingston,Spokane,07/04/2026
+07:18,07:01,07:00,Clinton,Mukilteo,Suquamish,07/04/2026
+07:38,07:01,07:00,Friday Harbor,Lopez,Yakima,07/04/2026
 06:59,06:45,06:45,Vashon,Fauntleroy,Kittitas,07/04/2026
 06:59,06:40,06:40,Shaw,Lopez,Tillikum,07/04/2026
 06:47,06:31,06:30,Mukilteo,Clinton,Suquamish,07/04/2026
 06:56,06:30,06:30,Keystone,Port Townsend,Kennewick,07/04/2026
 06:48,06:26,06:25,Edmonds,Kingston,Puyallup,07/04/2026
+07:17,06:22,06:20,Colman,Bremerton,Chimacum,07/04/2026
 06:30,06:15,06:15,Fauntleroy,Vashon,Kittitas,07/04/2026
 07:00,06:15,06:15,Anacortes,Lopez,Samish,07/04/2026
 06:55,06:10,06:10,Lopez,Anacortes,Yakima,07/04/2026
