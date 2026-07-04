@@ -1,8 +1,20 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+02:45,02:13,01:35,Bainbridge,Colman,Wenatchee,07/04/2026
+01:50,01:40,01:30,Southworth,Vashon,Kittitas,07/04/2026
+01:18,01:05,01:05,Clinton,Mukilteo,Suquamish,07/04/2026
+01:35,01:21,01:05,Vashon,Fauntleroy,Kittitas,07/04/2026
+01:59,01:26,00:55,Colman,Bainbridge,Wenatchee,07/04/2026
+01:52,00:55,00:50,Bremerton,Colman,Chimacum,07/04/2026
+01:11,00:49,00:45,Kingston,Edmonds,Puyallup,07/04/2026
+00:48,00:35,00:35,Mukilteo,Clinton,Suquamish,07/04/2026
+00:57,00:39,00:35,Fauntleroy,Southworth,Kittitas,07/04/2026
 00:30,00:19,00:15,Southworth,Vashon,Kittitas,07/04/2026
+01:17,00:45,00:15,Bainbridge,Colman,Wenatchee,07/04/2026
+00:40,00:19,00:15,Edmonds,Kingston,Puyallup,07/04/2026
 00:20,00:07,00:05,Clinton,Mukilteo,Suquamish,07/04/2026
 00:11,23:57,23:50,Vashon,Fauntleroy,Kittitas,07/03/2026
 00:08,23:46,23:45,Kingston,Edmonds,Puyallup,07/03/2026
+00:41,23:46,23:40,Colman,Bremerton,Chimacum,07/03/2026
 00:32,23:59,23:30,Colman,Bainbridge,Wenatchee,07/03/2026
 23:43,23:30,23:30,Mukilteo,Clinton,Suquamish,07/03/2026
 00:12,23:27,23:20,Anacortes,Lopez,Yakima,07/03/2026
@@ -11,6 +23,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 23:33,23:11,23:10,Kingston,Edmonds,Spokane,07/03/2026
 23:14,23:00,23:00,Clinton,Mukilteo,Suquamish,07/03/2026
 23:19,23:08,23:00,Southworth,Vashon,Kittitas,07/03/2026
+01:15,23:44,23:00,Friday Harbor,Anacortes,Tillikum,07/03/2026
 23:21,23:04,22:55,Lopez,Shaw,Yakima,07/03/2026
 23:44,23:13,22:50,Bainbridge,Colman,Wenatchee,07/03/2026
 22:53,22:45,22:45,Shaw,Orcas,Yakima,07/03/2026
