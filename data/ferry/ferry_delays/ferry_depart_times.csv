@@ -1,4 +1,10 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+03:00,02:26,02:10,Bainbridge,Colman,Tacoma,07/05/2026
+02:14,01:41,01:25,Colman,Bainbridge,Tacoma,07/05/2026
+01:20,01:05,01:05,Clinton,Mukilteo,Suquamish,07/05/2026
+02:10,01:13,00:50,Bremerton,Colman,Chimacum,07/05/2026
+01:31,00:59,00:45,Bainbridge,Colman,Tacoma,07/05/2026
+00:50,00:36,00:35,Mukilteo,Clinton,Suquamish,07/05/2026
 00:25,00:09,00:05,Clinton,Mukilteo,Suquamish,07/05/2026
 00:46,00:14,00:00,Colman,Bainbridge,Tacoma,07/05/2026
 00:31,00:17,23:50,Vashon,Fauntleroy,Kittitas,07/04/2026
