@@ -1,8 +1,89 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+21:31,21:06,21:05,Kingston,Edmonds,Puyallup,07/04/2026
+21:14,21:01,21:00,Mukilteo,Clinton,Tokitae,07/04/2026
+21:16,21:01,21:00,Clinton,Mukilteo,Suquamish,07/04/2026
+21:10,20:56,20:55,Vashon,Fauntleroy,Kitsap,07/04/2026
+21:32,21:00,20:55,Colman,Bainbridge,Tacoma,07/04/2026
+21:01,20:50,20:50,Orcas,Shaw,Samish,07/04/2026
+21:00,20:41,20:40,Fauntleroy,Vashon,Kittitas,07/04/2026
+20:51,20:36,20:35,Clinton,Mukilteo,Tokitae,07/04/2026
+20:53,20:31,20:30,Kingston,Edmonds,Spokane,07/04/2026
+20:47,20:33,20:30,Mukilteo,Clinton,Suquamish,07/04/2026
+20:58,20:30,20:30,Keystone,Port Townsend,Salish,07/04/2026
+20:40,20:20,20:20,Fauntleroy,Southworth,Kitsap,07/04/2026
+20:44,20:22,20:20,Edmonds,Kingston,Puyallup,07/04/2026
+21:05,20:15,20:15,Friday Harbor,Orcas,Tillikum,07/04/2026
+21:19,20:15,20:15,Friday Harbor,Anacortes,Yakima,07/04/2026
+20:25,20:11,20:10,Vashon,Fauntleroy,Kittitas,07/04/2026
+20:54,20:21,20:10,Colman,Bainbridge,Wenatchee,07/04/2026
+20:47,20:13,20:10,Bainbridge,Colman,Tacoma,07/04/2026
+20:21,20:05,20:05,Clinton,Mukilteo,Suquamish,07/04/2026
+20:17,20:02,20:00,Mukilteo,Clinton,Tokitae,07/04/2026
+20:08,19:56,19:55,Southworth,Vashon,Kitsap,07/04/2026
+20:56,19:58,19:55,Colman,Bremerton,Kaleetan,07/04/2026
+20:40,19:50,19:50,Shaw,Anacortes,Samish,07/04/2026
+20:48,19:52,19:50,Bremerton,Colman,Chimacum,07/04/2026
+20:08,19:47,19:45,Edmonds,Kingston,Spokane,07/04/2026
+20:05,19:45,19:45,Orcas,Lopez,Tillikum,07/04/2026
+20:04,19:43,19:40,Kingston,Edmonds,Puyallup,07/04/2026
+19:57,19:41,19:40,Fauntleroy,Vashon,Kittitas,07/04/2026
+19:51,19:37,19:35,Clinton,Mukilteo,Tokitae,07/04/2026
+19:49,19:36,19:35,Mukilteo,Clinton,Suquamish,07/04/2026
+19:47,19:32,19:30,Vashon,Fauntleroy,Kitsap,07/04/2026
+20:00,19:31,19:30,Port Townsend,Keystone,Salish,07/04/2026
+20:08,19:37,19:20,Bainbridge,Colman,Wenatchee,07/04/2026
+19:36,19:15,19:15,Lopez,Shaw,Tillikum,07/04/2026
+20:01,19:29,19:15,Colman,Bainbridge,Tacoma,07/04/2026
+19:26,19:11,19:10,Vashon,Fauntleroy,Kittitas,07/04/2026
+19:27,19:11,19:05,Mukilteo,Clinton,Tokitae,07/04/2026
+19:20,19:05,19:05,Clinton,Mukilteo,Suquamish,07/04/2026
+19:17,19:02,19:00,Fauntleroy,Vashon,Kitsap,07/04/2026
+19:22,19:02,19:00,Edmonds,Kingston,Puyallup,07/04/2026
+19:23,19:01,19:00,Kingston,Edmonds,Spokane,07/04/2026
+19:08,19:00,19:00,Shaw,Orcas,Tillikum,07/04/2026
+19:17,18:50,18:45,Keystone,Port Townsend,Salish,07/04/2026
+19:41,18:47,18:45,Bremerton,Colman,Kaleetan,07/04/2026
+18:58,18:42,18:40,Clinton,Mukilteo,Tokitae,07/04/2026
+19:42,18:42,18:40,Colman,Bremerton,Chimacum,07/04/2026
+18:51,18:36,18:35,Mukilteo,Clinton,Suquamish,07/04/2026
+18:54,18:40,18:35,Fauntleroy,Vashon,Kittitas,07/04/2026
+19:46,18:35,18:35,Anacortes,Friday Harbor,Yakima,07/04/2026
+19:23,18:36,18:35,Anacortes,Lopez,Samish,07/04/2026
+18:46,18:32,18:30,Vashon,Fauntleroy,Kitsap,07/04/2026
+19:18,18:47,18:30,Colman,Bainbridge,Wenatchee,07/04/2026
+19:13,18:39,18:25,Bainbridge,Colman,Tacoma,07/04/2026
+18:37,18:17,18:15,Kingston,Edmonds,Puyallup,07/04/2026
+18:30,18:17,18:15,Vashon,Southworth,Kittitas,07/04/2026
+18:32,18:11,18:10,Edmonds,Kingston,Spokane,07/04/2026
+18:24,18:10,18:10,Clinton,Mukilteo,Suquamish,07/04/2026
+18:22,18:08,18:05,Mukilteo,Clinton,Tokitae,07/04/2026
+18:31,18:01,18:00,Port Townsend,Keystone,Kennewick,07/04/2026
+18:12,17:57,17:55,Fauntleroy,Vashon,Kitsap,07/04/2026
+18:38,17:51,17:50,Orcas,Friday Harbor,Tillikum,07/04/2026
+18:04,17:45,17:45,Southworth,Fauntleroy,Kittitas,07/04/2026
+17:57,17:42,17:40,Clinton,Mukilteo,Tokitae,07/04/2026
+17:51,17:36,17:35,Mukilteo,Clinton,Suquamish,07/04/2026
+18:26,17:55,17:35,Bainbridge,Colman,Wenatchee,07/04/2026
+18:20,17:48,17:35,Colman,Bainbridge,Tacoma,07/04/2026
+17:52,17:31,17:30,Edmonds,Kingston,Puyallup,07/04/2026
+18:29,17:31,17:30,Colman,Bremerton,Kaleetan,07/04/2026
+18:28,17:32,17:30,Bremerton,Colman,Chimacum,07/04/2026
+17:42,17:26,17:25,Vashon,Fauntleroy,Kitsap,07/04/2026
+17:47,17:26,17:25,Kingston,Edmonds,Spokane,07/04/2026
+18:07,17:25,17:25,Lopez,Anacortes,Samish,07/04/2026
+17:43,17:15,17:15,Keystone,Port Townsend,Kennewick,07/04/2026
+17:25,17:11,17:10,Clinton,Mukilteo,Suquamish,07/04/2026
+17:23,17:10,17:05,Mukilteo,Clinton,Tokitae,07/04/2026
+17:32,17:05,17:05,Fauntleroy,Southworth,Kittitas,07/04/2026
+17:27,17:00,17:00,Port Townsend,Keystone,Salish,07/04/2026
 17:11,16:56,16:55,Fauntleroy,Vashon,Kitsap,07/04/2026
 17:10,16:48,16:45,Kingston,Edmonds,Puyallup,07/04/2026
+17:25,16:45,16:45,Friday Harbor,Lopez,Tillikum,07/04/2026
+18:05,16:45,16:45,Friday Harbor,Anacortes,Yakima,07/04/2026
+17:32,16:55,16:45,Bainbridge,Colman,Tacoma,07/04/2026
 17:03,16:41,16:40,Edmonds,Kingston,Spokane,07/04/2026
 16:55,16:40,16:40,Clinton,Mukilteo,Tokitae,07/04/2026
+17:39,17:08,16:40,Colman,Bainbridge,Wenatchee,07/04/2026
 16:44,16:35,16:35,Southworth,Vashon,Kittitas,07/04/2026
 16:49,16:35,16:35,Mukilteo,Clinton,Suquamish,07/04/2026
 16:45,16:31,16:30,Vashon,Fauntleroy,Kitsap,07/04/2026
