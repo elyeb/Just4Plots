@@ -1,8 +1,26 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+01:18,01:05,01:05,Clinton,Mukilteo,Suquamish,07/11/2026
+01:10,00:47,00:45,Kingston,Edmonds,Puyallup,07/11/2026
+00:48,00:35,00:35,Mukilteo,Clinton,Suquamish,07/11/2026
+01:12,00:54,00:35,Fauntleroy,Southworth,Kittitas,07/11/2026
+01:21,00:48,00:15,Bainbridge,Colman,Tacoma,07/11/2026
+00:48,00:35,00:15,Southworth,Vashon,Kittitas,07/11/2026
+00:39,00:16,00:15,Edmonds,Kingston,Puyallup,07/11/2026
+00:18,00:05,00:05,Clinton,Mukilteo,Suquamish,07/11/2026
+00:29,00:15,23:50,Vashon,Fauntleroy,Kittitas,07/10/2026
+00:08,23:47,23:45,Kingston,Edmonds,Puyallup,07/10/2026
+00:38,23:42,23:40,Colman,Bremerton,Kaleetan,07/10/2026
+23:44,23:30,23:30,Mukilteo,Clinton,Suquamish,07/10/2026
+00:37,00:05,23:30,Colman,Bainbridge,Tacoma,07/10/2026
+00:05,23:20,23:20,Anacortes,Lopez,Yakima,07/10/2026
+00:06,23:48,23:20,Fauntleroy,Southworth,Kittitas,07/10/2026
 23:34,23:10,23:10,Edmonds,Kingston,Puyallup,07/10/2026
 23:35,23:12,23:10,Kingston,Edmonds,Spokane,07/10/2026
 23:14,23:00,23:00,Clinton,Mukilteo,Suquamish,07/10/2026
+00:57,23:26,23:00,Friday Harbor,Anacortes,Tillikum,07/10/2026
+23:41,23:32,23:00,Southworth,Vashon,Kittitas,07/10/2026
 23:12,22:58,22:55,Lopez,Shaw,Yakima,07/10/2026
+23:43,23:05,22:50,Bainbridge,Colman,Wenatchee,07/10/2026
 22:54,22:44,22:45,Shaw,Orcas,Yakima,07/10/2026
 23:08,22:40,22:40,Port Townsend,Keystone,Kennewick,07/10/2026
 23:23,23:09,22:35,Vashon,Fauntleroy,Kittitas,07/10/2026
