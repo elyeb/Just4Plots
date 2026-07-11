@@ -1,5 +1,37 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+23:34,23:10,23:10,Edmonds,Kingston,Puyallup,07/10/2026
+23:35,23:12,23:10,Kingston,Edmonds,Spokane,07/10/2026
+23:14,23:00,23:00,Clinton,Mukilteo,Suquamish,07/10/2026
+23:12,22:58,22:55,Lopez,Shaw,Yakima,07/10/2026
+22:54,22:44,22:45,Shaw,Orcas,Yakima,07/10/2026
+23:08,22:40,22:40,Port Townsend,Keystone,Kennewick,07/10/2026
+23:23,23:09,22:35,Vashon,Fauntleroy,Kittitas,07/10/2026
+22:52,22:30,22:30,Clinton,Mukilteo,Tokitae,07/10/2026
+22:44,22:30,22:30,Mukilteo,Clinton,Suquamish,07/10/2026
+22:53,22:31,22:30,Edmonds,Kingston,Spokane,07/10/2026
+22:57,22:36,22:25,Kingston,Edmonds,Puyallup,07/10/2026
+22:55,22:41,22:05,Fauntleroy,Vashon,Kittitas,07/10/2026
+22:15,22:01,22:00,Mukilteo,Clinton,Tokitae,07/10/2026
+22:13,22:00,22:00,Clinton,Mukilteo,Suquamish,07/10/2026
+22:31,22:01,22:00,Colman,Bainbridge,Wenatchee,07/10/2026
+22:26,22:00,22:00,Keystone,Port Townsend,Kennewick,07/10/2026
+22:17,21:50,21:50,Kingston,Edmonds,Spokane,07/10/2026
+22:32,21:54,21:50,Orcas,Friday Harbor,Yakima,07/10/2026
+22:18,21:56,21:40,Edmonds,Kingston,Puyallup,07/10/2026
+21:52,21:38,21:30,Clinton,Mukilteo,Tokitae,07/10/2026
+21:44,21:30,21:30,Mukilteo,Clinton,Suquamish,07/10/2026
+22:17,22:04,21:30,Vashon,Southworth,Kitsap,07/10/2026
+22:21,21:25,21:25,Anacortes,Orcas,Samish,07/10/2026
+22:23,21:48,21:20,Bainbridge,Colman,Tacoma,07/10/2026
+21:52,21:42,21:15,Southworth,Vashon,Kitsap,07/10/2026
+21:32,21:17,21:15,Vashon,Fauntleroy,Kitsap,07/10/2026
+21:33,21:12,21:10,Edmonds,Kingston,Spokane,07/10/2026
+21:42,21:11,21:10,Port Townsend,Keystone,Kennewick,07/10/2026
+21:42,21:22,21:05,Kingston,Edmonds,Puyallup,07/10/2026
+22:01,21:07,21:05,Bremerton,Colman,Kaleetan,07/10/2026
 21:22,21:00,21:00,Clinton,Mukilteo,Suquamish,07/10/2026
+21:29,21:15,21:00,Mukilteo,Clinton,Tokitae,07/10/2026
+21:34,21:02,21:00,Colman,Bainbridge,Tacoma,07/10/2026
 21:00,20:50,20:50,Orcas,Shaw,Samish,07/10/2026
 21:22,20:43,20:35,Fauntleroy,Southworth,Kittitas,07/10/2026
 21:03,20:49,20:35,Clinton,Mukilteo,Tokitae,07/10/2026
