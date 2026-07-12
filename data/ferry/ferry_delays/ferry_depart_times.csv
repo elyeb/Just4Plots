@@ -1,4 +1,40 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+00:07,23:51,23:50,Vashon,Fauntleroy,Kittitas,07/11/2026
+23:50,23:31,23:30,Clinton,Mukilteo,Tokitae,07/11/2026
+23:44,23:30,23:30,Mukilteo,Clinton,Suquamish,07/11/2026
+00:06,23:22,23:20,Anacortes,Lopez,Yakima,07/11/2026
+23:39,23:21,23:20,Fauntleroy,Southworth,Kittitas,07/11/2026
+00:02,23:28,23:15,Bainbridge,Colman,Wenatchee,07/11/2026
+23:43,23:23,23:10,Edmonds,Kingston,Puyallup,07/11/2026
+23:14,23:00,23:00,Mukilteo,Clinton,Tokitae,07/11/2026
+23:11,23:01,23:00,Southworth,Vashon,Kittitas,07/11/2026
+23:14,22:59,23:00,Clinton,Mukilteo,Suquamish,07/11/2026
+23:11,22:57,22:55,Lopez,Shaw,Yakima,07/11/2026
+23:10,22:56,22:55,Vashon,Fauntleroy,Kitsap,07/11/2026
+22:54,22:45,22:45,Shaw,Orcas,Yakima,07/11/2026
+23:26,22:54,22:40,Bainbridge,Colman,Tacoma,07/11/2026
+23:15,22:42,22:30,Colman,Bainbridge,Wenatchee,07/11/2026
+22:29,22:11,22:30,Mukilteo,Clinton,Suquamish,07/11/2026
+23:09,22:46,22:25,Kingston,Edmonds,Puyallup,07/11/2026
+22:43,22:28,22:25,Vashon,Fauntleroy,Kittitas,07/11/2026
+22:34,22:16,22:15,Fauntleroy,Vashon,Kitsap,07/11/2026
+22:37,22:22,22:00,Clinton,Mukilteo,Tokitae,07/11/2026
+22:10,21:56,22:00,Mukilteo,Clinton,Tokitae,07/11/2026
+22:11,21:56,21:55,Fauntleroy,Vashon,Kittitas,07/11/2026
+22:31,21:52,21:50,Orcas,Friday Harbor,Yakima,07/11/2026
+22:21,22:00,21:50,Kingston,Edmonds,Spokane,07/11/2026
+22:03,21:52,21:50,Vashon,Southworth,Kitsap,07/11/2026
+22:26,21:55,21:45,Colman,Bainbridge,Tacoma,07/11/2026
+22:30,21:59,21:45,Bainbridge,Colman,Wenatchee,07/11/2026
+22:20,21:59,21:40,Edmonds,Kingston,Puyallup,07/11/2026
+22:11,21:42,21:30,Clinton,Mukilteo,Suquamish,07/11/2026
+22:24,21:26,21:25,Anacortes,Orcas,Samish,07/11/2026
+21:38,21:26,21:25,Southworth,Vashon,Kitsap,07/11/2026
+21:36,21:21,21:20,Vashon,Fauntleroy,Kittitas,07/11/2026
+21:43,21:20,21:10,Edmonds,Kingston,Spokane,07/11/2026
+21:38,21:10,21:10,Port Townsend,Keystone,Kennewick,07/11/2026
+21:48,21:19,21:05,Kingston,Edmonds,Puyallup,07/11/2026
+22:20,21:23,21:05,Bremerton,Colman,Kaleetan,07/11/2026
 21:36,21:22,21:00,Clinton,Mukilteo,Tokitae,07/11/2026
 21:29,21:06,21:00,Mukilteo,Clinton,Suquamish,07/11/2026
 21:33,21:01,21:00,Bainbridge,Colman,Tacoma,07/11/2026
