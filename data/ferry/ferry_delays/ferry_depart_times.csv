@@ -1,9 +1,27 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+11:19,11:06,11:00,Mukilteo,Clinton,Tokitae,07/12/2026
+11:14,11:03,11:00,Vashon,Southworth,Kittitas,07/12/2026
+11:15,11:00,11:00,Clinton,Mukilteo,Suquamish,07/12/2026
+11:16,11:02,10:55,Vashon,Fauntleroy,Kitsap,07/12/2026
+10:51,10:41,10:40,Southworth,Vashon,Kittitas,07/12/2026
+11:12,10:41,10:40,Bainbridge,Colman,Tacoma,07/12/2026
+10:48,10:34,10:30,Clinton,Mukilteo,Tokitae,07/12/2026
+10:45,10:31,10:30,Mukilteo,Clinton,Suquamish,07/12/2026
+11:22,10:30,10:30,Shaw,Anacortes,Samish,07/12/2026
+11:06,10:33,10:25,Colman,Bainbridge,Wenatchee,07/12/2026
+10:47,10:25,10:20,Edmonds,Kingston,Spokane,07/12/2026
+10:47,10:27,10:20,Kingston,Edmonds,Puyallup,07/12/2026
+10:42,10:26,10:20,Fauntleroy,Vashon,Kitsap,07/12/2026
 10:30,10:17,10:15,Vashon,Fauntleroy,Kittitas,07/12/2026
+10:47,10:20,10:15,Port Townsend,Keystone,Kennewick,07/12/2026
+10:52,10:24,10:15,Keystone,Port Townsend,Salish,07/12/2026
+11:20,10:11,10:10,Friday Harbor,Orcas,Tillikum,07/12/2026
 10:13,10:00,10:00,Clinton,Mukilteo,Suquamish,07/12/2026
 10:18,10:02,10:00,Mukilteo,Clinton,Tokitae,07/12/2026
+10:59,10:02,10:00,Bremerton,Colman,Chimacum,07/12/2026
 10:05,09:51,09:50,Vashon,Fauntleroy,Kitsap,07/12/2026
 10:00,09:53,09:50,Orcas,Shaw,Tillikum,07/12/2026
+10:50,09:52,09:50,Colman,Bremerton,Kaleetan,07/12/2026
 10:16,09:47,09:45,Colman,Bainbridge,Tacoma,07/12/2026
 09:57,09:41,09:40,Fauntleroy,Vashon,Kittitas,07/12/2026
 10:00,09:37,09:35,Edmonds,Kingston,Puyallup,07/12/2026
