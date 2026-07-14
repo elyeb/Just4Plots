@@ -1,8 +1,20 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+01:18,01:05,01:05,Clinton,Mukilteo,Tokitae,07/14/2026
+00:48,00:36,00:35,Mukilteo,Clinton,Tokitae,07/14/2026
+01:19,00:47,00:15,Bainbridge,Colman,Tacoma,07/14/2026
+00:18,00:05,00:05,Clinton,Mukilteo,Tokitae,07/14/2026
+00:07,23:45,23:45,Kingston,Edmonds,Puyallup,07/13/2026
+00:42,23:42,23:40,Colman,Bremerton,Chimacum,07/13/2026
+23:44,23:30,23:30,Mukilteo,Clinton,Tokitae,07/13/2026
+00:39,00:08,23:30,Colman,Bainbridge,Tacoma,07/13/2026
+00:03,23:20,23:20,Anacortes,Lopez,Yakima,07/13/2026
+23:33,23:11,23:10,Edmonds,Kingston,Puyallup,07/13/2026
 23:15,23:01,23:00,Clinton,Mukilteo,Tokitae,07/13/2026
 23:11,22:57,22:55,Lopez,Shaw,Yakima,07/13/2026
+00:01,23:28,22:50,Bainbridge,Colman,Tacoma,07/13/2026
 22:55,22:44,22:45,Shaw,Orcas,Yakima,07/13/2026
 22:45,22:30,22:30,Mukilteo,Clinton,Tokitae,07/13/2026
+23:32,22:33,22:30,Bremerton,Colman,Chimacum,07/13/2026
 22:51,22:27,22:25,Kingston,Edmonds,Puyallup,07/13/2026
 22:34,22:02,22:05,Bainbridge,Colman,Tacoma,07/13/2026
 22:14,22:00,22:00,Clinton,Mukilteo,Tokitae,07/13/2026
