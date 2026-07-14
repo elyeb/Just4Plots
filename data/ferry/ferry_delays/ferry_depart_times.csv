@@ -1,9 +1,24 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:01,14:49,14:35,Mukilteo,Clinton,Suquamish,07/14/2026
+14:57,14:41,14:35,Clinton,Mukilteo,Tokitae,07/14/2026
+14:52,14:31,14:30,Edmonds,Kingston,Puyallup,07/14/2026
+14:50,14:29,14:25,Kingston,Edmonds,Spokane,07/14/2026
+15:04,14:21,14:20,Lopez,Friday Harbor,Tillikum,07/14/2026
+14:43,14:30,14:15,Fauntleroy,Vashon,Kitsap,07/14/2026
+14:48,14:18,14:10,Southworth,Fauntleroy,Kittitas,07/14/2026
+14:27,14:12,14:05,Clinton,Mukilteo,Suquamish,07/14/2026
+14:29,14:01,14:00,Keystone,Port Townsend,Kennewick,07/14/2026
+15:11,14:04,14:00,Friday Harbor,Anacortes,Samish,07/14/2026
+14:25,14:11,14:00,Mukilteo,Clinton,Tokitae,07/14/2026
+14:36,14:06,14:00,Port Townsend,Keystone,Salish,07/14/2026
+14:36,14:01,13:55,Lopez,Friday Harbor,Yakima,07/14/2026
 14:05,13:51,13:40,Fauntleroy,Vashon,Kittitas,07/14/2026
 14:03,13:42,13:35,Kingston,Edmonds,Puyallup,07/14/2026
 13:57,13:42,13:30,Mukilteo,Clinton,Suquamish,07/14/2026
 13:54,13:39,13:30,Clinton,Mukilteo,Tokitae,07/14/2026
 13:56,13:34,13:30,Edmonds,Kingston,Spokane,07/14/2026
+14:28,13:33,13:30,Bremerton,Colman,Kaleetan,07/14/2026
+14:30,13:32,13:30,Colman,Bremerton,Chimacum,07/14/2026
 13:50,13:22,13:15,Keystone,Port Townsend,Salish,07/14/2026
 13:34,13:20,13:15,Vashon,Fauntleroy,Kittitas,07/14/2026
 13:43,13:16,13:15,Port Townsend,Keystone,Kennewick,07/14/2026
