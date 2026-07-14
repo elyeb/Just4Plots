@@ -1,9 +1,69 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+21:06,20:55,20:50,Orcas,Shaw,Samish,07/13/2026
+21:03,20:35,20:35,Fauntleroy,Southworth,Kittitas,07/13/2026
+20:51,20:37,20:35,Clinton,Mukilteo,Tokitae,07/13/2026
+20:43,20:30,20:30,Mukilteo,Clinton,Suquamish,07/13/2026
+20:56,20:30,20:30,Keystone,Port Townsend,Kennewick,07/13/2026
+20:53,20:31,20:30,Kingston,Edmonds,Spokane,07/13/2026
+20:46,20:31,20:20,Fauntleroy,Vashon,Kitsap,07/13/2026
+20:43,20:22,20:20,Edmonds,Kingston,Puyallup,07/13/2026
+20:25,20:16,20:15,Southworth,Vashon,Kittitas,07/13/2026
+20:56,20:15,20:15,Friday Harbor,Orcas,Tillikum,07/13/2026
+20:20,20:05,20:05,Clinton,Mukilteo,Suquamish,07/13/2026
+20:22,20:06,20:00,Vashon,Southworth,Kitsap,07/13/2026
+20:26,20:12,20:00,Mukilteo,Clinton,Tokitae,07/13/2026
+20:51,19:56,19:55,Colman,Bremerton,Kaleetan,07/13/2026
+20:09,19:56,19:55,Vashon,Fauntleroy,Kittitas,07/13/2026
+21:04,20:08,19:50,Bremerton,Colman,Chimacum,07/13/2026
+20:52,20:02,19:50,Shaw,Anacortes,Samish,07/13/2026
+20:07,19:45,19:45,Orcas,Lopez,Tillikum,07/13/2026
+20:07,19:45,19:45,Edmonds,Kingston,Spokane,07/13/2026
+19:53,19:42,19:40,Southworth,Vashon,Kitsap,07/13/2026
+20:03,19:41,19:40,Kingston,Edmonds,Puyallup,07/13/2026
+19:51,19:35,19:35,Mukilteo,Clinton,Suquamish,07/13/2026
+19:59,19:45,19:35,Clinton,Mukilteo,Tokitae,07/13/2026
+19:55,19:30,19:30,Port Townsend,Keystone,Kennewick,07/13/2026
+20:40,20:07,19:30,Bainbridge,Colman,Tacoma,07/13/2026
+19:43,19:20,19:20,Fauntleroy,Southworth,Kittitas,07/13/2026
+19:49,19:16,19:20,Colman,Bainbridge,Tacoma,07/13/2026
+19:33,19:15,19:15,Lopez,Shaw,Tillikum,07/13/2026
+19:36,19:22,19:15,Vashon,Fauntleroy,Kitsap,07/13/2026
+19:27,19:05,19:05,Clinton,Mukilteo,Suquamish,07/13/2026
+19:33,19:19,19:05,Mukilteo,Clinton,Tokitae,07/13/2026
+19:13,19:03,19:00,Southworth,Vashon,Kittitas,07/13/2026
+19:11,19:04,19:00,Shaw,Orcas,Tillikum,07/13/2026
+19:22,19:01,19:00,Edmonds,Kingston,Puyallup,07/13/2026
+19:27,19:05,19:00,Kingston,Edmonds,Spokane,07/13/2026
+19:42,18:46,18:45,Bremerton,Colman,Kaleetan,07/13/2026
+19:09,18:54,18:45,Fauntleroy,Vashon,Kitsap,07/13/2026
+19:12,18:45,18:45,Keystone,Port Townsend,Kennewick,07/13/2026
+19:55,18:44,18:40,Colman,Bremerton,Chimacum,07/13/2026
+19:07,18:52,18:40,Clinton,Mukilteo,Tokitae,07/13/2026
+18:59,18:44,18:35,Mukilteo,Clinton,Suquamish,07/13/2026
+20:09,18:56,18:35,Anacortes,Friday Harbor,Yakima,07/13/2026
+18:53,18:36,18:35,Vashon,Fauntleroy,Kittitas,07/13/2026
+19:37,18:51,18:35,Anacortes,Lopez,Samish,07/13/2026
+19:42,19:05,18:30,Bainbridge,Colman,Wenatchee,07/13/2026
+18:45,18:32,18:25,Vashon,Southworth,Kitsap,07/13/2026
+18:39,18:19,18:15,Kingston,Edmonds,Puyallup,07/13/2026
+18:33,18:15,18:10,Clinton,Mukilteo,Suquamish,07/13/2026
+18:44,18:22,18:10,Edmonds,Kingston,Spokane,07/13/2026
+18:16,18:06,18:05,Southworth,Vashon,Kitsap,07/13/2026
+18:40,18:25,18:05,Mukilteo,Clinton,Tokitae,07/13/2026
+18:26,18:00,18:00,Port Townsend,Keystone,Kennewick,07/13/2026
+18:23,17:59,17:55,Fauntleroy,Southworth,Kittitas,07/13/2026
+18:57,18:17,17:50,Orcas,Friday Harbor,Tillikum,07/13/2026
+18:56,18:23,17:45,Bainbridge,Colman,Tacoma,07/13/2026
 17:55,17:41,17:40,Vashon,Fauntleroy,Kitsap,07/13/2026
+18:12,17:57,17:40,Clinton,Mukilteo,Tokitae,07/13/2026
 17:49,17:38,17:35,Southworth,Vashon,Kittitas,07/13/2026
 18:03,17:48,17:35,Mukilteo,Clinton,Suquamish,07/13/2026
+18:45,18:09,17:35,Colman,Bainbridge,Wenatchee,07/13/2026
 17:57,17:37,17:30,Edmonds,Kingston,Puyallup,07/13/2026
+18:28,17:32,17:30,Colman,Bremerton,Kaleetan,07/13/2026
+18:31,17:35,17:30,Bremerton,Colman,Chimacum,07/13/2026
 17:59,17:37,17:25,Kingston,Edmonds,Spokane,07/13/2026
+18:25,17:44,17:25,Lopez,Anacortes,Samish,07/13/2026
 17:42,17:16,17:15,Keystone,Port Townsend,Kennewick,07/13/2026
 17:26,17:13,17:10,Vashon,Fauntleroy,Kittitas,07/13/2026
 17:35,17:15,17:10,Clinton,Mukilteo,Suquamish,07/13/2026
@@ -14,6 +74,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 17:14,16:52,16:45,Kingston,Edmonds,Puyallup,07/13/2026
 17:57,17:26,16:45,Colman,Bainbridge,Tacoma,07/13/2026
 18:03,17:21,16:45,Friday Harbor,Lopez,Tillikum,07/13/2026
+18:18,17:06,16:45,Friday Harbor,Anacortes,Yakima,07/13/2026
 17:10,16:55,16:40,Clinton,Mukilteo,Tokitae,07/13/2026
 16:54,16:41,16:40,Fauntleroy,Vashon,Kittitas,07/13/2026
 17:16,16:54,16:40,Edmonds,Kingston,Spokane,07/13/2026
