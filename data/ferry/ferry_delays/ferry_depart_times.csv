@@ -1,10 +1,29 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+11:20,11:05,11:00,Mukilteo,Clinton,Tokitae,07/18/2026
+11:28,11:00,11:00,Keystone,Port Townsend,Kennewick,07/18/2026
+11:19,11:07,11:00,Vashon,Southworth,Kittitas,07/18/2026
+11:32,11:06,11:00,Port Townsend,Keystone,Salish,07/18/2026
+11:26,11:11,11:00,Clinton,Mukilteo,Suquamish,07/18/2026
+11:13,10:58,10:55,Vashon,Fauntleroy,Kitsap,07/18/2026
+11:36,10:52,10:45,Anacortes,Lopez,Yakima,07/18/2026
+10:51,10:40,10:40,Southworth,Vashon,Kittitas,07/18/2026
+10:48,10:32,10:30,Clinton,Mukilteo,Tokitae,07/18/2026
+11:28,10:36,10:30,Shaw,Anacortes,Samish,07/18/2026
+10:54,10:39,10:30,Mukilteo,Clinton,Suquamish,07/18/2026
+11:05,10:34,10:25,Colman,Bainbridge,Tacoma,07/18/2026
 10:35,10:21,10:20,Fauntleroy,Vashon,Kitsap,07/18/2026
+10:50,10:28,10:20,Edmonds,Kingston,Puyallup,07/18/2026
+10:54,10:32,10:20,Kingston,Edmonds,Spokane,07/18/2026
 10:30,10:16,10:15,Vashon,Fauntleroy,Kittitas,07/18/2026
+10:43,10:16,10:15,Port Townsend,Keystone,Kennewick,07/18/2026
+10:47,10:21,10:15,Keystone,Port Townsend,Salish,07/18/2026
+10:58,10:10,10:10,Friday Harbor,Orcas,Tillikum,07/18/2026
 10:19,10:05,10:00,Clinton,Mukilteo,Suquamish,07/18/2026
 10:16,10:00,10:00,Mukilteo,Clinton,Tokitae,07/18/2026
+11:01,10:01,10:00,Bremerton,Colman,Chimacum,07/18/2026
 10:06,09:51,09:50,Vashon,Fauntleroy,Kitsap,07/18/2026
 10:00,09:51,09:50,Orcas,Shaw,Tillikum,07/18/2026
+10:45,09:51,09:50,Colman,Bremerton,Kaleetan,07/18/2026
 10:24,09:51,09:45,Colman,Bainbridge,Wenatchee,07/18/2026
 09:56,09:40,09:40,Fauntleroy,Vashon,Kittitas,07/18/2026
 10:06,09:43,09:35,Edmonds,Kingston,Spokane,07/18/2026
