@@ -1,15 +1,36 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+16:26,16:14,16:05,Vashon,Fauntleroy,Kittitas,07/19/2026
+16:31,16:17,16:05,Mukilteo,Clinton,Tokitae,07/19/2026
+16:28,16:04,16:00,Edmonds,Kingston,Spokane,07/19/2026
+16:20,16:02,16:00,Fauntleroy,Vashon,Kitsap,07/19/2026
+16:28,16:07,15:55,Kingston,Edmonds,Puyallup,07/19/2026
+16:05,15:51,15:35,Mukilteo,Clinton,Suquamish,07/19/2026
+15:56,15:44,15:35,Fauntleroy,Vashon,Kittitas,07/19/2026
+16:01,15:39,15:35,Clinton,Mukilteo,Tokitae,07/19/2026
+16:01,15:31,15:30,Port Townsend,Keystone,Salish,07/19/2026
+16:00,15:34,15:30,Keystone,Port Townsend,Kennewick,07/19/2026
+15:50,15:36,15:30,Vashon,Fauntleroy,Kitsap,07/19/2026
+15:40,15:18,15:15,Kingston,Edmonds,Spokane,07/19/2026
+15:30,15:18,15:15,Vashon,Southworth,Kittitas,07/19/2026
+15:40,15:18,15:10,Edmonds,Kingston,Puyallup,07/19/2026
 15:28,15:13,15:05,Mukilteo,Clinton,Tokitae,07/19/2026
+15:34,15:19,15:05,Clinton,Mukilteo,Suquamish,07/19/2026
+15:52,15:11,15:05,Bainbridge,Colman,Tacoma,07/19/2026
 15:21,15:07,15:00,Fauntleroy,Vashon,Kitsap,07/19/2026
+15:58,15:27,15:00,Colman,Bainbridge,Wenatchee,07/19/2026
+15:59,15:03,15:00,Colman,Bremerton,Kaleetan,07/19/2026
 15:06,14:56,14:55,Southworth,Vashon,Kittitas,07/19/2026
+15:55,14:58,14:50,Bremerton,Colman,Chimacum,07/19/2026
 15:18,14:52,14:45,Port Townsend,Keystone,Kennewick,07/19/2026
 15:13,14:47,14:45,Keystone,Port Townsend,Salish,07/19/2026
+15:53,15:08,14:40,Anacortes,Lopez,Issaquah,07/19/2026
 14:56,14:43,14:35,Vashon,Southworth,Kitsap,07/19/2026
 15:04,14:49,14:35,Mukilteo,Clinton,Suquamish,07/19/2026
 14:59,14:41,14:35,Clinton,Mukilteo,Tokitae,07/19/2026
 14:45,14:31,14:30,Vashon,Fauntleroy,Kittitas,07/19/2026
 14:51,14:30,14:30,Edmonds,Kingston,Spokane,07/19/2026
 14:49,14:27,14:25,Kingston,Edmonds,Puyallup,07/19/2026
+16:16,14:49,14:20,Anacortes,Friday Harbor,Tillikum,07/19/2026
 14:26,14:14,14:10,Southworth,Vashon,Kitsap,07/19/2026
 14:59,14:29,14:10,Bainbridge,Colman,Wenatchee,07/19/2026
 14:52,14:19,14:10,Colman,Bainbridge,Tacoma,07/19/2026
