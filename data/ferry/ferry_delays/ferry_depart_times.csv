@@ -1,11 +1,31 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+16:37,16:26,16:15,Vashon,Southworth,Kittitas,07/21/2026
+16:22,16:05,16:05,Clinton,Mukilteo,Tokitae,07/21/2026
+16:21,16:07,16:05,Mukilteo,Clinton,Suquamish,07/21/2026
+16:37,16:25,16:00,Shaw,Orcas,Tillikum,07/21/2026
+16:27,16:03,16:00,Edmonds,Kingston,Spokane,07/21/2026
+16:18,16:03,15:55,Southworth,Vashon,Kittitas,07/21/2026
+16:29,16:07,15:55,Kingston,Edmonds,Puyallup,07/21/2026
+16:39,16:01,15:50,Bainbridge,Colman,Wenatchee,07/21/2026
+15:49,15:34,15:35,Mukilteo,Clinton,Tokitae,07/21/2026
+15:55,15:48,15:35,Orcas,Shaw,Tillikum,07/21/2026
+15:54,15:39,15:30,Vashon,Fauntleroy,Kittitas,07/21/2026
+15:58,15:31,15:30,Keystone,Port Townsend,Kennewick,07/21/2026
+15:58,15:30,15:30,Port Townsend,Keystone,Salish,07/21/2026
+15:46,15:28,15:25,Fauntleroy,Vashon,Kitsap,07/21/2026
+15:42,15:20,15:15,Kingston,Edmonds,Spokane,07/21/2026
 15:42,15:22,15:10,Shaw,Lopez,Tillikum,07/21/2026
 15:40,15:18,15:10,Edmonds,Kingston,Puyallup,07/21/2026
+15:43,15:25,15:05,Clinton,Mukilteo,Suquamish,07/21/2026
+15:52,15:20,15:00,Bainbridge,Colman,Tacoma,07/21/2026
+15:58,15:02,15:00,Colman,Bremerton,Kaleetan,07/21/2026
 15:39,15:09,14:55,Colman,Bainbridge,Wenatchee,07/21/2026
+16:02,15:04,14:50,Bremerton,Colman,Chimacum,07/21/2026
 15:12,14:58,14:45,Vashon,Fauntleroy,Kitsap,07/21/2026
 15:27,14:50,14:45,Fauntleroy,Southworth,Kittitas,07/21/2026
 15:16,14:48,14:45,Port Townsend,Keystone,Kennewick,07/21/2026
 15:16,14:49,14:45,Keystone,Port Townsend,Salish,07/21/2026
+15:46,15:00,14:40,Anacortes,Lopez,Yakima,07/21/2026
 15:10,14:56,14:35,Mukilteo,Clinton,Suquamish,07/21/2026
 15:14,14:59,14:35,Clinton,Mukilteo,Tokitae,07/21/2026
 14:54,14:33,14:30,Edmonds,Kingston,Spokane,07/21/2026
