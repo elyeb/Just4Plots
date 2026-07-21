@@ -1,8 +1,40 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+12:35,12:21,12:20,Fauntleroy,Vashon,Kitsap,07/21/2026
+12:35,12:22,12:15,Vashon,Southworth,Kittitas,07/21/2026
+12:29,12:14,12:00,Clinton,Mukilteo,Suquamish,07/21/2026
+12:28,12:13,12:00,Mukilteo,Clinton,Tokitae,07/21/2026
+12:17,11:56,11:55,Edmonds,Kingston,Puyallup,07/21/2026
+12:08,11:56,11:55,Southworth,Vashon,Kittitas,07/21/2026
+12:29,12:06,11:55,Kingston,Edmonds,Spokane,07/21/2026
+12:08,11:54,11:50,Vashon,Fauntleroy,Kitsap,07/21/2026
+12:12,11:45,11:45,Keystone,Port Townsend,Salish,07/21/2026
+12:12,11:45,11:45,Port Townsend,Keystone,Kennewick,07/21/2026
+12:00,11:44,11:30,Mukilteo,Clinton,Suquamish,07/21/2026
+11:48,11:35,11:30,Vashon,Fauntleroy,Kittitas,07/21/2026
+12:04,11:32,11:30,Colman,Bainbridge,Wenatchee,07/21/2026
+11:47,11:36,11:30,Orcas,Shaw,Samish,07/21/2026
+11:54,11:40,11:30,Clinton,Mukilteo,Tokitae,07/21/2026
+11:59,11:26,11:25,Bainbridge,Colman,Tacoma,07/21/2026
+11:43,11:22,11:20,Fauntleroy,Vashon,Kitsap,07/21/2026
+12:32,11:47,11:20,Shaw,Friday Harbor,Tillikum,07/21/2026
+12:06,11:11,11:10,Bremerton,Colman,Kaleetan,07/21/2026
+12:11,11:12,11:10,Colman,Bremerton,Chimacum,07/21/2026
+11:30,11:07,11:05,Kingston,Edmonds,Puyallup,07/21/2026
+11:35,11:13,11:05,Edmonds,Kingston,Spokane,07/21/2026
+11:23,11:08,11:00,Clinton,Mukilteo,Suquamish,07/21/2026
+11:14,11:01,11:00,Vashon,Southworth,Kitsap,07/21/2026
+11:28,11:00,11:00,Port Townsend,Keystone,Salish,07/21/2026
+11:24,11:09,11:00,Mukilteo,Clinton,Tokitae,07/21/2026
+11:29,11:01,11:00,Keystone,Port Townsend,Kennewick,07/21/2026
+12:22,11:09,10:55,Anacortes,Friday Harbor,Issaquah,07/21/2026
+11:40,10:56,10:45,Anacortes,Lopez,Yakima,07/21/2026
 10:55,10:42,10:40,Vashon,Fauntleroy,Kittitas,07/21/2026
+11:12,10:41,10:40,Bainbridge,Colman,Wenatchee,07/21/2026
 10:50,10:39,10:35,Southworth,Vashon,Kitsap,07/21/2026
 10:51,10:36,10:30,Mukilteo,Clinton,Suquamish,07/21/2026
 10:50,10:35,10:30,Clinton,Mukilteo,Tokitae,07/21/2026
+11:31,10:38,10:30,Shaw,Anacortes,Samish,07/21/2026
+11:03,10:30,10:25,Colman,Bainbridge,Tacoma,07/21/2026
 10:45,10:22,10:20,Edmonds,Kingston,Puyallup,07/21/2026
 10:46,10:25,10:20,Kingston,Edmonds,Spokane,07/21/2026
 10:30,10:16,10:15,Fauntleroy,Vashon,Kittitas,07/21/2026
