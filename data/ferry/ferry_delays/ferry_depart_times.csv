@@ -1,5 +1,10 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+23:11,22:16,22:15,Colman,Bremerton,Kaleetan,07/21/2026
+00:00,22:53,21:45,Friday Harbor,Anacortes,Issaquah,07/21/2026
+21:33,21:23,21:15,Southworth,Vashon,Kitsap,07/21/2026
+21:37,21:10,21:10,Port Townsend,Keystone,Kennewick,07/21/2026
 21:29,21:07,21:05,Kingston,Edmonds,Spokane,07/21/2026
+22:04,21:08,21:05,Bremerton,Colman,Kaleetan,07/21/2026
 21:15,21:01,21:00,Clinton,Mukilteo,Tokitae,07/21/2026
 21:12,21:03,20:50,Orcas,Shaw,Samish,07/21/2026
 21:15,21:01,20:50,Vashon,Fauntleroy,Kitsap,07/21/2026
@@ -10,6 +15,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 20:56,20:26,20:20,Colman,Bainbridge,Wenatchee,07/21/2026
 20:42,20:20,20:20,Edmonds,Kingston,Spokane,07/21/2026
 20:46,20:32,20:20,Fauntleroy,Vashon,Kitsap,07/21/2026
+22:24,21:09,20:20,Anacortes,Friday Harbor,Issaquah,07/21/2026
 20:50,20:19,20:15,Bainbridge,Colman,Tacoma,07/21/2026
 21:02,20:15,20:15,Friday Harbor,Orcas,Tillikum,07/21/2026
 20:25,20:11,20:05,Clinton,Mukilteo,Tokitae,07/21/2026
