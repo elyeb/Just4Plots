@@ -1,11 +1,22 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:23,15:01,15:05,Clinton,Mukilteo,Issaquah,07/23/2026
+15:41,15:08,15:00,Bainbridge,Colman,Wenatchee,07/23/2026
+15:41,15:11,14:55,Colman,Bainbridge,Tacoma,07/23/2026
+15:04,14:50,14:45,Vashon,Fauntleroy,Kitsap,07/23/2026
+15:18,14:48,14:45,Port Townsend,Keystone,Kennewick,07/23/2026
+15:20,14:54,14:45,Keystone,Port Townsend,Salish,07/23/2026
 14:44,14:30,14:35,Mukilteo,Clinton,Issaquah,07/23/2026
+14:52,14:30,14:30,Edmonds,Kingston,Spokane,07/23/2026
+14:51,14:29,14:25,Kingston,Edmonds,Puyallup,07/23/2026
+15:19,14:39,14:20,Lopez,Friday Harbor,Tillikum,07/23/2026
 14:37,14:23,14:15,Fauntleroy,Vashon,Kitsap,07/23/2026
+14:50,14:11,14:10,Southworth,Fauntleroy,Kittitas,07/23/2026
 14:44,14:12,14:05,Bainbridge,Colman,Tacoma,07/23/2026
 14:37,14:05,14:05,Colman,Bainbridge,Wenatchee,07/23/2026
 14:43,14:18,14:05,Clinton,Mukilteo,Suquamish,07/23/2026
 14:36,14:05,14:00,Port Townsend,Keystone,Salish,07/23/2026
 14:30,14:03,14:00,Keystone,Port Townsend,Kennewick,07/23/2026
+15:33,14:20,14:00,Friday Harbor,Anacortes,Samish,07/23/2026
 13:57,13:44,13:40,Fauntleroy,Vashon,Kittitas,07/23/2026
 14:00,13:37,13:35,Kingston,Edmonds,Spokane,07/23/2026
 14:11,13:53,13:30,Clinton,Mukilteo,Issaquah,07/23/2026
