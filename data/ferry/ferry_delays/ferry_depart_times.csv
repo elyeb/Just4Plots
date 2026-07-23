@@ -1,7 +1,28 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+16:29,16:18,16:15,Vashon,Southworth,Kittitas,07/23/2026
+16:36,16:13,16:10,Southworth,Fauntleroy,Kitsap,07/23/2026
+16:26,16:13,16:05,Clinton,Mukilteo,Issaquah,07/23/2026
+16:19,16:03,16:05,Mukilteo,Clinton,Suquamish,07/23/2026
+16:29,16:07,16:00,Edmonds,Kingston,Spokane,07/23/2026
+16:37,16:25,16:00,Shaw,Orcas,Tillikum,07/23/2026
+16:31,16:09,15:55,Kingston,Edmonds,Puyallup,07/23/2026
+16:10,15:56,15:55,Southworth,Vashon,Kittitas,07/23/2026
+16:43,16:08,15:50,Colman,Bainbridge,Wenatchee,07/23/2026
+16:40,16:08,15:50,Bainbridge,Colman,Tacoma,07/23/2026
+16:01,15:53,15:35,Orcas,Shaw,Tillikum,07/23/2026
+15:50,15:37,15:35,Mukilteo,Clinton,Issaquah,07/23/2026
+15:47,15:35,15:30,Vashon,Fauntleroy,Kittitas,07/23/2026
+16:08,15:39,15:30,Port Townsend,Keystone,Salish,07/23/2026
+16:03,15:36,15:30,Keystone,Port Townsend,Kennewick,07/23/2026
+15:44,15:29,15:25,Fauntleroy,Vashon,Kitsap,07/23/2026
+15:47,15:20,15:15,Kingston,Edmonds,Spokane,07/23/2026
+15:44,15:20,15:10,Edmonds,Kingston,Puyallup,07/23/2026
+15:47,15:28,15:10,Shaw,Lopez,Tillikum,07/23/2026
 15:23,15:01,15:05,Clinton,Mukilteo,Issaquah,07/23/2026
 15:41,15:08,15:00,Bainbridge,Colman,Wenatchee,07/23/2026
+15:56,15:00,15:00,Colman,Bremerton,Kaleetan,07/23/2026
 15:41,15:11,14:55,Colman,Bainbridge,Tacoma,07/23/2026
+15:52,14:57,14:50,Bremerton,Colman,Chimacum,07/23/2026
 15:04,14:50,14:45,Vashon,Fauntleroy,Kitsap,07/23/2026
 15:18,14:48,14:45,Port Townsend,Keystone,Kennewick,07/23/2026
 15:20,14:54,14:45,Keystone,Port Townsend,Salish,07/23/2026
