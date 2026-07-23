@@ -1,9 +1,30 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+00:07,23:45,23:45,Kingston,Edmonds,Spokane,07/22/2026
+23:43,23:30,23:30,Mukilteo,Clinton,Suquamish,07/22/2026
+00:05,23:20,23:20,Anacortes,Lopez,Yakima,07/22/2026
+23:32,23:11,23:10,Edmonds,Kingston,Spokane,07/22/2026
+23:17,23:00,23:00,Clinton,Mukilteo,Suquamish,07/22/2026
+00:00,23:27,22:50,Bainbridge,Colman,Tacoma,07/22/2026
+22:55,22:45,22:45,Orcas,Shaw,Issaquah,07/22/2026
+22:44,22:30,22:30,Mukilteo,Clinton,Suquamish,07/22/2026
+23:29,22:32,22:30,Bremerton,Colman,Chimacum,07/22/2026
+22:48,22:26,22:25,Kingston,Edmonds,Spokane,07/22/2026
+22:40,22:20,22:20,Shaw,Lopez,Issaquah,07/22/2026
+22:59,22:21,22:05,Bainbridge,Colman,Wenatchee,07/22/2026
+22:13,22:00,22:00,Clinton,Mukilteo,Suquamish,07/22/2026
+23:08,22:37,22:00,Colman,Bainbridge,Tacoma,07/22/2026
+22:39,22:00,21:50,Orcas,Friday Harbor,Yakima,07/22/2026
+22:04,21:42,21:40,Edmonds,Kingston,Spokane,07/22/2026
+21:44,21:30,21:30,Mukilteo,Clinton,Suquamish,07/22/2026
+22:05,21:25,21:25,Lopez,Anacortes,Issaquah,07/22/2026
+22:21,21:25,21:25,Anacortes,Orcas,Samish,07/22/2026
+22:26,21:53,21:20,Bainbridge,Colman,Tacoma,07/22/2026
 21:35,21:23,21:15,Southworth,Vashon,Kitsap,07/22/2026
 21:39,21:12,21:10,Port Townsend,Keystone,Kennewick,07/22/2026
 21:27,21:06,21:05,Kingston,Edmonds,Spokane,07/22/2026
 21:17,21:03,21:00,Clinton,Mukilteo,Suquamish,07/22/2026
 21:27,20:57,21:00,Colman,Bainbridge,Tacoma,07/22/2026
+21:58,21:02,21:00,Colman,Bremerton,Chimacum,07/22/2026
 21:00,20:50,20:50,Orcas,Shaw,Samish,07/22/2026
 21:16,21:01,20:50,Vashon,Fauntleroy,Kitsap,07/22/2026
 20:55,20:35,20:35,Clinton,Mukilteo,Tokitae,07/22/2026
