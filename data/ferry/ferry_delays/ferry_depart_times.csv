@@ -1,7 +1,15 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+02:18,01:45,01:35,Bainbridge,Colman,Tacoma,07/24/2026
+01:33,01:02,00:55,Colman,Bainbridge,Tacoma,07/24/2026
+01:48,00:51,00:50,Bremerton,Colman,Chimacum,07/24/2026
+00:49,00:35,00:35,Mukilteo,Clinton,Issaquah,07/24/2026
+00:55,00:22,00:15,Bainbridge,Colman,Tacoma,07/24/2026
+00:19,00:05,00:05,Clinton,Mukilteo,Issaquah,07/24/2026
 00:11,23:47,23:45,Kingston,Edmonds,Spokane,07/23/2026
+00:40,23:44,23:40,Colman,Bremerton,Chimacum,07/23/2026
 23:45,23:30,23:30,Mukilteo,Clinton,Issaquah,07/23/2026
 00:13,23:42,23:30,Colman,Bainbridge,Tacoma,07/23/2026
+00:43,23:59,23:20,Anacortes,Lopez,Yakima,07/23/2026
 23:32,23:10,23:10,Edmonds,Kingston,Spokane,07/23/2026
 23:15,23:01,23:00,Clinton,Mukilteo,Issaquah,07/23/2026
 23:52,23:37,22:55,Lopez,Shaw,Yakima,07/23/2026
