@@ -179,6 +179,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,05:20,Colman,Bainbridge,,07/25/2026,Saturday,,,
 ,,04:45,Edmonds,Kingston,,07/25/2026,Saturday,,,
 ,,04:45,Edmonds,Kingston,,07/25/2026,Saturday,,,
+04:31,04:20,04:20,Vashon,Southworth,Kittitas,07/25/2026,Saturday,,0.0,
 02:28,01:52,01:35,Bainbridge,Colman,Tacoma,07/25/2026,Saturday,,17.0,
 ,,01:35,Bainbridge,Colman,,07/25/2026,Saturday,,,
 ,,01:35,Bainbridge,Colman,,07/25/2026,Saturday,,,
