@@ -1,7 +1,14 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+04:27,04:12,05:05,Clinton,Mukilteo,Suquamish,07/27/2026
+04:54,04:40,04:40,Mukilteo,Clinton,Suquamish,07/27/2026
+04:44,04:30,04:30,Fauntleroy,Vashon,Kittitas,07/27/2026
+04:24,04:11,04:10,Vashon,Southworth,Kittitas,07/27/2026
+02:43,02:11,02:10,Bainbridge,Colman,Wenatchee,07/27/2026
 01:45,01:33,01:30,Southworth,Vashon,Kittitas,07/27/2026
+01:58,01:26,01:25,Colman,Bainbridge,Wenatchee,07/27/2026
 01:19,01:05,01:05,Clinton,Mukilteo,Suquamish,07/27/2026
 01:29,01:13,01:05,Vashon,Fauntleroy,Kittitas,07/27/2026
+02:00,01:05,00:50,Bremerton,Colman,Chimacum,07/27/2026
 01:18,00:47,00:45,Bainbridge,Colman,Wenatchee,07/27/2026
 00:51,00:37,00:35,Mukilteo,Clinton,Suquamish,07/27/2026
 00:54,00:35,00:35,Fauntleroy,Southworth,Kittitas,07/27/2026
