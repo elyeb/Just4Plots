@@ -1,6 +1,23 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+11:20,11:06,11:20,Fauntleroy,Vashon,Kittitas,07/27/2026
+11:21,11:08,11:00,Mukilteo,Clinton,Issaquah,07/27/2026
+11:14,11:02,11:00,Vashon,Southworth,Kitsap,07/27/2026
+10:56,10:42,10:40,Vashon,Fauntleroy,Kittitas,07/27/2026
+10:50,10:38,10:35,Southworth,Vashon,Kitsap,07/27/2026
+10:51,10:35,10:30,Clinton,Mukilteo,Issaquah,07/27/2026
+10:46,10:24,10:20,Edmonds,Kingston,Puyallup,07/27/2026
+10:31,10:18,10:15,Fauntleroy,Vashon,Kittitas,07/27/2026
+10:45,10:17,10:15,Port Townsend,Keystone,Kennewick,07/27/2026
+10:33,10:18,10:10,Vashon,Fauntleroy,Kitsap,07/27/2026
+10:17,10:03,10:00,Mukilteo,Clinton,Issaquah,07/27/2026
+10:58,10:02,10:00,Bremerton,Colman,Chimacum,07/27/2026
+10:09,09:55,09:50,Vashon,Fauntleroy,Kittitas,07/27/2026
+10:45,09:52,09:50,Colman,Bremerton,Kaleetan,07/27/2026
+10:07,09:41,09:40,Fauntleroy,Vashon,Kitsap,07/27/2026
+10:01,09:41,09:35,Kingston,Edmonds,Puyallup,07/27/2026
 09:45,09:31,09:30,Clinton,Mukilteo,Issaquah,07/27/2026
 09:48,09:35,09:30,Mukilteo,Clinton,Suquamish,07/27/2026
+10:03,09:31,09:30,Keystone,Port Townsend,Kennewick,07/27/2026
 09:32,09:21,09:20,Vashon,Southworth,Kitsap,07/27/2026
 09:44,09:25,09:15,Fauntleroy,Vashon,Kittitas,07/27/2026
 09:17,09:03,09:00,Mukilteo,Clinton,Issaquah,07/27/2026
