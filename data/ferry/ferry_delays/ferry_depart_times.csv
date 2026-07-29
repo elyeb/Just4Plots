@@ -1,6 +1,26 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+00:07,23:45,23:45,Kingston,Edmonds,Spokane,07/28/2026
+23:44,23:30,23:30,Mukilteo,Clinton,Issaquah,07/28/2026
+00:02,23:30,23:30,Colman,Bainbridge,Tacoma,07/28/2026
+00:03,23:20,23:20,Anacortes,Lopez,Yakima,07/28/2026
+23:34,23:10,23:10,Edmonds,Kingston,Spokane,07/28/2026
+23:14,23:01,23:00,Clinton,Mukilteo,Issaquah,07/28/2026
+22:46,22:32,22:30,Mukilteo,Clinton,Issaquah,07/28/2026
+23:27,22:32,22:30,Bremerton,Colman,Chimacum,07/28/2026
+22:49,22:26,22:25,Kingston,Edmonds,Spokane,07/28/2026
+22:33,22:01,22:05,Bainbridge,Colman,Tacoma,07/28/2026
+22:14,22:01,22:00,Clinton,Mukilteo,Issaquah,07/28/2026
+22:27,21:50,21:50,Orcas,Friday Harbor,Yakima,07/28/2026
+22:02,21:40,21:40,Edmonds,Kingston,Spokane,07/28/2026
+22:59,22:04,21:25,Anacortes,Orcas,Samish,07/28/2026
+21:36,21:25,21:15,Southworth,Vashon,Kitsap,07/28/2026
+21:33,21:19,21:15,Vashon,Fauntleroy,Kittitas,07/28/2026
+21:38,21:11,21:10,Port Townsend,Keystone,Kennewick,07/28/2026
 21:29,21:06,21:05,Kingston,Edmonds,Spokane,07/28/2026
+21:56,21:02,21:00,Colman,Bremerton,Chimacum,07/28/2026
+21:34,21:00,21:00,Colman,Bainbridge,Tacoma,07/28/2026
 21:10,20:57,20:50,Vashon,Fauntleroy,Kitsap,07/28/2026
+21:41,21:30,20:50,Orcas,Shaw,Samish,07/28/2026
 21:02,20:40,20:35,Fauntleroy,Southworth,Kittitas,07/28/2026
 20:51,20:34,20:35,Clinton,Mukilteo,Suquamish,07/28/2026
 20:54,20:32,20:30,Kingston,Edmonds,Puyallup,07/28/2026
