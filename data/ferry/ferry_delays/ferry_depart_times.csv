@@ -1,7 +1,28 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+16:36,16:16,16:15,Lopez,Shaw,Tillikum,07/31/2026
+16:39,16:26,16:15,Vashon,Southworth,Kittitas,07/31/2026
+16:24,16:09,16:05,Mukilteo,Clinton,Issaquah,07/31/2026
+16:28,16:14,16:05,Clinton,Mukilteo,Suquamish,07/31/2026
+16:10,16:02,16:00,Shaw,Orcas,Tillikum,07/31/2026
+16:37,16:16,16:00,Edmonds,Kingston,Spokane,07/31/2026
+16:29,16:08,15:55,Kingston,Edmonds,Puyallup,07/31/2026
+16:13,16:03,15:55,Southworth,Vashon,Kittitas,07/31/2026
+15:52,15:37,15:35,Clinton,Mukilteo,Issaquah,07/31/2026
+15:49,15:40,15:35,Orcas,Shaw,Tillikum,07/31/2026
+15:57,15:43,15:35,Mukilteo,Clinton,Suquamish,07/31/2026
+16:12,15:44,15:30,Keystone,Port Townsend,Kennewick,07/31/2026
+16:15,15:46,15:30,Port Townsend,Keystone,Salish,07/31/2026
+15:53,15:37,15:30,Vashon,Fauntleroy,Kittitas,07/31/2026
+15:43,15:26,15:25,Fauntleroy,Vashon,Kitsap,07/31/2026
+15:49,15:28,15:15,Kingston,Edmonds,Spokane,07/31/2026
 15:33,15:15,15:10,Shaw,Lopez,Tillikum,07/31/2026
+15:41,15:19,15:10,Edmonds,Kingston,Puyallup,07/31/2026
 15:21,15:06,15:05,Mukilteo,Clinton,Issaquah,07/31/2026
 15:23,15:07,15:05,Clinton,Mukilteo,Suquamish,07/31/2026
+15:57,15:23,15:00,Bainbridge,Colman,Tacoma,07/31/2026
+16:00,15:02,15:00,Colman,Bremerton,Kaleetan,07/31/2026
+16:03,15:30,14:55,Colman,Bainbridge,Wenatchee,07/31/2026
+15:52,14:55,14:50,Bremerton,Colman,Chimacum,07/31/2026
 15:27,14:59,14:45,Port Townsend,Keystone,Kennewick,07/31/2026
 15:25,14:57,14:45,Keystone,Port Townsend,Salish,07/31/2026
 15:05,14:51,14:45,Vashon,Fauntleroy,Kitsap,07/31/2026
@@ -18,6 +39,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 14:17,14:02,14:00,Mukilteo,Clinton,Issaquah,07/31/2026
 14:41,14:15,14:00,Keystone,Port Townsend,Kennewick,07/31/2026
 14:41,14:11,14:00,Port Townsend,Keystone,Salish,07/31/2026
+16:24,15:17,14:00,Friday Harbor,Anacortes,Samish,07/31/2026
 14:02,13:48,13:40,Fauntleroy,Vashon,Kittitas,07/31/2026
 14:08,13:47,13:35,Kingston,Edmonds,Spokane,07/31/2026
 13:59,13:37,13:30,Edmonds,Kingston,Puyallup,07/31/2026
