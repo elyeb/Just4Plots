@@ -1,5 +1,25 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:56,15:43,15:35,Mukilteo,Clinton,Suquamish,08/01/2026
+16:02,15:49,15:35,Fauntleroy,Vashon,Kittitas,08/01/2026
+15:52,15:45,15:35,Orcas,Shaw,Tillikum,08/01/2026
+15:56,15:42,15:35,Clinton,Mukilteo,Issaquah,08/01/2026
+15:59,15:30,15:30,Port Townsend,Keystone,Salish,08/01/2026
+15:57,15:30,15:30,Keystone,Port Townsend,Kennewick,08/01/2026
+15:46,15:31,15:30,Vashon,Fauntleroy,Kitsap,08/01/2026
+15:34,15:18,15:15,Vashon,Southworth,Kittitas,08/01/2026
+15:50,15:28,15:15,Kingston,Edmonds,Spokane,08/01/2026
+15:40,15:23,15:10,Shaw,Lopez,Tillikum,08/01/2026
+15:57,15:34,15:10,Edmonds,Kingston,Puyallup,08/01/2026
+15:24,15:09,15:05,Clinton,Mukilteo,Suquamish,08/01/2026
+15:26,15:11,15:05,Mukilteo,Clinton,Issaquah,08/01/2026
+16:10,15:41,15:00,Colman,Bainbridge,Wenatchee,08/01/2026
+16:02,15:06,15:00,Colman,Bremerton,Kaleetan,08/01/2026
+15:16,15:02,15:00,Fauntleroy,Vashon,Kitsap,08/01/2026
 15:05,14:55,14:55,Southworth,Vashon,Kittitas,08/01/2026
+16:01,15:07,14:50,Bremerton,Colman,Chimacum,08/01/2026
+15:13,14:46,14:45,Keystone,Port Townsend,Salish,08/01/2026
+15:11,14:45,14:45,Port Townsend,Keystone,Kennewick,08/01/2026
+15:43,15:01,14:40,Anacortes,Lopez,Yakima,08/01/2026
 14:53,14:41,14:35,Vashon,Southworth,Kitsap,08/01/2026
 14:49,14:36,14:35,Clinton,Mukilteo,Issaquah,08/01/2026
 14:53,14:41,14:35,Mukilteo,Clinton,Suquamish,08/01/2026
@@ -8,10 +28,13 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 15:04,14:44,14:25,Kingston,Edmonds,Puyallup,08/01/2026
 14:50,14:18,14:20,Lopez,Friday Harbor,Yakima,08/01/2026
 14:26,14:14,14:10,Southworth,Vashon,Kitsap,08/01/2026
+15:17,14:44,14:10,Bainbridge,Colman,Wenatchee,08/01/2026
+15:17,14:48,14:10,Colman,Bainbridge,Tacoma,08/01/2026
 14:21,14:07,14:05,Clinton,Mukilteo,Suquamish,08/01/2026
 14:19,14:07,14:00,Mukilteo,Clinton,Issaquah,08/01/2026
 14:29,14:01,14:00,Port Townsend,Keystone,Salish,08/01/2026
 14:29,14:03,14:00,Keystone,Port Townsend,Kennewick,08/01/2026
+15:29,14:17,14:00,Friday Harbor,Anacortes,Samish,08/01/2026
 14:21,13:56,13:55,Fauntleroy,Vashon,Kittitas,08/01/2026
 14:06,13:51,13:40,Vashon,Fauntleroy,Kitsap,08/01/2026
 14:08,13:47,13:35,Kingston,Edmonds,Spokane,08/01/2026
