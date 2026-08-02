@@ -1,8 +1,31 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+12:54,12:35,12:35,Lopez,Orcas,Tillikum,08/02/2026
+12:48,12:35,12:30,Mukilteo,Clinton,Suquamish,08/02/2026
+12:49,12:35,12:30,Clinton,Mukilteo,Issaquah,08/02/2026
+12:41,12:29,12:20,Vashon,Southworth,Kittitas,08/02/2026
+12:24,12:17,12:15,Orcas,Shaw,Tillikum,08/02/2026
+12:28,12:18,12:15,Shaw,Orcas,Samish,08/02/2026
+12:37,12:21,12:10,Fauntleroy,Vashon,Kitsap,08/02/2026
+12:16,12:03,12:00,Clinton,Mukilteo,Suquamish,08/02/2026
+12:20,12:06,12:00,Mukilteo,Clinton,Issaquah,08/02/2026
+12:25,12:04,11:55,Edmonds,Kingston,Puyallup,08/02/2026
+12:32,12:11,11:55,Kingston,Edmonds,Spokane,08/02/2026
+12:16,11:56,11:50,Southworth,Fauntleroy,Kittitas,08/02/2026
+12:14,11:45,11:45,Port Townsend,Keystone,Kennewick,08/02/2026
+12:07,11:54,11:45,Vashon,Southworth,Kitsap,08/02/2026
+12:14,11:46,11:45,Keystone,Port Townsend,Salish,08/02/2026
+12:04,11:35,11:35,Colman,Bainbridge,Wenatchee,08/02/2026
 11:38,11:30,11:30,Orcas,Shaw,Samish,08/02/2026
+11:47,11:34,11:30,Mukilteo,Clinton,Suquamish,08/02/2026
+11:46,11:33,11:30,Clinton,Mukilteo,Issaquah,08/02/2026
 11:39,11:25,11:25,Southworth,Vashon,Kitsap,08/02/2026
+12:04,11:29,11:25,Bainbridge,Colman,Tacoma,08/02/2026
 11:40,11:26,11:20,Fauntleroy,Vashon,Kittitas,08/02/2026
+12:09,11:26,11:20,Shaw,Friday Harbor,Tillikum,08/02/2026
+12:10,11:12,11:10,Bremerton,Colman,Kaleetan,08/02/2026
+12:11,11:15,11:10,Colman,Bremerton,Chimacum,08/02/2026
 11:39,11:18,11:05,Kingston,Edmonds,Puyallup,08/02/2026
+11:44,11:16,11:05,Edmonds,Kingston,Spokane,08/02/2026
 11:16,11:02,11:00,Mukilteo,Clinton,Issaquah,08/02/2026
 11:16,11:02,11:00,Clinton,Mukilteo,Suquamish,08/02/2026
 11:28,11:01,11:00,Keystone,Port Townsend,Kennewick,08/02/2026
