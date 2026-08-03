@@ -1,13 +1,42 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+12:21,12:08,12:00,Mukilteo,Clinton,Issaquah,08/03/2026
+12:18,12:01,12:00,Clinton,Mukilteo,Suquamish,08/03/2026
+12:11,12:00,11:55,Southworth,Vashon,Kittitas,08/03/2026
+12:15,11:57,11:50,Vashon,Fauntleroy,Kitsap,08/03/2026
+12:16,11:47,11:45,Keystone,Port Townsend,Salish,08/03/2026
+12:14,11:47,11:45,Port Townsend,Keystone,Kennewick,08/03/2026
+12:12,11:41,11:30,Colman,Bainbridge,Wenatchee,08/03/2026
+11:48,11:33,11:30,Clinton,Mukilteo,Issaquah,08/03/2026
+11:47,11:34,11:30,Mukilteo,Clinton,Suquamish,08/03/2026
+12:07,11:58,11:30,Orcas,Shaw,Samish,08/03/2026
+11:52,11:38,11:30,Vashon,Fauntleroy,Kittitas,08/03/2026
+12:06,11:29,11:25,Bainbridge,Colman,Tacoma,08/03/2026
+11:45,11:25,11:20,Fauntleroy,Vashon,Kitsap,08/03/2026
+12:14,11:27,11:20,Shaw,Friday Harbor,Tillikum,08/03/2026
+11:49,11:23,11:05,Kingston,Edmonds,Puyallup,08/03/2026
+11:45,11:22,11:05,Edmonds,Kingston,Spokane,08/03/2026
+11:11,11:00,11:00,Vashon,Southworth,Kitsap,08/03/2026
+11:20,11:05,11:00,Mukilteo,Clinton,Issaquah,08/03/2026
+11:29,11:01,11:00,Port Townsend,Keystone,Salish,08/03/2026
+11:15,11:00,11:00,Clinton,Mukilteo,Suquamish,08/03/2026
+11:29,11:01,11:00,Keystone,Port Townsend,Kennewick,08/03/2026
+11:57,11:11,10:45,Anacortes,Lopez,Yakima,08/03/2026
+11:16,10:47,10:40,Bainbridge,Colman,Wenatchee,08/03/2026
+10:58,10:41,10:40,Vashon,Fauntleroy,Kittitas,08/03/2026
 10:46,10:35,10:35,Southworth,Vashon,Kitsap,08/03/2026
 10:45,10:31,10:30,Clinton,Mukilteo,Issaquah,08/03/2026
 10:46,10:33,10:30,Mukilteo,Clinton,Suquamish,08/03/2026
+11:51,10:58,10:30,Shaw,Anacortes,Samish,08/03/2026
+11:02,10:29,10:25,Colman,Bainbridge,Tacoma,08/03/2026
+10:56,10:34,10:20,Edmonds,Kingston,Puyallup,08/03/2026
+11:00,10:38,10:20,Kingston,Edmonds,Spokane,08/03/2026
 10:43,10:16,10:15,Port Townsend,Keystone,Kennewick,08/03/2026
 10:43,10:15,10:15,Keystone,Port Townsend,Salish,08/03/2026
 10:28,10:16,10:15,Fauntleroy,Vashon,Kittitas,08/03/2026
 10:30,10:15,10:10,Vashon,Fauntleroy,Kitsap,08/03/2026
 10:14,10:00,10:00,Mukilteo,Clinton,Issaquah,08/03/2026
 10:15,10:01,10:00,Clinton,Mukilteo,Suquamish,08/03/2026
+11:03,10:01,10:00,Bremerton,Colman,Chimacum,08/03/2026
 10:47,09:51,09:50,Colman,Bremerton,Kaleetan,08/03/2026
 10:04,09:51,09:50,Vashon,Fauntleroy,Kittitas,08/03/2026
 10:01,09:46,09:40,Fauntleroy,Vashon,Kitsap,08/03/2026
