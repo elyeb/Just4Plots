@@ -1,5 +1,21 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+02:08,01:36,01:35,Bainbridge,Colman,Wenatchee,08/05/2026
+01:19,01:05,01:05,Clinton,Mukilteo,Issaquah,08/05/2026
+01:26,00:56,00:55,Colman,Bainbridge,Wenatchee,08/05/2026
+01:50,00:51,00:50,Bremerton,Colman,Chimacum,08/05/2026
+00:49,00:35,00:35,Mukilteo,Clinton,Issaquah,08/05/2026
+00:48,00:18,00:15,Bainbridge,Colman,Wenatchee,08/05/2026
+00:20,00:07,00:05,Clinton,Mukilteo,Issaquah,08/05/2026
+00:08,23:47,23:45,Kingston,Edmonds,Spokane,08/04/2026
+00:37,23:42,23:40,Colman,Bremerton,Chimacum,08/04/2026
+23:44,23:30,23:30,Mukilteo,Clinton,Issaquah,08/04/2026
+00:04,23:34,23:30,Colman,Bainbridge,Wenatchee,08/04/2026
+00:03,23:20,23:20,Anacortes,Lopez,Yakima,08/04/2026
+23:32,23:12,23:10,Edmonds,Kingston,Spokane,08/04/2026
+23:14,23:00,23:00,Clinton,Mukilteo,Issaquah,08/04/2026
+23:26,22:54,22:50,Bainbridge,Colman,Wenatchee,08/04/2026
 22:44,22:30,22:30,Mukilteo,Clinton,Issaquah,08/04/2026
+23:28,22:31,22:30,Bremerton,Colman,Chimacum,08/04/2026
 22:47,22:25,22:25,Kingston,Edmonds,Spokane,08/04/2026
 22:40,22:08,22:05,Bainbridge,Colman,Tacoma,08/04/2026
 22:15,22:01,22:00,Clinton,Mukilteo,Issaquah,08/04/2026
