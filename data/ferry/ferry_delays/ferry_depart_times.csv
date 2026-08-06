@@ -1,5 +1,13 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+02:09,01:37,01:35,Bainbridge,Colman,Tacoma,08/06/2026
+01:18,01:05,01:05,Clinton,Mukilteo,Suquamish,08/06/2026
+01:27,00:55,00:55,Colman,Bainbridge,Tacoma,08/06/2026
+01:49,00:52,00:50,Bremerton,Colman,Chimacum,08/06/2026
+00:49,00:35,00:35,Mukilteo,Clinton,Suquamish,08/06/2026
+00:49,00:16,00:15,Bainbridge,Colman,Tacoma,08/06/2026
+00:19,00:05,00:05,Clinton,Mukilteo,Suquamish,08/06/2026
 00:09,23:48,23:45,Kingston,Edmonds,Spokane,08/05/2026
+00:36,23:42,23:40,Colman,Bremerton,Chimacum,08/05/2026
 23:44,23:30,23:30,Mukilteo,Clinton,Suquamish,08/05/2026
 00:01,23:31,23:30,Colman,Bainbridge,Tacoma,08/05/2026
 00:11,23:28,23:20,Anacortes,Lopez,Yakima,08/05/2026
