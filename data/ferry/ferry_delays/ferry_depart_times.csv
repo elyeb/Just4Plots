@@ -1,6 +1,13 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+13:34,13:19,13:15,Vashon,Fauntleroy,Kittitas,08/07/2026
+13:52,13:26,13:15,Keystone,Port Townsend,Salish,08/07/2026
+13:43,13:16,13:15,Port Townsend,Keystone,Kennewick,08/07/2026
+13:26,13:11,13:00,Mukilteo,Clinton,Issaquah,08/07/2026
+13:28,13:14,13:00,Clinton,Mukilteo,Suquamish,08/07/2026
 13:05,12:52,12:50,Vashon,Fauntleroy,Kitsap,08/07/2026
+13:14,12:51,12:45,Edmonds,Kingston,Spokane,08/07/2026
 13:08,12:54,12:40,Fauntleroy,Vashon,Kittitas,08/07/2026
+13:15,12:56,12:40,Kingston,Edmonds,Puyallup,08/07/2026
 12:58,12:31,12:30,Keystone,Port Townsend,Kennewick,08/07/2026
 12:52,12:35,12:30,Clinton,Mukilteo,Issaquah,08/07/2026
 12:56,12:43,12:30,Mukilteo,Clinton,Suquamish,08/07/2026
@@ -8,8 +15,11 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 13:09,12:37,12:25,Bainbridge,Colman,Tacoma,08/07/2026
 12:51,12:21,12:20,Colman,Bainbridge,Wenatchee,08/07/2026
 12:37,12:22,12:20,Fauntleroy,Vashon,Kitsap,08/07/2026
+13:30,12:33,12:20,Colman,Bremerton,Kaleetan,08/07/2026
+13:29,12:31,12:20,Bremerton,Colman,Chimacum,08/07/2026
 12:23,12:13,12:15,Orcas,Shaw,Samish,08/07/2026
 12:46,12:34,12:15,Vashon,Southworth,Kittitas,08/07/2026
+13:14,13:04,12:15,Shaw,Orcas,Samish,08/07/2026
 12:19,12:05,12:00,Mukilteo,Clinton,Issaquah,08/07/2026
 12:22,12:09,12:00,Clinton,Mukilteo,Suquamish,08/07/2026
 12:19,11:57,11:55,Kingston,Edmonds,Spokane,08/07/2026
