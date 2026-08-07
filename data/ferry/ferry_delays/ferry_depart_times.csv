@@ -1,7 +1,14 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+23:14,23:00,23:00,Clinton,Mukilteo,Issaquah,08/06/2026
+22:46,22:32,22:30,Mukilteo,Clinton,Issaquah,08/06/2026
+22:50,22:28,22:25,Kingston,Edmonds,Spokane,08/06/2026
+22:39,22:06,22:05,Bainbridge,Colman,Tacoma,08/06/2026
+22:18,22:02,22:00,Clinton,Mukilteo,Suquamish,08/06/2026
+22:44,22:05,21:50,Orcas,Friday Harbor,Yakima,08/06/2026
 22:06,21:46,21:40,Edmonds,Kingston,Spokane,08/06/2026
 21:48,21:31,21:30,Clinton,Mukilteo,Issaquah,08/06/2026
 21:53,21:38,21:30,Mukilteo,Clinton,Suquamish,08/06/2026
+22:23,21:26,21:25,Anacortes,Orcas,Samish,08/06/2026
 21:27,21:16,21:15,Southworth,Vashon,Kitsap,08/06/2026
 21:35,21:21,21:15,Vashon,Fauntleroy,Kittitas,08/06/2026
 21:38,21:11,21:10,Port Townsend,Keystone,Kennewick,08/06/2026
