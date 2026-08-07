@@ -1,9 +1,16 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+11:13,11:00,11:00,Vashon,Southworth,Kitsap,08/07/2026
+11:15,11:01,11:00,Mukilteo,Clinton,Issaquah,08/07/2026
+10:46,10:36,10:35,Southworth,Vashon,Kitsap,08/07/2026
+10:43,10:30,10:30,Clinton,Mukilteo,Issaquah,08/07/2026
 10:30,10:16,10:15,Fauntleroy,Vashon,Kittitas,08/07/2026
+10:43,10:16,10:15,Port Townsend,Keystone,Kennewick,08/07/2026
 10:26,10:12,10:10,Vashon,Fauntleroy,Kitsap,08/07/2026
 10:15,10:01,10:00,Mukilteo,Clinton,Issaquah,08/07/2026
 10:16,10:03,10:00,Clinton,Mukilteo,Suquamish,08/07/2026
+10:57,10:02,10:00,Bremerton,Colman,Chimacum,08/07/2026
 10:04,09:51,09:50,Vashon,Fauntleroy,Kittitas,08/07/2026
+10:47,09:51,09:50,Colman,Bremerton,Kaleetan,08/07/2026
 10:14,09:41,09:40,Colman,Bainbridge,Tacoma,08/07/2026
 09:58,09:41,09:40,Fauntleroy,Vashon,Kitsap,08/07/2026
 09:59,09:37,09:35,Edmonds,Kingston,Spokane,08/07/2026
