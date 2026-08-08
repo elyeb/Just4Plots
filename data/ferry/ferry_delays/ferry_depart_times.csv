@@ -1,10 +1,36 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+20:31,20:20,20:15,Southworth,Vashon,Kittitas,08/07/2026
+20:34,20:20,20:05,Clinton,Mukilteo,Suquamish,08/07/2026
+20:29,20:18,20:00,Vashon,Southworth,Kitsap,08/07/2026
+20:29,20:11,20:00,Mukilteo,Clinton,Issaquah,08/07/2026
+20:15,20:01,19:55,Vashon,Fauntleroy,Kittitas,08/07/2026
+20:17,19:57,19:45,Edmonds,Kingston,Puyallup,08/07/2026
+20:06,19:55,19:40,Southworth,Vashon,Kitsap,08/07/2026
+20:24,20:03,19:40,Kingston,Edmonds,Spokane,08/07/2026
+20:03,19:50,19:35,Mukilteo,Clinton,Suquamish,08/07/2026
+19:48,19:34,19:35,Vashon,Fauntleroy,Kitsap,08/07/2026
+19:59,19:45,19:35,Clinton,Mukilteo,Issaquah,08/07/2026
+20:04,19:30,19:30,Bainbridge,Colman,Wenatchee,08/07/2026
+19:58,19:30,19:30,Port Townsend,Keystone,Kennewick,08/07/2026
+20:05,19:33,19:20,Colman,Bainbridge,Tacoma,08/07/2026
+19:53,19:28,19:20,Fauntleroy,Southworth,Kittitas,08/07/2026
+20:24,20:06,19:15,Lopez,Shaw,Tillikum,08/07/2026
+19:36,19:23,19:05,Clinton,Mukilteo,Suquamish,08/07/2026
+19:34,19:20,19:05,Mukilteo,Clinton,Issaquah,08/07/2026
 19:16,19:05,19:00,Southworth,Vashon,Kittitas,08/07/2026
+20:01,19:54,19:00,Shaw,Orcas,Tillikum,08/07/2026
+19:34,19:10,19:00,Kingston,Edmonds,Puyallup,08/07/2026
+19:39,19:18,19:00,Edmonds,Kingston,Spokane,08/07/2026
 19:16,19:03,18:45,Fauntleroy,Vashon,Kitsap,08/07/2026
 19:13,18:47,18:45,Keystone,Port Townsend,Kennewick,08/07/2026
+19:34,19:03,18:45,Port Townsend,Keystone,Salish,08/07/2026
+19:56,19:00,18:45,Bremerton,Colman,Kaleetan,08/07/2026
 19:07,18:54,18:40,Clinton,Mukilteo,Issaquah,08/07/2026
+19:49,18:53,18:40,Colman,Bremerton,Chimacum,08/07/2026
 19:10,18:56,18:35,Mukilteo,Clinton,Suquamish,08/07/2026
 18:57,18:43,18:35,Vashon,Fauntleroy,Kittitas,08/07/2026
+20:24,19:31,18:35,Anacortes,Lopez,Samish,08/07/2026
+19:59,18:44,18:35,Anacortes,Friday Harbor,Yakima,08/07/2026
 19:10,18:37,18:30,Bainbridge,Colman,Tacoma,08/07/2026
 18:51,18:38,18:25,Vashon,Southworth,Kitsap,08/07/2026
 18:52,18:30,18:15,Kingston,Edmonds,Spokane,08/07/2026
@@ -15,6 +41,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 18:45,18:18,18:00,Keystone,Port Townsend,Salish,08/07/2026
 18:29,18:01,18:00,Port Townsend,Keystone,Kennewick,08/07/2026
 18:30,18:13,17:55,Fauntleroy,Southworth,Kittitas,08/07/2026
+19:44,19:06,17:50,Orcas,Friday Harbor,Tillikum,08/07/2026
 18:10,17:56,17:40,Clinton,Mukilteo,Issaquah,08/07/2026
 18:03,17:49,17:40,Vashon,Fauntleroy,Kitsap,08/07/2026
 18:09,17:37,17:35,Colman,Bainbridge,Tacoma,08/07/2026
