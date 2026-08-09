@@ -1,9 +1,21 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:10,15:01,14:55,Southworth,Vashon,Kittitas,08/09/2026
+15:24,14:56,14:45,Port Townsend,Keystone,Kennewick,08/09/2026
+15:16,14:48,14:45,Keystone,Port Townsend,Salish,08/09/2026
+15:07,14:54,14:35,Mukilteo,Clinton,Suquamish,08/09/2026
+15:08,14:55,14:35,Vashon,Southworth,Kitsap,08/09/2026
+15:05,14:50,14:35,Clinton,Mukilteo,Issaquah,08/09/2026
+14:54,14:41,14:30,Vashon,Fauntleroy,Kittitas,08/09/2026
+15:08,14:45,14:30,Edmonds,Kingston,Spokane,08/09/2026
+14:55,14:33,14:25,Kingston,Edmonds,Puyallup,08/09/2026
 14:37,14:27,14:10,Southworth,Vashon,Kitsap,08/09/2026
+15:07,14:37,14:10,Bainbridge,Colman,Tacoma,08/09/2026
+15:13,14:43,14:10,Colman,Bainbridge,Wenatchee,08/09/2026
 14:34,14:19,14:05,Clinton,Mukilteo,Suquamish,08/09/2026
 14:31,14:03,14:00,Port Townsend,Keystone,Salish,08/09/2026
 14:33,14:20,14:00,Mukilteo,Clinton,Issaquah,08/09/2026
 14:34,14:08,14:00,Keystone,Port Townsend,Kennewick,08/09/2026
+15:10,14:03,14:00,Friday Harbor,Anacortes,Samish,08/09/2026
 14:47,14:15,13:55,Lopez,Friday Harbor,Yakima,08/09/2026
 13:51,13:38,13:40,Vashon,Fauntleroy,Kittitas,08/09/2026
 14:14,13:52,13:35,Kingston,Edmonds,Spokane,08/09/2026
