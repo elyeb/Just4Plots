@@ -1,6 +1,12 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+01:26,01:12,01:05,Vashon,Fauntleroy,Kittitas,08/09/2026
+01:18,01:05,01:05,Clinton,Mukilteo,Suquamish,08/09/2026
+01:41,01:07,00:45,Bainbridge,Colman,Wenatchee,08/09/2026
+00:54,00:37,00:35,Fauntleroy,Southworth,Kittitas,08/09/2026
+00:57,00:44,00:35,Mukilteo,Clinton,Suquamish,08/09/2026
 00:28,00:16,00:15,Southworth,Vashon,Kittitas,08/09/2026
 00:38,00:23,00:05,Clinton,Mukilteo,Suquamish,08/09/2026
+00:56,00:22,00:00,Colman,Bainbridge,Wenatchee,08/09/2026
 00:07,23:52,23:50,Vashon,Fauntleroy,Kittitas,08/08/2026
 00:34,00:13,23:45,Kingston,Edmonds,Spokane,08/08/2026
 00:51,23:56,23:40,Colman,Bremerton,Chimacum,08/08/2026
