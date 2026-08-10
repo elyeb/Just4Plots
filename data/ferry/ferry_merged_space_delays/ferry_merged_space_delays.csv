@@ -185,6 +185,8 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,04:45,Edmonds,Kingston,,08/10/2026,Monday,,,
 ,,04:45,Colman,Bainbridge,,08/10/2026,Monday,,,
 ,,04:45,Edmonds,Kingston,,08/10/2026,Monday,,,
+04:07,03:54,04:40,Mukilteo,Clinton,Suquamish,08/10/2026,Monday,,-46.0,
+03:42,03:30,04:10,Vashon,Southworth,Kittitas,08/10/2026,Monday,,-40.0,
 02:46,02:13,02:10,Bainbridge,Colman,Tacoma,08/10/2026,Monday,,3.0,
 ,,02:10,Bainbridge,Colman,,08/10/2026,Monday,,,
 ,,02:10,Bainbridge,Colman,,08/10/2026,Monday,,,
