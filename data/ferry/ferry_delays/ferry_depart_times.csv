@@ -1,15 +1,38 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+12:32,12:19,12:15,Vashon,Southworth,Kittitas,08/10/2026
+12:25,12:10,12:00,Clinton,Mukilteo,Suquamish,08/10/2026
+12:28,12:15,12:00,Mukilteo,Clinton,Issaquah,08/10/2026
+12:24,11:59,11:55,Kingston,Edmonds,Spokane,08/10/2026
+12:25,12:04,11:55,Edmonds,Kingston,Puyallup,08/10/2026
+12:07,11:56,11:55,Southworth,Vashon,Kittitas,08/10/2026
+12:09,11:55,11:50,Vashon,Fauntleroy,Kitsap,08/10/2026
+12:15,11:47,11:45,Keystone,Port Townsend,Salish,08/10/2026
+12:17,11:47,11:45,Port Townsend,Keystone,Kennewick,08/10/2026
+11:55,11:41,11:30,Mukilteo,Clinton,Suquamish,08/10/2026
+11:50,11:40,11:30,Orcas,Shaw,Samish,08/10/2026
+11:47,11:33,11:30,Vashon,Fauntleroy,Kittitas,08/10/2026
+12:05,11:33,11:30,Colman,Bainbridge,Tacoma,08/10/2026
+11:55,11:42,11:30,Clinton,Mukilteo,Issaquah,08/10/2026
 11:23,11:06,11:20,Fauntleroy,Vashon,Kittitas,08/10/2026
+11:42,11:28,11:20,Fauntleroy,Vashon,Kitsap,08/10/2026
+12:28,11:42,11:20,Shaw,Friday Harbor,Tillikum,08/10/2026
+12:05,11:12,11:10,Bremerton,Colman,Kaleetan,08/10/2026
+12:12,11:13,11:10,Colman,Bremerton,Chimacum,08/10/2026
 11:30,11:07,11:05,Edmonds,Kingston,Spokane,08/10/2026
+11:33,11:13,11:05,Kingston,Edmonds,Puyallup,08/10/2026
 11:22,11:06,11:00,Mukilteo,Clinton,Issaquah,08/10/2026
 11:16,11:04,11:00,Vashon,Southworth,Kitsap,08/10/2026
 11:29,11:01,11:00,Keystone,Port Townsend,Kennewick,08/10/2026
 11:21,11:04,11:00,Clinton,Mukilteo,Suquamish,08/10/2026
+11:34,11:02,11:00,Port Townsend,Keystone,Salish,08/10/2026
+11:53,11:07,10:45,Anacortes,Lopez,Yakima,08/10/2026
 10:55,10:40,10:40,Vashon,Fauntleroy,Kittitas,08/10/2026
 11:13,10:42,10:40,Bainbridge,Colman,Tacoma,08/10/2026
 10:47,10:36,10:35,Southworth,Vashon,Kitsap,08/10/2026
 10:47,10:34,10:30,Clinton,Mukilteo,Issaquah,08/10/2026
 10:48,10:33,10:30,Mukilteo,Clinton,Suquamish,08/10/2026
+11:34,10:44,10:30,Shaw,Anacortes,Samish,08/10/2026
+11:02,10:32,10:25,Colman,Bainbridge,Wenatchee,08/10/2026
 10:45,10:24,10:20,Kingston,Edmonds,Spokane,08/10/2026
 10:45,10:24,10:20,Edmonds,Kingston,Puyallup,08/10/2026
 10:29,10:16,10:15,Fauntleroy,Vashon,Kittitas,08/10/2026
