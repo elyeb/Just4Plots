@@ -185,6 +185,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,04:45,Edmonds,Kingston,,08/11/2026,Tuesday,,,
 ,,04:45,Colman,Bainbridge,,08/11/2026,Tuesday,,,
 ,,04:45,Edmonds,Kingston,,08/11/2026,Tuesday,,,
+02:08,01:36,01:35,Bainbridge,Colman,Tacoma,08/11/2026,Tuesday,,1.0,
 ,,01:35,Bainbridge,Colman,,08/11/2026,Tuesday,,,
 ,,01:35,Bainbridge,Colman,,08/11/2026,Tuesday,,,
 01:18,01:04,01:05,Clinton,Mukilteo,Issaquah,08/11/2026,Tuesday,,-1.0,
