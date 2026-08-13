@@ -1,16 +1,65 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+22:48,22:35,22:30,Mukilteo,Clinton,Suquamish,08/12/2026
+22:53,22:29,22:25,Kingston,Edmonds,Puyallup,08/12/2026
+22:46,22:13,22:05,Bainbridge,Colman,Tacoma,08/12/2026
+22:40,22:11,22:00,Colman,Bainbridge,Wenatchee,08/12/2026
+22:18,22:05,22:00,Clinton,Mukilteo,Suquamish,08/12/2026
+22:56,22:17,21:50,Orcas,Friday Harbor,Yakima,08/12/2026
+22:17,21:55,21:40,Edmonds,Kingston,Puyallup,08/12/2026
+21:48,21:35,21:30,Mukilteo,Clinton,Suquamish,08/12/2026
+22:43,21:45,21:25,Anacortes,Orcas,Samish,08/12/2026
+22:01,21:30,21:20,Bainbridge,Colman,Wenatchee,08/12/2026
+21:33,21:22,21:15,Southworth,Vashon,Kitsap,08/12/2026
+21:42,21:14,21:10,Port Townsend,Keystone,Kennewick,08/12/2026
+21:45,21:24,21:05,Kingston,Edmonds,Puyallup,08/12/2026
+22:04,21:07,21:05,Bremerton,Colman,Kaleetan,08/12/2026
+21:45,21:12,21:00,Colman,Bainbridge,Tacoma,08/12/2026
+21:59,21:02,21:00,Colman,Bremerton,Chimacum,08/12/2026
+21:20,21:05,21:00,Clinton,Mukilteo,Suquamish,08/12/2026
+21:15,21:02,20:50,Vashon,Fauntleroy,Kitsap,08/12/2026
+21:20,21:12,20:50,Orcas,Shaw,Samish,08/12/2026
+21:01,20:44,20:35,Clinton,Mukilteo,Issaquah,08/12/2026
+21:02,20:35,20:30,Keystone,Port Townsend,Kennewick,08/12/2026
+21:00,20:37,20:30,Kingston,Edmonds,Spokane,08/12/2026
+20:53,20:32,20:30,Mukilteo,Clinton,Suquamish,08/12/2026
+20:44,20:31,20:20,Fauntleroy,Vashon,Kitsap,08/12/2026
+21:13,20:52,20:20,Edmonds,Kingston,Puyallup,08/12/2026
+21:07,20:37,20:20,Colman,Bainbridge,Wenatchee,08/12/2026
+21:03,20:26,20:15,Bainbridge,Colman,Tacoma,08/12/2026
+21:54,20:39,20:15,Friday Harbor,Anacortes,Yakima,08/12/2026
+20:18,20:05,20:05,Clinton,Mukilteo,Suquamish,08/12/2026
+20:22,20:06,20:00,Vashon,Southworth,Kitsap,08/12/2026
+20:16,20:01,20:00,Mukilteo,Clinton,Issaquah,08/12/2026
+20:50,19:56,19:55,Colman,Bremerton,Kaleetan,08/12/2026
+20:48,19:52,19:50,Bremerton,Colman,Chimacum,08/12/2026
+21:07,20:17,19:50,Shaw,Anacortes,Samish,08/12/2026
+20:26,20:01,19:45,Edmonds,Kingston,Spokane,08/12/2026
+19:55,19:44,19:40,Southworth,Vashon,Kitsap,08/12/2026
+20:38,20:16,19:40,Kingston,Edmonds,Puyallup,08/12/2026
+19:52,19:36,19:35,Vashon,Fauntleroy,Kittitas,08/12/2026
+20:24,19:52,19:30,Bainbridge,Colman,Wenatchee,08/12/2026
+19:58,19:31,19:30,Port Townsend,Keystone,Kennewick,08/12/2026
+20:15,19:43,19:20,Colman,Bainbridge,Tacoma,08/12/2026
 19:38,19:24,19:15,Vashon,Fauntleroy,Kitsap,08/12/2026
+20:46,20:25,19:15,Lopez,Shaw,Tillikum,08/12/2026
 19:41,19:24,19:05,Mukilteo,Clinton,Suquamish,08/12/2026
 19:39,19:24,19:05,Clinton,Mukilteo,Issaquah,08/12/2026
+00:00,19:24,19:05,,Mukilteo,Issaquah,08/12/2026
+00:00,19:24,19:05,,Clinton,Suquamish,08/12/2026
 19:43,19:12,19:00,Kingston,Edmonds,Spokane,08/12/2026
 19:30,19:00,19:00,Fauntleroy,Southworth,Kittitas,08/12/2026
+19:54,19:33,19:00,Edmonds,Kingston,Puyallup,08/12/2026
+20:21,20:11,19:00,Shaw,Orcas,Tillikum,08/12/2026
 19:15,18:47,18:45,Keystone,Port Townsend,Kennewick,08/12/2026
 19:09,18:56,18:45,Fauntleroy,Vashon,Kitsap,08/12/2026
+19:47,18:47,18:45,Bremerton,Colman,Kaleetan,08/12/2026
 19:34,19:03,18:40,Colman,Bainbridge,Wenatchee,08/12/2026
 19:38,18:42,18:40,Colman,Bremerton,Chimacum,08/12/2026
 19:09,18:52,18:40,Clinton,Mukilteo,Suquamish,08/12/2026
 18:52,18:42,18:40,Southworth,Vashon,Kittitas,08/12/2026
 19:08,18:54,18:35,Mukilteo,Clinton,Issaquah,08/12/2026
+19:47,19:01,18:35,Anacortes,Lopez,Samish,08/12/2026
+20:13,18:59,18:35,Anacortes,Friday Harbor,Yakima,08/12/2026
 19:30,18:54,18:30,Bainbridge,Colman,Tacoma,08/12/2026
 18:45,18:32,18:25,Vashon,Southworth,Kitsap,08/12/2026
 18:34,18:20,18:15,Vashon,Fauntleroy,Kittitas,08/12/2026
@@ -20,6 +69,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 18:22,18:12,18:05,Southworth,Vashon,Kitsap,08/12/2026
 18:36,18:20,18:05,Mukilteo,Clinton,Suquamish,08/12/2026
 18:29,18:02,18:00,Port Townsend,Keystone,Kennewick,08/12/2026
+20:04,19:23,17:50,Orcas,Friday Harbor,Tillikum,08/12/2026
 18:42,18:10,17:45,Bainbridge,Colman,Wenatchee,08/12/2026
 18:07,17:53,17:45,Fauntleroy,Vashon,Kittitas,08/12/2026
 18:02,17:49,17:40,Vashon,Fauntleroy,Kitsap,08/12/2026
