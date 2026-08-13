@@ -185,6 +185,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,04:45,Edmonds,Kingston,,08/13/2026,Thursday,,,
 ,,04:45,Colman,Bainbridge,,08/13/2026,Thursday,,,
 ,,04:45,Edmonds,Kingston,,08/13/2026,Thursday,,,
+04:06,03:52,04:40,Mukilteo,Clinton,Suquamish,08/13/2026,Thursday,,-48.0,
 02:06,01:36,01:35,Bainbridge,Colman,Wenatchee,08/13/2026,Thursday,,1.0,
 ,,01:35,Bainbridge,Colman,,08/13/2026,Thursday,,,
 ,,01:35,Bainbridge,Colman,,08/13/2026,Thursday,,,
