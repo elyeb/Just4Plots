@@ -1,4 +1,9 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+00:49,00:36,00:35,Mukilteo,Clinton,Issaquah,08/14/2026
+00:20,00:05,00:05,Clinton,Mukilteo,Issaquah,08/14/2026
+00:09,23:48,23:45,Kingston,Edmonds,Puyallup,08/13/2026
+00:35,23:41,23:40,Colman,Bremerton,Chimacum,08/13/2026
+23:44,23:30,23:30,Mukilteo,Clinton,Issaquah,08/13/2026
 23:33,23:13,23:10,Edmonds,Kingston,Puyallup,08/13/2026
 23:16,23:03,23:00,Clinton,Mukilteo,Issaquah,08/13/2026
 23:36,23:03,22:50,Bainbridge,Colman,Wenatchee,08/13/2026
