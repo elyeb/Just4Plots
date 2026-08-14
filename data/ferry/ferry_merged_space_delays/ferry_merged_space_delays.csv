@@ -89,6 +89,13 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,15:00,Bainbridge,Colman,,08/14/2026,Friday,,,
 ,,14:55,Colman,Bainbridge,,08/14/2026,Friday,,,
 ,,14:55,Colman,Bainbridge,,08/14/2026,Friday,,,
+15:15,14:46,14:45,Port Townsend,Keystone,Kennewick,08/14/2026,Friday,,1.0,
+15:19,14:52,14:45,Keystone,Port Townsend,Salish,08/14/2026,Friday,,7.0,
+14:59,14:46,14:45,Vashon,Fauntleroy,Kitsap,08/14/2026,Friday,,1.0,
+15:16,14:51,14:45,Fauntleroy,Southworth,Kittitas,08/14/2026,Friday,,6.0,
+15:08,14:53,14:35,Mukilteo,Clinton,Suquamish,08/14/2026,Friday,,18.0,
+15:10,14:56,14:35,Clinton,Mukilteo,Issaquah,08/14/2026,Friday,,21.0,
+15:03,14:42,14:30,Edmonds,Kingston,Puyallup,08/14/2026,Friday,,12.0,
 ,,14:30,Edmonds,Kingston,,08/14/2026,Friday,,,
 ,,14:30,Edmonds,Kingston,,08/14/2026,Friday,,,
 14:51,14:30,14:25,Kingston,Edmonds,Spokane,08/14/2026,Friday,14:11:27,5.0,-14.0
@@ -106,6 +113,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 14:36,14:23,14:00,Mukilteo,Clinton,Issaquah,08/14/2026,Friday,,23.0,
 14:35,14:05,14:00,Port Townsend,Keystone,Salish,08/14/2026,Friday,,5.0,
 14:28,14:02,14:00,Keystone,Port Townsend,Kennewick,08/14/2026,Friday,,2.0,
+15:17,14:10,14:00,Friday Harbor,Anacortes,Samish,08/14/2026,Friday,,10.0,
 13:59,13:44,13:40,Fauntleroy,Vashon,Kittitas,08/14/2026,Friday,,4.0,
 14:15,13:54,13:35,Kingston,Edmonds,Puyallup,08/14/2026,Friday,13:08:45,19.0,-27.0
 ,,13:35,Kingston,Edmonds,,08/14/2026,Friday,,,
