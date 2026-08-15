@@ -137,6 +137,9 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,10:20,Edmonds,Kingston,,08/15/2026,Saturday,,,
 ,,09:45,Colman,Bainbridge,,08/15/2026,Saturday,,,
 ,,09:45,Colman,Bainbridge,,08/15/2026,Saturday,,,
+09:58,09:40,09:40,Fauntleroy,Vashon,Kittitas,08/15/2026,Saturday,,0.0,
+09:58,09:37,09:35,Edmonds,Kingston,Puyallup,08/15/2026,Saturday,09:25:06,2.0,-10.0
+10:02,09:40,09:35,Kingston,Edmonds,Spokane,08/15/2026,Saturday,08:43:58,5.0,-52.0
 ,,09:35,Bainbridge,Colman,,08/15/2026,Saturday,,,
 ,,09:35,Kingston,Edmonds,,08/15/2026,Saturday,,,
 ,,09:35,Edmonds,Kingston,,08/15/2026,Saturday,,,
@@ -147,6 +150,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 09:43,09:30,09:30,Clinton,Mukilteo,Issaquah,08/15/2026,Saturday,,0.0,
 09:35,09:21,09:20,Fauntleroy,Vashon,Kitsap,08/15/2026,Saturday,,1.0,
 09:28,09:17,09:15,Vashon,Southworth,Kittitas,08/15/2026,Saturday,,2.0,
+10:01,09:08,09:05,Anacortes,Shaw,Samish,08/15/2026,Saturday,,3.0,
 09:13,09:00,09:00,Mukilteo,Clinton,Issaquah,08/15/2026,Saturday,,0.0,
 09:16,09:00,09:00,Clinton,Mukilteo,Suquamish,08/15/2026,Saturday,,0.0,
 09:28,08:57,08:55,Bainbridge,Colman,Wenatchee,08/15/2026,Saturday,08:43:58,2.0,-12.0
