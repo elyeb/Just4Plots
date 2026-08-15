@@ -186,6 +186,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,00:45,Kingston,Edmonds,,08/15/2026,Saturday,,,
 ,,00:45,Kingston,Edmonds,,08/15/2026,Saturday,,,
 00:48,00:35,00:35,Mukilteo,Clinton,Suquamish,08/15/2026,Saturday,,0.0,
+01:02,00:45,00:35,Fauntleroy,Southworth,Kittitas,08/15/2026,Saturday,,10.0,
 00:39,00:18,00:15,Edmonds,Kingston,Puyallup,08/15/2026,Saturday,,3.0,
 00:37,00:25,00:15,Southworth,Vashon,Kittitas,08/15/2026,Saturday,,10.0,
 ,,00:15,Bainbridge,Colman,,08/15/2026,Saturday,,,
