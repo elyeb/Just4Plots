@@ -1,4 +1,9 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+09:55,09:41,09:40,Fauntleroy,Vashon,Kittitas,08/16/2026
+09:58,09:30,09:30,Keystone,Port Townsend,Salish,08/16/2026
+09:43,09:29,09:30,Clinton,Mukilteo,Issaquah,08/16/2026
+09:45,09:30,09:30,Mukilteo,Clinton,Suquamish,08/16/2026
+09:47,09:28,09:25,Shaw,Lopez,Tillikum,08/16/2026
 09:35,09:21,09:20,Fauntleroy,Vashon,Kitsap,08/16/2026
 09:26,09:15,09:15,Vashon,Southworth,Kittitas,08/16/2026
 09:14,09:01,09:00,Mukilteo,Clinton,Issaquah,08/16/2026
@@ -10,8 +15,10 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 09:04,08:50,08:50,Vashon,Fauntleroy,Kitsap,08/16/2026
 09:16,08:45,08:45,Colman,Bainbridge,Tacoma,08/16/2026
 09:12,08:45,08:45,Port Townsend,Keystone,Salish,08/16/2026
+09:42,08:47,08:45,Colman,Bremerton,Chimacum,08/16/2026
 09:05,08:42,08:40,Edmonds,Kingston,Spokane,08/16/2026
 09:15,08:35,08:35,Lopez,Friday Harbor,Tillikum,08/16/2026
+09:44,08:47,08:35,Bremerton,Colman,Kaleetan,08/16/2026
 08:43,08:30,08:30,Clinton,Mukilteo,Issaquah,08/16/2026
 08:44,08:30,08:30,Mukilteo,Clinton,Suquamish,08/16/2026
 08:35,08:20,08:20,Vashon,Fauntleroy,Kittitas,08/16/2026
