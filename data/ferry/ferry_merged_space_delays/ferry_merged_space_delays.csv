@@ -84,6 +84,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,16:00,Edmonds,Kingston,,08/16/2026,Sunday,,,
 ,,16:00,Edmonds,Kingston,,08/16/2026,Sunday,,,
 16:12,15:50,15:55,Kingston,Edmonds,Puyallup,08/16/2026,Sunday,,-5.0,
+16:54,16:20,15:55,Colman,Bainbridge,Tacoma,08/16/2026,Sunday,,25.0,
 ,,15:55,Colman,Bainbridge,,08/16/2026,Sunday,,,
 ,,15:55,Kingston,Edmonds,,08/16/2026,Sunday,,,
 ,,15:55,Colman,Bainbridge,,08/16/2026,Sunday,,,
