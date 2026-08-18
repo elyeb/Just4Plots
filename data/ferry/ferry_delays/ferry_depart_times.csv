@@ -1,7 +1,14 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:58,15:31,15:30,Port Townsend,Keystone,Kennewick,08/18/2026
+15:57,15:30,15:30,Keystone,Port Townsend,Salish,08/18/2026
+15:48,15:35,15:30,Vashon,Fauntleroy,Kittitas,08/18/2026
+15:42,15:26,15:25,Fauntleroy,Vashon,Kitsap,08/18/2026
+15:49,15:28,15:15,Kingston,Edmonds,Puyallup,08/18/2026
 15:30,15:14,15:05,Clinton,Mukilteo,Suquamish,08/18/2026
 15:36,15:05,15:00,Bainbridge,Colman,Tacoma,08/18/2026
+15:57,15:01,15:00,Colman,Bremerton,Kaleetan,08/18/2026
 15:28,14:55,14:55,Colman,Bainbridge,Wenatchee,08/18/2026
+15:49,14:52,14:50,Bremerton,Colman,Chimacum,08/18/2026
 15:21,14:50,14:45,Fauntleroy,Southworth,Kittitas,08/18/2026
 15:14,14:46,14:45,Keystone,Port Townsend,Kennewick,08/18/2026
 15:14,14:45,14:45,Port Townsend,Keystone,Salish,08/18/2026
