@@ -117,6 +117,8 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,12:25,Bainbridge,Colman,,08/18/2026,Tuesday,,,
 12:35,12:21,12:20,Fauntleroy,Vashon,Kitsap,08/18/2026,Tuesday,,1.0,
 12:54,12:22,12:20,Colman,Bainbridge,Tacoma,08/18/2026,Tuesday,,2.0,
+13:16,12:21,12:20,Colman,Bremerton,Kaleetan,08/18/2026,Tuesday,,1.0,
+13:21,12:23,12:20,Bremerton,Colman,Chimacum,08/18/2026,Tuesday,,3.0,
 ,,12:20,Colman,Bainbridge,,08/18/2026,Tuesday,,,
 ,,12:20,Colman,Bainbridge,,08/18/2026,Tuesday,,,
 12:43,12:32,12:15,Vashon,Southworth,Kittitas,08/18/2026,Tuesday,,17.0,
