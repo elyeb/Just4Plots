@@ -1,7 +1,34 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+19:22,19:02,19:00,Edmonds,Kingston,Puyallup,08/17/2026
+19:19,19:08,19:00,Southworth,Vashon,Kittitas,08/17/2026
+19:13,19:06,19:00,Shaw,Orcas,Tillikum,08/17/2026
+19:12,18:59,18:45,Fauntleroy,Vashon,Kitsap,08/17/2026
+19:12,18:45,18:45,Keystone,Port Townsend,Salish,08/17/2026
+19:12,18:59,18:40,Clinton,Mukilteo,Issaquah,08/17/2026
+19:12,18:41,18:40,Colman,Bainbridge,Wenatchee,08/17/2026
+19:09,18:54,18:35,Mukilteo,Clinton,Suquamish,08/17/2026
+19:00,18:42,18:35,Vashon,Fauntleroy,Kittitas,08/17/2026
+19:11,18:39,18:30,Bainbridge,Colman,Tacoma,08/17/2026
+18:50,18:37,18:25,Vashon,Southworth,Kitsap,08/17/2026
+18:42,18:21,18:15,Kingston,Edmonds,Puyallup,08/17/2026
+18:39,18:26,18:10,Clinton,Mukilteo,Suquamish,08/17/2026
+18:42,18:20,18:10,Edmonds,Kingston,Spokane,08/17/2026
+18:24,18:14,18:05,Southworth,Vashon,Kitsap,08/17/2026
+18:43,18:29,18:05,Mukilteo,Clinton,Issaquah,08/17/2026
+18:28,18:00,18:00,Port Townsend,Keystone,Salish,08/17/2026
+18:32,18:11,17:55,Fauntleroy,Southworth,Kittitas,08/17/2026
+18:57,18:16,17:50,Orcas,Friday Harbor,Tillikum,08/17/2026
+18:18,17:47,17:45,Bainbridge,Colman,Wenatchee,08/17/2026
+18:06,17:52,17:40,Vashon,Fauntleroy,Kitsap,08/17/2026
+18:12,17:58,17:40,Clinton,Mukilteo,Issaquah,08/17/2026
 18:03,17:53,17:35,Southworth,Vashon,Kittitas,08/17/2026
+18:10,17:56,17:35,Mukilteo,Clinton,Suquamish,08/17/2026
+18:22,17:51,17:35,Colman,Bainbridge,Tacoma,08/17/2026
 18:02,17:41,17:30,Edmonds,Kingston,Puyallup,08/17/2026
+18:29,17:30,17:30,Colman,Bremerton,Kaleetan,08/17/2026
+18:27,17:33,17:30,Bremerton,Colman,Chimacum,08/17/2026
 17:57,17:35,17:25,Kingston,Edmonds,Spokane,08/17/2026
+18:10,17:30,17:25,Lopez,Anacortes,Samish,08/17/2026
 17:43,17:16,17:15,Keystone,Port Townsend,Salish,08/17/2026
 17:37,17:21,17:10,Clinton,Mukilteo,Suquamish,08/17/2026
 17:45,17:32,17:10,Vashon,Fauntleroy,Kittitas,08/17/2026
