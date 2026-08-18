@@ -7,6 +7,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,23:10,Edmonds,Kingston,,08/17/2026,Monday,,,
 ,,23:10,Kingston,Edmonds,,08/17/2026,Monday,,,
 ,,23:10,Edmonds,Kingston,,08/17/2026,Monday,,,
+23:13,23:00,23:00,Clinton,Mukilteo,Issaquah,08/17/2026,Monday,,0.0,
 ,,22:50,Bainbridge,Colman,,08/17/2026,Monday,,,
 ,,22:50,Bainbridge,Colman,,08/17/2026,Monday,,,
 22:43,22:30,22:30,Mukilteo,Clinton,Issaquah,08/17/2026,Monday,,0.0,
