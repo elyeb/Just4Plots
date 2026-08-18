@@ -185,6 +185,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,04:45,Edmonds,Kingston,,08/18/2026,Tuesday,,,
 ,,04:45,Colman,Bainbridge,,08/18/2026,Tuesday,,,
 ,,04:45,Edmonds,Kingston,,08/18/2026,Tuesday,,,
+02:06,01:36,01:35,Bainbridge,Colman,Wenatchee,08/18/2026,Tuesday,,1.0,
 ,,01:35,Bainbridge,Colman,,08/18/2026,Tuesday,,,
 ,,01:35,Bainbridge,Colman,,08/18/2026,Tuesday,,,
 01:25,00:55,00:55,Colman,Bainbridge,Wenatchee,08/18/2026,Tuesday,,0.0,
