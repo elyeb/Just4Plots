@@ -73,8 +73,13 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,16:45,Kingston,Edmonds,,08/18/2026,Tuesday,,,
 ,,16:40,Edmonds,Kingston,,08/18/2026,Tuesday,,,
 ,,16:40,Edmonds,Kingston,,08/18/2026,Tuesday,,,
+16:35,16:25,16:15,Vashon,Southworth,Kittitas,08/18/2026,Tuesday,,10.0,
+16:39,16:12,16:10,Southworth,Fauntleroy,Kitsap,08/18/2026,Tuesday,,2.0,
+16:35,16:18,16:05,Clinton,Mukilteo,Suquamish,08/18/2026,Tuesday,,13.0,
+16:36,16:15,16:00,Edmonds,Kingston,Puyallup,08/18/2026,Tuesday,16:00:51,15.0,0.0
 ,,16:00,Edmonds,Kingston,,08/18/2026,Tuesday,,,
 ,,16:00,Edmonds,Kingston,,08/18/2026,Tuesday,,,
+16:31,16:07,15:55,Kingston,Edmonds,Spokane,08/18/2026,Tuesday,15:41:54,12.0,-14.0
 16:14,15:59,15:55,Southworth,Vashon,Kittitas,08/18/2026,Tuesday,,4.0,
 ,,15:55,Kingston,Edmonds,,08/18/2026,Tuesday,,,
 ,,15:55,Kingston,Edmonds,,08/18/2026,Tuesday,,,
