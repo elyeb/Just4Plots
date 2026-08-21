@@ -89,6 +89,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,15:00,Bainbridge,Colman,,08/21/2026,Friday,,,
 ,,14:55,Colman,Bainbridge,,08/21/2026,Friday,,,
 ,,14:55,Colman,Bainbridge,,08/21/2026,Friday,,,
+14:52,14:31,14:30,Edmonds,Kingston,Puyallup,08/21/2026,Friday,14:29:17,1.0,-1.0
 ,,14:30,Edmonds,Kingston,,08/21/2026,Friday,,,
 ,,14:30,Edmonds,Kingston,,08/21/2026,Friday,,,
 14:49,14:27,14:25,Kingston,Edmonds,Spokane,08/21/2026,Friday,,2.0,
@@ -96,6 +97,7 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,14:25,Kingston,Edmonds,,08/21/2026,Friday,,,
 14:43,14:31,14:15,Fauntleroy,Vashon,Kitsap,08/21/2026,Friday,,16.0,
 14:39,14:17,14:10,Southworth,Fauntleroy,Kittitas,08/21/2026,Friday,,7.0,
+14:58,14:25,14:05,Bainbridge,Colman,Tacoma,08/21/2026,Friday,13:39:35,20.0,-26.0
 14:44,14:11,14:05,Colman,Bainbridge,Wenatchee,08/21/2026,Friday,,6.0,
 14:38,14:24,14:05,Clinton,Mukilteo,Suquamish,08/21/2026,Friday,,19.0,
 ,,14:05,Colman,Bainbridge,,08/21/2026,Friday,,,
