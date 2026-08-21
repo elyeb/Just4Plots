@@ -1,5 +1,10 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+12:45,12:32,12:20,Fauntleroy,Vashon,Kitsap,08/21/2026
+12:45,12:32,12:15,Vashon,Southworth,Kittitas,08/21/2026
+12:34,12:22,12:15,Shaw,Orcas,Samish,08/21/2026
+12:36,12:28,12:15,Orcas,Shaw,Tillikum,08/21/2026
 12:24,12:09,12:00,Mukilteo,Clinton,Issaquah,08/21/2026
+12:27,12:12,12:00,Clinton,Mukilteo,Suquamish,08/21/2026
 12:22,12:01,11:55,Edmonds,Kingston,Spokane,08/21/2026
 12:14,12:04,11:55,Southworth,Vashon,Kittitas,08/21/2026
 12:26,12:05,11:55,Kingston,Edmonds,Puyallup,08/21/2026
