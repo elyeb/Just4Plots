@@ -159,6 +159,8 @@ est_arrival,actual_depart,scheduled_depart,Destination,Departing,actual_vessel,D
 ,,07:55,Bainbridge,Colman,,08/22/2026,Saturday,,,
 ,,07:55,Kingston,Edmonds,,08/22/2026,Saturday,,,
 ,,07:55,Edmonds,Kingston,,08/22/2026,Saturday,,,
+07:43,07:31,07:30,Vashon,Southworth,Kittitas,08/22/2026,Saturday,,1.0,
+07:44,07:30,07:30,Clinton,Mukilteo,Issaquah,08/22/2026,Saturday,,0.0,
 07:21,07:11,07:10,Southworth,Vashon,Kittitas,08/22/2026,Saturday,,1.0,
 07:30,07:10,07:10,Kingston,Edmonds,Puyallup,08/22/2026,Saturday,,0.0,
 ,,07:10,Kingston,Edmonds,,08/22/2026,Saturday,,,
