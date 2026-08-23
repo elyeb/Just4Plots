@@ -1,8 +1,22 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+21:11,20:57,20:55,Vashon,Fauntleroy,Kitsap,08/22/2026
+20:56,20:48,20:50,Orcas,Shaw,Samish,08/22/2026
+21:00,20:47,20:35,Clinton,Mukilteo,Issaquah,08/22/2026
+20:57,20:43,20:30,Mukilteo,Clinton,Suquamish,08/22/2026
+21:00,20:32,20:30,Keystone,Port Townsend,Salish,08/22/2026
+20:57,20:36,20:30,Kingston,Edmonds,Spokane,08/22/2026
+20:43,20:23,20:20,Fauntleroy,Southworth,Kitsap,08/22/2026
+20:54,20:33,20:20,Edmonds,Kingston,Puyallup,08/22/2026
+20:57,20:15,20:15,Friday Harbor,Orcas,Tillikum,08/22/2026
 20:28,20:12,20:10,Vashon,Fauntleroy,Kittitas,08/22/2026
+20:51,20:18,20:10,Bainbridge,Colman,Tacoma,08/22/2026
+20:47,20:14,20:10,Colman,Bainbridge,Wenatchee,08/22/2026
 20:28,20:14,20:05,Clinton,Mukilteo,Suquamish,08/22/2026
 20:33,20:19,20:00,Mukilteo,Clinton,Issaquah,08/22/2026
 20:07,19:56,19:55,Southworth,Vashon,Kitsap,08/22/2026
+20:53,19:56,19:55,Colman,Bremerton,Kaleetan,08/22/2026
+20:44,19:55,19:50,Shaw,Anacortes,Samish,08/22/2026
+20:50,19:53,19:50,Bremerton,Colman,Chimacum,08/22/2026
 20:05,19:45,19:45,Orcas,Lopez,Tillikum,08/22/2026
 20:17,19:56,19:45,Edmonds,Kingston,Spokane,08/22/2026
 20:14,19:50,19:40,Kingston,Edmonds,Puyallup,08/22/2026
