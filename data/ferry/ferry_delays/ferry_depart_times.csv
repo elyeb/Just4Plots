@@ -1,9 +1,20 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:52,15:39,15:35,Fauntleroy,Vashon,Kittitas,08/23/2026
+16:01,15:47,15:35,Clinton,Mukilteo,Issaquah,08/23/2026
+15:59,15:31,15:30,Keystone,Port Townsend,Salish,08/23/2026
+16:00,15:33,15:30,Port Townsend,Keystone,Kennewick,08/23/2026
+15:45,15:31,15:30,Vashon,Fauntleroy,Kitsap,08/23/2026
 15:28,15:19,15:15,Vashon,Southworth,Kittitas,08/23/2026
+15:49,15:27,15:15,Kingston,Edmonds,Puyallup,08/23/2026
+15:52,15:31,15:10,Edmonds,Kingston,Spokane,08/23/2026
 15:32,15:18,15:05,Clinton,Mukilteo,Suquamish,08/23/2026
 15:31,15:17,15:05,Mukilteo,Clinton,Issaquah,08/23/2026
+15:48,15:14,15:05,Bainbridge,Colman,Wenatchee,08/23/2026
 15:15,15:01,15:00,Fauntleroy,Vashon,Kitsap,08/23/2026
+16:01,15:03,15:00,Colman,Bremerton,Kaleetan,08/23/2026
+15:49,15:17,15:00,Colman,Bainbridge,Tacoma,08/23/2026
 15:05,14:55,14:55,Southworth,Vashon,Kittitas,08/23/2026
+15:56,15:00,14:50,Bremerton,Colman,Chimacum,08/23/2026
 15:14,14:48,14:45,Port Townsend,Keystone,Salish,08/23/2026
 15:13,14:46,14:45,Keystone,Port Townsend,Kennewick,08/23/2026
 15:42,14:58,14:40,Anacortes,Lopez,Yakima,08/23/2026
