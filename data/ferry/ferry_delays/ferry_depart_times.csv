@@ -1,14 +1,24 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+09:04,08:43,08:40,Edmonds,Kingston,Spokane,08/24/2026
+08:44,08:30,08:30,Clinton,Mukilteo,Issaquah,08/24/2026
+08:44,08:30,08:30,Mukilteo,Clinton,Suquamish,08/24/2026
+08:52,08:40,08:30,Southworth,Vashon,Kittitas,08/24/2026
+08:39,08:20,08:15,Fauntleroy,Vashon,Kitsap,08/24/2026
+08:32,08:18,08:05,Vashon,Fauntleroy,Kittitas,08/24/2026
 08:15,08:01,08:00,Mukilteo,Clinton,Issaquah,08/24/2026
 08:14,08:00,08:00,Clinton,Mukilteo,Suquamish,08/24/2026
 08:20,07:57,07:55,Edmonds,Kingston,Puyallup,08/24/2026
 08:18,07:56,07:55,Kingston,Edmonds,Spokane,08/24/2026
 08:06,07:55,07:55,Vashon,Southworth,Kitsap,08/24/2026
+08:28,07:57,07:55,Bainbridge,Colman,Wenatchee,08/24/2026
+08:28,07:56,07:55,Colman,Bainbridge,Tacoma,08/24/2026
 08:01,07:47,07:40,Fauntleroy,Vashon,Kittitas,08/24/2026
+08:34,07:37,07:35,Bremerton,Colman,Chimacum,08/24/2026
 07:44,07:30,07:30,Clinton,Mukilteo,Issaquah,08/24/2026
 07:44,07:31,07:30,Mukilteo,Clinton,Suquamish,08/24/2026
 07:43,07:31,07:30,Southworth,Vashon,Kitsap,08/24/2026
 08:18,07:38,07:25,Friday Harbor,Orcas,Tillikum,08/24/2026
+08:32,07:33,07:25,Orcas,Anacortes,Samish,08/24/2026
 07:34,07:21,07:20,Vashon,Southworth,Kittitas,08/24/2026
 08:18,07:21,07:20,Colman,Bremerton,Kaleetan,08/24/2026
 07:32,07:12,07:10,Kingston,Edmonds,Puyallup,08/24/2026
