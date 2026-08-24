@@ -1,7 +1,36 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+19:33,19:14,19:15,Lopez,Shaw,Tillikum,08/23/2026
+19:26,19:12,19:10,Vashon,Fauntleroy,Kittitas,08/23/2026
+19:34,19:20,19:05,Mukilteo,Clinton,Issaquah,08/23/2026
+19:36,19:21,19:05,Clinton,Mukilteo,Suquamish,08/23/2026
+19:35,19:14,19:00,Edmonds,Kingston,Puyallup,08/23/2026
+19:18,19:01,19:00,Fauntleroy,Vashon,Kitsap,08/23/2026
+19:08,19:01,19:00,Shaw,Orcas,Tillikum,08/23/2026
+19:27,19:04,19:00,Kingston,Edmonds,Spokane,08/23/2026
+19:11,18:45,18:45,Keystone,Port Townsend,Salish,08/23/2026
+19:06,18:48,18:40,Clinton,Mukilteo,Issaquah,08/23/2026
+19:24,18:41,18:35,Anacortes,Lopez,Samish,08/23/2026
+19:10,18:57,18:35,Mukilteo,Clinton,Suquamish,08/23/2026
+18:56,18:44,18:35,Fauntleroy,Vashon,Kittitas,08/23/2026
+19:25,18:55,18:30,Colman,Bainbridge,Tacoma,08/23/2026
+18:49,18:31,18:30,Vashon,Fauntleroy,Kitsap,08/23/2026
+19:31,18:58,18:25,Bainbridge,Colman,Wenatchee,08/23/2026
+18:52,18:31,18:15,Kingston,Edmonds,Puyallup,08/23/2026
+18:35,18:24,18:15,Vashon,Southworth,Kittitas,08/23/2026
+18:49,18:28,18:10,Edmonds,Kingston,Spokane,08/23/2026
+18:38,18:24,18:10,Clinton,Mukilteo,Suquamish,08/23/2026
+18:36,18:22,18:05,Mukilteo,Clinton,Issaquah,08/23/2026
+18:27,18:02,18:00,Port Townsend,Keystone,Salish,08/23/2026
+18:14,17:56,17:55,Fauntleroy,Vashon,Kitsap,08/23/2026
+18:45,18:04,17:50,Orcas,Friday Harbor,Tillikum,08/23/2026
 18:05,17:46,17:45,Southworth,Fauntleroy,Kittitas,08/23/2026
 18:04,17:43,17:40,Clinton,Mukilteo,Issaquah,08/23/2026
 18:08,17:55,17:35,Mukilteo,Clinton,Suquamish,08/23/2026
+18:32,17:59,17:35,Bainbridge,Colman,Tacoma,08/23/2026
+18:34,18:02,17:35,Colman,Bainbridge,Wenatchee,08/23/2026
+18:13,17:53,17:30,Edmonds,Kingston,Puyallup,08/23/2026
+18:27,17:31,17:30,Colman,Bremerton,Kaleetan,08/23/2026
+18:30,17:32,17:30,Bremerton,Colman,Chimacum,08/23/2026
 18:08,17:45,17:25,Kingston,Edmonds,Spokane,08/23/2026
 17:41,17:26,17:25,Vashon,Fauntleroy,Kitsap,08/23/2026
 18:07,17:25,17:25,Lopez,Anacortes,Samish,08/23/2026
@@ -14,6 +43,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 17:37,17:03,16:45,Bainbridge,Colman,Wenatchee,08/23/2026
 17:29,17:07,16:45,Kingston,Edmonds,Puyallup,08/23/2026
 17:54,16:24,16:45,Friday Harbor,Anacortes,Tillikum,08/23/2026
+18:20,16:45,16:45,Friday Harbor,Anacortes,Yakima,08/23/2026
 16:59,16:45,16:40,Clinton,Mukilteo,Issaquah,08/23/2026
 17:26,17:04,16:40,Edmonds,Kingston,Spokane,08/23/2026
 17:40,17:09,16:40,Colman,Bainbridge,Tacoma,08/23/2026
