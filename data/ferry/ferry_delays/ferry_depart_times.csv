@@ -1,9 +1,25 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+21:18,21:00,21:00,Clinton,Mukilteo,Suquamish,08/24/2026
+20:59,20:49,20:50,Orcas,Shaw,Samish,08/24/2026
+21:10,20:57,20:50,Vashon,Fauntleroy,Kitsap,08/24/2026
+20:50,20:36,20:35,Clinton,Mukilteo,Issaquah,08/24/2026
+21:02,20:36,20:35,Fauntleroy,Southworth,Kittitas,08/24/2026
+20:56,20:30,20:30,Keystone,Port Townsend,Salish,08/24/2026
+20:50,20:36,20:30,Mukilteo,Clinton,Suquamish,08/24/2026
+20:52,20:31,20:30,Kingston,Edmonds,Spokane,08/24/2026
+20:44,20:31,20:20,Fauntleroy,Vashon,Kitsap,08/24/2026
+20:43,20:21,20:20,Edmonds,Kingston,Puyallup,08/24/2026
+20:52,20:21,20:20,Colman,Bainbridge,Tacoma,08/24/2026
 20:27,20:16,20:15,Southworth,Vashon,Kittitas,08/24/2026
+20:56,20:15,20:15,Friday Harbor,Orcas,Tillikum,08/24/2026
+20:49,20:16,20:15,Bainbridge,Colman,Wenatchee,08/24/2026
 20:27,20:15,20:05,Clinton,Mukilteo,Suquamish,08/24/2026
 20:22,20:06,20:00,Vashon,Southworth,Kitsap,08/24/2026
 20:23,20:02,20:00,Mukilteo,Clinton,Issaquah,08/24/2026
 20:10,19:57,19:55,Vashon,Fauntleroy,Kittitas,08/24/2026
+20:51,19:55,19:55,Colman,Bremerton,Kaleetan,08/24/2026
+20:44,19:52,19:50,Shaw,Anacortes,Samish,08/24/2026
+20:50,19:53,19:50,Bremerton,Colman,Chimacum,08/24/2026
 20:08,19:46,19:45,Edmonds,Kingston,Spokane,08/24/2026
 20:06,19:45,19:45,Orcas,Lopez,Tillikum,08/24/2026
 19:53,19:40,19:40,Southworth,Vashon,Kitsap,08/24/2026
