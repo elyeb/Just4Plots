@@ -1,7 +1,11 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+23:05,22:57,22:45,Shaw,Orcas,Yakima,08/24/2026
+22:43,22:30,22:30,Mukilteo,Clinton,Issaquah,08/24/2026
+22:47,22:26,22:25,Kingston,Edmonds,Puyallup,08/24/2026
 22:40,22:07,22:05,Bainbridge,Colman,Wenatchee,08/24/2026
 22:39,22:07,22:00,Colman,Bainbridge,Tacoma,08/24/2026
 22:15,22:01,22:00,Clinton,Mukilteo,Issaquah,08/24/2026
+22:47,22:04,21:50,Orcas,Friday Harbor,Yakima,08/24/2026
 22:07,21:44,21:40,Edmonds,Kingston,Puyallup,08/24/2026
 21:46,21:32,21:30,Mukilteo,Clinton,Issaquah,08/24/2026
 22:20,21:26,21:25,Anacortes,Orcas,Samish,08/24/2026
