@@ -1,12 +1,46 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+02:42,02:11,02:10,Bainbridge,Colman,Tacoma,09/08/2026
+01:43,01:30,01:30,Southworth,Vashon,Kittitas,09/08/2026
+01:57,01:25,01:25,Colman,Bainbridge,Tacoma,09/08/2026
+01:21,01:06,01:05,Vashon,Fauntleroy,Kittitas,09/08/2026
+01:18,01:05,01:05,Clinton,Mukilteo,Issaquah,09/08/2026
+01:46,00:51,00:50,Bremerton,Colman,Chimacum,09/08/2026
+01:16,00:46,00:45,Bainbridge,Colman,Tacoma,09/08/2026
+00:55,00:36,00:35,Fauntleroy,Southworth,Kittitas,09/08/2026
+00:49,00:35,00:35,Mukilteo,Clinton,Issaquah,09/08/2026
+00:30,00:19,00:15,Southworth,Vashon,Kittitas,09/08/2026
+00:20,00:07,00:05,Clinton,Mukilteo,Issaquah,09/08/2026
+00:32,00:01,00:00,Colman,Bainbridge,Tacoma,09/08/2026
+00:13,23:58,23:50,Vashon,Fauntleroy,Kittitas,09/07/2026
+00:07,23:46,23:45,Kingston,Edmonds,Puyallup,09/07/2026
+00:41,23:43,23:40,Colman,Bremerton,Chimacum,09/07/2026
+23:43,23:30,23:30,Mukilteo,Clinton,Issaquah,09/07/2026
+00:06,23:20,23:20,Anacortes,Lopez,Yakima,09/07/2026
+23:50,23:20,23:15,Bainbridge,Colman,Tacoma,09/07/2026
+23:34,23:11,23:10,Edmonds,Kingston,Puyallup,09/07/2026
+23:12,23:01,23:00,Southworth,Vashon,Kittitas,09/07/2026
+23:14,23:00,23:00,Clinton,Mukilteo,Issaquah,09/07/2026
+23:10,22:57,22:55,Vashon,Fauntleroy,Kitsap,09/07/2026
+23:15,22:58,22:55,Lopez,Shaw,Yakima,09/07/2026
+22:55,22:45,22:45,Shaw,Orcas,Yakima,09/07/2026
+23:14,22:41,22:40,Bainbridge,Colman,Wenatchee,09/07/2026
+23:26,22:31,22:30,Bremerton,Colman,Chimacum,09/07/2026
+23:13,22:40,22:30,Colman,Bainbridge,Tacoma,09/07/2026
+22:43,22:30,22:30,Mukilteo,Clinton,Issaquah,09/07/2026
+22:40,22:26,22:25,Vashon,Fauntleroy,Kittitas,09/07/2026
+22:47,22:26,22:25,Kingston,Edmonds,Puyallup,09/07/2026
+22:32,22:16,22:15,Fauntleroy,Vashon,Kitsap,09/07/2026
 22:14,22:00,22:00,Clinton,Mukilteo,Issaquah,09/07/2026
 22:10,21:56,21:55,Fauntleroy,Vashon,Kittitas,09/07/2026
 22:15,21:54,21:50,Kingston,Edmonds,Spokane,09/07/2026
 22:04,21:52,21:50,Vashon,Southworth,Kitsap,09/07/2026
+22:33,21:56,21:50,Orcas,Friday Harbor,Yakima,09/07/2026
 22:20,21:49,21:45,Colman,Bainbridge,Wenatchee,09/07/2026
+22:34,22:03,21:45,Bainbridge,Colman,Tacoma,09/07/2026
 22:07,21:43,21:40,Edmonds,Kingston,Puyallup,09/07/2026
 21:45,21:31,21:30,Mukilteo,Clinton,Issaquah,09/07/2026
 21:28,21:17,21:25,Southworth,Vashon,Kitsap,09/07/2026
+22:28,21:33,21:25,Anacortes,Orcas,Samish,09/07/2026
 21:35,21:21,21:20,Vashon,Fauntleroy,Kittitas,09/07/2026
 21:34,21:11,21:10,Edmonds,Kingston,Spokane,09/07/2026
 21:37,21:10,21:10,Port Townsend,Keystone,Salish,09/07/2026
