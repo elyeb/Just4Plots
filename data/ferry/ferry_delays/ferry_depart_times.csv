@@ -1,12 +1,41 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+13:24,13:01,13:00,Fauntleroy,Southworth,Kitsap,09/10/2026
+13:03,12:44,12:40,Kingston,Edmonds,Puyallup,09/10/2026
+00:00,12:41,12:40,,Vashon,Kittitas,09/10/2026
+00:00,12:36,12:35,,Vashon,Kitsap,09/10/2026
+13:06,12:37,12:30,Keystone,Port Townsend,Salish,09/10/2026
+12:55,12:42,12:30,Clinton,Mukilteo,Issaquah,09/10/2026
+13:09,12:37,12:30,Port Townsend,Keystone,Kennewick,09/10/2026
+13:18,12:22,12:20,Colman,Bremerton,Kaleetan,09/10/2026
+13:21,12:24,12:20,Bremerton,Colman,Chimacum,09/10/2026
+00:00,12:19,12:15,,Southworth,Kittitas,09/10/2026
+12:23,12:10,12:00,Mukilteo,Clinton,Issaquah,09/10/2026
+12:19,11:56,11:55,Edmonds,Kingston,Puyallup,09/10/2026
+00:00,12:01,11:55,,Vashon,Kittitas,09/10/2026
+12:23,11:54,11:45,Port Townsend,Keystone,Salish,09/10/2026
+12:23,11:55,11:45,Keystone,Port Townsend,Kennewick,09/10/2026
+11:50,11:36,11:30,Clinton,Mukilteo,Issaquah,09/10/2026
+00:00,11:32,11:30,,Fauntleroy,Kittitas,09/10/2026
+11:49,11:39,11:20,Vashon,Southworth,Kitsap,09/10/2026
+12:08,11:10,11:10,Bremerton,Colman,Kaleetan,09/10/2026
+12:10,11:13,11:10,Colman,Bremerton,Chimacum,09/10/2026
+11:28,11:08,11:05,Kingston,Edmonds,Puyallup,09/10/2026
+11:36,11:08,11:00,Keystone,Port Townsend,Salish,09/10/2026
+11:22,11:07,11:00,Mukilteo,Clinton,Issaquah,09/10/2026
+11:44,11:13,11:00,Port Townsend,Keystone,Kennewick,09/10/2026
+11:29,11:11,10:45,Southworth,Fauntleroy,Kitsap,09/10/2026
 10:47,10:33,10:30,Mukilteo,Clinton,Suquamish,09/10/2026
 10:50,10:36,10:30,Clinton,Mukilteo,Issaquah,09/10/2026
 10:47,10:33,10:25,Vashon,Fauntleroy,Kittitas,09/10/2026
 10:42,10:21,10:20,Edmonds,Kingston,Puyallup,09/10/2026
 10:42,10:21,10:20,Kingston,Edmonds,Spokane,09/10/2026
+10:56,10:42,10:20,Fauntleroy,Vashon,Kitsap,09/10/2026
+10:56,10:25,10:15,Port Townsend,Keystone,Salish,09/10/2026
+10:55,10:19,10:15,Keystone,Port Townsend,Kennewick,09/10/2026
 10:29,10:19,10:00,Vashon,Southworth,Kitsap,09/10/2026
 10:16,10:02,10:00,Clinton,Mukilteo,Suquamish,09/10/2026
 10:18,10:05,10:00,Mukilteo,Clinton,Issaquah,09/10/2026
+11:01,10:02,10:00,Bremerton,Colman,Chimacum,09/10/2026
 10:18,10:05,09:55,Fauntleroy,Vashon,Kittitas,09/10/2026
 10:06,09:59,09:50,Orcas,Shaw,Tillikum,09/10/2026
 10:46,09:52,09:50,Colman,Bremerton,Kaleetan,09/10/2026
