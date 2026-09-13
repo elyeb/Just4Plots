@@ -1,9 +1,21 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+17:01,16:51,16:50,Vashon,Southworth,Kitsap,09/12/2026
+16:58,16:44,16:40,Clinton,Mukilteo,Issaquah,09/12/2026
+16:30,16:21,16:20,Southworth,Vashon,Kitsap,09/12/2026
+17:11,16:16,16:15,Bremerton,Colman,Kaleetan,09/12/2026
+16:53,16:27,16:15,Keystone,Port Townsend,Kennewick,09/12/2026
+16:26,16:11,16:05,Mukilteo,Clinton,Issaquah,09/12/2026
+16:11,15:57,15:55,Vashon,Fauntleroy,Kitsap,09/12/2026
+15:52,15:39,15:35,Clinton,Mukilteo,Issaquah,09/12/2026
+16:13,15:43,15:30,Port Townsend,Keystone,Kennewick,09/12/2026
+15:40,15:26,15:25,Fauntleroy,Vashon,Kitsap,09/12/2026
 15:30,15:11,15:10,Shaw,Lopez,Tillikum,09/12/2026
 15:22,15:09,15:05,Clinton,Mukilteo,Suquamish,09/12/2026
 15:21,15:07,15:05,Mukilteo,Clinton,Issaquah,09/12/2026
 15:12,15:00,15:00,Vashon,Southworth,Kitsap,09/12/2026
+15:59,15:01,15:00,Colman,Bremerton,Kaleetan,09/12/2026
 15:16,15:03,14:55,Fauntleroy,Vashon,Kittitas,09/12/2026
+15:48,14:52,14:50,Bremerton,Colman,Chimacum,09/12/2026
 15:28,15:02,14:45,Keystone,Port Townsend,Kennewick,09/12/2026
 15:15,14:46,14:45,Port Townsend,Keystone,Salish,09/12/2026
 15:25,14:40,14:40,Anacortes,Lopez,Yakima,09/12/2026
