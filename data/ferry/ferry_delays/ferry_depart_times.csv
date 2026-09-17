@@ -1,5 +1,30 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+04:23,04:10,05:05,Clinton,Mukilteo,Suquamish,09/17/2026
+05:08,04:46,04:45,Edmonds,Kingston,Spokane,09/17/2026
+04:53,04:40,04:40,Mukilteo,Clinton,Suquamish,09/17/2026
+04:46,04:31,04:30,Fauntleroy,Vashon,Kittitas,09/17/2026
+04:48,04:28,04:25,Southworth,Fauntleroy,Chimacum,09/17/2026
+04:24,04:12,04:10,Vashon,Southworth,Kittitas,09/17/2026
+04:21,04:06,04:05,Fauntleroy,Vashon,Chimacum,09/17/2026
+05:08,04:00,04:00,Friday Harbor,Anacortes,Samish,09/17/2026
+02:10,01:37,01:35,Bainbridge,Colman,Tacoma,09/17/2026
+01:42,01:31,01:30,Southworth,Vashon,Chimacum,09/17/2026
+01:20,01:06,01:05,Clinton,Mukilteo,Suquamish,09/17/2026
+01:22,01:06,01:05,Vashon,Fauntleroy,Chimacum,09/17/2026
+01:27,00:57,00:55,Colman,Bainbridge,Tacoma,09/17/2026
+01:50,00:52,00:50,Bremerton,Colman,Puyallup,09/17/2026
+00:49,00:35,00:35,Mukilteo,Clinton,Suquamish,09/17/2026
+00:56,00:36,00:35,Fauntleroy,Southworth,Chimacum,09/17/2026
+00:49,00:16,00:15,Bainbridge,Colman,Tacoma,09/17/2026
+00:28,00:16,00:15,Southworth,Vashon,Chimacum,09/17/2026
+00:20,00:06,00:05,Clinton,Mukilteo,Suquamish,09/17/2026
+00:06,23:51,23:50,Vashon,Fauntleroy,Chimacum,09/16/2026
+00:08,23:46,23:45,Kingston,Edmonds,Spokane,09/16/2026
+00:33,23:42,23:40,Colman,Bremerton,Puyallup,09/16/2026
+00:04,23:32,23:30,Colman,Bainbridge,Tacoma,09/16/2026
+23:51,23:37,23:30,Mukilteo,Clinton,Suquamish,09/16/2026
 23:42,23:23,23:20,Fauntleroy,Southworth,Chimacum,09/16/2026
+00:04,23:20,23:20,Anacortes,Lopez,Yakima,09/16/2026
 23:32,23:10,23:10,Edmonds,Kingston,Spokane,09/16/2026
 23:13,23:00,23:00,Clinton,Mukilteo,Suquamish,09/16/2026
 23:15,23:03,23:00,Southworth,Vashon,Chimacum,09/16/2026
