@@ -1,4 +1,20 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:24,15:10,15:05,Mukilteo,Clinton,Kitsap,09/18/2026
+15:04,14:43,14:45,Fauntleroy,Southworth,Chimacum,09/18/2026
+15:13,14:46,14:45,Keystone,Port Townsend,Kennewick,09/18/2026
+14:53,14:39,14:35,Clinton,Mukilteo,Kitsap,09/18/2026
+14:50,14:12,14:10,Southworth,Fauntleroy,Kittitas,09/18/2026
+14:26,14:13,14:00,Southworth,Vashon,Chimacum,09/18/2026
+14:20,14:05,14:00,Mukilteo,Clinton,Kitsap,09/18/2026
+14:29,14:03,14:00,Port Townsend,Keystone,Kennewick,09/18/2026
+13:57,13:43,13:40,Fauntleroy,Vashon,Kittitas,09/18/2026
+14:03,13:48,13:35,Vashon,Fauntleroy,Chimacum,09/18/2026
+13:48,13:33,13:30,Clinton,Mukilteo,Kitsap,09/18/2026
+14:25,13:31,13:30,Bremerton,Colman,Kaleetan,09/18/2026
+13:31,13:16,13:15,Vashon,Fauntleroy,Kittitas,09/18/2026
+13:44,13:16,13:15,Keystone,Port Townsend,Kennewick,09/18/2026
+13:26,13:06,13:00,Fauntleroy,Southworth,Chimacum,09/18/2026
+13:16,13:03,13:00,Mukilteo,Clinton,Kitsap,09/18/2026
 12:57,12:43,12:40,Fauntleroy,Vashon,Kittitas,09/18/2026
 13:00,12:40,12:35,Lopez,Orcas,Tillikum,09/18/2026
 12:52,12:36,12:35,Southworth,Vashon,Chimacum,09/18/2026
@@ -9,6 +25,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 13:01,12:27,12:25,Bainbridge,Colman,Tacoma,09/18/2026
 12:36,12:21,12:20,Fauntleroy,Vashon,Sealth,09/18/2026
 12:52,12:20,12:20,Colman,Bainbridge,Wenatchee,09/18/2026
+13:17,12:22,12:20,Colman,Bremerton,Kaleetan,09/18/2026
 12:33,12:21,12:15,Vashon,Southworth,Kittitas,09/18/2026
 12:26,12:15,12:15,Orcas,Shaw,Tillikum,09/18/2026
 12:32,12:21,12:15,Shaw,Orcas,Samish,09/18/2026
