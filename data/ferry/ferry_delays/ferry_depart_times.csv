@@ -1,14 +1,56 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+02:17,01:45,01:35,Bainbridge,Colman,Tacoma,09/19/2026
+01:47,01:36,01:30,Southworth,Vashon,Kittitas,09/19/2026
+01:30,01:15,01:05,Vashon,Fauntleroy,Kittitas,09/19/2026
+01:33,01:01,00:55,Colman,Bainbridge,Tacoma,09/19/2026
+01:48,00:52,00:50,Bremerton,Colman,Puyallup,09/19/2026
+01:12,00:50,00:45,Kingston,Edmonds,Spokane,09/19/2026
+00:48,00:35,00:35,Mukilteo,Clinton,Suquamish,09/19/2026
+00:54,00:37,00:35,Fauntleroy,Southworth,Kittitas,09/19/2026
+00:42,00:20,00:15,Edmonds,Kingston,Spokane,09/19/2026
+00:31,00:20,00:15,Southworth,Vashon,Kittitas,09/19/2026
+00:49,00:16,00:15,Bainbridge,Colman,Tacoma,09/19/2026
+00:20,00:05,00:05,Clinton,Mukilteo,Suquamish,09/19/2026
+00:06,23:51,23:50,Vashon,Fauntleroy,Kittitas,09/18/2026
+00:09,23:47,23:45,Kingston,Edmonds,Spokane,09/18/2026
+00:36,23:42,23:40,Colman,Bremerton,Puyallup,09/18/2026
+23:44,23:30,23:30,Mukilteo,Clinton,Suquamish,09/18/2026
+00:06,23:34,23:30,Colman,Bainbridge,Tacoma,09/18/2026
+23:39,23:21,23:20,Fauntleroy,Southworth,Kittitas,09/18/2026
+00:08,23:20,23:20,Anacortes,Lopez,Yakima,09/18/2026
+23:34,23:11,23:10,Kingston,Edmonds,WallaWalla,09/18/2026
+23:32,23:10,23:10,Edmonds,Kingston,Spokane,09/18/2026
+23:15,23:00,23:00,Clinton,Mukilteo,Suquamish,09/18/2026
+01:13,23:39,23:00,Friday Harbor,Anacortes,Tillikum,09/18/2026
+23:14,23:03,23:00,Southworth,Vashon,Kittitas,09/18/2026
+23:25,22:52,22:50,Bainbridge,Colman,Tacoma,09/18/2026
+23:10,22:40,22:40,Port Townsend,Keystone,Salish,09/18/2026
+22:54,22:39,22:35,Vashon,Fauntleroy,Kittitas,09/18/2026
+22:53,22:31,22:30,Edmonds,Kingston,WallaWalla,09/18/2026
+22:47,22:30,22:30,Mukilteo,Clinton,Suquamish,09/18/2026
+23:28,22:32,22:30,Bremerton,Colman,Puyallup,09/18/2026
+22:55,22:36,22:30,Clinton,Mukilteo,Kitsap,09/18/2026
+22:49,22:26,22:25,Kingston,Edmonds,Spokane,09/18/2026
+22:24,22:10,22:05,Fauntleroy,Vashon,Kittitas,09/18/2026
+22:41,22:07,22:05,Bainbridge,Colman,Wenatchee,09/18/2026
+22:27,22:00,22:00,Keystone,Port Townsend,Salish,09/18/2026
+22:14,22:00,22:00,Clinton,Mukilteo,Suquamish,09/18/2026
+22:42,22:10,22:00,Colman,Bainbridge,Tacoma,09/18/2026
+22:15,22:00,22:00,Mukilteo,Clinton,Kitsap,09/18/2026
+22:15,21:51,21:50,Kingston,Edmonds,WallaWalla,09/18/2026
+22:36,21:58,21:50,Orcas,Friday Harbor,Yakima,09/18/2026
 22:03,21:42,21:40,Edmonds,Kingston,Spokane,09/18/2026
 21:45,21:31,21:30,Clinton,Mukilteo,Kitsap,09/18/2026
 21:51,21:42,21:30,Vashon,Southworth,Sealth,09/18/2026
 21:44,21:31,21:30,Mukilteo,Clinton,Suquamish,09/18/2026
+22:21,21:25,21:25,Anacortes,Orcas,Samish,09/18/2026
 21:58,21:26,21:20,Bainbridge,Colman,Tacoma,09/18/2026
 21:34,21:23,21:15,Southworth,Vashon,Sealth,09/18/2026
 21:33,21:19,21:15,Vashon,Fauntleroy,Kittitas,09/18/2026
 21:38,21:14,21:10,Edmonds,Kingston,WallaWalla,09/18/2026
 21:39,21:11,21:10,Port Townsend,Keystone,Salish,09/18/2026
 21:31,21:09,21:05,Kingston,Edmonds,Spokane,09/18/2026
+22:04,21:07,21:05,Bremerton,Colman,Kaleetan,09/18/2026
 21:58,21:01,21:00,Colman,Bremerton,Puyallup,09/18/2026
 21:34,21:00,21:00,Colman,Bainbridge,Wenatchee,09/18/2026
 21:16,21:03,21:00,Mukilteo,Clinton,Kitsap,09/18/2026
