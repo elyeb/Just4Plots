@@ -1,14 +1,66 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:58,15:30,15:30,Keystone,Port Townsend,Salish,10/05/2026
+15:12,14:46,14:45,Port Townsend,Keystone,Salish,10/05/2026
+15:41,15:28,14:35,Mukilteo,Clinton,Tokitae,10/05/2026
+16:04,15:16,14:30,Orcas,Friday Harbor,Tillikum,10/05/2026
+15:08,14:52,14:05,Clinton,Mukilteo,Tokitae,10/05/2026
+14:28,14:00,14:00,Keystone,Port Townsend,Salish,10/05/2026
+15:57,15:15,13:35,Lopez,Anacortes,Samish,10/05/2026
+15:53,14:58,13:30,Bremerton,Colman,Sealth,10/05/2026
+14:33,14:20,13:30,Mukilteo,Clinton,Tokitae,10/05/2026
+13:42,13:15,13:15,Port Townsend,Keystone,Salish,10/05/2026
+14:00,13:47,13:00,Clinton,Mukilteo,Tokitae,10/05/2026
+12:58,12:30,12:30,Keystone,Port Townsend,Salish,10/05/2026
+13:28,13:14,12:30,Mukilteo,Clinton,Tokitae,10/05/2026
+14:36,13:38,12:20,Colman,Bremerton,Sealth,10/05/2026
+14:43,13:59,12:20,Anacortes,Lopez,Samish,10/05/2026
+12:52,12:35,12:00,Clinton,Mukilteo,Tokitae,10/05/2026
+13:44,13:24,11:50,Lopez,Orcas,Samish,10/05/2026
+12:18,12:05,11:30,Mukilteo,Clinton,Tokitae,10/05/2026
+13:16,11:58,11:10,Bremerton,Colman,Sealth,10/05/2026
+11:41,11:25,11:00,Clinton,Mukilteo,Tokitae,10/05/2026
+11:03,10:46,10:30,Mukilteo,Clinton,Tokitae,10/05/2026
+12:10,11:26,10:05,Lopez,Anacortes,Samish,10/05/2026
+10:24,10:06,10:00,Clinton,Mukilteo,Tokitae,10/05/2026
+11:34,10:10,09:50,Colman,Bremerton,Sealth,10/05/2026
+10:12,09:59,09:45,Shaw,Orcas,Tillikum,10/05/2026
+09:46,09:25,09:30,Mukilteo,Clinton,Tokitae,10/05/2026
+10:52,10:04,08:55,Anacortes,Lopez,Samish,10/05/2026
+09:36,08:55,08:45,Orcas,Friday Harbor,Tillikum,10/05/2026
+09:49,08:50,08:35,Bremerton,Colman,Sealth,10/05/2026
+09:53,09:19,08:10,Lopez,Friday Harbor,Samish,10/05/2026
+09:05,08:47,08:00,Clinton,Mukilteo,Tokitae,10/05/2026
+08:27,08:08,07:30,Mukilteo,Clinton,Tokitae,10/05/2026
+08:32,07:23,07:20,Colman,Bremerton,Sealth,10/05/2026
+00:00,07:33,07:10,,Edmonds,Spokane,10/05/2026
+07:46,07:28,07:00,Clinton,Mukilteo,Tokitae,10/05/2026
 07:11,06:57,06:45,Vashon,Fauntleroy,Kittitas,10/05/2026
+07:07,06:51,06:30,Mukilteo,Clinton,Tokitae,10/05/2026
+00:00,06:37,06:25,,Kingston,Spokane,10/05/2026
 06:35,06:22,06:15,Fauntleroy,Vashon,Kittitas,10/05/2026
+07:11,06:24,06:15,Lopez,Anacortes,Samish,10/05/2026
+07:03,06:07,06:05,Bremerton,Colman,Sealth,10/05/2026
+06:31,06:14,06:00,Clinton,Mukilteo,Tokitae,10/05/2026
 06:03,05:51,05:50,Vashon,Southworth,Kittitas,10/05/2026
+00:00,05:36,05:35,,Edmonds,Spokane,10/05/2026
+06:08,05:36,05:30,Bainbridge,Colman,Puyallup,10/05/2026
+05:57,05:42,05:30,Mukilteo,Clinton,Tokitae,10/05/2026
 05:38,05:26,05:25,Southworth,Vashon,Kittitas,10/05/2026
 05:21,05:06,05:05,Vashon,Fauntleroy,Kittitas,10/05/2026
+05:26,05:12,05:05,Clinton,Mukilteo,Tokitae,10/05/2026
+05:47,04:52,04:50,Colman,Bremerton,Sealth,10/05/2026
+05:26,04:52,04:45,Colman,Bainbridge,Puyallup,10/05/2026
+00:00,04:52,04:45,,Kingston,Spokane,10/05/2026
+04:55,04:41,04:40,Mukilteo,Clinton,Tokitae,10/05/2026
 04:45,04:31,04:30,Fauntleroy,Vashon,Kittitas,10/05/2026
 04:23,04:10,04:10,Vashon,Southworth,Kittitas,10/05/2026
+02:44,02:12,02:10,Bainbridge,Colman,Puyallup,10/05/2026
 01:44,01:31,01:30,Southworth,Vashon,Kittitas,10/05/2026
+02:02,01:29,01:25,Colman,Bainbridge,Puyallup,10/05/2026
 01:21,01:05,01:05,Clinton,Mukilteo,Tokitae,10/05/2026
 01:25,01:10,01:05,Vashon,Fauntleroy,Kittitas,10/05/2026
+01:50,00:53,00:50,Bremerton,Colman,Sealth,10/05/2026
+01:21,00:47,00:45,Bainbridge,Colman,Puyallup,10/05/2026
 00:54,00:35,00:35,Fauntleroy,Southworth,Kittitas,10/05/2026
 00:50,00:36,00:35,Mukilteo,Clinton,Tokitae,10/05/2026
 00:28,00:16,00:15,Southworth,Vashon,Kittitas,10/05/2026
