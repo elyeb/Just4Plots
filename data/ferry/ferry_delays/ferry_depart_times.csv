@@ -1,9 +1,39 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+12:31,12:18,12:15,Vashon,Southworth,Kitsap,10/07/2026
+12:09,11:58,11:55,Southworth,Vashon,Kitsap,10/07/2026
+12:19,11:51,11:45,Port Townsend,Keystone,Kennewick,10/07/2026
+11:46,11:31,11:30,Vashon,Fauntleroy,Kitsap,10/07/2026
+11:58,11:27,11:25,Bainbridge,Colman,Puyallup,10/07/2026
+12:13,11:15,11:10,Colman,Bremerton,Chimacum,10/07/2026
+11:35,11:01,11:00,Keystone,Port Townsend,Kennewick,10/07/2026
+10:58,10:26,10:25,Colman,Bainbridge,Puyallup,10/07/2026
+10:46,10:31,10:25,Vashon,Fauntleroy,Kittitas,10/07/2026
+10:43,10:15,10:15,Port Townsend,Keystone,Kennewick,10/07/2026
+11:03,10:02,10:00,Bremerton,Colman,Chimacum,10/07/2026
+10:17,10:03,09:55,Fauntleroy,Vashon,Kittitas,10/07/2026
+10:10,09:38,09:35,Bainbridge,Colman,Puyallup,10/07/2026
+09:58,09:30,09:30,Keystone,Port Townsend,Kennewick,10/07/2026
+09:49,09:35,09:30,Vashon,Fauntleroy,Kittitas,10/07/2026
+09:24,09:00,09:00,Fauntleroy,Vashon,Kittitas,10/07/2026
+09:43,08:47,08:45,Colman,Bremerton,Chimacum,10/07/2026
+09:20,08:47,08:45,Colman,Bainbridge,Puyallup,10/07/2026
+09:14,08:46,08:45,Port Townsend,Keystone,Kennewick,10/07/2026
+08:47,08:36,08:30,Vashon,Southworth,Kittitas,10/07/2026
+08:24,08:13,08:05,Southworth,Vashon,Kittitas,10/07/2026
+08:28,08:00,08:00,Keystone,Port Townsend,Kennewick,10/07/2026
+08:31,07:59,07:55,Bainbridge,Colman,Puyallup,10/07/2026
+08:34,07:36,07:35,Bremerton,Colman,Chimacum,10/07/2026
+07:44,07:16,07:15,Port Townsend,Keystone,Kennewick,10/07/2026
+07:39,07:22,07:15,Fauntleroy,Vashon,Kittitas,10/07/2026
+07:40,07:07,07:05,Colman,Bainbridge,Puyallup,10/07/2026
 06:51,06:35,06:55,Fauntleroy,Vashon,Kitsap,10/07/2026
+07:00,06:45,06:45,Vashon,Fauntleroy,Kittitas,10/07/2026
 06:22,06:08,06:35,Vashon,Southworth,Kitsap,10/07/2026
 06:45,06:31,06:30,Mukilteo,Clinton,Suquamish,10/07/2026
 06:48,06:30,06:30,Clinton,Mukilteo,Tokitae,10/07/2026
+06:59,06:30,06:30,Keystone,Port Townsend,Kennewick,10/07/2026
 06:51,06:21,06:20,Colman,Bainbridge,Wenatchee,10/07/2026
+07:16,06:22,06:20,Colman,Bremerton,Chimacum,10/07/2026
 06:29,06:16,06:15,Fauntleroy,Vashon,Kittitas,10/07/2026
 06:44,06:11,06:10,Bainbridge,Colman,Puyallup,10/07/2026
 06:51,06:10,06:05,Lopez,Friday Harbor,Tillikum,10/07/2026
