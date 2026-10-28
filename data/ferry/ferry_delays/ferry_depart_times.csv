@@ -1,4 +1,8 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+13:22,12:25,12:20,Bremerton,Colman,Chimacum,10/28/2026
+12:12,11:17,11:10,Colman,Bremerton,Chimacum,10/28/2026
+10:59,10:01,10:00,Bremerton,Colman,Chimacum,10/28/2026
+09:43,08:47,08:45,Colman,Bremerton,Chimacum,10/28/2026
 08:23,08:10,08:30,Vashon,Southworth,Salish,10/28/2026
 08:24,08:13,08:05,Southworth,Vashon,Kitsap,10/28/2026
 08:28,08:00,08:00,Keystone,Port Townsend,Kennewick,10/28/2026
@@ -9,6 +13,7 @@ Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
 08:18,07:56,07:55,Edmonds,Kingston,WallaWalla,10/28/2026
 08:17,07:55,07:55,Kingston,Edmonds,Spokane,10/28/2026
 08:03,07:49,07:40,Vashon,Fauntleroy,Kitsap,10/28/2026
+08:35,07:37,07:35,Bremerton,Colman,Chimacum,10/28/2026
 07:44,07:30,07:30,Clinton,Mukilteo,Tokitae,10/28/2026
 07:46,07:30,07:30,Mukilteo,Clinton,Suquamish,10/28/2026
 07:34,07:25,07:20,Orcas,Shaw,Tillikum,10/28/2026
