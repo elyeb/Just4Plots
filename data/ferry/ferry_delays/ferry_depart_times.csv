@@ -1,9 +1,41 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+00:53,00:17,00:15,Bainbridge,Colman,Puyallup,11/04/2026
+00:40,23:44,23:40,Colman,Bremerton,Chimacum,11/03/2026
+00:05,23:32,23:30,Colman,Bainbridge,Puyallup,11/03/2026
+23:25,22:51,22:50,Bainbridge,Colman,Puyallup,11/03/2026
+23:29,22:33,22:30,Bremerton,Colman,Chimacum,11/03/2026
+22:36,22:02,22:00,Colman,Bainbridge,Puyallup,11/03/2026
+21:56,21:22,21:20,Bainbridge,Colman,Puyallup,11/03/2026
+21:31,21:16,21:15,Vashon,Fauntleroy,Kittitas,11/03/2026
+21:37,21:10,21:10,Port Townsend,Keystone,Kennewick,11/03/2026
+21:58,21:06,21:05,Bremerton,Colman,Kitsap,11/03/2026
+21:59,21:01,21:00,Colman,Bremerton,Chimacum,11/03/2026
+20:55,20:38,20:35,Fauntleroy,Southworth,Kittitas,11/03/2026
+20:59,20:30,20:30,Keystone,Port Townsend,Kennewick,11/03/2026
+20:58,20:21,20:20,Colman,Bainbridge,Puyallup,11/03/2026
+20:28,20:18,20:15,Southworth,Vashon,Kittitas,11/03/2026
+20:49,19:57,19:55,Colman,Bremerton,Kitsap,11/03/2026
+20:09,19:56,19:55,Vashon,Fauntleroy,Kittitas,11/03/2026
+20:47,19:52,19:50,Bremerton,Colman,Chimacum,11/03/2026
+20:06,19:32,19:30,Bainbridge,Colman,Puyallup,11/03/2026
+19:57,19:30,19:30,Port Townsend,Keystone,Kennewick,11/03/2026
+19:43,19:20,19:20,Fauntleroy,Southworth,Kittitas,11/03/2026
+19:14,19:03,19:00,Southworth,Vashon,Kittitas,11/03/2026
+19:39,18:47,18:45,Bremerton,Colman,Kitsap,11/03/2026
+19:13,18:45,18:45,Keystone,Port Townsend,Kennewick,11/03/2026
+19:13,18:40,18:40,Colman,Bainbridge,Puyallup,11/03/2026
+19:37,18:43,18:40,Colman,Bremerton,Chimacum,11/03/2026
+18:52,18:36,18:35,Vashon,Fauntleroy,Kittitas,11/03/2026
 18:00,17:43,18:15,Vashon,Fauntleroy,Salish,11/03/2026
+18:24,18:01,18:00,Fauntleroy,Southworth,Kittitas,11/03/2026
+18:29,18:02,18:00,Port Townsend,Keystone,Kennewick,11/03/2026
+18:18,17:47,17:45,Bainbridge,Colman,Puyallup,11/03/2026
 17:51,17:40,17:40,Southworth,Vashon,Kittitas,11/03/2026
 17:56,17:41,17:40,Clinton,Mukilteo,Tokitae,11/03/2026
 17:49,17:36,17:35,Mukilteo,Clinton,Suquamish,11/03/2026
 18:00,17:38,17:30,Edmonds,Kingston,WallaWalla,11/03/2026
+18:23,17:31,17:30,Colman,Bremerton,Kitsap,11/03/2026
+18:27,17:32,17:30,Bremerton,Colman,Chimacum,11/03/2026
 17:48,17:26,17:25,Kingston,Edmonds,Spokane,11/03/2026
 17:29,17:16,17:15,Vashon,Fauntleroy,Kittitas,11/03/2026
 17:43,17:15,17:15,Keystone,Port Townsend,Kennewick,11/03/2026
