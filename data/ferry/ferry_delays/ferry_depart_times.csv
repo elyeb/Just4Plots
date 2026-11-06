@@ -1,7 +1,77 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+02:16,01:45,01:35,Bainbridge,Colman,Wenatchee,11/06/2026
+01:19,01:05,01:05,Clinton,Mukilteo,Tokitae,11/06/2026
+01:36,01:04,00:55,Colman,Bainbridge,Wenatchee,11/06/2026
+01:47,00:52,00:50,Bremerton,Colman,Chimacum,11/06/2026
+00:50,00:36,00:35,Mukilteo,Clinton,Tokitae,11/06/2026
+00:56,00:25,00:15,Bainbridge,Colman,Wenatchee,11/06/2026
+00:19,00:06,00:05,Clinton,Mukilteo,Tokitae,11/06/2026
+00:07,23:45,23:45,Kingston,Edmonds,Spokane,11/05/2026
+00:41,23:42,23:40,Colman,Bremerton,Chimacum,11/05/2026
+00:09,23:35,23:30,Colman,Bainbridge,Wenatchee,11/05/2026
+23:45,23:30,23:30,Mukilteo,Clinton,Tokitae,11/05/2026
+23:33,23:11,23:10,Edmonds,Kingston,Spokane,11/05/2026
+23:14,23:00,23:00,Clinton,Mukilteo,Tokitae,11/05/2026
+23:26,22:53,22:50,Bainbridge,Colman,Wenatchee,11/05/2026
+23:27,22:32,22:30,Bremerton,Colman,Chimacum,11/05/2026
+22:45,22:30,22:30,Mukilteo,Clinton,Tokitae,11/05/2026
+22:47,22:26,22:25,Kingston,Edmonds,Spokane,11/05/2026
+22:38,22:05,22:05,Bainbridge,Colman,Puyallup,11/05/2026
+23:18,22:05,22:05,Anacortes,Friday Harbor,Yakima,11/05/2026
+22:43,22:10,22:00,Colman,Bainbridge,Wenatchee,11/05/2026
+22:14,22:00,22:00,Clinton,Mukilteo,Tokitae,11/05/2026
+22:04,21:42,21:40,Edmonds,Kingston,Spokane,11/05/2026
+21:47,21:32,21:30,Mukilteo,Clinton,Tokitae,11/05/2026
+21:58,21:25,21:20,Bainbridge,Colman,Wenatchee,11/05/2026
+21:34,21:20,21:15,Vashon,Fauntleroy,Kittitas,11/05/2026
+21:42,21:10,21:10,Friday Harbor,Lopez,Yakima,11/05/2026
+21:37,21:11,21:10,Port Townsend,Keystone,Kennewick,11/05/2026
+21:27,21:06,21:05,Kingston,Edmonds,Spokane,11/05/2026
+21:59,21:07,21:05,Bremerton,Colman,Kitsap,11/05/2026
+22:02,21:05,21:00,Colman,Bremerton,Chimacum,11/05/2026
+21:33,21:01,21:00,Colman,Bainbridge,Puyallup,11/05/2026
+21:19,21:01,21:00,Clinton,Mukilteo,Suquamish,11/05/2026
+20:56,20:39,20:35,Fauntleroy,Southworth,Kittitas,11/05/2026
+20:50,20:36,20:35,Clinton,Mukilteo,Tokitae,11/05/2026
+20:47,20:30,20:30,Mukilteo,Clinton,Suquamish,11/05/2026
+20:52,20:30,20:30,Kingston,Edmonds,WallaWalla,11/05/2026
+20:58,20:30,20:30,Keystone,Port Townsend,Kennewick,11/05/2026
+21:04,20:25,20:25,Friday Harbor,Orcas,Tillikum,11/05/2026
+20:42,20:20,20:20,Edmonds,Kingston,Spokane,11/05/2026
+20:55,20:20,20:20,Colman,Bainbridge,Wenatchee,11/05/2026
+21:07,20:20,20:20,Anacortes,Lopez,Sealth,11/05/2026
+20:50,20:17,20:15,Bainbridge,Colman,Puyallup,11/05/2026
+20:59,20:17,20:15,Lopez,Anacortes,Yakima,11/05/2026
+20:30,20:20,20:15,Southworth,Vashon,Kittitas,11/05/2026
+20:19,20:06,20:05,Clinton,Mukilteo,Suquamish,11/05/2026
+20:15,20:05,20:05,Orcas,Shaw,Tillikum,11/05/2026
+20:16,20:01,20:00,Mukilteo,Clinton,Tokitae,11/05/2026
+20:48,19:56,19:55,Colman,Bremerton,Kitsap,11/05/2026
+20:12,19:59,19:55,Vashon,Fauntleroy,Kittitas,11/05/2026
+20:56,19:58,19:50,Bremerton,Colman,Chimacum,11/05/2026
+20:08,19:45,19:45,Edmonds,Kingston,WallaWalla,11/05/2026
+20:02,19:41,19:40,Kingston,Edmonds,Spokane,11/05/2026
+19:59,19:41,19:40,Shaw,Lopez,Tillikum,11/05/2026
+19:49,19:35,19:35,Mukilteo,Clinton,Suquamish,11/05/2026
+19:49,19:36,19:35,Clinton,Mukilteo,Tokitae,11/05/2026
+20:06,19:35,19:35,Lopez,Friday Harbor,Sealth,11/05/2026
+19:59,19:31,19:30,Port Townsend,Keystone,Kennewick,11/05/2026
+20:05,19:32,19:30,Bainbridge,Colman,Wenatchee,11/05/2026
+19:59,19:22,19:20,Colman,Bainbridge,Puyallup,11/05/2026
+19:43,19:23,19:20,Fauntleroy,Southworth,Kittitas,11/05/2026
+19:36,19:14,19:15,Lopez,Shaw,Tillikum,11/05/2026
+19:18,19:05,19:05,Clinton,Mukilteo,Suquamish,11/05/2026
+19:49,19:04,19:05,Anacortes,Lopez,Yakima,11/05/2026
+19:21,19:06,19:05,Mukilteo,Clinton,Tokitae,11/05/2026
 19:09,19:00,19:00,Shaw,Orcas,Tillikum,11/05/2026
+19:23,19:02,19:00,Edmonds,Kingston,Spokane,11/05/2026
+19:24,19:01,19:00,Kingston,Edmonds,WallaWalla,11/05/2026
+19:16,19:04,19:00,Southworth,Vashon,Kittitas,11/05/2026
+19:42,18:48,18:45,Bremerton,Colman,Kitsap,11/05/2026
+19:13,18:46,18:45,Keystone,Port Townsend,Kennewick,11/05/2026
 18:55,18:40,18:40,Clinton,Mukilteo,Tokitae,11/05/2026
 19:14,18:41,18:40,Colman,Bainbridge,Wenatchee,11/05/2026
+19:38,18:44,18:40,Colman,Bremerton,Chimacum,11/05/2026
 18:54,18:41,18:35,Vashon,Fauntleroy,Kittitas,11/05/2026
 18:49,18:35,18:35,Mukilteo,Clinton,Suquamish,11/05/2026
 19:07,18:30,18:30,Friday Harbor,Lopez,Sealth,11/05/2026
