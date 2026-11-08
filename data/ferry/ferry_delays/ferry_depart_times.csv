@@ -1,8 +1,32 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+15:14,15:00,14:55,Fauntleroy,Vashon,Kittitas,11/08/2026
+15:11,14:45,14:45,Port Townsend,Keystone,Kennewick,11/08/2026
+14:48,14:31,14:30,Vashon,Fauntleroy,Kittitas,11/08/2026
+14:44,14:10,14:10,Colman,Bainbridge,Puyallup,11/08/2026
+14:26,14:00,14:00,Keystone,Port Townsend,Kennewick,11/08/2026
+14:14,13:56,13:55,Fauntleroy,Vashon,Kittitas,11/08/2026
+14:53,13:35,13:35,Friday Harbor,Anacortes,Sealth,11/08/2026
+14:27,13:32,13:30,Bremerton,Colman,Kitsap,11/08/2026
+14:39,13:42,13:30,Colman,Bremerton,Chimacum,11/08/2026
+13:36,13:22,13:20,Vashon,Fauntleroy,Kittitas,11/08/2026
+13:42,13:15,13:15,Port Townsend,Keystone,Kennewick,11/08/2026
+13:50,13:17,13:15,Bainbridge,Colman,Puyallup,11/08/2026
+13:03,12:49,12:45,Fauntleroy,Vashon,Kittitas,11/08/2026
+12:59,12:31,12:30,Keystone,Port Townsend,Kennewick,11/08/2026
+13:19,12:22,12:20,Colman,Bremerton,Kitsap,11/08/2026
+13:31,12:30,12:20,Bremerton,Colman,Chimacum,11/08/2026
+13:04,12:20,12:20,Anacortes,Lopez,Sealth,11/08/2026
+12:52,12:20,12:20,Colman,Bainbridge,Puyallup,11/08/2026
+12:35,12:20,12:20,Vashon,Southworth,Kittitas,11/08/2026
+12:08,11:50,11:50,Lopez,Orcas,Sealth,11/08/2026
+12:13,11:45,11:45,Port Townsend,Keystone,Kennewick,11/08/2026
+12:02,11:41,11:40,Southworth,Fauntleroy,Kittitas,11/08/2026
 11:50,11:36,11:30,Mukilteo,Clinton,Suquamish,11/08/2026
 11:45,11:31,11:30,Clinton,Mukilteo,Tokitae,11/08/2026
 11:59,11:28,11:25,Bainbridge,Colman,Puyallup,11/08/2026
 11:26,11:12,11:10,Fauntleroy,Vashon,Kittitas,11/08/2026
+12:11,11:15,11:10,Bremerton,Colman,Kitsap,11/08/2026
+12:13,11:12,11:10,Colman,Bremerton,Chimacum,11/08/2026
 11:27,11:05,11:05,Edmonds,Kingston,Spokane,11/08/2026
 11:35,11:11,11:05,Kingston,Edmonds,WallaWalla,11/08/2026
 11:19,11:05,11:00,Clinton,Mukilteo,Suquamish,11/08/2026
