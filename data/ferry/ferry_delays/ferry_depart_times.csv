@@ -1,4 +1,58 @@
 Est. Arrival,Actual Depart,Scheduled Depart,Arriving,Departing,Vessel,Date
+04:23,04:09,05:05,Clinton,Mukilteo,Suquamish,11/19/2026
+04:53,04:40,04:40,Mukilteo,Clinton,Suquamish,11/19/2026
+04:44,04:30,04:30,Fauntleroy,Vashon,Kittitas,11/19/2026
+04:23,04:11,04:10,Vashon,Southworth,Kittitas,11/19/2026
+02:06,01:35,01:35,Bainbridge,Colman,Puyallup,11/19/2026
+01:18,01:05,01:05,Clinton,Mukilteo,Suquamish,11/19/2026
+01:26,00:54,00:55,Colman,Bainbridge,Puyallup,11/19/2026
+01:47,00:51,00:50,Bremerton,Colman,Chimacum,11/19/2026
+00:49,00:36,00:35,Mukilteo,Clinton,Suquamish,11/19/2026
+00:48,00:16,00:15,Bainbridge,Colman,Puyallup,11/19/2026
+00:18,00:05,00:05,Clinton,Mukilteo,Suquamish,11/19/2026
+00:08,23:46,23:45,Kingston,Edmonds,Spokane,11/18/2026
+00:41,23:42,23:40,Colman,Bremerton,Chimacum,11/18/2026
+00:01,23:30,23:30,Colman,Bainbridge,Puyallup,11/18/2026
+23:43,23:30,23:30,Mukilteo,Clinton,Suquamish,11/18/2026
+23:32,23:10,23:10,Edmonds,Kingston,Spokane,11/18/2026
+23:13,23:00,23:00,Clinton,Mukilteo,Suquamish,11/18/2026
+22:43,22:30,22:30,Mukilteo,Clinton,Suquamish,11/18/2026
+23:27,22:31,22:30,Bremerton,Colman,Chimacum,11/18/2026
+22:48,22:26,22:25,Kingston,Edmonds,Spokane,11/18/2026
+23:18,22:05,22:05,Anacortes,Friday Harbor,Yakima,11/18/2026
+22:38,22:06,22:05,Bainbridge,Colman,Puyallup,11/18/2026
+22:13,22:00,22:00,Clinton,Mukilteo,Suquamish,11/18/2026
+22:02,21:41,21:40,Edmonds,Kingston,Spokane,11/18/2026
+21:45,21:31,21:30,Mukilteo,Clinton,Suquamish,11/18/2026
+21:28,21:16,21:15,Southworth,Vashon,Issaquah,11/18/2026
+21:35,21:20,21:15,Vashon,Fauntleroy,Kittitas,11/18/2026
+21:43,21:10,21:10,Friday Harbor,Lopez,Yakima,11/18/2026
+21:41,21:10,21:10,Port Townsend,Keystone,Kennewick,11/18/2026
+21:56,21:07,21:05,Bremerton,Colman,Kitsap,11/18/2026
+21:28,21:05,21:05,Kingston,Edmonds,Spokane,11/18/2026
+21:34,21:02,21:00,Colman,Bainbridge,Puyallup,11/18/2026
+21:14,21:00,21:00,Clinton,Mukilteo,Suquamish,11/18/2026
+21:58,21:02,21:00,Colman,Bremerton,Chimacum,11/18/2026
+21:10,20:55,20:50,Vashon,Fauntleroy,Issaquah,11/18/2026
+20:53,20:35,20:35,Clinton,Mukilteo,Tokitae,11/18/2026
+21:00,20:36,20:35,Fauntleroy,Southworth,Kittitas,11/18/2026
+20:57,20:33,20:30,Kingston,Edmonds,WallaWalla,11/18/2026
+20:47,20:30,20:30,Mukilteo,Clinton,Suquamish,11/18/2026
+20:58,20:31,20:30,Keystone,Port Townsend,Kennewick,11/18/2026
+21:16,20:25,20:25,Friday Harbor,Orcas,Tillikum,11/18/2026
+21:02,20:20,20:20,Anacortes,Lopez,Sealth,11/18/2026
+20:45,20:20,20:20,Edmonds,Kingston,Spokane,11/18/2026
+20:46,20:31,20:20,Fauntleroy,Vashon,Issaquah,11/18/2026
+20:56,20:15,20:15,Lopez,Anacortes,Yakima,11/18/2026
+20:51,20:17,20:15,Bainbridge,Colman,Puyallup,11/18/2026
+20:28,20:17,20:15,Southworth,Vashon,Kittitas,11/18/2026
+20:16,20:07,20:05,Orcas,Shaw,Tillikum,11/18/2026
+20:19,20:06,20:05,Clinton,Mukilteo,Suquamish,11/18/2026
+20:17,20:03,20:00,Mukilteo,Clinton,Tokitae,11/18/2026
+20:25,20:14,20:00,Vashon,Southworth,Issaquah,11/18/2026
+20:50,19:56,19:55,Colman,Bremerton,Kitsap,11/18/2026
+20:13,20:00,19:55,Vashon,Fauntleroy,Kittitas,11/18/2026
+20:49,19:52,19:50,Bremerton,Colman,Chimacum,11/18/2026
 20:09,19:46,19:45,Edmonds,Kingston,WallaWalla,11/18/2026
 20:04,19:46,19:40,Shaw,Lopez,Tillikum,11/18/2026
 19:52,19:41,19:40,Southworth,Vashon,Issaquah,11/18/2026
